@@ -1,0 +1,4377 @@
+--b249b97d2--2022-05-18--Seyed Alireza Damghani
+3	0	ODIN_II/SRC/YYosys.cpp
+
+--970d6f7b0--2022-05-13--Seyed Alireza Damghani
+2	2	ODIN_II/SRC/YYosys.cpp
+
+--a9ce736ac--2022-05-09--Seyed Alireza Damghani
+--720c4e9e6--2022-05-06--alirezazd
+11	26	ODIN_II/SRC/partial_map.cpp
+
+--7caec7b39--2022-05-05--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/BLIFElaborate.cpp
+1	1	ODIN_II/SRC/include/multipliers.h
+11	4	ODIN_II/SRC/multipliers.cpp
+
+--3d100b1c9--2022-04-28--Aman Arora
+--97ae84761--2022-04-27--Your Name
+2	3	ODIN_II/SRC/YYosys.cpp
+
+--d09ba2c29--2022-04-14--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/BLIFElaborate.cpp
+1	1	ODIN_II/SRC/include/multipliers.h
+23	50	ODIN_II/SRC/multipliers.cpp
+
+--4c73ee63b--2022-04-15--Your Name
+7	2	ODIN_II/SRC/YYosys.cpp
+
+--53ceccbb0--2022-03-13--sdamghan
+10	2	ODIN_II/SRC/BLIFReader.cpp
+1	1	ODIN_II/SRC/hard_blocks.cpp
+
+--34f16e06a--2022-03-07--sdamghan
+1	1	ODIN_II/SRC/YYosys.cpp
+
+--519244871--2022-01-14--Seyed Alireza Damghani
+14	11	ODIN_II/SRC/BLIFReader.cpp
+1	0	ODIN_II/SRC/include/odin_util.h
+31	0	ODIN_II/SRC/odin_util.cpp
+
+--ff421ab84--2022-01-11--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/BLIFWriter.cpp
+23	26	ODIN_II/SRC/VerilogWriter.cpp
+7	10	ODIN_II/SRC/YYosys.cpp
+0	2	ODIN_II/SRC/include/Verilog.hpp
+
+--84b2683b4--2022-01-11--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/BLIFElaborate.cpp
+12	7	ODIN_II/SRC/BLIFReader.cpp
+4	1	ODIN_II/SRC/VerilogWriter.cpp
+
+--f66128de7--2022-01-11--Seyed Alireza Damghani
+2	2	ODIN_II/SRC/YYosys.cpp
+
+--577c3c3a1--2022-01-11--Seyed Alireza Damghani
+9	2	ODIN_II/SRC/BLIFWriter.cpp
+1	1	ODIN_II/SRC/GenericIO.cpp
+22	11	ODIN_II/SRC/GenericWriter.cpp
+214	0	ODIN_II/SRC/VerilogWriter.cpp
+39	3	ODIN_II/SRC/YYosys.cpp
+2	1	ODIN_II/SRC/hard_blocks.cpp
+1	1	ODIN_II/SRC/include/BLIF.hpp
+1	1	ODIN_II/SRC/include/GenericIO.hpp
+3	3	ODIN_II/SRC/include/GenericWriter.hpp
+71	1	ODIN_II/SRC/include/Verilog.hpp
+9	0	ODIN_II/SRC/include/YYosys.hpp
+1	0	ODIN_II/SRC/include/config_t.h
+2	1	ODIN_II/SRC/odin_ii.cpp
+
+--32e62c9d2--2021-12-06--Seyed Alireza Damghani
+1	0	ODIN_II/SRC/YYosys.cpp
+
+--83c2373af--2021-11-24--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/BLIFElaborate.cpp
+5	7	ODIN_II/SRC/BLIFReader.cpp
+1	1	ODIN_II/SRC/YYosys.cpp
+4	6	ODIN_II/SRC/multipliers.cpp
+
+--7fc3a1eb3--2021-11-24--Seyed Alireza Damghani
+2	0	ODIN_II/SRC/BLIFElaborate.cpp
+1	0	ODIN_II/SRC/include/multipliers.h
+70	0	ODIN_II/SRC/multipliers.cpp
+
+--01893c12a--2021-11-23--Seyed Alireza Damghani
+15	21	ODIN_II/SRC/Division.cpp
+
+--90cfb5e71--2021-11-23--Seyed Alireza Damghani
+5	0	ODIN_II/SRC/BLIFReader.cpp
+6	1	ODIN_II/SRC/YYosys.cpp
+
+--ff5a9f67e--2021-11-23--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/BLIFElaborate.cpp
+22	7	ODIN_II/SRC/BLIFReader.cpp
+2	1	ODIN_II/SRC/YYosys.cpp
+2	1	ODIN_II/SRC/include/BLIF.hpp
+
+--446f5be57--2021-08-22--Seyed Alireza Damghani
+56	46	ODIN_II/SRC/YYosys.cpp
+7	0	ODIN_II/SRC/include/YYosys.hpp
+1	0	ODIN_II/SRC/include/config_t.h
+2	1	ODIN_II/SRC/include/odin_types.h
+21	3	ODIN_II/SRC/odin_ii.cpp
+
+--0bef7ed80--2021-08-21--Seyed Alireza Damghani
+19	18	ODIN_II/SRC/BLIFElaborate.cpp
+192	112	ODIN_II/SRC/BLIFReader.cpp
+85	11	ODIN_II/SRC/BLIFWriter.cpp
+38	38	ODIN_II/SRC/BlockMemories.cpp
+4	5	ODIN_II/SRC/Division.cpp
+8	9	ODIN_II/SRC/FlipFlop.cpp
+3	3	ODIN_II/SRC/GenericIO.cpp
+7	7	ODIN_II/SRC/GenericReader.cpp
+9	9	ODIN_II/SRC/GenericWriter.cpp
+3	3	ODIN_II/SRC/Latch.cpp
+3	4	ODIN_II/SRC/LogicalOps.cpp
+1	1	ODIN_II/SRC/Modulo.cpp
+8	9	ODIN_II/SRC/Power.cpp
+2	2	ODIN_II/SRC/Shift.cpp
+3	3	ODIN_II/SRC/VerilogReader.cpp
+6	8	ODIN_II/SRC/enum_str.cpp
+4	4	ODIN_II/SRC/hard_blocks.cpp
+1	1	ODIN_II/SRC/implicit_memory.cpp
+120	38	ODIN_II/SRC/include/BLIF.hpp
+4	4	ODIN_II/SRC/include/GenericIO.hpp
+5	5	ODIN_II/SRC/include/GenericReader.hpp
+7	7	ODIN_II/SRC/include/GenericWriter.hpp
+4	4	ODIN_II/SRC/include/Verilog.hpp
+1	1	ODIN_II/SRC/include/multipliers.h
+3	6	ODIN_II/SRC/include/odin_globals.h
+1	3	ODIN_II/SRC/include/odin_types.h
+30	30	ODIN_II/SRC/memories.cpp
+7	8	ODIN_II/SRC/multipliers.cpp
+89	89	ODIN_II/SRC/netlist_create_from_ast.cpp
+39	19	ODIN_II/SRC/netlist_utils.cpp
+3	3	ODIN_II/SRC/node_creation_library.cpp
+33	36	ODIN_II/SRC/odin_ii.cpp
+5	5	ODIN_II/SRC/odin_util.cpp
+2	2	ODIN_II/SRC/partial_map.cpp
+
+--4cb3b2f11--2021-08-19--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/partial_map.cpp
+
+--34c3c69c1--2021-08-18--Seyed Alireza Damghani
+7	0	ODIN_II/SRC/netlist_statistic.cpp
+
+--5801a1c02--2021-08-16--Seyed Alireza Damghani
+4	4	ODIN_II/SRC/BlockMemories.cpp
+16	6	ODIN_II/SRC/include/BlockMemories.hpp
+
+--6954a87b4--2021-08-16--Seyed Alireza Damghani
+10	10	ODIN_II/SRC/BLIFElaborate.cpp
+115	48	ODIN_II/SRC/YYosys.cpp
+16	0	ODIN_II/SRC/include/YYosys.hpp
+1	1	ODIN_II/SRC/include/odin_error.h
+2	2	ODIN_II/SRC/memories.cpp
+
+--5acc96743--2021-08-14--Seyed Alireza Damghani
+252	0	ODIN_II/SRC/YYosys.cpp
+0	172	ODIN_II/SRC/Yosys.cpp
+113	0	ODIN_II/SRC/include/YYosys.hpp
+0	119	ODIN_II/SRC/include/Yosys.hpp
+3	3	ODIN_II/SRC/include/config_t.h
+3	3	ODIN_II/SRC/include/odin_types.h
+10	8	ODIN_II/SRC/odin_ii.cpp
+
+--0f8687afe--2021-08-13--Seyed Alireza Damghani
+4	4	ODIN_II/SRC/BLIFElaborate.cpp
+4	4	ODIN_II/SRC/BLIFReader.cpp
+5	4	ODIN_II/SRC/BLIFWriter.cpp
+8	8	ODIN_II/SRC/BlockMemories.cpp
+3	3	ODIN_II/SRC/CaseEqual.cpp
+2	2	ODIN_II/SRC/Division.cpp
+4	4	ODIN_II/SRC/FlipFlop.cpp
+1	1	ODIN_II/SRC/GenericReader.cpp
+1	1	ODIN_II/SRC/GenericWriter.cpp
+2	2	ODIN_II/SRC/Latch.cpp
+2	2	ODIN_II/SRC/LogicalOps.cpp
+4	3	ODIN_II/SRC/Modulo.cpp
+4	3	ODIN_II/SRC/Multiplexer.cpp
+4	4	ODIN_II/SRC/Power.cpp
+1	1	ODIN_II/SRC/Shift.cpp
+1	1	ODIN_II/SRC/VerilogReader.cpp
+16	27	ODIN_II/SRC/Yosys.cpp
+3	3	ODIN_II/SRC/enum_str.cpp
+1	1	ODIN_II/SRC/include/BLIF.hpp
+7	7	ODIN_II/SRC/include/BlockMemories.hpp
+1	1	ODIN_II/SRC/include/GenericIO.hpp
+1	1	ODIN_II/SRC/include/GenericReader.hpp
+1	1	ODIN_II/SRC/include/GenericWriter.hpp
+3	3	ODIN_II/SRC/include/Verilog.hpp
+15	10	ODIN_II/SRC/include/Yosys.hpp
+4	1	ODIN_II/SRC/include/odin_globals.h
+3	3	ODIN_II/SRC/include/odin_types.h
+3	3	ODIN_II/SRC/odin_ii.cpp
+
+--3f005cebe--2021-08-12--Seyed Alireza Damghani
+2	1	ODIN_II/SRC/Yosys.cpp
+
+--d8b6a0d51--2021-08-11--Seyed Alireza Damghani
+2	2	ODIN_II/SRC/FlipFlop.cpp
+
+--6f0061374--2021-08-11--Seyed Alireza Damghani
+8	3	ODIN_II/SRC/Yosys.cpp
+2	0	ODIN_II/SRC/include/odin_types.h
+1	1	ODIN_II/SRC/include/odin_util.h
+5	2	ODIN_II/SRC/odin_ii.cpp
+6	7	ODIN_II/SRC/odin_util.cpp
+
+--d302dcc5a--2021-08-10--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/Yosys.cpp
+1	1	ODIN_II/SRC/include/Yosys.hpp
+6	18	ODIN_II/SRC/memories.cpp
+5	1	ODIN_II/SRC/netlist_utils.cpp
+
+--23ee3af64--2021-08-09--Seyed Alireza Damghani
+21	1	ODIN_II/SRC/BLIFWriter.cpp
+12	4	ODIN_II/SRC/FlipFlop.cpp
+31	12	ODIN_II/SRC/Latch.cpp
+7	0	ODIN_II/SRC/LogicalOps.cpp
+1	1	ODIN_II/SRC/Multiplexer.cpp
+14	2	ODIN_II/SRC/Power.cpp
+7	7	ODIN_II/SRC/Shift.cpp
+3	1	ODIN_II/SRC/Yosys.cpp
+3	0	ODIN_II/SRC/adders.cpp
+6	0	ODIN_II/SRC/include/BLIF.hpp
+1	2	ODIN_II/SRC/include/Shift.hpp
+4	2	ODIN_II/SRC/include/netlist_utils.h
+21	1	ODIN_II/SRC/multipliers.cpp
+99	78	ODIN_II/SRC/netlist_utils.cpp
+18	7	ODIN_II/SRC/node_creation_library.cpp
+3	2	ODIN_II/SRC/odin_util.cpp
+1	2	ODIN_II/SRC/partial_map.cpp
+
+--eca67a151--2021-08-09--Seyed Alireza Damghani
+7	0	ODIN_II/SRC/netlist_utils.cpp
+
+--6045ebad2--2021-08-09--Seyed Alireza Damghani
+22	4	ODIN_II/SRC/BLIFReader.cpp
+8	2	ODIN_II/SRC/Yosys.cpp
+1	2	ODIN_II/SRC/enum_str.cpp
+22	22	ODIN_II/SRC/include/Yosys.hpp
+2	2	ODIN_II/SRC/memories.cpp
+1	2	ODIN_II/SRC/netlist_utils.cpp
+1	1	ODIN_II/SRC/odin_ii.cpp
+1	1	ODIN_II/SRC/odin_util.cpp
+
+--ca76b4a6c--2021-08-06--Seyed Alireza Damghani
+2	3	ODIN_II/SRC/VerilogReader.cpp
+169	0	ODIN_II/SRC/Yosys.cpp
+246	247	ODIN_II/SRC/enum_str.cpp
+4	4	ODIN_II/SRC/hard_blocks.cpp
+1	1	ODIN_II/SRC/implicit_memory.cpp
+1	0	ODIN_II/SRC/include/BLIF.hpp
+0	46	ODIN_II/SRC/include/FileTypes.hpp
+0	1	ODIN_II/SRC/include/GenericIO.hpp
+114	0	ODIN_II/SRC/include/Yosys.hpp
+8	6	ODIN_II/SRC/include/config_t.h
+0	3	ODIN_II/SRC/include/netlist_cleanup.h
+9	5	ODIN_II/SRC/include/odin_globals.h
+5	2	ODIN_II/SRC/include/odin_ii.h
+27	2	ODIN_II/SRC/include/odin_types.h
+2	0	ODIN_II/SRC/include/odin_util.h
+22	22	ODIN_II/SRC/memories.cpp
+90	90	ODIN_II/SRC/netlist_create_from_ast.cpp
+10	11	ODIN_II/SRC/netlist_utils.cpp
+159	45	ODIN_II/SRC/odin_ii.cpp
+26	1	ODIN_II/SRC/odin_util.cpp
+2	2	ODIN_II/SRC/partial_map.cpp
+
+--535ae8f0f--2021-08-05--Seyed Alireza Damghani
+44	21	ODIN_II/SRC/BLIFReader.cpp
+1	0	ODIN_II/SRC/include/odin_util.h
+23	61	ODIN_II/SRC/memories.cpp
+46	0	ODIN_II/SRC/odin_util.cpp
+
+--78f3cbbca--2021-08-03--Seyed Alireza Damghani
+24	24	ODIN_II/SRC/BLIFElaborate.cpp
+8	8	ODIN_II/SRC/BLIFReader.cpp
+20	20	ODIN_II/SRC/BLIFWriter.cpp
+12	12	ODIN_II/SRC/BlockMemories.cpp
+71	71	ODIN_II/SRC/CaseEqual.cpp
+9	10	ODIN_II/SRC/Division.cpp
+7	7	ODIN_II/SRC/FlipFlop.cpp
+6	6	ODIN_II/SRC/GenericReader.cpp
+21	21	ODIN_II/SRC/GenericWriter.cpp
+3	3	ODIN_II/SRC/Latch.cpp
+5	5	ODIN_II/SRC/LogicalOps.cpp
+1	1	ODIN_II/SRC/Modulo.cpp
+5	5	ODIN_II/SRC/Multiplexer.cpp
+14	15	ODIN_II/SRC/Power.cpp
+1	1	ODIN_II/SRC/VerilogReader.cpp
+477	481	ODIN_II/SRC/include/BLIF.hpp
+2	2	ODIN_II/SRC/include/BlockMemories.hpp
+18	20	ODIN_II/SRC/include/GenericIO.hpp
+32	34	ODIN_II/SRC/include/GenericReader.hpp
+37	39	ODIN_II/SRC/include/GenericWriter.hpp
+1	1	ODIN_II/SRC/include/Latch.hpp
+48	55	ODIN_II/SRC/include/Verilog.hpp
+2	2	ODIN_II/SRC/include/odin_types.h
+2	2	ODIN_II/SRC/netlist_utils.cpp
+1	1	ODIN_II/SRC/node_creation_library.cpp
+1	1	ODIN_II/SRC/odin_ii.cpp
+
+--4d5316945--2021-08-03--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/include/subtractions.h
+6	6	ODIN_II/SRC/partial_map.cpp
+50	92	ODIN_II/SRC/subtractions.cpp
+
+--4806a2e93--2021-08-02--Seyed Alireza Damghani
+0	37	ODIN_II/SRC/BLIF.cc
+39	0	ODIN_II/SRC/BLIF.cpp
+0	780	ODIN_II/SRC/BLIFElaborate.cc
+788	0	ODIN_II/SRC/BLIFElaborate.cpp
+0	2178	ODIN_II/SRC/BLIFReader.cc
+2187	0	ODIN_II/SRC/BLIFReader.cpp
+0	664	ODIN_II/SRC/BLIFWriter.cc
+669	0	ODIN_II/SRC/BLIFWriter.cpp
+0	1980	ODIN_II/SRC/BlockMemories.cc
+1989	0	ODIN_II/SRC/BlockMemories.cpp
+0	261	ODIN_II/SRC/CaseEqual.cc
+265	0	ODIN_II/SRC/CaseEqual.cpp
+0	725	ODIN_II/SRC/Division.cc
+724	0	ODIN_II/SRC/Division.cpp
+0	628	ODIN_II/SRC/FlipFlop.cc
+639	0	ODIN_II/SRC/FlipFlop.cpp
+0	47	ODIN_II/SRC/GenericIO.cc
+50	0	ODIN_II/SRC/GenericIO.cpp
+0	90	ODIN_II/SRC/GenericReader.cc
+94	0	ODIN_II/SRC/GenericReader.cpp
+0	110	ODIN_II/SRC/GenericWriter.cc
+114	0	ODIN_II/SRC/GenericWriter.cpp
+0	268	ODIN_II/SRC/Latch.cc
+268	0	ODIN_II/SRC/Latch.cpp
+0	197	ODIN_II/SRC/LogicalOps.cc
+200	0	ODIN_II/SRC/LogicalOps.cpp
+0	53	ODIN_II/SRC/Modulo.cc
+57	0	ODIN_II/SRC/Modulo.cpp
+0	397	ODIN_II/SRC/Multiplexer.cc
+488	0	ODIN_II/SRC/Multiplexer.cpp
+0	425	ODIN_II/SRC/Power.cc
+430	0	ODIN_II/SRC/Power.cpp
+0	211	ODIN_II/SRC/Shift.cc
+119	0	ODIN_II/SRC/Shift.cpp
+0	37	ODIN_II/SRC/Verilog.cc
+39	0	ODIN_II/SRC/Verilog.cpp
+0	61	ODIN_II/SRC/VerilogReader.cc
+68	0	ODIN_II/SRC/VerilogReader.cpp
+15	0	ODIN_II/SRC/enum_str.cpp
+0	629	ODIN_II/SRC/include/BLIF.hh
+634	0	ODIN_II/SRC/include/BLIF.hpp
+0	31	ODIN_II/SRC/include/BLIFElaborate.hh
+31	0	ODIN_II/SRC/include/BLIFElaborate.hpp
+0	73	ODIN_II/SRC/include/BlockMemories.hh
+91	0	ODIN_II/SRC/include/BlockMemories.hpp
+0	33	ODIN_II/SRC/include/CaseEqual.hh
+33	0	ODIN_II/SRC/include/CaseEqual.hpp
+0	32	ODIN_II/SRC/include/Division.hh
+32	0	ODIN_II/SRC/include/Division.hpp
+0	43	ODIN_II/SRC/include/FileTypes.hh
+46	0	ODIN_II/SRC/include/FileTypes.hpp
+0	38	ODIN_II/SRC/include/FlipFlop.hh
+38	0	ODIN_II/SRC/include/FlipFlop.hpp
+0	57	ODIN_II/SRC/include/GenericIO.hh
+59	0	ODIN_II/SRC/include/GenericIO.hpp
+0	74	ODIN_II/SRC/include/GenericReader.hh
+76	0	ODIN_II/SRC/include/GenericReader.hpp
+0	80	ODIN_II/SRC/include/GenericWriter.hh
+82	0	ODIN_II/SRC/include/GenericWriter.hpp
+0	34	ODIN_II/SRC/include/Latch.hh
+34	0	ODIN_II/SRC/include/Latch.hpp
+0	32	ODIN_II/SRC/include/LogicalOps.hh
+32	0	ODIN_II/SRC/include/LogicalOps.hpp
+0	32	ODIN_II/SRC/include/Modulo.hh
+32	0	ODIN_II/SRC/include/Modulo.hpp
+0	33	ODIN_II/SRC/include/Multiplexer.hh
+34	0	ODIN_II/SRC/include/Multiplexer.hpp
+0	32	ODIN_II/SRC/include/Power.hh
+32	0	ODIN_II/SRC/include/Power.hpp
+0	33	ODIN_II/SRC/include/Shift.hh
+32	0	ODIN_II/SRC/include/Shift.hpp
+0	107	ODIN_II/SRC/include/Verilog.hh
+111	0	ODIN_II/SRC/include/Verilog.hpp
+1	1	ODIN_II/SRC/include/config_t.h
+0	1	ODIN_II/SRC/include/netlist_utils.h
+1	0	ODIN_II/SRC/include/node_creation_library.h
+1	1	ODIN_II/SRC/include/odin_globals.h
+2	1	ODIN_II/SRC/include/odin_ii.h
+25	11	ODIN_II/SRC/include/odin_types.h
+4	1	ODIN_II/SRC/multipliers.cpp
+36	90	ODIN_II/SRC/netlist_utils.cpp
+48	0	ODIN_II/SRC/node_creation_library.cpp
+5	5	ODIN_II/SRC/odin_ii.cpp
+8	88	ODIN_II/SRC/partial_map.cpp
+0	217	ODIN_II/SRC/string_cache.cc
+217	0	ODIN_II/SRC/string_cache.cpp
+
+--1a5cad03d--2021-08-02--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/BLIFReader.cc
+
+--610d8e1c2--2021-07-29--Seyed Alireza Damghani
+14	15	ODIN_II/SRC/BlockMemories.cc
+73	201	ODIN_II/SRC/FlipFlop.cc
+13	36	ODIN_II/SRC/Latch.cc
+1	0	ODIN_II/SRC/include/config_t.h
+2	1	ODIN_II/SRC/include/node_creation_library.h
+2	1	ODIN_II/SRC/include/odin_types.h
+77	3	ODIN_II/SRC/node_creation_library.cpp
+11	1	ODIN_II/SRC/odin_ii.cpp
+
+--a3ddaf94c--2021-07-28--Seyed Alireza Damghani
+70	1	ODIN_II/SRC/FlipFlop.cc
+1	61	ODIN_II/SRC/partial_map.cpp
+
+--a7f63bffa--2021-07-28--Seyed Alireza Damghani
+2	2	ODIN_II/SRC/BLIFReader.cc
+1	1	ODIN_II/SRC/BLIFWriter.cc
+1	1	ODIN_II/SRC/include/odin_types.h
+11	11	ODIN_II/SRC/node_creation_library.cpp
+1	1	ODIN_II/SRC/odin_ii.cpp
+29	30	ODIN_II/SRC/partial_map.cpp
+6	7	ODIN_II/SRC/simulate_blif.cpp
+
+--91b6cf119--2021-07-28--Seyed Alireza Damghani
+8	0	ODIN_II/SRC/BLIFElaborate.cc
+3	1	ODIN_II/SRC/BLIFReader.cc
+266	2	ODIN_II/SRC/BlockMemories.cc
+1	1	ODIN_II/SRC/enum_str.cpp
+1	0	ODIN_II/SRC/include/BlockMemories.hh
+1	0	ODIN_II/SRC/include/netlist_utils.h
+3	2	ODIN_II/SRC/include/odin_types.h
+40	1	ODIN_II/SRC/netlist_utils.cpp
+
+--741f6134f--2021-07-28--Seyed Alireza Damghani
+146	340	ODIN_II/SRC/BlockMemories.cc
+4	1	ODIN_II/SRC/enum_str.cpp
+0	2	ODIN_II/SRC/include/BlockMemories.hh
+1	1	ODIN_II/SRC/memories.cpp
+1	2	ODIN_II/SRC/netlist_utils.cpp
+5	1	ODIN_II/SRC/node_creation_library.cpp
+95	82	ODIN_II/SRC/partial_map.cpp
+
+--cf0d42e17--2021-07-27--Seyed Alireza Damghani
+5	21	ODIN_II/SRC/BLIFElaborate.cc
+4	9	ODIN_II/SRC/BLIFReader.cc
+6	45	ODIN_II/SRC/BlockMemories.cc
+0	185	ODIN_II/SRC/FlipFlop.cc
+89	298	ODIN_II/SRC/Latch.cc
+3	3	ODIN_II/SRC/enum_str.cpp
+1	3	ODIN_II/SRC/include/FlipFlop.hh
+2	1	ODIN_II/SRC/include/netlist_utils.h
+0	2	ODIN_II/SRC/include/odin_types.h
+119	66	ODIN_II/SRC/netlist_utils.cpp
+0	1	ODIN_II/SRC/node_creation_library.cpp
+
+--ee4be90fd--2021-07-25--Seyed Alireza Damghani
+6	7	ODIN_II/SRC/BLIFReader.cc
+1	1	ODIN_II/SRC/BLIFWriter.cc
+1	1	ODIN_II/SRC/GenericReader.cc
+1	1	ODIN_II/SRC/GenericWriter.cc
+259	1	ODIN_II/SRC/enum_str.cpp
+10	5	ODIN_II/SRC/include/FileTypes.hh
+0	272	ODIN_II/SRC/include/SubcktTypes.h
+0	2	ODIN_II/SRC/include/config_t.h
+4	2	ODIN_II/SRC/include/odin_globals.h
+0	8	ODIN_II/SRC/include/odin_types.h
+0	1	ODIN_II/SRC/odin_ii.cpp
+4	4	ODIN_II/SRC/odin_util.cpp
+1	1	ODIN_II/SRC/partial_map.cpp
+15	9	ODIN_II/SRC/read_xml_config_file.cpp
+
+--4b19e729b--2021-07-23--Seyed Alireza Damghani
+12	18	ODIN_II/SRC/partial_map.cpp
+
+--1c051ae45--2021-07-23--Seyed Alireza Damghani
+3	3	ODIN_II/SRC/BLIFElaborate.cc
+1	1	ODIN_II/SRC/BLIFReader.cc
+623	243	ODIN_II/SRC/BlockMemories.cc
+1	1	ODIN_II/SRC/Division.cc
+16	17	ODIN_II/SRC/FlipFlop.cc
+3	3	ODIN_II/SRC/Multiplexer.cc
+1	1	ODIN_II/SRC/Power.cc
+24	24	ODIN_II/SRC/enum_str.cpp
+1	1	ODIN_II/SRC/include/SubcktTypes.h
+2	0	ODIN_II/SRC/include/netlist_utils.h
+2	3	ODIN_II/SRC/include/node_creation_library.h
+26	26	ODIN_II/SRC/include/odin_types.h
+50	9	ODIN_II/SRC/memories.cpp
+107	71	ODIN_II/SRC/netlist_utils.cpp
+67	38	ODIN_II/SRC/node_creation_library.cpp
+1	1	ODIN_II/SRC/partial_map.cpp
+
+--d4aa7c9ac--2021-07-21--Seyed Alireza Damghani
+166	617	ODIN_II/SRC/FlipFlop.cc
+1	0	ODIN_II/SRC/include/node_creation_library.h
+1	0	ODIN_II/SRC/netlist_utils.cpp
+55	0	ODIN_II/SRC/node_creation_library.cpp
+
+--72c4c00cd--2021-07-21--Seyed Alireza Damghani
+235	248	ODIN_II/SRC/FlipFlop.cc
+
+--f5cbd901f--2021-07-21--Seyed Alireza Damghani
+2	0	ODIN_II/SRC/BLIFElaborate.cc
+7	0	ODIN_II/SRC/BLIFReader.cc
+4	0	ODIN_II/SRC/BLIFWriter.cc
+1	0	ODIN_II/SRC/enum_str.cpp
+1	0	ODIN_II/SRC/include/odin_types.h
+7	2	ODIN_II/SRC/netlist_statistic.cpp
+18	19	ODIN_II/SRC/partial_map.cpp
+71	0	ODIN_II/SRC/simulate_blif.cpp
+
+--dfd6bf6d7--2021-07-21--Seyed Alireza Damghani
+8	32	ODIN_II/SRC/BlockMemories.cc
+
+--6504348c9--2021-07-21--Seyed Alireza Damghani
+29	7	ODIN_II/SRC/BlockMemories.cc
+1	0	ODIN_II/SRC/Power.cc
+2	2	ODIN_II/SRC/netlist_utils.cpp
+
+--1d5b12d90--2021-07-21--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/BLIFElaborate.cc
+12	0	ODIN_II/SRC/LogicalOps.cc
+3	0	ODIN_II/SRC/include/netlist_utils.h
+0	1	ODIN_II/SRC/include/subtractions.h
+154	0	ODIN_II/SRC/netlist_utils.cpp
+0	90	ODIN_II/SRC/subtractions.cpp
+
+--8152a303c--2021-07-21--Seyed Alireza Damghani
+21	3	ODIN_II/SRC/Power.cc
+3	1	ODIN_II/SRC/include/netlist_utils.h
+155	1	ODIN_II/SRC/netlist_utils.cpp
+
+--3762d8f1f--2021-07-20--Seyed Alireza Damghani
+25	21	ODIN_II/SRC/BlockMemories.cc
+6	6	ODIN_II/SRC/FlipFlop.cc
+12	2	ODIN_II/SRC/LogicalOps.cc
+
+--6f9dd2f1e--2021-07-19--Seyed Alireza Damghani
+318	232	ODIN_II/SRC/BlockMemories.cc
+1	1	ODIN_II/SRC/include/node_creation_library.h
+2	6	ODIN_II/SRC/node_creation_library.cpp
+
+--d57be5fec--2021-07-19--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/BlockMemories.cc
+18	6	ODIN_II/SRC/subtractions.cpp
+
+--d959a649e--2021-07-19--Seyed Alireza Damghani
+0	5	ODIN_II/SRC/BlockMemories.cc
+0	5	ODIN_II/SRC/netlist_utils.cpp
+6	1	ODIN_II/SRC/partial_map.cpp
+
+--53257620d--2021-07-19--Seyed Alireza Damghani
+30	54	ODIN_II/SRC/BLIFElaborate.cc
+175	0	ODIN_II/SRC/LogicalOps.cc
+32	0	ODIN_II/SRC/include/LogicalOps.hh
+5	5	ODIN_II/SRC/include/SubcktTypes.h
+
+--b8e047808--2021-07-19--Seyed Alireza Damghani
+107	112	ODIN_II/SRC/FlipFlop.cc
+1	0	ODIN_II/SRC/include/netlist_utils.h
+92	0	ODIN_II/SRC/netlist_utils.cpp
+
+--59c6a1750--2021-07-18--Seyed Alireza Damghani
+35	10	ODIN_II/SRC/netlist_utils.cpp
+
+--30ef96c33--2021-07-18--Seyed Alireza Damghani
+3	6	ODIN_II/SRC/BLIFElaborate.cc
+2	0	ODIN_II/SRC/include/netlist_utils.h
+2	1	ODIN_II/SRC/include/subtractions.h
+122	0	ODIN_II/SRC/netlist_utils.cpp
+78	0	ODIN_II/SRC/subtractions.cpp
+
+--91e2a40a1--2021-07-12--Seyed Alireza Damghani
+0	2	ODIN_II/SRC/include/config_t.h
+0	1	ODIN_II/SRC/include/odin_util.h
+0	2	ODIN_II/SRC/netlist_cleanup.cpp
+2	2	ODIN_II/SRC/netlist_create_from_ast.cpp
+1	1	ODIN_II/SRC/odin_ii.cpp
+3	5	ODIN_II/SRC/odin_util.cpp
+1	2	ODIN_II/SRC/subtractions.cpp
+
+--ae3a9c847--2021-07-08--Seyed Alireza Damghani
+55	9	ODIN_II/SRC/multipliers.cpp
+
+--7a3663a8c--2021-07-06--Seyed Alireza Damghani
+4	1	ODIN_II/SRC/BLIFReader.cc
+
+--d6fa0916d--2021-07-06--Seyed Alireza Damghani
+41	18	ODIN_II/SRC/BLIFReader.cc
+37	0	ODIN_II/SRC/include/BLIF.hh
+
+--c245fa597--2021-07-04--Seyed Alireza Damghani
+38	35	ODIN_II/SRC/netlist_visualizer.cpp
+
+--244877b76--2021-07-04--Seyed Alireza Damghani
+2	2	ODIN_II/SRC/netlist_cleanup.cpp
+1	1	ODIN_II/SRC/partial_map.cpp
+
+--e538b05e4--2021-07-03--Seyed Alireza Damghani
+2	2	ODIN_II/SRC/netlist_utils.cpp
+
+--8eedcac0b--2021-07-03--Seyed Alireza Damghani
+2	2	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--ea15e4d03--2021-07-03--Seyed Alireza Damghani
+3	0	ODIN_II/SRC/netlist_utils.cpp
+
+--1400f1a74--2021-07-03--Seyed Alireza Damghani
+2	3	ODIN_II/SRC/GenericWriter.cc
+
+--140d40ef1--2021-07-03--Seyed Alireza Damghani
+5	4	ODIN_II/SRC/partial_map.cpp
+
+--1e7fffe49--2021-07-03--Seyed Alireza Damghani
+5	2	ODIN_II/SRC/netlist_cleanup.cpp
+
+--e84d848c7--2021-07-01--Seyed Alireza Damghani
+0	7	ODIN_II/SRC/BLIFReader.cc
+
+--e9b03b17b--2021-07-01--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/include/SubcktTypes.h
+
+--5eed51d86--2021-07-01--Seyed Alireza Damghani
+0	1	ODIN_II/SRC/adders.cpp
+6	7	ODIN_II/SRC/subtractions.cpp
+
+--7761e66cc--2021-07-01--Seyed Alireza Damghani
+10	1	ODIN_II/SRC/adders.cpp
+
+--0e19fa6e7--2021-07-01--Seyed Alireza Damghani
+1	0	ODIN_II/SRC/include/netlist_utils.h
+1	1	ODIN_II/SRC/multipliers.cpp
+5	1	ODIN_II/SRC/netlist_cleanup.cpp
+23	4	ODIN_II/SRC/netlist_utils.cpp
+4	5	ODIN_II/SRC/partial_map.cpp
+
+--c5b7e2dcc--2021-06-30--Seyed Alireza Damghani
+7	26	ODIN_II/SRC/multipliers.cpp
+
+--53af6f235--2021-06-30--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/include/netlist_utils.h
+4	4	ODIN_II/SRC/multipliers.cpp
+4	4	ODIN_II/SRC/netlist_utils.cpp
+3	8	ODIN_II/SRC/partial_map.cpp
+
+--c30a86ac9--2021-06-30--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/BLIFElaborate.cc
+13	20	ODIN_II/SRC/netlist_statistic.cpp
+194	19	ODIN_II/SRC/partial_map.cpp
+
+--645459a87--2021-06-29--Seyed Alireza Damghani
+93	0	ODIN_II/SRC/multipliers.cpp
+
+--cc65ad5c7--2021-06-29--Seyed Alireza Damghani
+65	2	ODIN_II/SRC/BlockMemories.cc
+4	3	ODIN_II/SRC/include/netlist_utils.h
+85	0	ODIN_II/SRC/netlist_utils.cpp
+
+--731227263--2021-06-28--Seyed Alireza Damghani
+2	0	ODIN_II/SRC/BlockMemories.cc
+
+--dff33ab9d--2021-06-28--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/Division.cc
+
+--128b77145--2021-06-28--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/Division.cc
+
+--54d6ccf26--2021-06-28--Seyed Alireza Damghani
+15	6	ODIN_II/SRC/BLIFReader.cc
+1	1	ODIN_II/SRC/include/netlist_utils.h
+4	5	ODIN_II/SRC/include/odin_types.h
+1	2	ODIN_II/SRC/multipliers.cpp
+12	25	ODIN_II/SRC/netlist_utils.cpp
+
+--06a7904c5--2021-06-28--Seyed Alireza Damghani
+2	5	ODIN_II/SRC/BLIFReader.cc
+15	4	ODIN_II/SRC/enum_str.cpp
+3	4	ODIN_II/SRC/netlist_utils.cpp
+7	4	ODIN_II/SRC/partial_map.cpp
+
+--f76848062--2021-06-28--Seyed Alireza Damghani
+7	3	ODIN_II/SRC/BLIFReader.cc
+1	1	ODIN_II/SRC/partial_map.cpp
+
+--5248c8b0b--2021-06-28--Seyed Alireza Damghani
+7	3	ODIN_II/SRC/BLIFWriter.cc
+
+--6ca364983--2021-06-28--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/BLIFReader.cc
+0	2	ODIN_II/SRC/adders.cpp
+3	0	ODIN_II/SRC/include/netlist_cleanup.h
+2	0	ODIN_II/SRC/netlist_cleanup.cpp
+0	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+3	4	ODIN_II/SRC/netlist_utils.cpp
+5	0	ODIN_II/SRC/odin_ii.cpp
+5	1	ODIN_II/SRC/partial_map.cpp
+0	2	ODIN_II/SRC/subtractions.cpp
+
+--d5776569f--2021-06-28--Seyed Alireza Damghani
+0	2	ODIN_II/SRC/include/memories.h
+6	4	ODIN_II/SRC/memories.cpp
+
+--8fed3ceeb--2021-06-28--Seyed Alireza Damghani
+2	2	ODIN_II/SRC/include/memories.h
+33	33	ODIN_II/SRC/memories.cpp
+
+--9d7715cfd--2021-06-27--Seyed Alireza Damghani
+3	1	ODIN_II/SRC/BLIF.cc
+813	0	ODIN_II/SRC/BLIFElaborate.cc
+2	2	ODIN_II/SRC/BLIFReader.cc
+1	1	ODIN_II/SRC/BLIFWriter.cc
+1422	0	ODIN_II/SRC/BlockMemories.cc
+261	0	ODIN_II/SRC/CaseEqual.cc
+725	0	ODIN_II/SRC/Division.cc
+1342	0	ODIN_II/SRC/FlipFlop.cc
+3	1	ODIN_II/SRC/GenericIO.cc
+3	1	ODIN_II/SRC/GenericReader.cc
+3	1	ODIN_II/SRC/GenericWriter.cc
+500	0	ODIN_II/SRC/Latch.cc
+53	0	ODIN_II/SRC/Modulo.cc
+397	0	ODIN_II/SRC/Multiplexer.cc
+406	0	ODIN_II/SRC/Power.cc
+211	0	ODIN_II/SRC/Shift.cc
+3	1	ODIN_II/SRC/Verilog.cc
+3	1	ODIN_II/SRC/VerilogReader.cc
+0	811	ODIN_II/SRC/blif_elaborate.cc
+0	1420	ODIN_II/SRC/block_memories.cc
+0	259	ODIN_II/SRC/case_equal.cc
+0	723	ODIN_II/SRC/division.cc
+0	1340	ODIN_II/SRC/flipflop.cc
+3	1	ODIN_II/SRC/include/BLIF.hh
+31	0	ODIN_II/SRC/include/BLIFElaborate.hh
+74	0	ODIN_II/SRC/include/BlockMemories.hh
+33	0	ODIN_II/SRC/include/CaseEqual.hh
+32	0	ODIN_II/SRC/include/Division.hh
+38	0	ODIN_II/SRC/include/FileTypes.hh
+40	0	ODIN_II/SRC/include/FlipFlop.hh
+4	2	ODIN_II/SRC/include/GenericIO.hh
+3	1	ODIN_II/SRC/include/GenericReader.hh
+3	1	ODIN_II/SRC/include/GenericWriter.hh
+34	0	ODIN_II/SRC/include/Latch.hh
+32	0	ODIN_II/SRC/include/Modulo.hh
+33	0	ODIN_II/SRC/include/Multiplexer.hh
+32	0	ODIN_II/SRC/include/Power.hh
+33	0	ODIN_II/SRC/include/Shift.hh
+272	0	ODIN_II/SRC/include/SubcktTypes.h
+3	1	ODIN_II/SRC/include/Verilog.hh
+0	31	ODIN_II/SRC/include/blif_elaborate.hh
+0	72	ODIN_II/SRC/include/block_memories.hh
+0	31	ODIN_II/SRC/include/case_equal.hh
+1	1	ODIN_II/SRC/include/config_t.h
+0	30	ODIN_II/SRC/include/division.hh
+0	36	ODIN_II/SRC/include/file_types.hh
+0	38	ODIN_II/SRC/include/flipflop.hh
+0	32	ODIN_II/SRC/include/latch.hh
+0	30	ODIN_II/SRC/include/modulo.hh
+0	31	ODIN_II/SRC/include/multiplexer.hh
+0	30	ODIN_II/SRC/include/power.hh
+0	31	ODIN_II/SRC/include/shift.hh
+0	271	ODIN_II/SRC/include/subckt_types.h
+0	498	ODIN_II/SRC/latch.cc
+0	51	ODIN_II/SRC/modulo.cc
+0	395	ODIN_II/SRC/multiplexer.cc
+2	2	ODIN_II/SRC/odin_ii.cpp
+0	404	ODIN_II/SRC/power.cc
+0	209	ODIN_II/SRC/shift.cc
+
+--555970a31--2021-06-26--Seyed Alireza Damghani
+29	77	ODIN_II/SRC/block_memories.cc
+2	2	ODIN_II/SRC/include/memories.h
+54	12	ODIN_II/SRC/memories.cpp
+
+--956a98445--2021-06-26--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/block_memories.cc
+
+--63c533576--2021-06-26--Seyed Alireza Damghani
+5	12	ODIN_II/SRC/block_memories.cc
+
+--16ac9e59f--2021-06-26--Seyed Alireza Damghani
+612	348	ODIN_II/SRC/block_memories.cc
+2	2	ODIN_II/SRC/include/memories.h
+4	5	ODIN_II/SRC/memories.cpp
+
+--9cf666caf--2021-06-26--Seyed Alireza Damghani
+21	26	ODIN_II/SRC/block_memories.cc
+2	2	ODIN_II/SRC/include/memories.h
+9	4	ODIN_II/SRC/memories.cpp
+
+--96c6e581e--2021-06-26--Seyed Alireza Damghani
+51	5	ODIN_II/SRC/block_memories.cc
+
+--dc70717c1--2021-06-25--Seyed Alireza Damghani
+297	173	ODIN_II/SRC/block_memories.cc
+1	0	ODIN_II/SRC/include/netlist_utils.h
+9	13	ODIN_II/SRC/memories.cpp
+9	0	ODIN_II/SRC/netlist_utils.cpp
+
+--19c49d10e--2021-06-25--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/BLIFReader.cc
+143	99	ODIN_II/SRC/block_memories.cc
+3	0	ODIN_II/SRC/node_creation_library.cpp
+
+--3f9614258--2021-06-25--Seyed Alireza Damghani
+172	472	ODIN_II/SRC/memories.cpp
+
+--4c132cef0--2021-06-24--Seyed Alireza Damghani
+4	4	ODIN_II/SRC/BLIFReader.cc
+408	547	ODIN_II/SRC/flipflop.cc
+2	2	ODIN_II/SRC/include/odin_types.h
+60	61	ODIN_II/SRC/latch.cc
+2	2	ODIN_II/SRC/netlist_utils.cpp
+
+--366176191--2021-06-24--Seyed Alireza Damghani
+139	311	ODIN_II/SRC/flipflop.cc
+
+--a0a405341--2021-06-23--Seyed Alireza Damghani
+7	5	ODIN_II/SRC/BLIFReader.cc
+32	24	ODIN_II/SRC/blif_elaborate.cc
+1	0	ODIN_II/SRC/include/latch.hh
+1	0	ODIN_II/SRC/include/odin_types.h
+1	1	ODIN_II/SRC/include/subckt_types.h
+139	0	ODIN_II/SRC/latch.cc
+
+--034f9fabc--2021-06-22--Seyed Alireza Damghani
+0	28	ODIN_II/SRC/BLIF.cc
+0	1	ODIN_II/SRC/BLIFWriter.cc
+2	2	ODIN_II/SRC/GenericReader.cc
+1	1	ODIN_II/SRC/GenericWriter.cc
+35	0	ODIN_II/SRC/Verilog.cc
+4	4	ODIN_II/SRC/VerilogReader.cc
+1	1	ODIN_II/SRC/include/BLIF.hh
+105	0	ODIN_II/SRC/include/Verilog.hh
+0	50	ODIN_II/SRC/include/VerilogReader.hh
+
+--217c0ee44--2021-06-22--Seyed Alireza Damghani
+14	12	ODIN_II/SRC/BLIFReader.cc
+121	325	ODIN_II/SRC/block_memories.cc
+1	0	ODIN_II/SRC/enum_str.cpp
+5	0	ODIN_II/SRC/include/block_memories.hh
+5	0	ODIN_II/SRC/include/memories.h
+5	3	ODIN_II/SRC/include/odin_types.h
+94	2	ODIN_II/SRC/memories.cpp
+3	0	ODIN_II/SRC/netlist_utils.cpp
+
+--94f557799--2021-06-22--Seyed Alireza Damghani
+6	2	ODIN_II/SRC/BLIFReader.cc
+1	2	ODIN_II/SRC/adders.cpp
+683	240	ODIN_II/SRC/block_memories.cc
+13	9	ODIN_II/SRC/include/block_memories.hh
+9	5	ODIN_II/SRC/include/memories.h
+3	1	ODIN_II/SRC/include/node_creation_library.h
+1	0	ODIN_II/SRC/include/odin_types.h
+115	31	ODIN_II/SRC/memories.cpp
+1	1	ODIN_II/SRC/multipliers.cpp
+4	4	ODIN_II/SRC/netlist_utils.cpp
+93	12	ODIN_II/SRC/node_creation_library.cpp
+3	3	ODIN_II/SRC/odin_ii.cpp
+
+--f929b0568--2021-06-21--Seyed Alireza Damghani
+0	1	ODIN_II/SRC/adders.cpp
+5	0	ODIN_II/SRC/blif_elaborate.cc
+763	0	ODIN_II/SRC/block_memories.cc
+63	0	ODIN_II/SRC/include/block_memories.hh
+3	2	ODIN_II/SRC/include/memories.h
+1	1	ODIN_II/SRC/include/node_creation_library.h
+15	455	ODIN_II/SRC/memories.cpp
+3	3	ODIN_II/SRC/node_creation_library.cpp
+7	0	ODIN_II/SRC/odin_ii.cpp
+
+--9dada9165--2021-06-21--Seyed Alireza Damghani
+16	16	ODIN_II/SRC/memories.cpp
+5	5	ODIN_II/SRC/odin_ii.cpp
+
+--dc8ae2e55--2021-06-21--Seyed Alireza Damghani
+3	1	ODIN_II/SRC/BLIFReader.cc
+58	8	ODIN_II/SRC/adders.cpp
+4	6	ODIN_II/SRC/blif_elaborate.cc
+4	2	ODIN_II/SRC/multipliers.cpp
+
+--552c0aed5--2021-06-20--Seyed Alireza Damghani
+2	0	ODIN_II/SRC/BLIFReader.cc
+8	0	ODIN_II/SRC/blif_elaborate.cc
+223	3	ODIN_II/SRC/flipflop.cc
+1	0	ODIN_II/SRC/include/flipflop.hh
+2	1	ODIN_II/SRC/include/odin_types.h
+1	1	ODIN_II/SRC/include/subckt_types.h
+
+--0535ef3d0--2021-06-20--Seyed Alireza Damghani
+11	2	ODIN_II/SRC/multipliers.cpp
+
+--a4ec28949--2021-06-20--Seyed Alireza Damghani
+8	12	ODIN_II/SRC/BLIFReader.cc
+2	2	ODIN_II/SRC/include/odin_types.h
+161	92	ODIN_II/SRC/memories.cpp
+2	2	ODIN_II/SRC/netlist_utils.cpp
+
+--e3ad18272--2021-06-20--Seyed Alireza Damghani
+34	14	ODIN_II/SRC/memories.cpp
+
+--55012c4ce--2021-06-20--Seyed Alireza Damghani
+5	2	ODIN_II/SRC/BLIFReader.cc
+
+--b58d1bb4d--2021-06-20--Seyed Alireza Damghani
+4	4	ODIN_II/SRC/flipflop.cc
+3	1	ODIN_II/SRC/include/netlist_utils.h
+1	1	ODIN_II/SRC/latch.cc
+1	1	ODIN_II/SRC/multipliers.cpp
+66	4	ODIN_II/SRC/netlist_utils.cpp
+5	5	ODIN_II/SRC/odin_ii.cpp
+205	0	ODIN_II/SRC/power.cc
+
+--11ee8e4f3--2021-06-19--Seyed Alireza Damghani
+0	1	ODIN_II/SRC/BLIF.cc
+147	176	ODIN_II/SRC/BLIFReader.cc
+3	5	ODIN_II/SRC/BLIFWriter.cc
+9	9	ODIN_II/SRC/GenericIO.cc
+8	8	ODIN_II/SRC/GenericReader.cc
+11	11	ODIN_II/SRC/GenericWriter.cc
+2	1	ODIN_II/SRC/VerilogReader.cc
+2	1	ODIN_II/SRC/adders.cpp
+21	22	ODIN_II/SRC/blif_elaborate.cc
+43	47	ODIN_II/SRC/division.cc
+4	6	ODIN_II/SRC/power.cc
+
+--cb22ed8bf--2021-06-19--Seyed Alireza Damghani
+15	15	ODIN_II/SRC/adders.cpp
+35	235	ODIN_II/SRC/blif_elaborate.cc
+259	0	ODIN_II/SRC/case_equal.cc
+1	1	ODIN_II/SRC/include/adders.h
+31	0	ODIN_II/SRC/include/case_equal.hh
+4	4	ODIN_II/SRC/include/multipliers.h
+6	8	ODIN_II/SRC/include/odin_types.h
+21	22	ODIN_II/SRC/memories.cpp
+18	19	ODIN_II/SRC/multipliers.cpp
+7	7	ODIN_II/SRC/netlist_utils.cpp
+16	18	ODIN_II/SRC/subtractions.cpp
+
+--e5f2ad45c--2021-06-19--Seyed Alireza Damghani
+2	1	ODIN_II/SRC/BLIFReader.cc
+86	0	ODIN_II/SRC/adders.cpp
+293	3316	ODIN_II/SRC/blif_elaborate.cc
+55	3	ODIN_II/SRC/division.cc
+1431	0	ODIN_II/SRC/flipflop.cc
+1	0	ODIN_II/SRC/include/adders.h
+2	4	ODIN_II/SRC/include/division.hh
+37	0	ODIN_II/SRC/include/flipflop.hh
+31	0	ODIN_II/SRC/include/latch.hh
+5	0	ODIN_II/SRC/include/memories.h
+30	0	ODIN_II/SRC/include/modulo.hh
+31	0	ODIN_II/SRC/include/multiplexer.hh
+1	2	ODIN_II/SRC/include/multipliers.h
+1	1	ODIN_II/SRC/include/partial_map.h
+30	0	ODIN_II/SRC/include/power.hh
+31	0	ODIN_II/SRC/include/shift.hh
+360	0	ODIN_II/SRC/latch.cc
+708	1	ODIN_II/SRC/memories.cpp
+51	0	ODIN_II/SRC/modulo.cc
+395	0	ODIN_II/SRC/multiplexer.cc
+33	2	ODIN_II/SRC/multipliers.cpp
+3	3	ODIN_II/SRC/partial_map.cpp
+201	0	ODIN_II/SRC/power.cc
+209	0	ODIN_II/SRC/shift.cc
+
+--2c3bbf7e7--2021-06-18--Seyed Alireza Damghani
+209	134	ODIN_II/SRC/blif_elaborate.cc
+1	0	ODIN_II/SRC/include/memories.h
+131	2	ODIN_II/SRC/memories.cpp
+
+--efc77de38--2021-06-18--Seyed Alireza Damghani
+76	6	ODIN_II/SRC/BLIFReader.cc
+849	172	ODIN_II/SRC/blif_elaborate.cc
+3	0	ODIN_II/SRC/include/BLIF.hh
+2	0	ODIN_II/SRC/include/memories.h
+2	0	ODIN_II/SRC/include/node_creation_library.h
+17	0	ODIN_II/SRC/include/odin_types.h
+3	3	ODIN_II/SRC/include/subckt_types.h
+94	0	ODIN_II/SRC/memories.cpp
+29	0	ODIN_II/SRC/netlist_utils.cpp
+63	0	ODIN_II/SRC/node_creation_library.cpp
+4	0	ODIN_II/SRC/partial_map.cpp
+
+--fbcfaedc6--2021-06-12--Seyed Alireza Damghani
+3	3	ODIN_II/SRC/implicit_memory.cpp
+10	10	ODIN_II/SRC/memories.cpp
+1	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--f65ea4092--2021-06-12--Seyed Alireza Damghani
+2	0	ODIN_II/SRC/include/odin_types.h
+2	2	ODIN_II/SRC/include/subckt_types.h
+
+--2c88008d9--2021-06-12--Seyed Alireza Damghani
+2	2	ODIN_II/SRC/BLIFReader.cc
+135	151	ODIN_II/SRC/blif_elaborate.cc
+5	1	ODIN_II/SRC/memories.cpp
+
+--6662d2f81--2021-06-12--Seyed Alireza Damghani
+12	3	ODIN_II/SRC/BLIFReader.cc
+265	10	ODIN_II/SRC/blif_elaborate.cc
+3	3	ODIN_II/SRC/implicit_memory.cpp
+3	0	ODIN_II/SRC/include/memories.h
+3	1	ODIN_II/SRC/include/odin_types.h
+1	0	ODIN_II/SRC/include/odin_util.h
+10	1	ODIN_II/SRC/include/subckt_types.h
+106	8	ODIN_II/SRC/memories.cpp
+1	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+19	0	ODIN_II/SRC/odin_util.cpp
+
+--43678d7e8--2021-06-11--Seyed Alireza Damghani
+53	14	ODIN_II/SRC/blif_elaborate.cc
+1	1	ODIN_II/SRC/include/subckt_types.h
+
+--0a15961eb--2021-06-11--Seyed Alireza Damghani
+0	32	ODIN_II/SRC/subtractions.cpp
+
+--ec69a8200--2021-06-11--Seyed Alireza Damghani
+7	5	ODIN_II/SRC/adders.cpp
+1	1	ODIN_II/SRC/blif_elaborate.cc
+1	1	ODIN_II/SRC/include/multipliers.h
+48	71	ODIN_II/SRC/multipliers.cpp
+
+--7730f4410--2021-06-08--Seyed Alireza Damghani
+474	475	ODIN_II/SRC/blif_elaborate.cc
+
+--96f356085--2021-06-08--Seyed Alireza Damghani
+10	10	ODIN_II/SRC/blif_elaborate.cc
+
+--a055c55cc--2021-06-08--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/blif_elaborate.cc
+1	1	ODIN_II/SRC/include/multipliers.h
+48	26	ODIN_II/SRC/multipliers.cpp
+
+--fb67b4640--2021-06-08--Seyed Alireza Damghani
+43	6	ODIN_II/SRC/blif_elaborate.cc
+11	0	ODIN_II/SRC/include/multipliers.h
+310	1	ODIN_II/SRC/multipliers.cpp
+
+--c0e9291a3--2021-06-07--Seyed Alireza Damghani
+9	3	ODIN_II/SRC/BLIFReader.cc
+768	205	ODIN_II/SRC/blif_elaborate.cc
+3	0	ODIN_II/SRC/include/odin_types.h
+3	3	ODIN_II/SRC/include/subckt_types.h
+4	7	ODIN_II/SRC/partial_map.cpp
+
+--28b67285e--2021-06-07--Seyed Alireza Damghani
+8	604	ODIN_II/SRC/blif_elaborate.cc
+675	0	ODIN_II/SRC/division.cc
+32	0	ODIN_II/SRC/include/division.hh
+
+--9f7d7fe8d--2021-06-06--Seyed Alireza Damghani
+54	18	ODIN_II/SRC/blif_elaborate.cc
+38	33	ODIN_II/SRC/subtractions.cpp
+
+--97c72b422--2021-06-06--Seyed Alireza Damghani
+1	0	ODIN_II/SRC/include/subtractions.h
+27	1	ODIN_II/SRC/partial_map.cpp
+195	0	ODIN_II/SRC/subtractions.cpp
+
+--a1aaf488a--2021-06-05--Seyed Alireza Damghani
+1074	461	ODIN_II/SRC/blif_elaborate.cc
+141	84	ODIN_II/SRC/partial_map.cpp
+
+--f4f73747a--2021-06-04--Seyed Alireza Damghani
+85	63	ODIN_II/SRC/blif_elaborate.cc
+
+--0cce221b4--2021-06-04--Seyed Alireza Damghani
+0	1	ODIN_II/SRC/BLIFReader.cc
+117	202	ODIN_II/SRC/blif_elaborate.cc
+0	1	ODIN_II/SRC/include/odin_types.h
+1	1	ODIN_II/SRC/include/subckt_types.h
+
+--38ab5e771--2021-06-02--Seyed Alireza Damghani
+5	3	ODIN_II/SRC/BLIFReader.cc
+147	116	ODIN_II/SRC/blif_elaborate.cc
+1	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+4	7	ODIN_II/SRC/subtractions.cpp
+
+--715d2558c--2021-06-02--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/blif_elaborate.cc
+20	14	ODIN_II/SRC/subtractions.cpp
+
+--a8729d88d--2021-06-02--Seyed Alireza Damghani
+1	0	ODIN_II/SRC/BLIFReader.cc
+61	0	ODIN_II/SRC/blif_elaborate.cc
+1	0	ODIN_II/SRC/include/odin_types.h
+4	4	ODIN_II/SRC/include/subckt_types.h
+6	2	ODIN_II/SRC/subtractions.cpp
+
+--712591c0b--2021-06-02--Seyed Alireza Damghani
+31	0	ODIN_II/SRC/subtractions.cpp
+
+--71f977df6--2021-06-02--Seyed Alireza Damghani
+6	3	ODIN_II/SRC/blif_elaborate.cc
+
+--7b9f2f3f6--2021-06-01--Seyed Alireza Damghani
+24	4	ODIN_II/SRC/BLIFReader.cc
+108	4	ODIN_II/SRC/blif_elaborate.cc
+2	2	ODIN_II/SRC/include/BLIF.hh
+3	0	ODIN_II/SRC/include/odin_types.h
+4	4	ODIN_II/SRC/include/subckt_types.h
+3	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+3	0	ODIN_II/SRC/netlist_utils.cpp
+1	3	ODIN_II/SRC/partial_map.cpp
+
+--4233bfc6e--2021-06-01--Seyed Alireza Damghani
+2	0	ODIN_II/SRC/BLIFReader.cc
+2	2	ODIN_II/SRC/blif_elaborate.cc
+1	1	ODIN_II/SRC/include/subckt_types.h
+
+--d5d3538f8--2021-06-01--Seyed Alireza Damghani
+2	0	ODIN_II/SRC/BLIFReader.cc
+256	11	ODIN_II/SRC/blif_elaborate.cc
+2	2	ODIN_II/SRC/include/subckt_types.h
+
+--650458023--2021-06-01--Seyed Alireza Damghani
+1	0	ODIN_II/SRC/BLIFReader.cc
+1	1	ODIN_II/SRC/blif_elaborate.cc
+
+--dafdb818d--2021-06-01--Seyed Alireza Damghani
+4	0	ODIN_II/SRC/BLIFReader.cc
+4	4	ODIN_II/SRC/blif_elaborate.cc
+4	4	ODIN_II/SRC/include/subckt_types.h
+
+--e006d285c--2021-06-01--Seyed Alireza Damghani
+15	3	ODIN_II/SRC/BLIFReader.cc
+464	10	ODIN_II/SRC/blif_elaborate.cc
+14	12	ODIN_II/SRC/enum_str.cpp
+18	15	ODIN_II/SRC/include/odin_types.h
+2	2	ODIN_II/SRC/include/subckt_types.h
+6	5	ODIN_II/SRC/netlist_utils.cpp
+14	16	ODIN_II/SRC/partial_map.cpp
+
+--f1651dd79--2021-05-31--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/BLIFReader.cc
+5	11	ODIN_II/SRC/blif_elaborate.cc
+1	1	ODIN_II/SRC/enum_str.cpp
+1	1	ODIN_II/SRC/include/odin_types.h
+1	1	ODIN_II/SRC/include/subckt_types.h
+13	5	ODIN_II/SRC/partial_map.cpp
+
+--1753b63c3--2021-05-31--Seyed Alireza Damghani
+2	0	ODIN_II/SRC/include/netlist_utils.h
+13	0	ODIN_II/SRC/netlist_utils.cpp
+
+--be18d4a52--2021-05-31--Seyed Alireza Damghani
+0	1	ODIN_II/SRC/BLIFReader.cc
+1	83	ODIN_II/SRC/blif_elaborate.cc
+1	1	ODIN_II/SRC/enum_str.cpp
+1	1	ODIN_II/SRC/include/odin_types.h
+1	0	ODIN_II/SRC/include/partial_map.h
+267	72	ODIN_II/SRC/partial_map.cpp
+
+--26627fda9--2021-05-30--Seyed Alireza Damghani
+2	1	ODIN_II/SRC/BLIFReader.cc
+4	6	ODIN_II/SRC/blif_elaborate.cc
+14	9	ODIN_II/SRC/enum_str.cpp
+2	1	ODIN_II/SRC/include/odin_types.h
+2	2	ODIN_II/SRC/include/subckt_types.h
+1	1	ODIN_II/SRC/partial_map.cpp
+
+--525d3fcf6--2021-05-30--Seyed Alireza Damghani
+39	26	ODIN_II/SRC/BLIFReader.cc
+1	1	ODIN_II/SRC/BLIFWriter.cc
+167	10	ODIN_II/SRC/blif_elaborate.cc
+2	0	ODIN_II/SRC/include/netlist_utils.h
+21	4	ODIN_II/SRC/include/odin_types.h
+1	1	ODIN_II/SRC/include/subckt_types.h
+2	2	ODIN_II/SRC/memories.cpp
+1	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+43	4	ODIN_II/SRC/netlist_utils.cpp
+1	1	ODIN_II/SRC/simulate_blif.cpp
+
+--6c297867a--2021-05-30--Seyed Alireza Damghani
+8	0	ODIN_II/SRC/BLIFReader.cc
+1	1	ODIN_II/SRC/adders.cpp
+160	2	ODIN_II/SRC/blif_elaborate.cc
+5	3	ODIN_II/SRC/include/odin_types.h
+1	1	ODIN_II/SRC/include/subckt_types.h
+1	0	ODIN_II/SRC/netlist_utils.cpp
+
+--89097ece3--2021-05-30--Seyed Alireza Damghani
+4	3	ODIN_II/SRC/adders.cpp
+2	2	ODIN_II/SRC/blif_elaborate.cc
+
+--666bcf5dc--2021-05-30--Seyed Alireza Damghani
+2	0	ODIN_II/SRC/BLIFReader.cc
+27	22	ODIN_II/SRC/blif_elaborate.cc
+
+--94c0829df--2021-05-30--Seyed Alireza Damghani
+4	4	ODIN_II/SRC/include/subckt_types.h
+
+--d263f8da7--2021-05-30--Seyed Alireza Damghani
+1	2	ODIN_II/SRC/BLIFReader.cc
+
+--2a19f676e--2021-05-30--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/adders.cpp
+56	41	ODIN_II/SRC/blif_elaborate.cc
+
+--173c09346--2021-05-28--Seyed Alireza Damghani
+4	2	ODIN_II/SRC/BLIFReader.cc
+6	152	ODIN_II/SRC/blif_elaborate.cc
+0	1	ODIN_II/SRC/include/odin_types.h
+5	5	ODIN_II/SRC/include/subckt_types.h
+
+--3bc367f32--2021-05-28--Seyed Alireza Damghani
+1	0	ODIN_II/SRC/BLIFReader.cc
+147	1	ODIN_II/SRC/blif_elaborate.cc
+1	0	ODIN_II/SRC/include/odin_types.h
+1	1	ODIN_II/SRC/include/subckt_types.h
+
+--b316e48a2--2021-05-28--Seyed Alireza Damghani
+7	12	ODIN_II/SRC/BLIFReader.cc
+
+--d4eae5098--2021-05-28--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/include/subckt_types.h
+
+--09ae7d239--2021-05-28--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/include/subckt_types.h
+5	5	ODIN_II/SRC/odin_ii.cpp
+
+--31e0ed446--2021-05-28--Seyed Alireza Damghani
+1	0	ODIN_II/SRC/BLIFReader.cc
+418	1	ODIN_II/SRC/blif_elaborate.cc
+1	0	ODIN_II/SRC/include/odin_types.h
+1	1	ODIN_II/SRC/include/subckt_types.h
+5	5	ODIN_II/SRC/odin_ii.cpp
+
+--ce6f434ec--2021-05-28--Seyed Alireza Damghani
+3	2	ODIN_II/SRC/BLIFReader.cc
+
+--20f813b27--2021-05-25--Seyed Alireza Damghani
+23	14	ODIN_II/SRC/BLIFReader.cc
+
+--972eb0c3b--2021-05-25--Seyed Alireza Damghani
+10	10	ODIN_II/SRC/enum_str.cpp
+9	9	ODIN_II/SRC/include/odin_types.h
+2	2	ODIN_II/SRC/include/odin_util.h
+225	225	ODIN_II/SRC/include/subckt_types.h
+0	1	ODIN_II/SRC/node_creation_library.cpp
+3	4	ODIN_II/SRC/odin_ii.cpp
+
+--440035531--2021-05-16--Seyed Alireza Damghani
+72	72	ODIN_II/SRC/blif_elaborate.cc
+
+--302d3587c--2021-05-16--Seyed Alireza Damghani
+44	27	ODIN_II/SRC/BLIFReader.cc
+2	2	ODIN_II/SRC/BLIFWriter.cc
+180	12	ODIN_II/SRC/blif_elaborate.cc
+4	1	ODIN_II/SRC/enum_str.cpp
+6	3	ODIN_II/SRC/include/BLIF.hh
+1	1	ODIN_II/SRC/include/node_creation_library.h
+7	2	ODIN_II/SRC/include/odin_types.h
+2	2	ODIN_II/SRC/include/subckt_types.h
+2	2	ODIN_II/SRC/memories.cpp
+1	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+3	1	ODIN_II/SRC/netlist_utils.cpp
+4	6	ODIN_II/SRC/node_creation_library.cpp
+1	1	ODIN_II/SRC/simulate_blif.cpp
+
+--99d8a152c--2021-05-15--Seyed Alireza Damghani
+1	0	ODIN_II/SRC/BLIFReader.cc
+1	1	ODIN_II/SRC/include/subckt_types.h
+
+--037bac646--2021-05-15--Seyed Alireza Damghani
+82	1	ODIN_II/SRC/BLIFReader.cc
+5	4	ODIN_II/SRC/blif_elaborate.cc
+20	0	ODIN_II/SRC/include/BLIF.hh
+
+--adbafdf97--2021-05-15--Seyed Alireza Damghani
+18	14	ODIN_II/SRC/BLIFReader.cc
+0	8	ODIN_II/SRC/BLIFWriter.cc
+3	0	ODIN_II/SRC/include/odin_globals.h
+1	0	ODIN_II/SRC/include/odin_types.h
+262	0	ODIN_II/SRC/include/subckt_types.h
+
+--c50d690b9--2021-05-10--Seyed Alireza Damghani
+8	25	ODIN_II/SRC/BLIFReader.cc
+47	9	ODIN_II/SRC/blif_elaborate.cc
+0	11	ODIN_II/SRC/include/BLIF.hh
+0	3	ODIN_II/SRC/netlist_utils.cpp
+8	0	ODIN_II/SRC/partial_map.cpp
+
+--5ba1a7db7--2021-05-10--Seyed Alireza Damghani
+12	9	ODIN_II/SRC/BLIFReader.cc
+2	2	ODIN_II/SRC/GenericReader.cc
+2	5	ODIN_II/SRC/netlist_utils.cpp
+17	19	ODIN_II/SRC/odin_ii.cpp
+
+--8266e4f82--2021-05-10--Seyed Alireza Damghani
+12	12	ODIN_II/SRC/BLIFReader.cc
+9	5	ODIN_II/SRC/BLIFWriter.cc
+13	9	ODIN_II/SRC/GenericReader.cc
+5	4	ODIN_II/SRC/GenericWriter.cc
+61	39	ODIN_II/SRC/blif_elaborate.cc
+2	2	ODIN_II/SRC/include/BLIF.hh
+0	3	ODIN_II/SRC/include/odin_globals.h
+0	1	ODIN_II/SRC/include/odin_types.h
+20	0	ODIN_II/SRC/odin_ii.cpp
+0	1	ODIN_II/SRC/parse_making_ast.cpp
+
+--4d40b01cb--2021-05-07--Seyed Alireza Damghani
+4	1	ODIN_II/SRC/GenericReader.cc
+4	1	ODIN_II/SRC/GenericWriter.cc
+
+--2128c4fa9--2021-05-07--Seyed Alireza Damghani
+4	2	ODIN_II/SRC/BLIFReader.cc
+
+--5318dd881--2021-05-06--Seyed Alireza Damghani
+51	3	ODIN_II/SRC/BLIFReader.cc
+8	0	ODIN_II/SRC/include/BLIF.hh
+
+--872f81a46--2021-05-06--Seyed Alireza Damghani
+4	3	ODIN_II/SRC/BLIFWriter.cc
+5	0	ODIN_II/SRC/GenericIO.cc
+35	2	ODIN_II/SRC/GenericWriter.cc
+1	3	ODIN_II/SRC/include/BLIF.hh
+3	0	ODIN_II/SRC/include/GenericIO.hh
+3	0	ODIN_II/SRC/include/GenericWriter.hh
+6	2	ODIN_II/SRC/odin_ii.cpp
+
+--5863f8e37--2021-05-06--Seyed Alireza Damghani
+26	8	ODIN_II/SRC/BLIFReader.cc
+
+--535c8b0de--2021-05-06--Seyed Alireza Damghani
+204	438	ODIN_II/SRC/BLIFReader.cc
+77	137	ODIN_II/SRC/include/BLIF.hh
+
+--b0e9e7d4a--2021-05-06--Seyed Alireza Damghani
+25	13	ODIN_II/SRC/BLIFReader.cc
+2	2	ODIN_II/SRC/GenericReader.cc
+2	3	ODIN_II/SRC/GenericWriter.cc
+2	2	ODIN_II/SRC/enum_str.cpp
+2	2	ODIN_II/SRC/include/odin_types.h
+11	0	ODIN_II/SRC/netlist_utils.cpp
+21	19	ODIN_II/SRC/odin_ii.cpp
+5	7	ODIN_II/SRC/odin_util.cpp
+7	11	ODIN_II/SRC/partial_map.cpp
+
+--6e6121da8--2021-05-05--Seyed Alireza Damghani
+0	2	ODIN_II/SRC/BLIF.cc
+2069	0	ODIN_II/SRC/BLIFReader.cc
+662	0	ODIN_II/SRC/BLIFWriter.cc
+0	721	ODIN_II/SRC/OdinBLIFReader.cc
+0	1119	ODIN_II/SRC/SubcktBLIFReader.cc
+15	13	ODIN_II/SRC/blif_elaborate.cc
+174	53	ODIN_II/SRC/include/BLIF.hh
+0	1092	ODIN_II/SRC/include/BLIFReader.cc
+0	662	ODIN_II/SRC/include/BLIFWriter.cc
+0	160	ODIN_II/SRC/include/OdinBLIFReader.hh
+0	256	ODIN_II/SRC/include/SubcktBLIFReader.hh
+0	35	ODIN_II/SRC/include/blif_types.hh
+1	2	ODIN_II/SRC/include/config_t.h
+0	1	ODIN_II/SRC/include/odin_error.h
+2	3	ODIN_II/SRC/include/odin_types.h
+14	32	ODIN_II/SRC/odin_ii.cpp
+
+--c185cef04--2021-05-04--Seyed Alireza Damghani
+1	4	ODIN_II/SRC/SubcktBLIFReader.cc
+20	7	ODIN_II/SRC/blif_elaborate.cc
+1	0	ODIN_II/SRC/include/odin_types.h
+
+--be290273c--2021-05-03--Seyed Alireza Damghani
+6	1644	ODIN_II/SRC/BLIF.cc
+1092	0	ODIN_II/SRC/include/BLIFReader.cc
+662	0	ODIN_II/SRC/include/BLIFWriter.cc
+6	6	ODIN_II/SRC/odin_ii.cpp
+
+--50cf14cda--2021-04-30--Seyed Alireza Damghani
+600	7	ODIN_II/SRC/BLIF.cc
+1	1	ODIN_II/SRC/GenericIO.cc
+8	4	ODIN_II/SRC/GenericReader.cc
+12	4	ODIN_II/SRC/GenericWriter.cc
+100	1	ODIN_II/SRC/include/BLIF.hh
+1	1	ODIN_II/SRC/include/GenericIO.hh
+1	1	ODIN_II/SRC/include/GenericReader.hh
+5	2	ODIN_II/SRC/include/GenericWriter.hh
+5	0	ODIN_II/SRC/include/OdinBLIFReader.hh
+5	0	ODIN_II/SRC/include/SubcktBLIFReader.hh
+4	3	ODIN_II/SRC/include/file_types.hh
+0	10	ODIN_II/SRC/include/output_blif.h
+2	5	ODIN_II/SRC/odin_ii.cpp
+0	589	ODIN_II/SRC/output_blif.cpp
+
+--aea4650e1--2021-04-29--Seyed Alireza Damghani
+1111	0	ODIN_II/SRC/BLIF.cc
+0	1085	ODIN_II/SRC/BLIFReader.cc
+2	3	ODIN_II/SRC/GenericIO.cc
+11	11	ODIN_II/SRC/GenericReader.cc
+65	0	ODIN_II/SRC/GenericWriter.cc
+2	2	ODIN_II/SRC/OdinBLIFReader.cc
+4	2	ODIN_II/SRC/SubcktBLIFReader.cc
+1	1	ODIN_II/SRC/VerilogReader.cc
+593	0	ODIN_II/SRC/blif_elaborate.cc
+0	587	ODIN_II/SRC/blif_elaborate.cpp
+409	0	ODIN_II/SRC/include/BLIF.hh
+0	376	ODIN_II/SRC/include/BLIFReader.hh
+2	2	ODIN_II/SRC/include/GenericIO.hh
+13	10	ODIN_II/SRC/include/GenericReader.hh
+72	0	ODIN_II/SRC/include/GenericWriter.hh
+3	3	ODIN_II/SRC/include/OdinBLIFReader.hh
+7	7	ODIN_II/SRC/include/SubcktBLIFReader.hh
+1	1	ODIN_II/SRC/include/VerilogReader.hh
+0	31	ODIN_II/SRC/include/blif_elaborate.h
+31	0	ODIN_II/SRC/include/blif_elaborate.hh
+1	0	ODIN_II/SRC/include/config_t.h
+1	1	ODIN_II/SRC/include/odin_types.h
+1	1	ODIN_II/SRC/include/output_blif.h
+11	5	ODIN_II/SRC/odin_ii.cpp
+3	3	ODIN_II/SRC/output_blif.cpp
+
+--50d54cd44--2021-04-28--Seyed Alireza Damghani
+7	8	ODIN_II/SRC/include/GenericReader.hh
+1	1	ODIN_II/SRC/odin_ii.cpp
+
+--caebcd731--2021-04-28--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/odin_ii.cpp
+
+--64bd618d6--2021-04-28--Seyed Alireza Damghani
+1085	0	ODIN_II/SRC/BLIFReader.cc
+41	0	ODIN_II/SRC/GenericIO.cc
+77	0	ODIN_II/SRC/GenericReader.cc
+721	0	ODIN_II/SRC/OdinBLIFReader.cc
+1120	0	ODIN_II/SRC/SubcktBLIFReader.cc
+58	0	ODIN_II/SRC/VerilogReader.cc
+2	2	ODIN_II/SRC/blif_elaborate.cpp
+376	0	ODIN_II/SRC/include/BLIFReader.hh
+52	0	ODIN_II/SRC/include/GenericIO.hh
+70	0	ODIN_II/SRC/include/GenericReader.hh
+155	0	ODIN_II/SRC/include/OdinBLIFReader.hh
+251	0	ODIN_II/SRC/include/SubcktBLIFReader.hh
+50	0	ODIN_II/SRC/include/VerilogReader.hh
+0	10	ODIN_II/SRC/include/blif_type.h
+35	0	ODIN_II/SRC/include/blif_types.hh
+6	4	ODIN_II/SRC/include/config_t.h
+35	0	ODIN_II/SRC/include/file_types.hh
+10	0	ODIN_II/SRC/include/odin_ii.h
+3	1	ODIN_II/SRC/include/odin_types.h
+1	0	ODIN_II/SRC/include/odin_util.h
+0	94	ODIN_II/SRC/include/read_blif.h
+0	12	ODIN_II/SRC/include/read_yosys_blif.h
+42	192	ODIN_II/SRC/odin_ii.cpp
+16	0	ODIN_II/SRC/odin_util.cpp
+0	1539	ODIN_II/SRC/read_blif.cpp
+1	1	ODIN_II/SRC/read_xml_config_file.cpp
+0	1168	ODIN_II/SRC/read_yosys_blif.cpp
+217	0	ODIN_II/SRC/string_cache.cc
+0	217	ODIN_II/SRC/string_cache.cpp
+
+--3f8581281--2021-04-27--Seyed Alireza Damghani
+6	4	ODIN_II/SRC/blif_elaborate.cpp
+1	0	ODIN_II/SRC/enum_str.cpp
+1	0	ODIN_II/SRC/include/odin_types.h
+3	0	ODIN_II/SRC/partial_map.cpp
+3	3	ODIN_II/SRC/read_yosys_blif.cpp
+
+--e7e067382--2021-04-26--Seyed Alireza Damghani
+2	8	ODIN_II/SRC/blif_elaborate.cpp
+1	0	ODIN_II/SRC/parse_making_ast.cpp
+2	5	ODIN_II/SRC/read_blif.cpp
+9	6	ODIN_II/SRC/read_yosys_blif.cpp
+
+--084791056--2021-04-26--Seyed Alireza Damghani
+16	14	ODIN_II/SRC/blif_elaborate.cpp
+3	3	ODIN_II/SRC/read_yosys_blif.cpp
+
+--f60d26dd1--2021-04-26--Seyed Alireza Damghani
+1	3	ODIN_II/SRC/blif_elaborate.cpp
+137	32	ODIN_II/SRC/read_yosys_blif.cpp
+
+--d09abcb4f--2021-04-26--Seyed Alireza Damghani
+215	8	ODIN_II/SRC/blif_elaborate.cpp
+1	0	ODIN_II/SRC/include/odin_error.h
+4	0	ODIN_II/SRC/include/odin_globals.h
+1	0	ODIN_II/SRC/include/partial_map.h
+9	8	ODIN_II/SRC/include/read_blif.h
+5	1	ODIN_II/SRC/odin_ii.cpp
+89	1	ODIN_II/SRC/partial_map.cpp
+45	21	ODIN_II/SRC/read_blif.cpp
+158	71	ODIN_II/SRC/read_yosys_blif.cpp
+
+--1a26f20b9--2021-04-16--Seyed Alireza Damghani
+11	10	ODIN_II/SRC/blif_elaborate.cpp
+2	0	ODIN_II/SRC/include/odin_util.h
+6	0	ODIN_II/SRC/odin_util.cpp
+358	94	ODIN_II/SRC/read_yosys_blif.cpp
+
+--774c4f82b--2021-04-06--Seyed Alireza Damghani
+154	39	ODIN_II/SRC/blif_elaborate.cpp
+2	0	ODIN_II/SRC/include/odin_error.h
+1	0	ODIN_II/SRC/odin_error.cpp
+40	7	ODIN_II/SRC/read_yosys_blif.cpp
+
+--164fc7398--2021-04-06--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/blif_elaborate.cpp
+85	0	ODIN_II/SRC/include/read_blif.h
+12	0	ODIN_II/SRC/include/read_yosys_blif.h
+2	1	ODIN_II/SRC/odin_ii.cpp
+16	231	ODIN_II/SRC/read_blif.cpp
+676	0	ODIN_II/SRC/read_yosys_blif.cpp
+
+--116e28c03--2021-04-05--Seyed Alireza Damghani
+13	3	ODIN_II/SRC/blif_elaborate.cpp
+1	1	ODIN_II/SRC/read_blif.cpp
+
+--b9c1078a6--2021-04-05--Seyed Alireza Damghani
+73	12	ODIN_II/SRC/read_blif.cpp
+
+--12fbb0463--2021-04-05--Seyed Alireza Damghani
+23	6	ODIN_II/SRC/odin_ii.cpp
+
+--d99003952--2021-04-05--Seyed Alireza Damghani
+2	2	ODIN_II/SRC/adders.cpp
+60	164	ODIN_II/SRC/blif_elaborate.cpp
+10	0	ODIN_II/SRC/include/blif_type.h
+3	0	ODIN_II/SRC/include/config_t.h
+3	1	ODIN_II/SRC/include/odin_types.h
+26	6	ODIN_II/SRC/odin_ii.cpp
+52	37	ODIN_II/SRC/read_blif.cpp
+
+--f63c1c45a--2021-04-05--Seyed Alireza Damghani
+8	0	ODIN_II/SRC/adders.cpp
+362	0	ODIN_II/SRC/blif_elaborate.cpp
+31	0	ODIN_II/SRC/include/blif_elaborate.h
+1	0	ODIN_II/SRC/include/config_t.h
+1	0	ODIN_II/SRC/include/odin_types.h
+142	9	ODIN_II/SRC/odin_ii.cpp
+62	5	ODIN_II/SRC/read_blif.cpp
+
+--45e7cf4fc--2021-06-02--Seyed Alireza Damghani
+76	8	ODIN_II/SRC/subtractions.cpp
+
+--0e6271b06--2021-05-30--Xiretza
+4	3	ODIN_II/SRC/include/odin_error.h
+16	16	ODIN_II/SRC/odin_error.cpp
+
+--469bccf62--2021-02-08--Seyed Alireza Damghani
+5	2	ODIN_II/SRC/ast_elaborate.cpp
+
+--1f016b581--2021-04-17--Seyed Alireza Damghani
+29	6	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--aeddc0229--2021-03-30--Harpreet Kaur
+1	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+1	1	ODIN_II/SRC/odin_ii.cpp
+
+--d76602656--2021-03-25--Seyed Alireza Damghani
+19	3	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--12d3a8a4d--2021-03-15--Seyed Alireza Damghani
+17	9	ODIN_II/SRC/implicit_memory.cpp
+4	2	ODIN_II/SRC/memories.cpp
+
+--b0debed51--2021-03-05--Seyed Alireza Damghani
+0	6	ODIN_II/SRC/ast_elaborate.cpp
+3	0	ODIN_II/SRC/ast_util.cpp
+2	0	ODIN_II/SRC/include/netlist_utils.h
+2	0	ODIN_II/SRC/memories.cpp
+396	297	ODIN_II/SRC/netlist_create_from_ast.cpp
+103	0	ODIN_II/SRC/netlist_utils.cpp
+1	1	ODIN_II/SRC/partial_map.cpp
+
+--f38aa8f3e--2021-02-02--Seyed Alireza Damghani
+36	3	ODIN_II/SRC/implicit_memory.cpp
+1	0	ODIN_II/SRC/include/implicit_memory.h
+129	14	ODIN_II/SRC/netlist_create_from_ast.cpp
+9	1	ODIN_II/SRC/netlist_utils.cpp
+
+--f2d12b8df--2021-01-15--Seyed Alireza Damghani
+26	20	ODIN_II/SRC/ast_elaborate.cpp
+1	0	ODIN_II/SRC/ast_util.cpp
+2	11	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--312a8d90f--2020-09-11--Georgiy Krylov
+1	1	ODIN_II/SRC/odin_ii.cpp
+23	0	ODIN_II/SRC/read_xml_config_file.cpp
+
+--08f054c85--2020-10-05--Georgiy Krylov
+6	12	ODIN_II/SRC/MixingOptimization.cpp
+1	1	ODIN_II/SRC/include/MixingOptimization.hpp
+1	2	ODIN_II/SRC/netlist_statistic.cpp
+
+--b9e0e9f48--2020-09-17--s.alireza.damghani@unb.ca
+181	90	ODIN_II/SRC/netlist_create_from_ast.cpp
+1	0	ODIN_II/SRC/netlist_utils.cpp
+127	117	ODIN_II/SRC/partial_map.cpp
+
+--869501dbd--2020-09-08--djns1
+3	3	ODIN_II/SRC/simulate_blif.cpp
+
+--0d731c1ac--2020-07-04--djns1
+5	5	ODIN_II/SRC/Hashtable.cpp
+22	22	ODIN_II/SRC/adders.cpp
+12	7	ODIN_II/SRC/hard_blocks.cpp
+1	0	ODIN_II/SRC/include/node_creation_library.h
+2	1	ODIN_II/SRC/include/odin_types.h
+7	7	ODIN_II/SRC/memories.cpp
+8	6	ODIN_II/SRC/multipliers.cpp
+35	27	ODIN_II/SRC/netlist_check.cpp
+4	3	ODIN_II/SRC/netlist_cleanup.cpp
+49	42	ODIN_II/SRC/netlist_create_from_ast.cpp
+5	4	ODIN_II/SRC/netlist_statistic.cpp
+39	16	ODIN_II/SRC/netlist_utils.cpp
+16	14	ODIN_II/SRC/netlist_visualizer.cpp
+9	3	ODIN_II/SRC/node_creation_library.cpp
+3	3	ODIN_II/SRC/odin_ii.cpp
+107	26	ODIN_II/SRC/output_blif.cpp
+33	29	ODIN_II/SRC/partial_map.cpp
+11	9	ODIN_II/SRC/read_blif.cpp
+136	69	ODIN_II/SRC/simulate_blif.cpp
+12	8	ODIN_II/SRC/subtractions.cpp
+
+--994135fb1--2020-08-25--jeanlego (Jean-Philippe Legault)
+6	6	ODIN_II/SRC/ast_elaborate.cpp
+1	1	ODIN_II/SRC/ast_util.cpp
+
+--4a7c900d9--2020-08-21--emacdo12
+1	0	ODIN_II/SRC/include/parse_making_ast.h
+55	23	ODIN_II/SRC/parse_making_ast.cpp
+
+--b19fa416e--2020-08-21--jeanlego (Jean-Philippe Legault)
+3	3	ODIN_II/SRC/include/MixingOptimization.hpp
+1	1	ODIN_II/SRC/include/netlist_statistic.h
+
+--f3ff95695--2020-08-03--Georgiy Krylov
+6	0	ODIN_II/SRC/include/odin_globals.h
+4	0	ODIN_II/SRC/include/odin_types.h
+24	2	ODIN_II/SRC/odin_ii.cpp
+1	6	ODIN_II/SRC/partial_map.cpp
+
+--a304b42f6--2020-08-04--Georgiy Krylov
+74	0	ODIN_II/SRC/HardSoftLogicMixer.cpp
+178	0	ODIN_II/SRC/MixingOptimization.cpp
+96	0	ODIN_II/SRC/include/HardSoftLogicMixer.hpp
+230	0	ODIN_II/SRC/include/MixingOptimization.hpp
+14	0	ODIN_II/SRC/include/netlist_statistic.h
+6	0	ODIN_II/SRC/include/odin_types.h
+19	0	ODIN_II/SRC/netlist_statistic.cpp
+5	1	ODIN_II/SRC/simulate_blif.cpp
+
+--d76c68400--2020-08-21--jeanlego (Jean-Philippe Legault)
+27	18	ODIN_II/SRC/ast_util.cpp
+1	1	ODIN_II/SRC/implicit_memory.cpp
+8	17	ODIN_II/SRC/netlist_create_from_ast.cpp
+1	1	ODIN_II/SRC/read_blif.cpp
+
+--23fd3c681--2020-08-19--emacdo12
+11	6	ODIN_II/SRC/adders.cpp
+152	163	ODIN_II/SRC/ast_elaborate.cpp
+2	2	ODIN_II/SRC/ast_loop_unroll.cpp
+50	48	ODIN_II/SRC/ast_util.cpp
+2	2	ODIN_II/SRC/hard_blocks.cpp
+1	1	ODIN_II/SRC/hierarchy_util.cpp
+11	11	ODIN_II/SRC/implicit_memory.cpp
+1	0	ODIN_II/SRC/include/odin_types.h
+14	14	ODIN_II/SRC/memories.cpp
+4	4	ODIN_II/SRC/multipliers.cpp
+362	362	ODIN_II/SRC/netlist_create_from_ast.cpp
+138	91	ODIN_II/SRC/parse_making_ast.cpp
+1	1	ODIN_II/SRC/partial_map.cpp
+2	2	ODIN_II/SRC/read_blif.cpp
+1	1	ODIN_II/SRC/verilog_flex.l
+
+--f34d28c3a--2020-08-19--jeanlego (Jean-Philippe Legault)
+165	6	ODIN_II/SRC/verilog_bison.y
+0	1	ODIN_II/SRC/verilog_flex.l
+
+--4fcdd9426--2020-08-06--jeanlego (Jean-Philippe Legault)
+30	40	ODIN_II/SRC/odin_error.cpp
+
+--28f0a51c1--2020-08-06--jeanlego (Jean-Philippe Legault)
+0	1	ODIN_II/SRC/ast_elaborate.cpp
+0	1	ODIN_II/SRC/ast_util.cpp
+0	1	ODIN_II/SRC/enum_str.cpp
+0	2	ODIN_II/SRC/include/odin_types.h
+4	6	ODIN_II/SRC/netlist_create_from_ast.cpp
+25	62	ODIN_II/SRC/parse_making_ast.cpp
+5	6	ODIN_II/SRC/verilog_bison.y
+
+--cbd6258a1--2020-08-06--jeanlego (Jean-Philippe Legault)
+6	7	ODIN_II/SRC/ast_elaborate.cpp
+1	1	ODIN_II/SRC/ast_util.cpp
+1	1	ODIN_II/SRC/include/odin_types.h
+3	3	ODIN_II/SRC/include/parse_making_ast.h
+85	131	ODIN_II/SRC/parse_making_ast.cpp
+56	45	ODIN_II/SRC/verilog_bison.y
+
+--36cfd4c8b--2020-08-06--jeanlego (Jean-Philippe Legault)
+3	3	ODIN_II/SRC/verilog_bison.y
+
+--a6182d5d7--2020-08-06--jeanlego (Jean-Philippe Legault)
+233	233	ODIN_II/SRC/verilog_flex.l
+
+--7dd958087--2020-08-06--jeanlego (Jean-Philippe Legault)
+9	1	ODIN_II/SRC/enum_str.cpp
+9	0	ODIN_II/SRC/include/odin_types.h
+294	37	ODIN_II/SRC/verilog_bison.y
+705	633	ODIN_II/SRC/verilog_flex.l
+
+--d4ea40548--2020-08-04--emacdo12
+1	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--efdb61071--2020-07-16--emacdo12
+20	8	ODIN_II/SRC/ast_elaborate.cpp
+70	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--f617a87ee--2020-07-18--emacdo12
+17	21	ODIN_II/SRC/ast_elaborate.cpp
+3	1	ODIN_II/SRC/parse_making_ast.cpp
+
+--3e3118d8a--2020-07-20--jeanlego (Jean-Philippe Legault)
+2	5	ODIN_II/SRC/simulate_blif.cpp
+
+--bf84ff46d--2020-07-19--jeanlego (Jean-Philippe Legault)
+5	0	ODIN_II/SRC/ast_util.cpp
+1	0	ODIN_II/SRC/enum_str.cpp
+1	0	ODIN_II/SRC/include/odin_types.h
+3	2	ODIN_II/SRC/netlist_create_from_ast.cpp
+1	0	ODIN_II/SRC/output_blif.cpp
+2	1	ODIN_II/SRC/partial_map.cpp
+174	392	ODIN_II/SRC/simulate_blif.cpp
+3	2	ODIN_II/SRC/verilog_bison.y
+1	1	ODIN_II/SRC/verilog_flex.l
+
+--b1863a976--2020-07-18--jeanlego (Jean-Philippe Legault)
+1	1	ODIN_II/SRC/include/odin_types.h
+2	3	ODIN_II/SRC/include/simulate_blif.h
+180	170	ODIN_II/SRC/simulate_blif.cpp
+
+--f09143a8a--2020-07-18--jeanlego (Jean-Philippe Legault)
+0	1	ODIN_II/SRC/ast_util.cpp
+1	7	ODIN_II/SRC/include/AtomicBuffer.hpp
+14	10	ODIN_II/SRC/include/odin_types.h
+1	0	ODIN_II/SRC/include/simulate_blif.h
+29	66	ODIN_II/SRC/netlist_create_from_ast.cpp
+2	5	ODIN_II/SRC/netlist_utils.cpp
+1	1	ODIN_II/SRC/odin_ii.cpp
+1	11	ODIN_II/SRC/output_blif.cpp
+1	13	ODIN_II/SRC/read_blif.cpp
+68	76	ODIN_II/SRC/simulate_blif.cpp
+
+--fa684729a--2020-07-15--jeanlego
+2	2	ODIN_II/SRC/adders.cpp
+65	65	ODIN_II/SRC/ast_elaborate.cpp
+5	5	ODIN_II/SRC/ast_loop_unroll.cpp
+70	92	ODIN_II/SRC/ast_util.cpp
+1	1	ODIN_II/SRC/hard_blocks.cpp
+7	7	ODIN_II/SRC/implicit_memory.cpp
+8	10	ODIN_II/SRC/include/ast_util.h
+1	1	ODIN_II/SRC/include/implicit_memory.h
+1	1	ODIN_II/SRC/include/netlist_check.h
+7	5	ODIN_II/SRC/include/netlist_utils.h
+1	1	ODIN_II/SRC/include/node_creation_library.h
+20	12	ODIN_II/SRC/include/odin_error.h
+1	3	ODIN_II/SRC/include/odin_globals.h
+4	7	ODIN_II/SRC/include/odin_types.h
+2	2	ODIN_II/SRC/include/odin_util.h
+54	54	ODIN_II/SRC/include/parse_making_ast.h
+24	24	ODIN_II/SRC/memories.cpp
+15	15	ODIN_II/SRC/multipliers.cpp
+10	19	ODIN_II/SRC/netlist_check.cpp
+119	122	ODIN_II/SRC/netlist_create_from_ast.cpp
+14	12	ODIN_II/SRC/netlist_utils.cpp
+9	9	ODIN_II/SRC/node_creation_library.cpp
+19	18	ODIN_II/SRC/odin_error.cpp
+5	4	ODIN_II/SRC/odin_ii.cpp
+16	16	ODIN_II/SRC/odin_util.cpp
+5	7	ODIN_II/SRC/output_blif.cpp
+211	211	ODIN_II/SRC/parse_making_ast.cpp
+4	4	ODIN_II/SRC/partial_map.cpp
+40	46	ODIN_II/SRC/read_blif.cpp
+1	1	ODIN_II/SRC/read_xml_config_file.cpp
+86	81	ODIN_II/SRC/simulate_blif.cpp
+3	3	ODIN_II/SRC/subtractions.cpp
+181	181	ODIN_II/SRC/verilog_bison.y
+39	38	ODIN_II/SRC/verilog_flex.l
+
+--256afea85--2020-07-11--jeanlego (Jean-Philippe Legault)
+17	46	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--b24575f79--2020-07-11--jeanlego
+12	1	ODIN_II/SRC/verilog_flex.l
+
+--6bd71848c--2020-07-09--jeanlego
+0	3	ODIN_II/SRC/odin_ii.cpp
+
+--6af4a382f--2020-07-07--jeanlego
+2	0	ODIN_II/SRC/verilog_bison.y
+
+--21aeca560--2020-06-03--emacdo12
+37	24	ODIN_II/SRC/ast_util.cpp
+
+--1bace21dd--2020-06-04--s.alireza.damghani@unb.ca
+1	1	ODIN_II/SRC/adders.cpp
+
+--627a9e138--2020-05-27--emacdo12
+1	0	ODIN_II/SRC/include/odin_util.h
+51	0	ODIN_II/SRC/odin_util.cpp
+1	1	ODIN_II/SRC/simulate_blif.cpp
+
+--bd6d43c03--2020-05-25--jeanlego
+3	3	ODIN_II/SRC/ast_elaborate.cpp
+5	5	ODIN_II/SRC/ast_util.cpp
+
+--f9611e1a5--2020-05-21--jeanlego (Jean-Philippe Legault)
+3	2	ODIN_II/SRC/include/odin_types.h
+10	0	ODIN_II/SRC/odin_ii.cpp
+11	3	ODIN_II/SRC/verilog_flex.l
+
+--e5f0d9087--2020-05-21--jeanlego (Jean-Philippe Legault)
+1	0	ODIN_II/SRC/include/odin_util.h
+31	0	ODIN_II/SRC/odin_util.cpp
+8	1	ODIN_II/SRC/verilog_bison.y
+58	10	ODIN_II/SRC/verilog_flex.l
+
+--811cd4a69--2020-05-20--jeanlego (Jean-Philippe Legault)
+30	13	ODIN_II/SRC/ast_elaborate.cpp
+178	2	ODIN_II/SRC/ast_util.cpp
+5	1	ODIN_II/SRC/enum_str.cpp
+3	0	ODIN_II/SRC/include/ast_util.h
+7	3	ODIN_II/SRC/include/odin_types.h
+7	0	ODIN_II/SRC/include/parse_making_ast.h
+15	6	ODIN_II/SRC/netlist_create_from_ast.cpp
+42	3	ODIN_II/SRC/parse_making_ast.cpp
+1	1	ODIN_II/SRC/simulate_blif.cpp
+20	9	ODIN_II/SRC/verilog_bison.y
+13	10	ODIN_II/SRC/verilog_flex.l
+
+--db73ae194--2020-05-15--djns1
+8	15	ODIN_II/SRC/include/odin_error.h
+67	28	ODIN_II/SRC/odin_error.cpp
+
+--d92f36fd4--2020-04-08--Dusty DeWeese
+1	0	ODIN_II/SRC/include/Hashtable.hpp
+3	3	ODIN_II/SRC/odin_ii.cpp
+1	0	ODIN_II/SRC/parse_making_ast.cpp
+
+--f09c9f815--2020-05-03--jeanlego (Jean-Philippe Legault)
+1	1	ODIN_II/SRC/adders.cpp
+51	51	ODIN_II/SRC/ast_elaborate.cpp
+4	4	ODIN_II/SRC/ast_loop_unroll.cpp
+16	16	ODIN_II/SRC/ast_util.cpp
+1	1	ODIN_II/SRC/hard_blocks.cpp
+4	4	ODIN_II/SRC/implicit_memory.cpp
+21	23	ODIN_II/SRC/include/odin_error.h
+12	12	ODIN_II/SRC/memories.cpp
+2	2	ODIN_II/SRC/multipliers.cpp
+6	6	ODIN_II/SRC/netlist_check.cpp
+95	95	ODIN_II/SRC/netlist_create_from_ast.cpp
+11	11	ODIN_II/SRC/netlist_utils.cpp
+2	2	ODIN_II/SRC/node_creation_library.cpp
+26	30	ODIN_II/SRC/odin_error.cpp
+2	2	ODIN_II/SRC/odin_ii.cpp
+14	14	ODIN_II/SRC/odin_util.cpp
+5	5	ODIN_II/SRC/output_blif.cpp
+52	52	ODIN_II/SRC/parse_making_ast.cpp
+4	4	ODIN_II/SRC/partial_map.cpp
+8	8	ODIN_II/SRC/read_blif.cpp
+1	1	ODIN_II/SRC/read_xml_config_file.cpp
+66	66	ODIN_II/SRC/simulate_blif.cpp
+1	1	ODIN_II/SRC/subtractions.cpp
+1	1	ODIN_II/SRC/verilog_bison.y
+7	7	ODIN_II/SRC/verilog_flex.l
+
+--78b210fee--2020-04-14--kmurray
+1	0	ODIN_II/SRC/include/Hashtable.hpp
+
+--3c6dca5a4--2020-03-30--shrey
+56	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--f3fac85f1--2020-03-31--djns1
+13	0	ODIN_II/SRC/ast_util.cpp
+2	0	ODIN_II/SRC/include/ast_util.h
+2	2	ODIN_II/SRC/parse_making_ast.cpp
+
+--479b99d20--2020-03-23--djns1
+53	55	ODIN_II/SRC/verilog_flex.l
+
+--60afe6bdd--2020-03-23--jeanlego (Jean-Philippe Legault)
+15	5	ODIN_II/SRC/include/odin_error.h
+3	3	ODIN_II/SRC/include/parse_making_ast.h
+1	2	ODIN_II/SRC/odin_error.cpp
+12	10	ODIN_II/SRC/parse_making_ast.cpp
+31	21	ODIN_II/SRC/verilog_bison.y
+1	6	ODIN_II/SRC/verilog_flex.l
+
+--4fc826040--2020-03-18--jeanlego (Jean-Philippe Legault)
+1	2	ODIN_II/SRC/odin_ii.cpp
+
+--fd8304769--2020-03-13--djns1
+1	0	ODIN_II/SRC/verilog_flex.l
+
+--ab5af4971--2020-03-03--jeanlego (Jean-Philippe Legault)
+19	13	ODIN_II/SRC/ast_elaborate.cpp
+1	1	ODIN_II/SRC/ast_util.cpp
+2	2	ODIN_II/SRC/include/netlist_visualizer.h
+1	1	ODIN_II/SRC/include/odin_buffer.hpp
+16	16	ODIN_II/SRC/multipliers.cpp
+4	4	ODIN_II/SRC/netlist_check.cpp
+2	10	ODIN_II/SRC/netlist_statistic.cpp
+2	2	ODIN_II/SRC/netlist_utils.cpp
+10	10	ODIN_II/SRC/netlist_visualizer.cpp
+4	3	ODIN_II/SRC/odin_error.cpp
+2	2	ODIN_II/SRC/odin_util.cpp
+2	2	ODIN_II/SRC/output_blif.cpp
+2	2	ODIN_II/SRC/partial_map.cpp
+5	34	ODIN_II/SRC/simulate_blif.cpp
+
+--0d12aa340--2020-02-27--jeanlego (Jean-Philippe Legault)
+1	2	ODIN_II/SRC/enum_str.cpp
+17	0	ODIN_II/SRC/include/netlist_statistic.h
+1	0	ODIN_II/SRC/include/odin_error.h
+2	0	ODIN_II/SRC/include/odin_globals.h
+24	4	ODIN_II/SRC/include/odin_types.h
+5	1	ODIN_II/SRC/include/output_blif.h
+490	0	ODIN_II/SRC/netlist_statistic.cpp
+2	0	ODIN_II/SRC/odin_error.cpp
+68	9	ODIN_II/SRC/odin_ii.cpp
+9	8	ODIN_II/SRC/output_blif.cpp
+0	1	ODIN_II/SRC/simulate_blif.cpp
+3	2	ODIN_II/SRC/verilog_flex.l
+
+--0d410867a--2020-02-24--jeanlego (Jean-Philippe Legault)
+5	4	ODIN_II/SRC/include/config_t.h
+23	15	ODIN_II/SRC/odin_ii.cpp
+1	10	ODIN_II/SRC/odin_util.cpp
+1	0	ODIN_II/SRC/read_xml_config_file.cpp
+
+--cbf7ad513--2020-02-19--jeanlego (Jean-Philippe Legault)
+1	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--78730bce7--2020-02-18--jeanlego (Jean-Philippe Legault)
+68	73	ODIN_II/SRC/parse_making_ast.cpp
+57	34	ODIN_II/SRC/verilog_flex.l
+
+--830e6dc0f--2020-02-18--jeanlego (Jean-Philippe Legault)
+79	10	ODIN_II/SRC/ast_elaborate.cpp
+41	3	ODIN_II/SRC/ast_util.cpp
+4	2	ODIN_II/SRC/include/ast_elaborate.h
+5	1	ODIN_II/SRC/include/ast_util.h
+26	1	ODIN_II/SRC/include/netlist_create_from_ast.h
+1	3	ODIN_II/SRC/include/odin_globals.h
+9	2	ODIN_II/SRC/include/odin_types.h
+1	5	ODIN_II/SRC/include/parse_making_ast.h
+38	113	ODIN_II/SRC/netlist_create_from_ast.cpp
+66	58	ODIN_II/SRC/odin_ii.cpp
+1	1	ODIN_II/SRC/output_blif.cpp
+12	11	ODIN_II/SRC/parse_making_ast.cpp
+
+--d36a0eff1--2020-02-15--jeanlego (Jean-Philippe Legault)
+7	4	ODIN_II/SRC/parse_making_ast.cpp
+
+--500b30659--2020-02-15--jeanlego (Jean-Philippe Legault)
+88	87	ODIN_II/SRC/parse_making_ast.cpp
+
+--3a75c7a5f--2020-02-12--jeanlego (Jean-Philippe Legault)
+4	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--84ce26771--2020-02-11--Shreyv
+5	0	ODIN_II/SRC/ast_util.cpp
+4	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+3	2	ODIN_II/SRC/output_blif.cpp
+7	1	ODIN_II/SRC/simulate_blif.cpp
+2	1	ODIN_II/SRC/verilog_bison.y
+
+--f1675e937--2020-02-03--VTR Robot
+43	49	ODIN_II/SRC/Hashtable.cpp
+1029	1285	ODIN_II/SRC/adders.cpp
+2465	2927	ODIN_II/SRC/ast_elaborate.cpp
+326	410	ODIN_II/SRC/ast_loop_unroll.cpp
+1062	1266	ODIN_II/SRC/ast_util.cpp
+167	177	ODIN_II/SRC/enum_str.cpp
+296	346	ODIN_II/SRC/hard_blocks.cpp
+255	312	ODIN_II/SRC/hierarchy_util.cpp
+260	293	ODIN_II/SRC/implicit_memory.cpp
+103	118	ODIN_II/SRC/include/AtomicBuffer.hpp
+35	37	ODIN_II/SRC/include/Hashtable.hpp
+58	59	ODIN_II/SRC/include/adders.h
+23	23	ODIN_II/SRC/include/ast_elaborate.h
+4	9	ODIN_II/SRC/include/ast_loop_unroll.h
+33	33	ODIN_II/SRC/include/ast_util.h
+37	38	ODIN_II/SRC/include/config_t.h
+29	31	ODIN_II/SRC/include/hard_blocks.h
+23	25	ODIN_II/SRC/include/hierarchy_util.h
+36	36	ODIN_II/SRC/include/implicit_memory.h
+77	80	ODIN_II/SRC/include/memories.h
+37	39	ODIN_II/SRC/include/multipliers.h
+2	2	ODIN_II/SRC/include/netlist_check.h
+1	1	ODIN_II/SRC/include/netlist_cleanup.h
+2	2	ODIN_II/SRC/include/netlist_create_from_ast.h
+44	47	ODIN_II/SRC/include/netlist_utils.h
+2	2	ODIN_II/SRC/include/netlist_visualizer.h
+15	16	ODIN_II/SRC/include/node_creation_library.h
+68	105	ODIN_II/SRC/include/odin_buffer.hpp
+27	31	ODIN_II/SRC/include/odin_error.h
+17	19	ODIN_II/SRC/include/odin_globals.h
+3	3	ODIN_II/SRC/include/odin_ii.h
+74	96	ODIN_II/SRC/include/odin_memory.hpp
+444	469	ODIN_II/SRC/include/odin_types.h
+40	44	ODIN_II/SRC/include/odin_util.h
+1	2	ODIN_II/SRC/include/output_blif.h
+58	59	ODIN_II/SRC/include/parse_making_ast.h
+26	27	ODIN_II/SRC/include/partial_map.h
+1	2	ODIN_II/SRC/include/read_blif.h
+24	25	ODIN_II/SRC/include/read_xml_config_file.h
+9	10	ODIN_II/SRC/include/scope_util.h
+8	8	ODIN_II/SRC/include/sim_block.h
+90	99	ODIN_II/SRC/include/simulate_blif.h
+18	19	ODIN_II/SRC/include/string_cache.h
+27	28	ODIN_II/SRC/include/subtractions.h
+1525	1680	ODIN_II/SRC/memories.cpp
+952	1084	ODIN_II/SRC/multipliers.cpp
+650	768	ODIN_II/SRC/netlist_check.cpp
+166	171	ODIN_II/SRC/netlist_cleanup.cpp
+4762	5479	ODIN_II/SRC/netlist_create_from_ast.cpp
+702	828	ODIN_II/SRC/netlist_utils.cpp
+290	347	ODIN_II/SRC/netlist_visualizer.cpp
+202	218	ODIN_II/SRC/node_creation_library.cpp
+88	106	ODIN_II/SRC/odin_error.cpp
+501	573	ODIN_II/SRC/odin_ii.cpp
+14	19	ODIN_II/SRC/odin_memory.cpp
+627	731	ODIN_II/SRC/odin_util.cpp
+432	511	ODIN_II/SRC/output_blif.cpp
+1480	1747	ODIN_II/SRC/parse_making_ast.cpp
+877	1020	ODIN_II/SRC/partial_map.cpp
+1374	1598	ODIN_II/SRC/read_blif.cpp
+195	240	ODIN_II/SRC/read_xml_config_file.cpp
+35	51	ODIN_II/SRC/scope_util.cpp
+2643	3040	ODIN_II/SRC/simulate_blif.cpp
+97	132	ODIN_II/SRC/string_cache.cpp
+553	662	ODIN_II/SRC/subtractions.cpp
+
+--52d025165--2019-11-28--MohamedEldafrawy
+1	1	ODIN_II/SRC/multipliers.cpp
+
+--0e9471f91--2019-11-28--MohamedEldafrawy
+1	1	ODIN_II/SRC/multipliers.cpp
+
+--c386f65de--2019-11-20--kmurray
+0	0	ODIN_II/SRC/Makefile
+0	0	ODIN_II/SRC/activity_estimation.c
+0	0	ODIN_II/SRC/activity_estimation.h
+961	0	ODIN_II/SRC/adders.c
+67	0	ODIN_II/SRC/adders.h
+0	0	ODIN_II/SRC/ast_optimizations.h
+67	14	ODIN_II/SRC/ast_util.c
+2	0	ODIN_II/SRC/ast_util.h
+0	0	ODIN_II/SRC/bm_expr_all_mod.log
+0	0	ODIN_II/SRC/errors.c
+0	0	ODIN_II/SRC/errors.h
+1	0	ODIN_II/SRC/globals.h
+19	52	ODIN_II/SRC/hard_blocks.c
+0	0	ODIN_II/SRC/hard_blocks.h
+1	1	ODIN_II/SRC/hashtable.c
+0	0	ODIN_II/SRC/high_level_data.c
+0	0	ODIN_II/SRC/high_level_data.h
+345	0	ODIN_II/SRC/implicit_memory.c
+60	0	ODIN_II/SRC/implicit_memory.h
+1095	867	ODIN_II/SRC/memories.c
+66	16	ODIN_II/SRC/memories.h
+39	26	ODIN_II/SRC/multipliers.c
+0	0	ODIN_II/SRC/multipliers.h
+0	0	ODIN_II/SRC/netlist_check.h
+1462	564	ODIN_II/SRC/netlist_create_from_ast.c
+0	0	ODIN_II/SRC/netlist_create_from_ast.h
+13	3	ODIN_II/SRC/netlist_optimizations.c
+0	0	ODIN_II/SRC/netlist_optimizations.h
+122	67	ODIN_II/SRC/netlist_utils.c
+16	13	ODIN_II/SRC/netlist_utils.h
+0	0	ODIN_II/SRC/netlist_visualizer.c
+0	0	ODIN_II/SRC/netlist_visualizer.h
+22	24	ODIN_II/SRC/node_creation_library.c
+2	2	ODIN_II/SRC/node_creation_library.h
+101	240	ODIN_II/SRC/odin_ii.c
+234	0	ODIN_II/SRC/odin_ii_func.c
+31	0	ODIN_II/SRC/odin_ii_func.h
+99	5	ODIN_II/SRC/odin_util.c
+5	0	ODIN_II/SRC/odin_util.h
+46	12	ODIN_II/SRC/output_blif.c
+0	0	ODIN_II/SRC/output_blif.h
+0	0	ODIN_II/SRC/output_graphcrunch_format.c
+0	0	ODIN_II/SRC/output_graphcrunch_format.h
+0	0	ODIN_II/SRC/outputs.c
+0	0	ODIN_II/SRC/outputs.h
+262	16	ODIN_II/SRC/parse_making_ast.c
+4	1	ODIN_II/SRC/parse_making_ast.h
+184	65	ODIN_II/SRC/partial_map.c
+2	1	ODIN_II/SRC/partial_map.h
+0	0	ODIN_II/SRC/print_netlist.c
+0	0	ODIN_II/SRC/print_netlist.h
+126	77	ODIN_II/SRC/read_blif.c
+0	0	ODIN_II/SRC/read_netlist.c
+0	0	ODIN_II/SRC/read_netlist.h
+54	0	ODIN_II/SRC/read_xml_config_file.c
+0	0	ODIN_II/SRC/read_xml_config_file.h
+0	0	ODIN_II/SRC/sim_block.h
+760	302	ODIN_II/SRC/simulate_blif.c
+21	28	ODIN_II/SRC/simulate_blif.h
+0	0	ODIN_II/SRC/string_cache.c
+0	0	ODIN_II/SRC/string_cache.h
+669	0	ODIN_II/SRC/subtractions.c
+42	0	ODIN_II/SRC/subtractions.h
+46	9	ODIN_II/SRC/types.h
+13	3	ODIN_II/SRC/verilog_bison.y
+0	0	ODIN_II/SRC/verilog_bison_user_defined.h
+4	3	ODIN_II/SRC/verilog_flex.l
+21	12	ODIN_II/SRC/verilog_preprocessor.c
+0	0	ODIN_II/SRC/verilog_preprocessor.h
+
+--bb5a5a809--2019-11-20--kmurray
+6	0	ODIN_II/SRC/Makefile
+876	0	ODIN_II/SRC/activity_estimation.c
+2	0	ODIN_II/SRC/activity_estimation.h
+344	0	ODIN_II/SRC/ast_optimizations.c
+4	0	ODIN_II/SRC/ast_optimizations.h
+912	0	ODIN_II/SRC/ast_util.c
+24	0	ODIN_II/SRC/ast_util.h
+1	0	ODIN_II/SRC/bm_expr_all_mod.log
+89	0	ODIN_II/SRC/errors.c
+3	0	ODIN_II/SRC/errors.h
+55	0	ODIN_II/SRC/globals.h
+394	0	ODIN_II/SRC/hard_blocks.c
+43	0	ODIN_II/SRC/hard_blocks.h
+199	0	ODIN_II/SRC/hashtable.c
+63	0	ODIN_II/SRC/hashtable.h
+137	0	ODIN_II/SRC/high_level_data.c
+2	0	ODIN_II/SRC/high_level_data.h
+1505	0	ODIN_II/SRC/memories.c
+62	0	ODIN_II/SRC/memories.h
+1139	0	ODIN_II/SRC/multipliers.c
+54	0	ODIN_II/SRC/multipliers.h
+833	0	ODIN_II/SRC/netlist_check.c
+3	0	ODIN_II/SRC/netlist_check.h
+3794	0	ODIN_II/SRC/netlist_create_from_ast.c
+7	0	ODIN_II/SRC/netlist_create_from_ast.h
+51	0	ODIN_II/SRC/netlist_optimizations.c
+2	0	ODIN_II/SRC/netlist_optimizations.h
+438	0	ODIN_II/SRC/netlist_stats.c
+41	0	ODIN_II/SRC/netlist_stats.h
+1052	0	ODIN_II/SRC/netlist_utils.c
+63	0	ODIN_II/SRC/netlist_utils.h
+386	0	ODIN_II/SRC/netlist_visualizer.c
+4	0	ODIN_II/SRC/netlist_visualizer.h
+463	0	ODIN_II/SRC/node_creation_library.c
+21	0	ODIN_II/SRC/node_creation_library.h
+447	0	ODIN_II/SRC/odin_ii.c
+552	0	ODIN_II/SRC/odin_util.c
+38	0	ODIN_II/SRC/odin_util.h
+761	0	ODIN_II/SRC/output_blif.c
+7	0	ODIN_II/SRC/output_blif.h
+141	0	ODIN_II/SRC/output_graphcrunch_format.c
+3	0	ODIN_II/SRC/output_graphcrunch_format.h
+49	0	ODIN_II/SRC/outputs.c
+2	0	ODIN_II/SRC/outputs.h
+1382	0	ODIN_II/SRC/parse_making_ast.c
+64	0	ODIN_II/SRC/parse_making_ast.h
+1231	0	ODIN_II/SRC/partial_map.c
+34	0	ODIN_II/SRC/partial_map.h
+336	0	ODIN_II/SRC/print_netlist.c
+2	0	ODIN_II/SRC/print_netlist.h
+113	0	ODIN_II/SRC/queue.c
+55	0	ODIN_II/SRC/queue.h
+1626	0	ODIN_II/SRC/read_blif.c
+8	0	ODIN_II/SRC/read_blif.h
+698	0	ODIN_II/SRC/read_netlist.c
+7	0	ODIN_II/SRC/read_netlist.h
+308	0	ODIN_II/SRC/read_xml_config_file.c
+34	0	ODIN_II/SRC/read_xml_config_file.h
+11	0	ODIN_II/SRC/sim_block.h
+3199	0	ODIN_II/SRC/simulate_blif.c
+228	0	ODIN_II/SRC/simulate_blif.h
+183	0	ODIN_II/SRC/string_cache.c
+47	0	ODIN_II/SRC/string_cache.h
+538	0	ODIN_II/SRC/types.h
+336	0	ODIN_II/SRC/verilog_bison.y
+1	0	ODIN_II/SRC/verilog_bison_user_defined.h
+129	0	ODIN_II/SRC/verilog_flex.l
+683	0	ODIN_II/SRC/verilog_preprocessor.c
+88	0	ODIN_II/SRC/verilog_preprocessor.h
+
+--82bb28dc9--2019-10-24--Seyed Alireza Damghani
+10	3	ODIN_II/SRC/read_blif.cpp
+
+--7aff128e9--2019-10-21--Seyed Alireza Damghani
+11	2	ODIN_II/SRC/read_blif.cpp
+
+--ce5b915d6--2019-10-21--Seyed Alireza Damghani
+4	5	ODIN_II/SRC/read_blif.cpp
+
+--a97cada08--2019-10-18--Seyed Alireza Damghani
+5	2	ODIN_II/SRC/read_blif.cpp
+
+--2df20a2e7--2019-10-16--jeanlego
+--2d385cc7e--2019-10-16--jeanlego
+--8d73e272f--2019-10-09--Seyed Alireza Damghani
+2	0	ODIN_II/SRC/simulate_blif.cpp
+
+--8d8980d7c--2019-10-09--Seyed Alireza Damghani
+2	0	ODIN_II/SRC/simulate_blif.cpp
+
+--aee82b2af--2019-10-09--Seyed Alireza Damghani
+1	0	ODIN_II/SRC/read_blif.cpp
+
+--424a0df07--2019-09-23--Seyed Alireza Damghani
+2	2	ODIN_II/SRC/ast_elaborate.cpp
+
+--7578800cd--2019-09-19--Seyed Alireza Damghani
+2	1	ODIN_II/SRC/verilog_flex.l
+
+--d07bc3d95--2019-09-18--Seyed Alireza Damghani
+62	54	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--1597e9a8a--2019-09-17--jeanlego
+--f37c76c92--2019-09-17--jeanlego
+--cf8b67c76--2019-09-17--Seyed Alireza Damghani
+2	2	ODIN_II/SRC/ast_elaborate.cpp
+
+--d34e983ad--2019-09-17--Seyed Alireza Damghani
+2	2	ODIN_II/SRC/parse_making_ast.cpp
+
+--46021bfe2--2019-09-17--Seyed Alireza Damghani
+1	1	ODIN_II/SRC/verilog_flex.l
+
+--d9873c537--2019-09-12--MohamedEldafrawy
+3	2	ODIN_II/SRC/multipliers.cpp
+
+--f09cc6a62--2019-09-12--MohamedEldafrawy
+3	2	ODIN_II/SRC/multipliers.cpp
+
+--97933ab46--2019-09-12--MohamedEldafrawy
+3	2	ODIN_II/SRC/multipliers.cpp
+
+--4f6bb9cea--2019-09-11--jeanlego
+--0824bc4c6--2019-09-11--jeanlego
+--3bef6fb73--2019-09-11--MohamedEldafrawy
+60	25	ODIN_II/SRC/multipliers.cpp
+
+--d072dda37--2019-09-10--MohamedEldafrawy
+180	16	ODIN_II/SRC/multipliers.cpp
+
+--a4de8c3ac--2019-09-09--MohamedEldafrawy
+256	145	ODIN_II/SRC/multipliers.cpp
+
+--6447f81ff--2019-09-09--MohamedEldafrawy
+18	17	ODIN_II/SRC/multipliers.cpp
+
+--57603af38--2019-09-08--MohamedEldafrawy
+8	12	ODIN_II/SRC/multipliers.cpp
+
+--fc4b4755f--2019-09-11--MohamedEldafrawy
+60	25	ODIN_II/SRC/multipliers.cpp
+
+--8cf80a28c--2019-09-10--MohamedEldafrawy
+180	16	ODIN_II/SRC/multipliers.cpp
+
+--bcde7322c--2019-09-09--MohamedEldafrawy
+256	145	ODIN_II/SRC/multipliers.cpp
+
+--c0466cdb4--2019-09-09--MohamedEldafrawy
+18	17	ODIN_II/SRC/multipliers.cpp
+
+--1fac284c7--2019-09-08--MohamedEldafrawy
+8	12	ODIN_II/SRC/multipliers.cpp
+
+--dd3f9478e--2019-09-11--MohamedEldafrawy
+15	8	ODIN_II/SRC/multipliers.cpp
+
+--65472ed08--2019-09-11--MohamedEldafrawy
+0	19	ODIN_II/SRC/multipliers.cpp
+
+--aaaf0b5e3--2019-09-11--Seyed Alireza
+3	3	ODIN_II/SRC/parse_making_ast.cpp
+
+--a79f80bfa--2019-09-11--MohamedEldafrawy
+2	0	ODIN_II/SRC/include/config_t.h
+2	0	ODIN_II/SRC/include/odin_types.h
+12	1	ODIN_II/SRC/odin_ii.cpp
+
+--d27108992--2019-09-11--jeanlego
+--da2c8b277--2019-09-11--jeanlego
+--fae52a715--2019-09-11--MohamedEldafrawy
+60	25	ODIN_II/SRC/multipliers.cpp
+
+--39a131a97--2019-09-11--Seyed Alireza
+2	2	ODIN_II/SRC/ast_elaborate.cpp
+2	2	ODIN_II/SRC/ast_loop_unroll.cpp
+
+--54a81a342--2019-09-10--Seyed Alireza
+1	1	ODIN_II/SRC/ast_elaborate.cpp
+
+--8d12fb666--2019-09-10--MohamedEldafrawy
+180	16	ODIN_II/SRC/multipliers.cpp
+
+--a635ef974--2019-09-10--Seyed Alireza
+1	1	ODIN_II/SRC/read_blif.cpp
+
+--115cfe317--2019-09-09--Seyed Alireza
+1	1	ODIN_II/SRC/verilog_flex.l
+
+--f999bcb5f--2019-09-09--MohamedEldafrawy
+256	145	ODIN_II/SRC/multipliers.cpp
+
+--6385cd83a--2019-09-09--MohamedEldafrawy
+18	17	ODIN_II/SRC/multipliers.cpp
+
+--b261d8958--2019-09-09--Seyed Alireza
+1	1	ODIN_II/SRC/verilog_flex.l
+
+--53ae56619--2019-09-08--jeanlego
+3	10	ODIN_II/SRC/include/odin_types.h
+4	2	ODIN_II/SRC/include/parse_making_ast.h
+25	0	ODIN_II/SRC/include/scope_util.h
+2	0	ODIN_II/SRC/include/string_cache.h
+4	15	ODIN_II/SRC/netlist_create_from_ast.cpp
+41	103	ODIN_II/SRC/parse_making_ast.cpp
+89	0	ODIN_II/SRC/scope_util.cpp
+0	4	ODIN_II/SRC/simulate_blif.cpp
+52	23	ODIN_II/SRC/string_cache.cpp
+29	37	ODIN_II/SRC/verilog_bison.y
+21	15	ODIN_II/SRC/verilog_flex.l
+
+--d4827fe52--2019-09-08--MohamedEldafrawy
+8	12	ODIN_II/SRC/multipliers.cpp
+
+--c6422ed20--2019-08-28--j-b-1-7
+136	0	ODIN_II/SRC/ast_elaborate.cpp
+2	1	ODIN_II/SRC/ast_util.cpp
+6	0	ODIN_II/SRC/enum_str.cpp
+23	0	ODIN_II/SRC/hierarchy_util.cpp
+15	0	ODIN_II/SRC/include/odin_types.h
+6	1	ODIN_II/SRC/include/parse_making_ast.h
+450	31	ODIN_II/SRC/netlist_create_from_ast.cpp
+118	350	ODIN_II/SRC/output_blif.cpp
+318	26	ODIN_II/SRC/parse_making_ast.cpp
+206	57	ODIN_II/SRC/verilog_bison.y
+3	3	ODIN_II/SRC/verilog_flex.l
+
+--5b018665f--2019-08-28--ademmings
+331	234	ODIN_II/SRC/ast_elaborate.cpp
+87	36	ODIN_II/SRC/ast_loop_unroll.cpp
+18	28	ODIN_II/SRC/ast_util.cpp
+34	2	ODIN_II/SRC/hierarchy_util.cpp
+1	0	ODIN_II/SRC/include/ast_elaborate.h
+3	4	ODIN_II/SRC/include/ast_loop_unroll.h
+4	0	ODIN_II/SRC/include/hierarchy_util.h
+1	2	ODIN_II/SRC/include/odin_types.h
+1	0	ODIN_II/SRC/include/parse_making_ast.h
+43	26	ODIN_II/SRC/netlist_create_from_ast.cpp
+92	29	ODIN_II/SRC/parse_making_ast.cpp
+37	10	ODIN_II/SRC/verilog_bison.y
+
+--841c71843--2019-08-26--Alessandro Comodi
+3	4	ODIN_II/SRC/odin_ii.cpp
+
+--677701190--2019-08-22--Alessandro Comodi
+1	0	ODIN_II/SRC/odin_ii.cpp
+
+--79eae9bf6--2019-08-20--Alessandro Comodi
+1	1	ODIN_II/SRC/include/odin_globals.h
+1	1	ODIN_II/SRC/include/odin_types.h
+5	3	ODIN_II/SRC/odin_ii.cpp
+
+--855037863--2019-08-26--jeanlego
+--659035706--2019-08-23--Michael Flawn
+20	17	ODIN_II/SRC/read_blif.cpp
+
+--9caa91eb3--2019-08-23--ademmings
+0	4	ODIN_II/SRC/ast_util.cpp
+
+--1ef3202da--2019-08-23--ademmings
+1163	308	ODIN_II/SRC/ast_elaborate.cpp
+2	2	ODIN_II/SRC/ast_loop_unroll.cpp
+32	83	ODIN_II/SRC/ast_util.cpp
+3	13	ODIN_II/SRC/enum_str.cpp
+311	0	ODIN_II/SRC/hierarchy_util.cpp
+1	1	ODIN_II/SRC/include/ast_elaborate.h
+1	1	ODIN_II/SRC/include/ast_loop_unroll.h
+6	9	ODIN_II/SRC/include/ast_util.h
+38	0	ODIN_II/SRC/include/hierarchy_util.h
+2	2	ODIN_II/SRC/include/netlist_create_from_ast.h
+6	2	ODIN_II/SRC/include/odin_types.h
+1	0	ODIN_II/SRC/include/parse_making_ast.h
+0	15	ODIN_II/SRC/include/string_cache.h
+182	169	ODIN_II/SRC/netlist_create_from_ast.cpp
+10	10	ODIN_II/SRC/odin_util.cpp
+127	48	ODIN_II/SRC/parse_making_ast.cpp
+12	4	ODIN_II/SRC/verilog_bison.y
+1	1	ODIN_II/SRC/verilog_flex.l
+
+--667674af6--2019-08-15--jeanlego
+2	2	ODIN_II/SRC/verilog_flex.l
+
+--5c45dd056--2019-08-15--jeanlego
+1	1	ODIN_II/SRC/ast_elaborate.cpp
+1	1	ODIN_II/SRC/ast_loop_unroll.cpp
+12	5	ODIN_II/SRC/include/odin_error.h
+1	2	ODIN_II/SRC/include/odin_globals.h
+2	4	ODIN_II/SRC/include/odin_util.h
+3	3	ODIN_II/SRC/include/parse_making_ast.h
+1	1	ODIN_II/SRC/include/verilog_bison_user_defined.h
+0	10	ODIN_II/SRC/include/verilog_preprocessor.h
+44	22	ODIN_II/SRC/odin_error.cpp
+30	19	ODIN_II/SRC/odin_ii.cpp
+13	33	ODIN_II/SRC/odin_util.cpp
+36	89	ODIN_II/SRC/parse_making_ast.cpp
+2	5	ODIN_II/SRC/simulate_blif.cpp
+212	206	ODIN_II/SRC/verilog_bison.y
+683	158	ODIN_II/SRC/verilog_flex.l
+0	688	ODIN_II/SRC/verilog_preprocessor.cpp
+
+--7b9d30cfc--2019-08-14--ademmings
+0	8	ODIN_II/SRC/ast_elaborate.cpp
+6	3	ODIN_II/SRC/ast_util.cpp
+6	7	ODIN_II/SRC/parse_making_ast.cpp
+
+--57f74f0f2--2019-08-14--ademmings
+885	317	ODIN_II/SRC/ast_elaborate.cpp
+57	15	ODIN_II/SRC/ast_util.cpp
+0	1	ODIN_II/SRC/include/ast_elaborate.h
+3	0	ODIN_II/SRC/include/ast_util.h
+1	0	ODIN_II/SRC/include/netlist_create_from_ast.h
+3	0	ODIN_II/SRC/include/odin_types.h
+6	4	ODIN_II/SRC/include/string_cache.h
+36	439	ODIN_II/SRC/netlist_create_from_ast.cpp
+32	17	ODIN_II/SRC/parse_making_ast.cpp
+
+--3624472de--2019-08-14--Alexandrea Demmings
+--014d33683--2019-08-13--j-b-1-7
+3	3	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--9ce4140da--2019-08-13--j-b-1-7
+25	74	ODIN_II/SRC/ast_elaborate.cpp
+1	0	ODIN_II/SRC/ast_util.cpp
+1	0	ODIN_II/SRC/include/odin_types.h
+131	156	ODIN_II/SRC/netlist_create_from_ast.cpp
+9	9	ODIN_II/SRC/parse_making_ast.cpp
+
+--b8d271520--2019-08-12--ademmings
+4	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--8b4379b94--2019-08-12--ademmings
+6	3	ODIN_II/SRC/parse_making_ast.cpp
+
+--db82cd7d6--2019-08-08--jeanlego
+1	0	ODIN_II/SRC/include/odin_error.h
+1	0	ODIN_II/SRC/include/odin_types.h
+11	0	ODIN_II/SRC/odin_ii.cpp
+1	1	ODIN_II/SRC/odin_util.cpp
+
+--0cbfb3197--2019-08-08--ademmings
+2	1	ODIN_II/SRC/enum_str.cpp
+1	0	ODIN_II/SRC/include/odin_types.h
+1	0	ODIN_II/SRC/include/odin_util.h
+27	0	ODIN_II/SRC/odin_util.cpp
+0	34	ODIN_II/SRC/parse_making_ast.cpp
+1	0	ODIN_II/SRC/verilog_preprocessor.cpp
+
+--1e4ed54f1--2019-08-07--ademmings
+144	18	ODIN_II/SRC/ast_elaborate.cpp
+
+--a922bdf59--2019-08-06--ademmings
+31	0	ODIN_II/SRC/adders.cpp
+256	8	ODIN_II/SRC/ast_elaborate.cpp
+1	1	ODIN_II/SRC/include/adders.h
+4	4	ODIN_II/SRC/include/memories.h
+1	0	ODIN_II/SRC/include/multipliers.h
+1	0	ODIN_II/SRC/include/parse_making_ast.h
+64	8	ODIN_II/SRC/memories.cpp
+29	0	ODIN_II/SRC/multipliers.cpp
+4	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+10	52	ODIN_II/SRC/parse_making_ast.cpp
+
+--a82936c13--2019-08-03--jeanlego
+5	1	ODIN_II/SRC/ast_elaborate.cpp
+0	2	ODIN_II/SRC/ast_util.cpp
+0	2	ODIN_II/SRC/include/odin_types.h
+1	1	ODIN_II/SRC/include/odin_util.h
+62	133	ODIN_II/SRC/netlist_create_from_ast.cpp
+40	22	ODIN_II/SRC/odin_ii.cpp
+22	12	ODIN_II/SRC/odin_util.cpp
+3	7	ODIN_II/SRC/output_blif.cpp
+13	22	ODIN_II/SRC/parse_making_ast.cpp
+4	1	ODIN_II/SRC/simulate_blif.cpp
+
+--0dac001ad--2019-08-01--jeanlego
+0	1	ODIN_II/SRC/verilog_bison.y
+
+--f8fd898e9--2019-08-01--jeanlego
+--ba7dbafcf--2019-08-01--ademmings
+5	5	ODIN_II/SRC/ast_loop_unroll.cpp
+0	1	ODIN_II/SRC/enum_str.cpp
+0	1	ODIN_II/SRC/include/odin_types.h
+
+--1acd79650--2019-07-31--ademmings
+1	2	ODIN_II/SRC/parse_making_ast.cpp
+
+--be8c10e91--2019-07-31--ademmings
+176	119	ODIN_II/SRC/ast_elaborate.cpp
+24	356	ODIN_II/SRC/ast_loop_unroll.cpp
+9	53	ODIN_II/SRC/ast_util.cpp
+3	6	ODIN_II/SRC/include/ast_loop_unroll.h
+0	1	ODIN_II/SRC/include/ast_util.h
+58	128	ODIN_II/SRC/netlist_create_from_ast.cpp
+46	89	ODIN_II/SRC/parse_making_ast.cpp
+1	1	ODIN_II/SRC/verilog_bison.y
+
+--419c920aa--2019-07-29--ademmings
+72	46	ODIN_II/SRC/ast_elaborate.cpp
+49	1	ODIN_II/SRC/ast_loop_unroll.cpp
+1	0	ODIN_II/SRC/enum_str.cpp
+1	1	ODIN_II/SRC/include/ast_elaborate.h
+1	0	ODIN_II/SRC/include/ast_loop_unroll.h
+1	0	ODIN_II/SRC/include/odin_types.h
+1	1	ODIN_II/SRC/verilog_bison.y
+
+--4410e55ba--2019-07-31--j-b-1-7
+60	2	ODIN_II/SRC/memories.cpp
+20	12	ODIN_II/SRC/netlist_utils.cpp
+
+--3dd323f5f--2019-07-31--jeanlego
+--ebc1a7845--2019-07-31--jeanlego
+--eadd24bf7--2019-07-31--jeanlego
+--22ff79485--2019-07-31--jeanlego
+--f23a4acc4--2019-07-30--j-b-1-7
+12	38	ODIN_II/SRC/parse_making_ast.cpp
+
+--2034853e2--2019-07-30--j-b-1-7
+10	13	ODIN_II/SRC/parse_making_ast.cpp
+1	0	ODIN_II/SRC/verilog_bison.y
+
+--50590002b--2019-07-30--Hillary Soontiens
+2	2	ODIN_II/SRC/netlist_visualizer.cpp
+
+--ae3b3846c--2019-07-30--Hillary Soontiens
+2	2	ODIN_II/SRC/netlist_utils.cpp
+
+--7005bbaa8--2019-07-29--ademmings
+5	0	ODIN_II/SRC/ast_elaborate.cpp
+
+--c7f8c2e02--2019-07-29--ademmings
+3	2	ODIN_II/SRC/ast_elaborate.cpp
+
+--ec5859f40--2019-07-26--ademmings
+292	30	ODIN_II/SRC/ast_elaborate.cpp
+53	16	ODIN_II/SRC/ast_loop_unroll.cpp
+22	67	ODIN_II/SRC/ast_util.cpp
+0	1	ODIN_II/SRC/enum_str.cpp
+1	1	ODIN_II/SRC/include/ast_elaborate.h
+2	3	ODIN_II/SRC/include/ast_util.h
+0	1	ODIN_II/SRC/include/odin_types.h
+0	1	ODIN_II/SRC/include/parse_making_ast.h
+90	61	ODIN_II/SRC/netlist_create_from_ast.cpp
+5	19	ODIN_II/SRC/parse_making_ast.cpp
+3	3	ODIN_II/SRC/verilog_bison.y
+
+--cadac3352--2019-07-27--jeanlego
+0	33	ODIN_II/SRC/simulate_blif.cpp
+
+--789604f87--2019-07-27--jeanlego
+1	0	ODIN_II/SRC/implicit_memory.cpp
+
+--2c1a51e65--2019-07-27--jeanlego
+--d0d9399ee--2019-07-27--jeanlego
+--764317947--2019-07-27--jeanlego
+--3d6f3c2fd--2019-07-27--jeanlego
+--c0bdf4a62--2019-07-27--jeanlego
+13	198	ODIN_II/SRC/adders.cpp
+2	18	ODIN_II/SRC/include/odin_types.h
+1	3	ODIN_II/SRC/include/simulate_blif.h
+0	54	ODIN_II/SRC/include/soft_logic_def_parser.h
+8	27	ODIN_II/SRC/odin_ii.cpp
+0	1	ODIN_II/SRC/read_blif.cpp
+59	1077	ODIN_II/SRC/simulate_blif.cpp
+0	173	ODIN_II/SRC/soft_logic_def_parser.cpp
+
+--32c59f5bf--2019-07-27--jeanlego
+1	0	ODIN_II/SRC/netlist_visualizer.cpp
+
+--4734984a7--2019-07-27--jeanlego
+1	0	ODIN_II/SRC/netlist_visualizer.cpp
+
+--035e094c8--2019-07-27--jeanlego
+--d94d8797e--2019-07-27--jeanlego
+4	7	ODIN_II/SRC/adders.cpp
+4	8	ODIN_II/SRC/multipliers.cpp
+
+--b68e911b3--2019-07-26--jeanlego
+--989356e5c--2019-07-26--jbrown17
+3	3	ODIN_II/SRC/ast_util.cpp
+
+--84ecce928--2019-07-26--jeanlego
+--324a4b245--2019-07-26--jeanlego
+--06f3c4450--2019-07-26--jeanlego
+15	25	ODIN_II/SRC/verilog_bison.y
+
+--50bf7ea75--2019-07-26--j-b-1-7
+0	1	ODIN_II/SRC/include/netlist_utils.h
+0	27	ODIN_II/SRC/netlist_utils.cpp
+1	1	ODIN_II/SRC/output_blif.cpp
+41	26	ODIN_II/SRC/partial_map.cpp
+
+--7b5914551--2019-07-26--jeanlego
+--b13b48a57--2019-07-26--jeanlego
+--9c1d6272b--2019-07-26--jeanlego
+--bb783614f--2019-07-26--jeanlego
+--badff0ab2--2019-07-26--jeanlego
+--76e9b6781--2019-07-26--jeanlego
+--6a2afcde7--2019-07-26--j-b-1-7
+9	5	ODIN_II/SRC/adders.cpp
+
+--7a94856ba--2019-07-25--jeanlego
+40	28	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--c32499936--2019-07-25--Hillary Soontiens
+1	1	ODIN_II/SRC/ast_util.cpp
+
+--bf9baf4cf--2019-07-25--Hillary Soontiens
+1	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--f04282f5b--2019-07-25--j-b-1-7
+1	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--1c66921b0--2019-07-24--j-b-1-7
+4	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--9e5b47a96--2019-07-24--jeanlego
+--b03af9c19--2019-07-24--jeanlego
+--aa2233901--2019-07-24--jeanlego
+--47cf51a61--2019-07-24--jeanlego
+--24ab5ecae--2019-07-24--jeanlego
+--ae4d47704--2019-07-24--jeanlego
+--e9373a901--2019-07-24--j-b-1-7
+2	2	ODIN_II/SRC/ast_elaborate.cpp
+
+--cc2cd7c73--2019-07-24--j-b-1-7
+1	0	ODIN_II/SRC/soft_logic_def_parser.cpp
+
+--b468b1a14--2019-07-24--j-b-1-7
+1	1	ODIN_II/SRC/simulate_blif.cpp
+
+--97e06c106--2019-07-24--j-b-1-7
+16	7	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--39b83f52f--2019-07-24--j-b-1-7
+1	1	ODIN_II/SRC/netlist_check.cpp
+
+--699a92d64--2019-07-24--jeanlego
+28	35	ODIN_II/SRC/ast_elaborate.cpp
+
+--77760dd13--2019-07-23--jeanlego
+60	58	ODIN_II/SRC/netlist_check.cpp
+
+--5707e61d9--2019-07-23--jeanlego
+12	12	ODIN_II/SRC/netlist_check.cpp
+
+--be57a85a9--2019-07-23--jeanlego
+--45aec03f1--2019-07-23--jeanlego
+1	4	ODIN_II/SRC/Hashtable.cpp
+
+--8c03acd90--2019-07-23--jeanlego
+--40f13cf39--2019-07-23--jeanlego
+--b26727fcf--2019-07-23--jeanlego
+--eeebc6b9f--2019-07-23--jeanlego
+--0a9636911--2019-07-23--jeanlego
+--4203241b6--2019-07-23--jeanlego
+--6d9034390--2019-07-23--jeanlego
+--127af66de--2019-07-23--jeanlego
+--2fc55ed59--2019-07-23--jeanlego
+--65e16d2fd--2019-07-23--jeanlego
+--020ab99e9--2019-07-23--jeanlego
+--9d6b8f055--2019-07-23--jeanlego
+--2cb92509b--2019-07-23--j-b-1-7
+2	8	ODIN_II/SRC/Hashtable.cpp
+
+--2eb6fbfab--2019-07-23--j-b-1-7
+5	0	ODIN_II/SRC/subtractions.cpp
+
+--6d9d0635c--2019-07-23--j-b-1-7
+1	1	ODIN_II/SRC/memories.cpp
+
+--7468966c1--2019-07-23--j-b-1-7
+16	10	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--d8caace69--2019-07-23--j-b-1-7
+2	2	ODIN_II/SRC/hard_blocks.cpp
+
+--f48b3a875--2019-07-23--j-b-1-7
+8	3	ODIN_II/SRC/read_blif.cpp
+
+--586da3961--2019-07-23--ademmings
+122	49	ODIN_II/SRC/ast_elaborate.cpp
+72	43	ODIN_II/SRC/ast_util.cpp
+1	0	ODIN_II/SRC/include/ast_util.h
+54	60	ODIN_II/SRC/verilog_bison.y
+
+--41fa61058--2019-07-22--ademmings
+174	31	ODIN_II/SRC/ast_elaborate.cpp
+2	0	ODIN_II/SRC/ast_loop_unroll.cpp
+4	3	ODIN_II/SRC/ast_util.cpp
+1	1	ODIN_II/SRC/include/ast_util.h
+1	0	ODIN_II/SRC/include/odin_types.h
+2	0	ODIN_II/SRC/include/string_cache.h
+17	160	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--6ee151256--2019-07-23--j-b-1-7
+255	173	ODIN_II/SRC/read_blif.cpp
+
+--9aafd1fe4--2019-07-23--j-b-1-7
+6	3	ODIN_II/SRC/parse_making_ast.cpp
+
+--521798476--2019-07-23--j-b-1-7
+15	28	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--daf2bf7a5--2019-07-23--j-b-1-7
+12	9	ODIN_II/SRC/netlist_check.cpp
+
+--683c909ad--2019-07-23--j-b-1-7
+2	0	ODIN_II/SRC/simulate_blif.cpp
+
+--a667bd52e--2019-07-23--Hillary Soontiens
+1	1	ODIN_II/SRC/ast_util.cpp
+
+--f8c612e64--2019-07-23--j-b-1-7
+1	1	ODIN_II/SRC/soft_logic_def_parser.cpp
+
+--3a675533a--2019-07-23--j-b-1-7
+2	5	ODIN_II/SRC/read_blif.cpp
+
+--a0c2dc6b3--2019-07-23--ademmings
+45	17	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--12b6a0025--2019-07-23--jeanlego
+--cec1bb132--2019-07-23--jeanlego
+--751f3fcc5--2019-07-23--jeanlego
+--716e606cf--2019-07-23--jeanlego
+--8f678723d--2019-07-23--jeanlego
+--f4851692e--2019-07-22--j-b-1-7
+1	1	ODIN_II/SRC/simulate_blif.cpp
+
+--e8c99b4d9--2019-07-22--j-b-1-7
+2	9	ODIN_II/SRC/adders.cpp
+
+--6cd9d1417--2019-07-22--j-b-1-7
+3	1	ODIN_II/SRC/soft_logic_def_parser.cpp
+
+--b7b3c1e03--2019-07-22--j-b-1-7
+2	0	ODIN_II/SRC/simulate_blif.cpp
+
+--d7c462c4c--2019-07-22--ademmings
+3	3	ODIN_II/SRC/ast_elaborate.cpp
+
+--46b412719--2019-07-19--ademmings
+90	14	ODIN_II/SRC/ast_elaborate.cpp
+39	228	ODIN_II/SRC/ast_util.cpp
+0	1	ODIN_II/SRC/include/ast_util.h
+27	99	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--402f84028--2019-07-19--ademmings
+298	148	ODIN_II/SRC/ast_elaborate.cpp
+11	8	ODIN_II/SRC/ast_loop_unroll.cpp
+6	10	ODIN_II/SRC/ast_util.cpp
+1	0	ODIN_II/SRC/include/ast_elaborate.h
+4	4	ODIN_II/SRC/include/ast_loop_unroll.h
+35	50	ODIN_II/SRC/netlist_create_from_ast.cpp
+0	10	ODIN_II/SRC/parse_making_ast.cpp
+
+--4259157b9--2019-07-18--ademmings
+179	92	ODIN_II/SRC/ast_elaborate.cpp
+1	1	ODIN_II/SRC/ast_loop_unroll.cpp
+4	36	ODIN_II/SRC/ast_util.cpp
+9	30	ODIN_II/SRC/netlist_create_from_ast.cpp
+4	4	ODIN_II/SRC/parse_making_ast.cpp
+
+--0f10b930c--2019-07-16--ademmings
+106	7	ODIN_II/SRC/ast_elaborate.cpp
+1	1	ODIN_II/SRC/include/ast_elaborate.h
+45	37	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--b2807fadc--2019-07-20--jeanlego
+--272de9c37--2019-07-20--jbrown17
+5	1	ODIN_II/SRC/netlist_visualizer.cpp
+
+--7a56dc0db--2019-07-20--jbrown17
+5	0	ODIN_II/SRC/netlist_visualizer.cpp
+
+--802157e44--2019-07-20--jbrown17
+1	1	ODIN_II/SRC/odin_util.cpp
+
+--fff7fd12d--2019-07-20--jbrown17
+21	3	ODIN_II/SRC/read_blif.cpp
+
+--8e509dfce--2019-07-20--jeanlego
+--f085d050c--2019-07-20--jeanlego
+--ee5a91e15--2019-07-20--jeanlego
+5	3	ODIN_II/SRC/simulate_blif.cpp
+
+--b040a2e5b--2019-07-20--jeanlego
+--02b77e5b8--2019-07-20--jeanlego
+--a7bc55d6a--2019-07-20--jeanlego
+--0e6c5ed3c--2019-07-20--jeanlego
+--cc586b747--2019-07-20--jeanlego
+--bc9a8bd3b--2019-07-20--jeanlego
+--68ce050af--2019-07-20--jeanlego
+--1a71c0632--2019-07-20--jeanlego
+--6f4b59a1c--2019-07-20--jeanlego
+--feaf173ee--2019-07-20--jeanlego
+--fb2d7395b--2019-07-20--jeanlego
+--a85f1207f--2019-07-20--jeanlego
+--dc4b3df36--2019-07-20--jeanlego
+--0d64d059c--2019-07-20--jeanlego
+--4da94b791--2019-07-20--jeanlego
+--05edc7a0e--2019-07-20--jeanlego
+--59beefc76--2019-07-19--jbrown17
+1	80	ODIN_II/SRC/ast_util.cpp
+3	1	ODIN_II/SRC/include/odin_util.h
+25	0	ODIN_II/SRC/odin_util.cpp
+
+--ab579a4be--2019-07-19--jeanlego
+--6a77c213b--2019-07-19--j-b-1-7
+2	2	ODIN_II/SRC/read_blif.cpp
+
+--86238034e--2019-07-19--j-b-1-7
+2	1	ODIN_II/SRC/simulate_blif.cpp
+
+--e11d350ae--2019-07-19--j-b-1-7
+6	2	ODIN_II/SRC/simulate_blif.cpp
+
+--ae7f09173--2019-07-19--Alexandrea Demmings
+--984f5080e--2019-07-19--j-b-1-7
+1	1	ODIN_II/SRC/netlist_check.cpp
+
+--f51f2a2ff--2019-07-19--Alexandrea Demmings
+--530e6367d--2019-07-19--j-b-1-7
+2	2	ODIN_II/SRC/simulate_blif.cpp
+
+--9dea373f4--2019-07-19--j-b-1-7
+1	1	ODIN_II/SRC/subtractions.cpp
+
+--b4719e5ed--2019-07-19--Alexandrea Demmings
+--e7b6a3aa2--2019-07-19--j-b-1-7
+14	7	ODIN_II/SRC/simulate_blif.cpp
+
+--9ee1c4a73--2019-07-19--j-b-1-7
+1	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--0863027d9--2019-07-19--Alexandrea Demmings
+--c54929ebe--2019-07-19--j-b-1-7
+1	1	ODIN_II/SRC/simulate_blif.cpp
+
+--e0e9bcd4b--2019-07-19--j-b-1-7
+2	0	ODIN_II/SRC/read_blif.cpp
+
+--e708d1e0d--2019-07-19--Alexandrea Demmings
+--706ea1420--2019-07-19--j-b-1-7
+1	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--a9eac44c7--2019-07-19--j-b-1-7
+2	2	ODIN_II/SRC/netlist_check.cpp
+
+--1b2c7879d--2019-07-19--j-b-1-7
+1	1	ODIN_II/SRC/memories.cpp
+
+--b86b05d01--2019-07-19--Alexandrea Demmings
+--27d04523e--2019-07-19--Alexandrea Demmings
+--176b9f33c--2019-07-19--j-b-1-7
+1	1	ODIN_II/SRC/simulate_blif.cpp
+
+--21b953ab2--2019-07-19--j-b-1-7
+1	1	ODIN_II/SRC/simulate_blif.cpp
+
+--ec2da3a0b--2019-07-19--j-b-1-7
+5	5	ODIN_II/SRC/adders.cpp
+
+--97a309e6a--2019-07-19--Alexandrea Demmings
+--32c717f00--2019-07-19--Alexandrea Demmings
+--3018e3070--2019-07-19--j-b-1-7
+1	1	ODIN_II/SRC/simulate_blif.cpp
+
+--b9a19a23e--2019-07-19--Alexandrea Demmings
+--36a7ee47f--2019-07-19--Alexandrea Demmings
+--10ee22412--2019-07-19--j-b-1-7
+0	24	ODIN_II/SRC/output_blif.cpp
+
+--44cbc41f1--2019-07-19--j-b-1-7
+2	2	ODIN_II/SRC/memories.cpp
+
+--41c7528ff--2019-07-19--Alexandrea Demmings
+--8071561bc--2019-07-19--j-b-1-7
+2	2	ODIN_II/SRC/simulate_blif.cpp
+
+--01775e651--2019-07-19--Alexandrea Demmings
+--1a52a69e4--2019-07-19--Alexandrea Demmings
+--4716b3301--2019-07-19--Alexandrea Demmings
+--d8fe92342--2019-07-19--Alexandrea Demmings
+--c3a8e3722--2019-07-19--j-b-1-7
+1	1	ODIN_II/SRC/adders.cpp
+
+--43167871b--2019-07-19--Alexandrea Demmings
+--be6856c98--2019-07-19--Alexandrea Demmings
+--d7e410ba7--2019-07-19--Alexandrea Demmings
+--b746af9ca--2019-07-19--j-b-1-7
+1	1	ODIN_II/SRC/simulate_blif.cpp
+
+--3412f28c1--2019-07-19--Alexandrea Demmings
+--2144cbfb9--2019-07-19--Alexandrea Demmings
+--2ce9a145f--2019-07-19--Alexandrea Demmings
+--be54449cc--2019-07-19--Alexandrea Demmings
+--b383b361e--2019-07-19--Alexandrea Demmings
+--ff48c43f1--2019-07-19--j-b-1-7
+3	0	ODIN_II/SRC/adders.cpp
+
+--593267936--2019-07-19--Alexandrea Demmings
+--7aee95b32--2019-07-19--j-b-1-7
+1	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--519ba0c6b--2019-07-19--Alexandrea Demmings
+--11b65d554--2019-07-19--Alexandrea Demmings
+--79a78555d--2019-07-19--Alexandrea Demmings
+--8810e1f37--2019-07-19--Alexandrea Demmings
+--b3c08f070--2019-07-19--j-b-1-7
+1	1	ODIN_II/SRC/memories.cpp
+
+--fba23b475--2019-07-19--Alexandrea Demmings
+--0ff8d18bb--2019-07-19--Alexandrea Demmings
+--3e19284d9--2019-07-19--jeanlego
+--0e534f3da--2019-07-19--Alexandrea Demmings
+--7cd84f641--2019-07-19--j-b-1-7
+1	1	ODIN_II/SRC/parse_making_ast.cpp
+
+--00fb32376--2019-07-19--j-b-1-7
+2	2	ODIN_II/SRC/odin_util.cpp
+
+--0406f3c50--2019-07-19--ademmings
+21	7	ODIN_II/SRC/adders.cpp
+
+--ee8f4b7ce--2019-07-19--j-b-1-7
+2	2	ODIN_II/SRC/simulate_blif.cpp
+
+--aff6493b0--2019-07-19--j-b-1-7
+1	1	ODIN_II/SRC/multipliers.cpp
+
+--eb67189c6--2019-07-19--j-b-1-7
+1	1	ODIN_II/SRC/read_blif.cpp
+
+--96a273d70--2019-07-19--j-b-1-7
+1	1	ODIN_II/SRC/memories.cpp
+
+--6d5e65096--2019-07-19--j-b-1-7
+2	2	ODIN_II/SRC/netlist_utils.cpp
+
+--8e1bcb54a--2019-07-19--j-b-1-7
+1	1	ODIN_II/SRC/adders.cpp
+
+--4b551c150--2019-07-19--j-b-1-7
+4	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--e93260c9a--2019-07-19--j-b-1-7
+2	2	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--6bffcd1e3--2019-07-19--j-b-1-7
+3	3	ODIN_II/SRC/hard_blocks.cpp
+
+--63e2a47ab--2019-07-19--j-b-1-7
+2	2	ODIN_II/SRC/adders.cpp
+
+--208aaf95c--2019-07-19--j-b-1-7
+6	6	ODIN_II/SRC/adders.cpp
+
+--21c6c46b2--2019-07-19--j-b-1-7
+79	1	ODIN_II/SRC/ast_util.cpp
+
+--8233e9c5f--2019-07-19--j-b-1-7
+27	20	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--a2554c7ac--2019-07-19--j-b-1-7
+3	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--1f7a80480--2019-07-19--j-b-1-7
+106	103	ODIN_II/SRC/parse_making_ast.cpp
+
+--c38cc8360--2019-07-19--j-b-1-7
+1	1	ODIN_II/SRC/odin_util.cpp
+
+--8918d9633--2019-07-19--j-b-1-7
+1	1	ODIN_II/SRC/ast_util.cpp
+
+--6a985aa2f--2019-07-19--j-b-1-7
+1	1	ODIN_II/SRC/implicit_memory.cpp
+
+--0c0d25baf--2019-07-18--j-b-1-7
+1	1	ODIN_II/SRC/adders.cpp
+
+--1969d61b9--2019-07-18--j-b-1-7
+19	15	ODIN_II/SRC/output_blif.cpp
+
+--8ab45e0ec--2019-07-18--j-b-1-7
+4	1	ODIN_II/SRC/ast_util.cpp
+
+--e36003596--2019-07-18--j-b-1-7
+1	1	ODIN_II/SRC/memories.cpp
+
+--cb58247a4--2019-07-18--j-b-1-7
+43	40	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--0c0b2f80e--2019-07-18--j-b-1-7
+6	6	ODIN_II/SRC/subtractions.cpp
+
+--225204309--2019-07-18--j-b-1-7
+7	7	ODIN_II/SRC/adders.cpp
+
+--c59ec56d4--2019-07-18--j-b-1-7
+4	2	ODIN_II/SRC/odin_error.cpp
+
+--849e70888--2019-07-18--jeanlego
+--0306b9ecf--2019-07-18--jeanlego
+--27de510c7--2019-07-18--jeanlego
+--2d4051532--2019-07-17--jeanlego
+--51ea34450--2019-07-17--j-b-1-7
+4	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--d37b99565--2019-07-17--j-b-1-7
+2	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--81cecebc1--2019-07-17--j-b-1-7
+2	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--8ee6d6bd1--2019-07-17--j-b-1-7
+1	1	ODIN_II/SRC/read_blif.cpp
+
+--fb0b2c849--2019-07-17--jeanlego
+--cd783f485--2019-07-17--jeanlego
+--d5d990e7d--2019-07-17--jeanlego
+--42da0b4cf--2019-07-17--jeanlego
+--12e68dcca--2019-07-17--j-b-1-7
+11	8	ODIN_II/SRC/parse_making_ast.cpp
+
+--3010fd2b5--2019-07-17--ademmings
+156	96	ODIN_II/SRC/ast_loop_unroll.cpp
+3	3	ODIN_II/SRC/include/ast_loop_unroll.h
+1	0	ODIN_II/SRC/include/odin_types.h
+1	0	ODIN_II/SRC/include/odin_util.h
+27	0	ODIN_II/SRC/odin_util.cpp
+5	1	ODIN_II/SRC/parse_making_ast.cpp
+81	27	ODIN_II/SRC/verilog_bison.y
+
+--21a7f6f6b--2019-07-16--j-b-1-7
+3	0	ODIN_II/SRC/memories.cpp
+
+--01fede175--2019-07-16--j-b-1-7
+1	1	ODIN_II/SRC/subtractions.cpp
+
+--e6ba856d3--2019-07-16--j-b-1-7
+0	2	ODIN_II/SRC/subtractions.cpp
+
+--e3f838bc0--2019-07-16--j-b-1-7
+1	3	ODIN_II/SRC/adders.cpp
+
+--1e446c2c5--2019-07-16--j-b-1-7
+1	1	ODIN_II/SRC/subtractions.cpp
+
+--c287ee51a--2019-07-16--j-b-1-7
+1	3	ODIN_II/SRC/adders.cpp
+
+--93efcd751--2019-07-16--j-b-1-7
+2	0	ODIN_II/SRC/subtractions.cpp
+
+--045c2d699--2019-07-16--j-b-1-7
+3	1	ODIN_II/SRC/subtractions.cpp
+
+--d35f145c7--2019-07-16--j-b-1-7
+3	1	ODIN_II/SRC/adders.cpp
+
+--7344fcad6--2019-07-16--jeanlego
+--0bc7726ba--2019-07-16--jeanlego
+--4e6bd3f34--2019-07-16--jeanlego
+--91c0975d6--2019-07-16--j-b-1-7
+0	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--8b0fb39de--2019-07-16--j-b-1-7
+1	6	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--92651bd7e--2019-07-16--j-b-1-7
+2	0	ODIN_II/SRC/memories.cpp
+
+--50f61f8a4--2019-07-16--j-b-1-7
+6	2	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--5c36ebba2--2019-07-16--j-b-1-7
+2	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--07ab1c500--2019-07-16--ademmings
+8	4	ODIN_II/SRC/parse_making_ast.cpp
+
+--5b7ce8044--2019-07-16--j-b-1-7
+1	1	ODIN_II/SRC/adders.cpp
+
+--3304df7d0--2019-07-16--j-b-1-7
+1	0	ODIN_II/SRC/adders.cpp
+
+--caa9fb10f--2019-07-16--j-b-1-7
+11	1	ODIN_II/SRC/adders.cpp
+
+--5c078825c--2019-07-16--j-b-1-7
+--64ae4ce9b--2019-07-16--j-b-1-7
+7	9	ODIN_II/SRC/multipliers.cpp
+
+--64fbd3197--2019-07-16--j-b-1-7
+1	0	ODIN_II/SRC/multipliers.cpp
+
+--87305e93e--2019-07-16--j-b-1-7
+0	3	ODIN_II/SRC/multipliers.cpp
+
+--e7f6091ca--2019-07-16--j-b-1-7
+1	1	ODIN_II/SRC/adders.cpp
+
+--1028a6937--2019-07-16--j-b-1-7
+1	0	ODIN_II/SRC/adders.cpp
+
+--ef1d924f7--2019-07-16--j-b-1-7
+0	1	ODIN_II/SRC/adders.cpp
+6	15	ODIN_II/SRC/ast_util.cpp
+1	1	ODIN_II/SRC/include/ast_util.h
+2	0	ODIN_II/SRC/multipliers.cpp
+1	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+41	41	ODIN_II/SRC/parse_making_ast.cpp
+1	1	ODIN_II/SRC/simulate_blif.cpp
+
+--c76c12611--2019-07-16--jeanlego
+--c15d4cec0--2019-07-16--jeanlego
+--dd141d272--2019-07-16--jeanlego
+--4efefcc14--2019-07-15--ademmings
+1	1	ODIN_II/SRC/ast_util.cpp
+
+--324531ef9--2019-07-15--j-b-1-7
+0	1	ODIN_II/SRC/adders.cpp
+
+--0d286400d--2019-07-15--j-b-1-7
+0	8	ODIN_II/SRC/adders.cpp
+
+--d8ce392ab--2019-07-15--j-b-1-7
+1	0	ODIN_II/SRC/include/multipliers.h
+21	0	ODIN_II/SRC/multipliers.cpp
+
+--74edc1603--2019-07-15--ademmings
+22	1	ODIN_II/SRC/ast_util.cpp
+38	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--73af3c21e--2019-07-15--ademmings
+8	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+1	0	ODIN_II/SRC/parse_making_ast.cpp
+
+--45e9cfbde--2019-07-15--ademmings
+1	0	ODIN_II/SRC/include/odin_types.h
+3	3	ODIN_II/SRC/include/parse_making_ast.h
+74	20	ODIN_II/SRC/parse_making_ast.cpp
+96	70	ODIN_II/SRC/verilog_bison.y
+3	3	ODIN_II/SRC/verilog_flex.l
+
+--87ee8cb85--2019-07-15--j-b-1-7
+0	1	ODIN_II/SRC/output_blif.cpp
+
+--65c01e22e--2019-07-15--jeanlego
+--8353114bd--2019-07-15--ademmings
+6	3	ODIN_II/SRC/netlist_create_from_ast.cpp
+1	0	ODIN_II/SRC/parse_making_ast.cpp
+
+--f0f9c44a3--2019-07-15--j-b-1-7
+3	0	ODIN_II/SRC/adders.cpp
+
+--82891153c--2019-07-15--j-b-1-7
+9	0	ODIN_II/SRC/adders.cpp
+
+--e64b5ee1e--2019-07-13--jbrown17
+1	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+1	0	ODIN_II/SRC/output_blif.cpp
+
+--6f3ecf5f1--2019-07-12--jeanlego
+--a40852978--2019-07-12--j-b-1-7
+2	7	ODIN_II/SRC/ast_util.cpp
+11	10	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--d8d198369--2019-07-12--Alexandrea Demmings
+--5ed6b38dc--2019-07-12--jeanlego
+0	1	ODIN_II/SRC/include/simulate_blif.h
+
+--f04b38470--2019-07-12--j-b-1-7
+6	0	ODIN_II/SRC/ast_util.cpp
+
+--1ff11d0ed--2019-07-11--jeanlego
+0	737	ODIN_II/SRC/ace.cpp
+0	31	ODIN_II/SRC/include/ace.h
+0	5	ODIN_II/SRC/include/odin_types.h
+0	2	ODIN_II/SRC/netlist_utils.cpp
+13	33	ODIN_II/SRC/simulate_blif.cpp
+
+--974e619c2--2019-07-11--jeanlego
+3	0	ODIN_II/SRC/ast_util.cpp
+6	0	ODIN_II/SRC/parse_making_ast.cpp
+
+--9f53b9299--2019-07-11--jeanlego
+35	30	ODIN_II/SRC/ast_util.cpp
+2	2	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--753262643--2019-07-11--jeanlego
+2	1	ODIN_II/SRC/ast_util.cpp
+
+--ea7281967--2019-07-11--jeanlego
+57	1	ODIN_II/SRC/ast_util.cpp
+3	2	ODIN_II/SRC/verilog_flex.l
+
+--03ecc4eb9--2019-07-10--jeanlego
+2	1	ODIN_II/SRC/verilog_bison.y
+1	1	ODIN_II/SRC/verilog_flex.l
+
+--d1ef257be--2019-07-09--jeanlego
+10	0	ODIN_II/SRC/ast_util.cpp
+2	6	ODIN_II/SRC/enum_str.cpp
+2	18	ODIN_II/SRC/include/odin_types.h
+19	4	ODIN_II/SRC/verilog_bison.y
+4	0	ODIN_II/SRC/verilog_flex.l
+
+--559c4ec44--2019-07-08--jeanlego
+3	8	ODIN_II/SRC/parse_making_ast.cpp
+
+--99cfc3e59--2019-07-08--ademmings
+8	1	ODIN_II/SRC/parse_making_ast.cpp
+0	3	ODIN_II/SRC/verilog_flex.l
+
+--138caa4af--2019-07-08--jeanlego
+1	1	ODIN_II/SRC/include/parse_making_ast.h
+1	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+1	1	ODIN_II/SRC/parse_making_ast.cpp
+2	18	ODIN_II/SRC/verilog_bison.y
+13	23	ODIN_II/SRC/verilog_flex.l
+
+--12eff1028--2019-07-11--ademmings
+5	1	ODIN_II/SRC/parse_making_ast.cpp
+
+--9d793d36a--2019-07-11--ademmings
+874	824	ODIN_II/SRC/ast_elaborate.cpp
+203	186	ODIN_II/SRC/ast_util.cpp
+0	44	ODIN_II/SRC/include/ast_elaborate.h
+10	7	ODIN_II/SRC/include/ast_util.h
+2	2	ODIN_II/SRC/include/netlist_create_from_ast.h
+0	3	ODIN_II/SRC/include/odin_globals.h
+11	0	ODIN_II/SRC/include/string_cache.h
+565	650	ODIN_II/SRC/netlist_create_from_ast.cpp
+0	2	ODIN_II/SRC/odin_ii.cpp
+8	8	ODIN_II/SRC/parse_making_ast.cpp
+1	1	ODIN_II/SRC/string_cache.cpp
+
+--9b09c3896--2019-07-08--j-b-1-7
+1	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--6928e5be8--2019-07-05--jeanlego
+--ba5a4dc34--2019-07-05--j-b-1-7
+3	21	ODIN_II/SRC/ast_util.cpp
+
+--febdfe6da--2019-07-05--j-b-1-7
+92	1	ODIN_II/SRC/ast_util.cpp
+133	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--51d56072f--2019-07-04--jeanlego
+2	2	ODIN_II/SRC/ace.cpp
+3	1	ODIN_II/SRC/adders.cpp
+13	13	ODIN_II/SRC/ast_elaborate.cpp
+44	44	ODIN_II/SRC/ast_util.cpp
+2	0	ODIN_II/SRC/hard_blocks.cpp
+27	23	ODIN_II/SRC/implicit_memory.cpp
+2	2	ODIN_II/SRC/include/AtomicBuffer.hpp
+28	30	ODIN_II/SRC/include/adders.h
+8	4	ODIN_II/SRC/include/ast_elaborate.h
+5	0	ODIN_II/SRC/include/ast_util.h
+8	8	ODIN_II/SRC/include/hard_blocks.h
+2	2	ODIN_II/SRC/include/implicit_memory.h
+10	8	ODIN_II/SRC/include/memories.h
+3	3	ODIN_II/SRC/include/multipliers.h
+4	0	ODIN_II/SRC/include/netlist_check.h
+7	1	ODIN_II/SRC/include/netlist_visualizer.h
+5	0	ODIN_II/SRC/include/node_creation_library.h
+2	2	ODIN_II/SRC/include/odin_error.h
+0	1	ODIN_II/SRC/include/odin_globals.h
+4	2	ODIN_II/SRC/include/odin_ii.h
+39	97	ODIN_II/SRC/include/odin_types.h
+5	45	ODIN_II/SRC/include/odin_util.h
+5	0	ODIN_II/SRC/include/parse_making_ast.h
+1	0	ODIN_II/SRC/include/read_blif.h
+5	0	ODIN_II/SRC/include/sim_block.h
+14	14	ODIN_II/SRC/include/simulate_blif.h
+2	2	ODIN_II/SRC/include/soft_logic_def_parser.h
+2	2	ODIN_II/SRC/include/string_cache.h
+2	2	ODIN_II/SRC/include/verilog_preprocessor.h
+2	1	ODIN_II/SRC/memories.cpp
+4	3	ODIN_II/SRC/multipliers.cpp
+31	31	ODIN_II/SRC/netlist_check.cpp
+12	12	ODIN_II/SRC/netlist_cleanup.cpp
+65	65	ODIN_II/SRC/netlist_create_from_ast.cpp
+10	12	ODIN_II/SRC/netlist_utils.cpp
+2	3	ODIN_II/SRC/netlist_visualizer.cpp
+3	3	ODIN_II/SRC/odin_ii.cpp
+27	30	ODIN_II/SRC/odin_util.cpp
+9	9	ODIN_II/SRC/output_blif.cpp
+48	46	ODIN_II/SRC/parse_making_ast.cpp
+6	8	ODIN_II/SRC/partial_map.cpp
+12	12	ODIN_II/SRC/read_blif.cpp
+2	2	ODIN_II/SRC/read_xml_config_file.cpp
+105	105	ODIN_II/SRC/simulate_blif.cpp
+1	0	ODIN_II/SRC/soft_logic_def_parser.cpp
+2	1	ODIN_II/SRC/subtractions.cpp
+12	12	ODIN_II/SRC/verilog_preprocessor.cpp
+
+--1235dce38--2019-07-04--ademmings
+35	35	ODIN_II/SRC/netlist_create_from_ast.cpp
+16	12	ODIN_II/SRC/parse_making_ast.cpp
+
+--3cf46901b--2019-07-04--jeanlego
+--0735cae1c--2019-07-04--jeanlego
+--87f965003--2019-07-04--jeanlego
+--a979e268a--2019-07-04--jeanlego
+--9bbbc6681--2019-07-04--jeanlego
+--2e875c86b--2019-07-04--jbrown17
+18	36	ODIN_II/SRC/verilog_preprocessor.cpp
+
+--475355fdf--2019-07-03--jeanlego
+--56fbc70b9--2019-07-03--ademmings
+0	263	ODIN_II/SRC/ast_elaborate.cpp
+0	13	ODIN_II/SRC/include/ast_elaborate.h
+1	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--db09cd8b0--2019-07-02--ademmings
+0	12	ODIN_II/SRC/ast_util.cpp
+
+--03632a9e5--2019-07-02--ademmings
+18	5	ODIN_II/SRC/ast_util.cpp
+
+--4c00e0b16--2019-07-02--j-b-1-7
+--c44643337--2019-07-02--j-b-1-7
+--eb3a14117--2019-06-28--j-b-1-7
+8	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--19a63b73c--2019-06-28--ademmings
+4	1	ODIN_II/SRC/ast_util.cpp
+
+--620cb751e--2019-06-28--ademmings
+1	0	ODIN_II/SRC/enum_str.cpp
+1	0	ODIN_II/SRC/include/odin_types.h
+1	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--bded78534--2019-06-28--ademmings
+165	14	ODIN_II/SRC/ast_util.cpp
+2	1	ODIN_II/SRC/include/ast_util.h
+38	67	ODIN_II/SRC/netlist_create_from_ast.cpp
+2	17	ODIN_II/SRC/parse_making_ast.cpp
+
+--f0574d38d--2019-06-28--ademmings
+35	9	ODIN_II/SRC/ast_util.cpp
+1	1	ODIN_II/SRC/include/ast_util.h
+
+--ea3efb937--2019-06-28--j-b-1-7
+6	5	ODIN_II/SRC/ast_util.cpp
+
+--0534fbb49--2019-06-28--j-b-1-7
+4	0	ODIN_II/SRC/ast_util.cpp
+
+--44e389d48--2019-06-28--j-b-1-7
+7	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--b9c5af9b8--2019-06-28--j-b-1-7
+2	0	ODIN_II/SRC/ast_util.cpp
+
+--64b9689c2--2019-06-28--Alexandrea Demmings
+--a14e423fe--2019-06-27--Alexandrea Demmings
+--5642010f6--2019-06-27--jeanlego
+46	0	ODIN_II/SRC/ast_util.cpp
+2	0	ODIN_II/SRC/include/ast_util.h
+
+--af27d0807--2019-06-27--jeanlego
+2	2	ODIN_II/SRC/include/ast_util.h
+
+--d32763068--2019-06-27--jeanlego
+12	9	ODIN_II/SRC/ast_util.cpp
+
+--ac08cded1--2019-06-27--Alexandrea Demmings
+--588a35b36--2019-06-27--jeanlego
+14	10	ODIN_II/SRC/ast_elaborate.cpp
+
+--b182116ed--2019-06-27--jeanlego
+5	5	ODIN_II/SRC/ast_elaborate.cpp
+
+--97efab60f--2019-06-27--jeanlego
+1	1	ODIN_II/SRC/include/config_t.h
+209	0	ODIN_II/SRC/include/odin_buffer.hpp
+0	81	ODIN_II/SRC/include/verilog_preprocessor.h
+1	1	ODIN_II/SRC/odin_ii.cpp
+0	28	ODIN_II/SRC/parse_making_ast.cpp
+0	6	ODIN_II/SRC/read_xml_config_file.cpp
+12	52	ODIN_II/SRC/simulate_blif.cpp
+1	1	ODIN_II/SRC/verilog_bison.y
+47	37	ODIN_II/SRC/verilog_flex.l
+306	334	ODIN_II/SRC/verilog_preprocessor.cpp
+
+--d01776bd3--2019-06-27--jeanlego
+11	3	ODIN_II/SRC/ast_util.cpp
+1	1	ODIN_II/SRC/include/config_t.h
+138	0	ODIN_II/SRC/include/odin_memory.hpp
+11	10	ODIN_II/SRC/include/odin_types.h
+1	1	ODIN_II/SRC/include/output_blif.h
+1	1	ODIN_II/SRC/include/read_xml_config_file.h
+0	1	ODIN_II/SRC/include/simulate_blif.h
+1	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+18	21	ODIN_II/SRC/odin_ii.cpp
+26	0	ODIN_II/SRC/odin_memory.cpp
+15	16	ODIN_II/SRC/output_blif.cpp
+6	6	ODIN_II/SRC/read_xml_config_file.cpp
+26	29	ODIN_II/SRC/simulate_blif.cpp
+5	6	ODIN_II/SRC/soft_logic_def_parser.cpp
+
+--241f71720--2019-06-27--ademmings
+2	84	ODIN_II/SRC/ast_elaborate.cpp
+144	184	ODIN_II/SRC/ast_util.cpp
+1	1	ODIN_II/SRC/enum_str.cpp
+0	5	ODIN_II/SRC/include/ast_elaborate.h
+1	5	ODIN_II/SRC/include/ast_util.h
+1	1	ODIN_II/SRC/include/odin_types.h
+45	38	ODIN_II/SRC/netlist_create_from_ast.cpp
+0	71	ODIN_II/SRC/parse_making_ast.cpp
+1	1	ODIN_II/SRC/verilog_bison.y
+
+--37008a696--2019-06-21--ademmings
+91	19	ODIN_II/SRC/ast_util.cpp
+1	0	ODIN_II/SRC/include/ast_util.h
+16	3	ODIN_II/SRC/netlist_create_from_ast.cpp
+1	1	ODIN_II/SRC/parse_making_ast.cpp
+
+--2cd62e614--2019-06-17--ademmings
+34	256	ODIN_II/SRC/ast_util.cpp
+4	2	ODIN_II/SRC/include/ast_util.h
+0	7	ODIN_II/SRC/include/odin_types.h
+1	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+1	1	ODIN_II/SRC/odin_util.cpp
+9	9	ODIN_II/SRC/parse_making_ast.cpp
+17	25	ODIN_II/SRC/verilog_flex.l
+
+--0e8d2fe6c--2019-06-17--ademmings
+14	11	ODIN_II/SRC/adders.cpp
+21	16	ODIN_II/SRC/ast_elaborate.cpp
+19	13	ODIN_II/SRC/ast_loop_unroll.cpp
+187	143	ODIN_II/SRC/ast_util.cpp
+1	0	ODIN_II/SRC/include/ast_util.h
+3	4	ODIN_II/SRC/include/odin_types.h
+1	0	ODIN_II/SRC/include/odin_util.h
+325	487	ODIN_II/SRC/netlist_create_from_ast.cpp
+1	1	ODIN_II/SRC/netlist_utils.cpp
+11	0	ODIN_II/SRC/odin_util.cpp
+8	5	ODIN_II/SRC/parse_making_ast.cpp
+2	2	ODIN_II/SRC/partial_map.cpp
+
+--250e8059e--2019-06-13--ademmings
+1	1	ODIN_II/SRC/adders.cpp
+58	41	ODIN_II/SRC/ast_util.cpp
+4	0	ODIN_II/SRC/include/odin_types.h
+31	17	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--49d44da1f--2019-06-13--jeanlego
+1	1	ODIN_II/SRC/adders.cpp
+41	58	ODIN_II/SRC/ast_util.cpp
+0	4	ODIN_II/SRC/include/odin_types.h
+17	31	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--079c134e4--2019-06-26--j-b-1-7
+--e3f0265ad--2019-06-25--jeanlego
+--b4fb8d168--2019-06-25--j-b-1-7
+3	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--4922d1447--2019-06-25--j-b-1-7
+1	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--42370e01b--2019-06-25--j-b-1-7
+52	30	ODIN_II/SRC/read_blif.cpp
+
+--98f81bdd1--2019-06-21--jeanlego
+--35d10363c--2019-06-20--jeanlego
+--c78837151--2019-06-20--j-b-1-7
+2	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--24efe2d59--2019-06-20--j-b-1-7
+3	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--00825b39f--2019-06-19--j-b-1-7
+42	24	ODIN_II/SRC/multipliers.cpp
+
+--b1de4667c--2019-06-12--jeanlego
+1	0	ODIN_II/SRC/include/parse_making_ast.h
+1	5	ODIN_II/SRC/netlist_create_from_ast.cpp
+3	0	ODIN_II/SRC/odin_ii.cpp
+0	1	ODIN_II/SRC/parse_making_ast.cpp
+
+--23237f5bf--2019-06-11--jeanlego
+2	2	ODIN_II/SRC/parse_making_ast.cpp
+
+--45c1e9b34--2019-06-11--jeanlego
+3	2	ODIN_II/SRC/include/parse_making_ast.h
+52	33	ODIN_II/SRC/parse_making_ast.cpp
+2	2	ODIN_II/SRC/verilog_bison.y
+
+--ac3aa8848--2019-06-08--jeanlego
+6	5	ODIN_II/SRC/ast_util.cpp
+5	0	ODIN_II/SRC/enum_str.cpp
+8	0	ODIN_II/SRC/include/odin_types.h
+2	0	ODIN_II/SRC/include/odin_util.h
+4	3	ODIN_II/SRC/include/parse_making_ast.h
+171	102	ODIN_II/SRC/netlist_create_from_ast.cpp
+5	3	ODIN_II/SRC/odin_ii.cpp
+13	0	ODIN_II/SRC/odin_util.cpp
+42	69	ODIN_II/SRC/parse_making_ast.cpp
+
+--fd4c7e55e--2019-06-07--ademmings
+2	1	ODIN_II/SRC/include/parse_making_ast.h
+1	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+66	98	ODIN_II/SRC/parse_making_ast.cpp
+25	23	ODIN_II/SRC/verilog_bison.y
+
+--993b38437--2019-06-07--ademmings
+1	1	ODIN_II/SRC/verilog_bison.y
+
+--ee4844938--2019-06-07--ademmings
+0	3	ODIN_II/SRC/verilog_bison.y
+
+--cbf021082--2019-06-07--ademmings
+1	0	ODIN_II/SRC/include/parse_making_ast.h
+219	152	ODIN_II/SRC/netlist_create_from_ast.cpp
+462	222	ODIN_II/SRC/parse_making_ast.cpp
+37	18	ODIN_II/SRC/verilog_bison.y
+
+--96ecb6e16--2019-06-05--jeanlego
+22	10	ODIN_II/SRC/ast_loop_unroll.cpp
+4	0	ODIN_II/SRC/memories.cpp
+37	10	ODIN_II/SRC/netlist_create_from_ast.cpp
+72	25	ODIN_II/SRC/simulate_blif.cpp
+
+--2f9bcd5e5--2019-06-04--kmurray
+0	1	ODIN_II/SRC/soft_logic_def_parser.cpp
+
+--d8f2302f8--2019-05-31--ademmings
+3	3	ODIN_II/SRC/include/verilog_preprocessor.h
+6	2	ODIN_II/SRC/parse_making_ast.cpp
+97	280	ODIN_II/SRC/verilog_preprocessor.cpp
+
+--f5780d5e6--2019-05-30--jeanlego
+9	0	ODIN_II/SRC/include/odin_types.h
+56	79	ODIN_II/SRC/netlist_create_from_ast.cpp
+1	1	ODIN_II/SRC/netlist_utils.cpp
+
+--1098f2a02--2019-05-30--jeanlego
+--ca8982aba--2019-05-30--jeanlego
+31	31	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--71a4ee744--2019-05-30--jeanlego
+7	389	ODIN_II/SRC/ast_elaborate.cpp
+86	74	ODIN_II/SRC/ast_util.cpp
+1	1	ODIN_II/SRC/enum_str.cpp
+1	14	ODIN_II/SRC/include/ast_elaborate.h
+4	4	ODIN_II/SRC/include/ast_util.h
+1	7	ODIN_II/SRC/include/odin_types.h
+43	0	ODIN_II/SRC/include/odin_util.h
+2	2	ODIN_II/SRC/include/simulate_blif.h
+6	4	ODIN_II/SRC/node_creation_library.cpp
+6	11	ODIN_II/SRC/parse_making_ast.cpp
+2	0	ODIN_II/SRC/read_blif.cpp
+7	7	ODIN_II/SRC/simulate_blif.cpp
+
+--2dc604034--2019-05-28--jeanlego
+--b0ac1c50e--2019-05-28--jeanlego
+--010f884e8--2019-05-28--ademmings
+3	3	ODIN_II/SRC/verilog_flex.l
+
+--e28943fab--2019-05-28--ademmings
+12	18	ODIN_II/SRC/netlist_create_from_ast.cpp
+2	2	ODIN_II/SRC/parse_making_ast.cpp
+2	0	ODIN_II/SRC/verilog_bison.y
+
+--ed1d03b6a--2019-05-28--ademmings
+1	0	ODIN_II/SRC/enum_str.cpp
+2	0	ODIN_II/SRC/include/odin_types.h
+36	5	ODIN_II/SRC/netlist_create_from_ast.cpp
+55	3	ODIN_II/SRC/parse_making_ast.cpp
+1	0	ODIN_II/SRC/verilog_bison.y
+
+--2aaf0fea6--2019-05-28--ademmings
+1	1	ODIN_II/SRC/verilog_bison.y
+1	1	ODIN_II/SRC/verilog_flex.l
+
+--3d22d44f7--2019-05-26--jeanlego
+10	10	ODIN_II/SRC/parse_making_ast.cpp
+
+--cd728e220--2019-05-24--jeanlego
+0	8	ODIN_II/SRC/ast_loop_unroll.cpp
+0	1	ODIN_II/SRC/include/ast_loop_unroll.h
+
+--66613d8bb--2019-05-24--jeanlego
+2	2	ODIN_II/SRC/verilog_bison.y
+
+--b527f7e40--2019-05-24--jeanlego
+2	0	ODIN_II/SRC/include/string_cache.h
+12	0	ODIN_II/SRC/parse_making_ast.cpp
+30	0	ODIN_II/SRC/string_cache.cpp
+7	5	ODIN_II/SRC/verilog_bison.y
+
+--0dd30da17--2019-05-24--jeanlego
+2	1	ODIN_II/SRC/enum_str.cpp
+
+--ec185c19c--2019-05-24--jeanlego
+2	1	ODIN_II/SRC/include/odin_types.h
+51	7	ODIN_II/SRC/netlist_create_from_ast.cpp
+6	7	ODIN_II/SRC/odin_ii.cpp
+
+--8c1185ad8--2019-05-24--jeanlego
+1	1	ODIN_II/SRC/include/AtomicBuffer.hpp
+1	0	ODIN_II/SRC/include/odin_types.h
+23	4	ODIN_II/SRC/odin_ii.cpp
+68	55	ODIN_II/SRC/simulate_blif.cpp
+
+--17edd9160--2019-05-24--jeanlego
+--2d95191cd--2019-05-24--ademmings
+127	65	ODIN_II/SRC/ast_loop_unroll.cpp
+5	5	ODIN_II/SRC/include/ast_loop_unroll.h
+
+--b69a74721--2019-05-24--ademmings
+0	41	ODIN_II/SRC/ast_loop_unroll.cpp
+0	1	ODIN_II/SRC/include/ast_loop_unroll.h
+
+--03a28f632--2019-05-24--ademmings
+--5fff8e586--2019-05-24--ademmings
+2	2	ODIN_II/SRC/adders.cpp
+1	1	ODIN_II/SRC/ast_elaborate.cpp
+124	59	ODIN_II/SRC/ast_loop_unroll.cpp
+4	2	ODIN_II/SRC/ast_util.cpp
+8	1	ODIN_II/SRC/enum_str.cpp
+4	5	ODIN_II/SRC/include/ast_loop_unroll.h
+1	1	ODIN_II/SRC/include/ast_util.h
+53	9	ODIN_II/SRC/netlist_create_from_ast.cpp
+10	5	ODIN_II/SRC/netlist_utils.cpp
+0	1	ODIN_II/SRC/parse_making_ast.cpp
+
+--e79ad2a5c--2019-05-23--MohamedEldafrawy
+1	1	ODIN_II/SRC/multipliers.cpp
+
+--11350a81b--2019-05-21--ademmings
+1	1	ODIN_II/SRC/ast_elaborate.cpp
+113	11	ODIN_II/SRC/ast_loop_unroll.cpp
+18	0	ODIN_II/SRC/ast_util.cpp
+1	0	ODIN_II/SRC/include/ast_elaborate.h
+3	0	ODIN_II/SRC/include/ast_loop_unroll.h
+1	0	ODIN_II/SRC/include/ast_util.h
+2	1	ODIN_II/SRC/parse_making_ast.cpp
+
+--8e2bafd1f--2019-05-17--Scott Young
+24	2	ODIN_II/SRC/ast_elaborate.cpp
+316	288	ODIN_II/SRC/ast_loop_unroll.cpp
+2	1	ODIN_II/SRC/include/parse_making_ast.h
+1	0	ODIN_II/SRC/parse_making_ast.cpp
+211	217	ODIN_II/SRC/verilog_bison.y
+
+--e72a806a7--2019-05-15--Scott Young
+4	3	ODIN_II/SRC/parse_making_ast.cpp
+
+--5c1011a83--2019-05-15--Scott Young
+2	0	ODIN_II/SRC/include/odin_types.h
+13	0	ODIN_II/SRC/parse_making_ast.cpp
+1	0	ODIN_II/SRC/simulate_blif.cpp
+
+--e73946f67--2019-05-14--Scott Young
+19	6	ODIN_II/SRC/verilog_bison.y
+3	0	ODIN_II/SRC/verilog_flex.l
+
+--965124bd4--2019-05-21--jeanlego
+--1564d6c6b--2019-05-21--jeanlego
+--7c0343c52--2019-05-21--ademmings
+1	1	ODIN_II/SRC/ast_elaborate.cpp
+113	11	ODIN_II/SRC/ast_loop_unroll.cpp
+18	0	ODIN_II/SRC/ast_util.cpp
+1	0	ODIN_II/SRC/include/ast_elaborate.h
+3	0	ODIN_II/SRC/include/ast_loop_unroll.h
+1	0	ODIN_II/SRC/include/ast_util.h
+2	1	ODIN_II/SRC/parse_making_ast.cpp
+
+--ae5d94cc8--2019-05-21--MohamedEldafrawy
+3	1	ODIN_II/SRC/multipliers.cpp
+
+--9f591fb28--2019-05-21--MohamedEldafrawy
+227	4	ODIN_II/SRC/multipliers.cpp
+1	1	ODIN_II/SRC/partial_map.cpp
+
+--2edfbb9a7--2019-05-21--MohamedEldafrawy
+1	1	ODIN_II/SRC/include/multipliers.h
+49	41	ODIN_II/SRC/multipliers.cpp
+
+--2a24120f9--2019-05-21--MohamedEldafrawy
+19	14	ODIN_II/SRC/multipliers.cpp
+
+--01659c2a6--2019-05-21--MohamedEldafrawy
+11	7	ODIN_II/SRC/multipliers.cpp
+7	4	ODIN_II/SRC/partial_map.cpp
+
+--0b530dd0e--2019-05-20--Aaron Graham
+2	0	ODIN_II/SRC/multipliers.cpp
+
+--43e84c3b8--2019-05-21--ademmings
+23	16	ODIN_II/SRC/implicit_memory.cpp
+5	5	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--8ae8064f5--2019-05-20--Aaron Graham
+1	0	ODIN_II/SRC/multipliers.cpp
+
+--4fcc1bc90--2019-05-20--jeanlego
+7	12	ODIN_II/SRC/multipliers.cpp
+4	7	ODIN_II/SRC/partial_map.cpp
+
+--d66b0ddee--2019-05-20--jeanlego
+14	19	ODIN_II/SRC/multipliers.cpp
+
+--515b8504c--2019-05-20--jeanlego
+1	1	ODIN_II/SRC/include/multipliers.h
+41	49	ODIN_II/SRC/multipliers.cpp
+
+--35080417e--2019-05-20--jeanlego
+4	227	ODIN_II/SRC/multipliers.cpp
+1	1	ODIN_II/SRC/partial_map.cpp
+
+--51cec1855--2019-05-20--jeanlego
+1	3	ODIN_II/SRC/multipliers.cpp
+
+--726e5e748--2019-05-19--MohamedEldafrawy
+3	1	ODIN_II/SRC/multipliers.cpp
+
+--662bdc7d6--2019-05-19--MohamedEldafrawy
+227	4	ODIN_II/SRC/multipliers.cpp
+1	1	ODIN_II/SRC/partial_map.cpp
+
+--7dead4df4--2019-05-19--MohamedEldafrawy
+1	1	ODIN_II/SRC/include/multipliers.h
+49	41	ODIN_II/SRC/multipliers.cpp
+
+--e5040a6c9--2019-05-19--MohamedEldafrawy
+19	14	ODIN_II/SRC/multipliers.cpp
+
+--10bea8427--2019-05-08--MohamedEldafrawy
+12	7	ODIN_II/SRC/multipliers.cpp
+7	4	ODIN_II/SRC/partial_map.cpp
+
+--1247e4567--2019-05-17--Scott Young
+24	2	ODIN_II/SRC/ast_elaborate.cpp
+316	288	ODIN_II/SRC/ast_loop_unroll.cpp
+2	1	ODIN_II/SRC/include/parse_making_ast.h
+1	0	ODIN_II/SRC/parse_making_ast.cpp
+211	217	ODIN_II/SRC/verilog_bison.y
+
+--b24dd4d58--2019-05-15--Scott Young
+4	3	ODIN_II/SRC/parse_making_ast.cpp
+
+--13dc038b8--2019-05-15--Scott Young
+2	0	ODIN_II/SRC/include/odin_types.h
+13	0	ODIN_II/SRC/parse_making_ast.cpp
+1	0	ODIN_II/SRC/simulate_blif.cpp
+
+--37a41a166--2019-05-14--Scott Young
+19	6	ODIN_II/SRC/verilog_bison.y
+3	0	ODIN_II/SRC/verilog_flex.l
+
+--07c5f65a8--2019-05-17--jeanlego
+--6096ac41c--2019-05-17--ademmings
+4	3	ODIN_II/SRC/ast_util.cpp
+4	2	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--2062486b1--2019-05-17--jeanlego
+14	2	ODIN_II/SRC/ast_util.cpp
+1	0	ODIN_II/SRC/include/ast_util.h
+8	3	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--22145b970--2019-05-17--ademmings
+92	57	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--280f88d60--2019-05-17--Hillary Soontiens
+15	9	ODIN_II/SRC/verilog_preprocessor.cpp
+
+--b098fd88b--2019-05-17--jeanlego
+52	81	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--a68f663a0--2019-05-17--jeanlego
+71	151	ODIN_II/SRC/parse_making_ast.cpp
+
+--c2bc9a60f--2019-05-16--ademmings
+1	5	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--8b64c2e14--2019-05-16--ademmings
+5	16	ODIN_II/SRC/ast_elaborate.cpp
+5	21	ODIN_II/SRC/ast_loop_unroll.cpp
+1	2	ODIN_II/SRC/include/ast_elaborate.h
+1	2	ODIN_II/SRC/include/ast_loop_unroll.h
+38	41	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--904ce97cc--2019-05-15--jeanlego
+--a0dd0cc96--2019-05-15--jeanlego
+--53b142cc9--2019-05-15--ademmings
+62	58	ODIN_II/SRC/parse_making_ast.cpp
+
+--2724fda16--2019-05-15--ademmings
+1	1	ODIN_II/SRC/verilog_bison.y
+
+--273d1d067--2019-05-15--ademmings
+38	1	ODIN_II/SRC/ast_util.cpp
+2	1	ODIN_II/SRC/enum_str.cpp
+2	0	ODIN_II/SRC/include/ast_util.h
+1	0	ODIN_II/SRC/include/odin_types.h
+4	0	ODIN_II/SRC/parse_making_ast.cpp
+3	2	ODIN_II/SRC/verilog_bison.y
+2	0	ODIN_II/SRC/verilog_flex.l
+
+--14d8764ba--2019-05-15--jeanlego
+--e3db36e21--2019-05-14--ademmings
+3	8	ODIN_II/SRC/ast_util.cpp
+
+--350796e3f--2019-05-14--ademmings
+3	3	ODIN_II/SRC/ast_util.cpp
+0	7	ODIN_II/SRC/parse_making_ast.cpp
+
+--48d3b9152--2019-05-14--jeanlego
+11	6	ODIN_II/SRC/implicit_memory.cpp
+1	1	ODIN_II/SRC/memories.cpp
+128	124	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--5b2555725--2019-05-13--Hillary Soontiens
+10	1	ODIN_II/SRC/verilog_preprocessor.cpp
+
+--da8fdde76--2019-05-10--ademmings
+35	7	ODIN_II/SRC/ast_util.cpp
+2	4	ODIN_II/SRC/include/ast_util.h
+15	9	ODIN_II/SRC/netlist_create_from_ast.cpp
+28	5	ODIN_II/SRC/parse_making_ast.cpp
+2	2	ODIN_II/SRC/verilog_bison.y
+
+--7523664b6--2019-05-10--Hillary Soontiens
+94	52	ODIN_II/SRC/verilog_preprocessor.cpp
+
+--ca67935a3--2019-05-10--Hillary Soontiens
+--0eb281b79--2019-05-09--ademmings
+43	42	ODIN_II/SRC/ast_elaborate.cpp
+11	0	ODIN_II/SRC/ast_loop_unroll.cpp
+4	81	ODIN_II/SRC/ast_util.cpp
+4	0	ODIN_II/SRC/include/ast_elaborate.h
+1	0	ODIN_II/SRC/include/ast_loop_unroll.h
+9	3	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--6957ad747--2019-05-08--ademmings
+13	12	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--cdc4dcb52--2019-05-08--ademmings
+83	3	ODIN_II/SRC/ast_util.cpp
+2	0	ODIN_II/SRC/include/ast_util.h
+1	2	ODIN_II/SRC/include/parse_making_ast.h
+101	7	ODIN_II/SRC/netlist_create_from_ast.cpp
+10	95	ODIN_II/SRC/parse_making_ast.cpp
+
+--96c94fbb8--2019-05-07--ademmings
+45	45	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--c99447154--2019-05-07--ademmings
+10	0	ODIN_II/SRC/ast_util.cpp
+1	0	ODIN_II/SRC/include/ast_util.h
+
+--5abed3b6f--2019-05-06--Hillary Soontiens
+82	77	ODIN_II/SRC/verilog_preprocessor.cpp
+
+--4c4e17fe3--2019-05-06--ademmings
+0	7	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--5095091e5--2019-05-06--Hillary Soontiens
+128	128	ODIN_II/SRC/verilog_preprocessor.cpp
+
+--5503a1705--2019-04-30--jeanlego
+1	1	ODIN_II/SRC/ast_util.cpp
+4	3	ODIN_II/SRC/verilog_bison.y
+
+--8a2bbe55f--2019-04-30--jeanlego
+4	0	ODIN_II/SRC/include/odin_types.h
+19	8	ODIN_II/SRC/verilog_bison.y
+2	1	ODIN_II/SRC/verilog_flex.l
+
+--db543d6c7--2019-04-30--jeanlego
+--ce23e02c8--2019-04-30--ademmings
+1	0	ODIN_II/SRC/verilog_bison.y
+
+--82f8e04e0--2019-04-29--ademmings
+1	0	ODIN_II/SRC/verilog_bison.y
+
+--f21e70cbf--2019-04-29--ademmings
+5	1	ODIN_II/SRC/ast_util.cpp
+
+--a0be442e9--2019-04-29--Alexandrea Demmings
+15	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--f69062322--2019-04-29--ademmings
+--05630a2b9--2019-04-15--MohamedEldafrawy
+44	15	ODIN_II/SRC/adders.cpp
+4	1	ODIN_II/SRC/include/config_t.h
+3	0	ODIN_II/SRC/include/odin_types.h
+7	1	ODIN_II/SRC/netlist_cleanup.cpp
+12	0	ODIN_II/SRC/odin_ii.cpp
+34	21	ODIN_II/SRC/subtractions.cpp
+
+--500d7b46d--2019-04-21--Prayas Arora
+1	0	ODIN_II/SRC/include/verilog_preprocessor.h
+
+--cbaa2c1b9--2019-04-16--jeanlego
+3	1	ODIN_II/SRC/include/verilog_preprocessor.h
+51	23	ODIN_II/SRC/verilog_preprocessor.cpp
+
+--99ffcf9f5--2019-04-12--kmurray
+1	1	ODIN_II/SRC/odin_ii.cpp
+
+--d20fd8043--2019-04-09--Hillary Soontiens
+1	1	ODIN_II/SRC/verilog_preprocessor.cpp
+
+--be5fdbd0e--2019-04-09--Hillary Soontiens
+35	17	ODIN_II/SRC/verilog_preprocessor.cpp
+
+--75e7e1beb--2019-04-06--jeanlego
+30	29	ODIN_II/SRC/verilog_bison.y
+68	67	ODIN_II/SRC/verilog_flex.l
+
+--552e3d677--2019-04-04--jeanlego
+12	7	ODIN_II/SRC/ast_util.cpp
+
+--04fafbca1--2019-04-04--Alexandrea Demmings
+1	2	ODIN_II/SRC/parse_making_ast.cpp
+
+--b7db9e84f--2019-04-04--Nasrin Eshraghi Ivari
+1	0	ODIN_II/SRC/include/ast_util.h
+2	0	ODIN_II/SRC/include/parse_making_ast.h
+48	0	ODIN_II/SRC/parse_making_ast.cpp
+4	1	ODIN_II/SRC/verilog_bison.y
+3	2	ODIN_II/SRC/verilog_flex.l
+
+--48025e523--2019-03-15--ademmings
+2	0	ODIN_II/SRC/ast_util.cpp
+
+--ea54e9f21--2019-03-15--ademmings
+1	0	ODIN_II/SRC/partial_map.cpp
+
+--c1e3a7b6a--2019-03-15--jeanlego
+--41ec03086--2019-03-15--jeanlego
+--8d1832726--2019-03-15--jeanlego
+--53c0ed9c5--2019-03-15--jeanlego
+--d35e26688--2019-03-15--jeanlego
+--e6ff1c6b3--2019-03-15--jeanlego
+--88221729b--2019-03-15--jeanlego
+--0724820d1--2019-03-15--jeanlego
+1	0	ODIN_II/SRC/parse_making_ast.cpp
+
+--15d1a5abe--2019-03-15--jeanlego
+--117433075--2019-03-15--jeanlego
+--202b872da--2019-03-15--jeanlego
+--49e0e9676--2019-03-15--jeanlego
+--3ab7ecef8--2019-03-15--jeanlego
+--bcf823a35--2019-03-15--jeanlego
+--d4ef199a3--2019-03-13--ademmings
+18	3	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--20b296af4--2019-03-13--ademmings
+1	2	ODIN_II/SRC/parse_making_ast.cpp
+
+--234ca55b7--2019-03-13--ademmings
+4	0	ODIN_II/SRC/parse_making_ast.cpp
+
+--15b4fe8f3--2019-03-13--ademmings
+3	3	ODIN_II/SRC/parse_making_ast.cpp
+
+--bdbe922b9--2019-03-13--ademmings
+4	0	ODIN_II/SRC/parse_making_ast.cpp
+
+--6401dcf07--2019-03-11--ademmings
+2	2	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--b976ce945--2019-03-11--ademmings
+1	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--28089e784--2019-03-11--ademmings
+8	0	ODIN_II/SRC/partial_map.cpp
+
+--d3688e384--2019-03-11--ademmings
+1	1	ODIN_II/SRC/partial_map.cpp
+
+--be2a9131f--2019-03-11--ademmings
+1	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+5	0	ODIN_II/SRC/partial_map.cpp
+
+--b94736d7e--2019-03-11--ademmings
+16	0	ODIN_II/SRC/netlist_utils.cpp
+
+--8ac4cfd88--2019-03-08--ademmings
+8	5	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--7cec679a9--2019-03-08--ademmings
+10	6	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--69dc85d1e--2019-03-07--ademmings
+6	4	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--815599093--2019-03-07--ademmings
+2	4	ODIN_II/SRC/netlist_create_from_ast.cpp
+3	0	ODIN_II/SRC/netlist_utils.cpp
+
+--be21e54ec--2019-03-07--ademmings
+1	0	ODIN_II/SRC/parse_making_ast.cpp
+
+--464fe6f95--2019-03-07--ademmings
+1	0	ODIN_II/SRC/parse_making_ast.cpp
+
+--2f5394615--2019-03-07--ademmings
+2	2	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--7e5e033c1--2019-03-07--ademmings
+6	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--b4f3a8fea--2019-03-07--ademmings
+0	3	ODIN_II/SRC/netlist_utils.cpp
+
+--998b1a261--2019-03-07--ademmings
+3	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+4	1	ODIN_II/SRC/netlist_utils.cpp
+
+--6f7c8771b--2019-03-06--ademmings
+1	0	ODIN_II/SRC/include/netlist_utils.h
+7	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+14	1	ODIN_II/SRC/netlist_utils.cpp
+
+--aa3e15371--2019-03-06--ademmings
+1	0	ODIN_II/SRC/implicit_memory.cpp
+
+--411a5befc--2019-03-06--ademmings
+7	0	ODIN_II/SRC/memories.cpp
+
+--410a372a3--2019-03-06--ademmings
+2	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--21ed03386--2019-03-06--ademmings
+8	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--7dfd69cc4--2019-03-06--ademmings
+1	1	ODIN_II/SRC/netlist_utils.cpp
+
+--33a5d4147--2019-03-05--jeanlego
+--b9a666cdd--2019-03-05--jeanlego
+--a423090b6--2019-03-05--jeanlego
+--84f2c7e69--2019-03-05--jeanlego
+--53d7caa40--2019-03-05--ademmings
+3	6	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--7f0b31cb2--2019-03-05--ademmings
+2	0	ODIN_II/SRC/partial_map.cpp
+
+--44f03cdad--2019-03-05--jeanlego
+--558f06c08--2019-03-05--jeanlego
+--25b9c5427--2019-03-05--ademmings
+6	1	ODIN_II/SRC/netlist_utils.cpp
+
+--ab834b91b--2019-03-05--ademmings
+0	1	ODIN_II/SRC/partial_map.cpp
+
+--10bbdca73--2019-03-05--ademmings
+5	0	ODIN_II/SRC/netlist_utils.cpp
+
+--c445c70a2--2019-03-05--ademmings
+4	1	ODIN_II/SRC/multipliers.cpp
+6	1	ODIN_II/SRC/netlist_utils.cpp
+
+--b038dccab--2019-03-05--ademmings
+4	2	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--388efb4f5--2019-03-05--ademmings
+3	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--3ed6869c7--2019-03-05--jeanlego
+--9a99e6002--2019-03-05--jeanlego
+--86862756a--2019-03-01--ademmings
+6	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--3f46f9e71--2019-03-01--ademmings
+2	0	ODIN_II/SRC/partial_map.cpp
+
+--df86a42d1--2019-02-27--ademmings
+1	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--34c6f3874--2019-02-27--ademmings
+6	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--228a84806--2019-02-01--Aaron Graham
+1	0	ODIN_II/SRC/odin_ii.cpp
+
+--60cfb116f--2019-02-25--ademmings
+2	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--e63704e0f--2019-02-25--ademmings
+1	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--429842745--2019-02-25--ademmings
+5	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--ae4ce816e--2019-02-23--Hillary
+1	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--53e08959c--2019-02-23--Alexandrea Demmings
+16	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--ab16058b1--2019-02-23--jeanlego
+76	0	ODIN_II/SRC/Hashtable.cpp
+31	24	ODIN_II/SRC/ace.cpp
+35	36	ODIN_II/SRC/adders.cpp
+57	57	ODIN_II/SRC/ast_elaborate.cpp
+11	11	ODIN_II/SRC/ast_loop_unroll.cpp
+52	61	ODIN_II/SRC/ast_util.cpp
+9	20	ODIN_II/SRC/enum_str.cpp
+7	7	ODIN_II/SRC/hard_blocks.cpp
+0	200	ODIN_II/SRC/hashtable.cpp
+9	6	ODIN_II/SRC/implicit_memory.cpp
+49	0	ODIN_II/SRC/include/Hashtable.hpp
+1	1	ODIN_II/SRC/include/ace.h
+1	1	ODIN_II/SRC/include/adders.h
+4	4	ODIN_II/SRC/include/ast_elaborate.h
+4	4	ODIN_II/SRC/include/ast_loop_unroll.h
+3	3	ODIN_II/SRC/include/ast_util.h
+0	58	ODIN_II/SRC/include/globals.h
+1	1	ODIN_II/SRC/include/hard_blocks.h
+0	63	ODIN_II/SRC/include/hashtable.h
+1	1	ODIN_II/SRC/include/implicit_memory.h
+16	15	ODIN_II/SRC/include/memories.h
+1	1	ODIN_II/SRC/include/netlist_utils.h
+1	1	ODIN_II/SRC/include/netlist_visualizer.h
+1	1	ODIN_II/SRC/include/node_creation_library.h
+8	6	ODIN_II/SRC/include/odin_error.h
+58	0	ODIN_II/SRC/include/odin_globals.h
+654	0	ODIN_II/SRC/include/odin_types.h
+9	7	ODIN_II/SRC/include/odin_util.h
+1	1	ODIN_II/SRC/include/parse_making_ast.h
+1	1	ODIN_II/SRC/include/read_xml_config_file.h
+1	1	ODIN_II/SRC/include/sim_block.h
+4	4	ODIN_II/SRC/include/simulate_blif.h
+1	1	ODIN_II/SRC/include/soft_logic_def_parser.h
+0	655	ODIN_II/SRC/include/types.h
+53	52	ODIN_II/SRC/memories.cpp
+21	23	ODIN_II/SRC/multipliers.cpp
+6	6	ODIN_II/SRC/netlist_check.cpp
+10	10	ODIN_II/SRC/netlist_cleanup.cpp
+70	75	ODIN_II/SRC/netlist_create_from_ast.cpp
+301	301	ODIN_II/SRC/netlist_utils.cpp
+2	2	ODIN_II/SRC/netlist_visualizer.cpp
+2	2	ODIN_II/SRC/node_creation_library.cpp
+7	6	ODIN_II/SRC/odin_error.cpp
+3	3	ODIN_II/SRC/odin_ii.cpp
+34	21	ODIN_II/SRC/odin_util.cpp
+4	4	ODIN_II/SRC/output_blif.cpp
+23	25	ODIN_II/SRC/parse_making_ast.cpp
+5	5	ODIN_II/SRC/partial_map.cpp
+72	71	ODIN_II/SRC/read_blif.cpp
+3	4	ODIN_II/SRC/read_xml_config_file.cpp
+56	54	ODIN_II/SRC/simulate_blif.cpp
+3	4	ODIN_II/SRC/soft_logic_def_parser.cpp
+16	16	ODIN_II/SRC/subtractions.cpp
+3	3	ODIN_II/SRC/verilog_bison.y
+3	3	ODIN_II/SRC/verilog_flex.l
+11	16	ODIN_II/SRC/verilog_preprocessor.cpp
+
+--a1c622ad2--2019-02-22--jeanlego
+--39eb357d5--2019-02-22--jeanlego
+17	22	ODIN_II/SRC/ast_util.cpp
+90	119	ODIN_II/SRC/enum_str.cpp
+4	4	ODIN_II/SRC/hard_blocks.cpp
+6	3	ODIN_II/SRC/implicit_memory.cpp
+14	14	ODIN_II/SRC/include/memories.h
+2	1	ODIN_II/SRC/include/odin_util.h
+0	3	ODIN_II/SRC/include/simulate_blif.h
+15	1	ODIN_II/SRC/include/types.h
+26	34	ODIN_II/SRC/memories.cpp
+16	23	ODIN_II/SRC/netlist_create_from_ast.cpp
+3	3	ODIN_II/SRC/odin_ii.cpp
+11	2	ODIN_II/SRC/odin_util.cpp
+45	294	ODIN_II/SRC/parse_making_ast.cpp
+2	2	ODIN_II/SRC/partial_map.cpp
+5	14	ODIN_II/SRC/read_blif.cpp
+
+--d25bef5fb--2019-02-22--Nasrin Eshraghi Ivari
+1	1	ODIN_II/SRC/verilog_flex.l
+
+--89b62d3a5--2019-02-22--Alexandrea Demmings
+4	0	ODIN_II/SRC/parse_making_ast.cpp
+
+--9ef3ef2b4--2019-02-22--Alexandrea Demmings
+2	1	ODIN_II/SRC/partial_map.cpp
+
+--0a00b34c7--2019-02-22--jeanlego
+2	2	ODIN_II/SRC/ace.cpp
+5	5	ODIN_II/SRC/ast_loop_unroll.cpp
+15	13	ODIN_II/SRC/ast_util.cpp
+223	0	ODIN_II/SRC/enum_str.cpp
+3	3	ODIN_II/SRC/implicit_memory.cpp
+51	0	ODIN_II/SRC/include/config_t.h
+1	1	ODIN_II/SRC/include/memories.h
+1	1	ODIN_II/SRC/include/netlist_utils.h
+46	0	ODIN_II/SRC/include/odin_error.h
+2	8	ODIN_II/SRC/include/odin_util.h
+26	63	ODIN_II/SRC/include/types.h
+6	4	ODIN_II/SRC/memories.cpp
+1	1	ODIN_II/SRC/multipliers.cpp
+49	47	ODIN_II/SRC/netlist_create_from_ast.cpp
+5	5	ODIN_II/SRC/netlist_utils.cpp
+109	0	ODIN_II/SRC/odin_error.cpp
+1	1	ODIN_II/SRC/odin_ii.cpp
+1	244	ODIN_II/SRC/odin_util.cpp
+3	35	ODIN_II/SRC/output_blif.cpp
+9	9	ODIN_II/SRC/parse_making_ast.cpp
+3	3	ODIN_II/SRC/partial_map.cpp
+41	72	ODIN_II/SRC/read_blif.cpp
+24	24	ODIN_II/SRC/simulate_blif.cpp
+1	0	ODIN_II/SRC/verilog_preprocessor.cpp
+
+--3444b93fe--2019-02-19--jeanlego
+6	3	ODIN_II/SRC/ast_util.cpp
+34	9	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--8eddcb547--2019-02-18--jeanlego
+--024efd08b--2019-02-15--ademmings
+2	8	ODIN_II/SRC/ast_util.cpp
+
+--ce4e6f89a--2019-02-12--jeanlego
+--6d6868158--2019-02-12--jeanlego
+2	3	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--547c8b80e--2019-02-12--jeanlego
+--edffc648b--2019-02-12--jeanlego
+--2b17c1c8c--2019-02-12--jeanlego
+--48b0db7f3--2019-02-12--jeanlego
+--5ebca4e11--2019-02-12--jeanlego
+--4246a9796--2019-02-12--jeanlego
+--cce20f4d1--2019-02-12--jeanlego
+--12eb7a463--2019-02-12--jeanlego
+--70b5bb4b0--2019-02-12--jeanlego
+--2a7577493--2019-02-08--ademmings
+1	2	ODIN_II/SRC/ast_util.cpp
+
+--e6031419b--2019-02-08--ademmings
+4	0	ODIN_II/SRC/ast_util.cpp
+
+--35d4a0345--2019-02-08--ademmings
+9	2	ODIN_II/SRC/ast_util.cpp
+
+--8dc0ad5aa--2019-02-08--ademmings
+2	1	ODIN_II/SRC/ast_util.cpp
+
+--f72bbc9b4--2019-02-06--ademmings
+1	0	ODIN_II/SRC/ast_util.cpp
+
+--dca7340b1--2019-02-04--ademmings
+2	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--a06cac979--2019-02-04--ademmings
+0	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--61a55cc3f--2019-02-04--ademmings
+2	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--69d61445d--2019-02-04--ademmings
+1	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--63e6a80b1--2019-02-04--ademmings
+2	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--26398f8a9--2019-02-04--ademmings
+1	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--283c8fccd--2019-02-04--ademmings
+1	1	ODIN_II/SRC/include/parse_making_ast.h
+2	1	ODIN_II/SRC/parse_making_ast.cpp
+
+--e9ea1e86f--2019-02-02--jeanlego
+47	76	ODIN_II/SRC/include/AtomicBuffer.hpp
+
+--170eddb13--2019-02-02--jeanlego
+--9c77f1909--2019-02-02--jeanlego
+6	6	ODIN_II/SRC/simulate_blif.cpp
+
+--6c72df5cf--2019-02-02--jeanlego
+76	47	ODIN_II/SRC/include/AtomicBuffer.hpp
+
+--6c8104ca2--2019-02-01--ademmings
+1	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--abf68952c--2019-02-01--ademmings
+2	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--ce8ef3d72--2019-02-01--ademmings
+1	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--bebadfc3d--2019-02-01--ademmings
+1	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--a13fea104--2019-02-01--ademmings
+1	0	ODIN_II/SRC/partial_map.cpp
+
+--b935204fe--2019-01-30--ademmings
+1	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--f89c64c59--2019-01-29--kmurray
+4	2	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--bb4ac4d51--2019-01-29--jeanlego
+--7655cd137--2019-01-29--Maria Patrou
+1	29	ODIN_II/SRC/simulate_blif.cpp
+
+--b8869f721--2019-01-29--jeanlego
+--9ec4978eb--2019-01-29--jeanlego
+--c3f0a000d--2019-01-29--jeanlego
+--37ce378f3--2019-01-29--jeanlego
+--2cea2be84--2019-01-29--jeanlego
+--ec5575664--2019-01-29--jeanlego
+--9617b7f1e--2019-01-05--Maria Patrou
+15	10	ODIN_II/SRC/simulate_blif.cpp
+
+--a843b9a15--2018-12-30--Maria Patrou
+6	6	ODIN_II/SRC/include/AtomicBuffer.hpp
+48	36	ODIN_II/SRC/simulate_blif.cpp
+
+--a6f396041--2018-12-21--maria
+7	4	ODIN_II/SRC/include/AtomicBuffer.hpp
+32	27	ODIN_II/SRC/simulate_blif.cpp
+
+--90f9bb8bf--2018-12-19--maria
+15	9	ODIN_II/SRC/include/AtomicBuffer.hpp
+2	0	ODIN_II/SRC/include/simulate_blif.h
+92	82	ODIN_II/SRC/simulate_blif.cpp
+
+--b0e2eb67c--2018-12-19--maria
+1	0	ODIN_II/SRC/include/simulate_blif.h
+3	2	ODIN_II/SRC/include/types.h
+3	0	ODIN_II/SRC/read_blif.cpp
+134	40	ODIN_II/SRC/simulate_blif.cpp
+
+--4f16d053b--2018-12-17--maria
+24	0	ODIN_II/SRC/include/simulate_blif.h
+903	14	ODIN_II/SRC/simulate_blif.cpp
+
+--dc3f7131c--2019-01-28--ademmings
+1	0	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--1ef6851f2--2019-01-28--ademmings
+3	2	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--32031db7f--2019-01-28--ademmings
+2	0	ODIN_II/SRC/implicit_memory.cpp
+
+--e46e00884--2019-01-28--ademmings
+6	2	ODIN_II/SRC/ast_util.cpp
+
+--685e3889f--2019-01-28--ademmings
+3	3	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--edd3378f8--2019-01-28--ademmings
+2	1	ODIN_II/SRC/netlist_create_from_ast.cpp
+
+--9540f9fcd--2019-01-28--ademmings
+6	1	ODIN_II/SRC/verilog_preprocessor.cpp
+
+--813e65173--2019-01-14--ademmings
+1	1	ODIN_II/SRC/read_xml_config_file.cpp
+
+--0aa1e59a5--2019-01-14--ademmings
+1	1	ODIN_II/SRC/include/odin_util.h
+7	15	ODIN_II/SRC/odin_util.cpp
+3	2	ODIN_II/SRC/verilog_preprocessor.cpp
+
+--c03e32c20--2019-01-14--ademmings
+2	5	ODIN_II/SRC/verilog_preprocessor.cpp

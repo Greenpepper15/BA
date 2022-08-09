@@ -1,0 +1,421 @@
+--d9abcfcfd--2015-12-01--vincelasal
+50	38	ODIN_II/SRC/netlist_create_from_ast.c
+
+--b8871f32b--2015-11-24--vincelasal
+16	13	ODIN_II/SRC/output_blif.c
+
+--99cb22720--2015-11-05--Zack Deveau
+0	2	ODIN_II/SRC/netlist_create_from_ast.c
+
+--cc01c0772--2015-11-04--Zack Deveau
+1	1	ODIN_II/SRC/netlist_create_from_ast.c
+
+--c912c6a61--2015-11-02--vincelasal
+3	0	ODIN_II/SRC/netlist_create_from_ast.c
+
+--7dd416714--2015-10-13--srseeley
+75	0	ODIN_II/SRC/ace.c
+31	0	ODIN_II/SRC/ace.h
+3	0	ODIN_II/SRC/simulate_blif.c
+1	0	ODIN_II/SRC/simulate_blif.h
+19	0	ODIN_II/SRC/types.h
+
+--1eb37aa13--2015-05-13--Oleg Petelin
+1	1	ODIN_II/SRC/odin_ii_func.c
+1	15	ODIN_II/SRC/partial_map.c
+
+--03d6cc39d--2015-05-08--Bipin Kumar
+1	1	ODIN_II/SRC/odin_ii_func.c
+15	1	ODIN_II/SRC/partial_map.c
+
+--00aef7d29--2015-03-17--Bipin Kumar
+27	18	ODIN_II/SRC/output_blif.c
+
+--fd37df3e5--2015-01-12--Bipin Kumar
+2	2	ODIN_II/SRC/odin_ii.c
+15	15	ODIN_II/SRC/read_xml_config_file.c
+
+--ac90027f6--2014-12-04--B. Yan
+89	24	ODIN_II/SRC/ast_elaborate.c
+6	2	ODIN_II/SRC/ast_elaborate.h
+
+--d33e2a836--2014-09-29--Kenneth Kent
+1	1	ODIN_II/SRC/odin_util.c
+5	5	ODIN_II/SRC/simulate_blif.c
+
+--ec38578a2--2014-08-19--Lucas Cambuim
+47	274	ODIN_II/SRC/output_blif.c
+
+--93cdc04c8--2014-08-14--Kenneth Kent
+2	2	ODIN_II/SRC/ast_elaborate.c
+
+--6ce4d8495--2014-08-14--B. Yan
+24	1	ODIN_II/SRC/adders.c
+482	194	ODIN_II/SRC/ast_elaborate.c
+37	8	ODIN_II/SRC/ast_elaborate.h
+1	1	ODIN_II/SRC/netlist_optimizations.c
+
+--01b21ac41--2014-08-01--Lucas Cambuim
+1	2	ODIN_II/SRC/netlist_create_from_ast.c
+8	5	ODIN_II/SRC/odin_util.c
+1	1	ODIN_II/SRC/verilog_bison.y
+
+--d6900373c--2014-08-01--Lucas Cambuim
+81	28	ODIN_II/SRC/ast_util.c
+1	0	ODIN_II/SRC/ast_util.h
+2	1	ODIN_II/SRC/globals.h
+870	108	ODIN_II/SRC/netlist_create_from_ast.c
+26	0	ODIN_II/SRC/node_creation_library.c
+1	0	ODIN_II/SRC/node_creation_library.h
+68	5	ODIN_II/SRC/odin_util.c
+3	2	ODIN_II/SRC/odin_util.h
+256	26	ODIN_II/SRC/output_blif.c
+757	214	ODIN_II/SRC/parse_making_ast.c
+12	1	ODIN_II/SRC/parse_making_ast.h
+29	36	ODIN_II/SRC/partial_map.c
+9	4	ODIN_II/SRC/string_cache.c
+1	1	ODIN_II/SRC/string_cache.h
+70	42	ODIN_II/SRC/types.h
+140	42	ODIN_II/SRC/verilog_bison.y
+7	6	ODIN_II/SRC/verilog_flex.l
+
+--4e6656964--2014-07-31--Jason Luu
+2	2	ODIN_II/SRC/activity_estimation.c
+1	1	ODIN_II/SRC/ast_elaborate.c
+1	1	ODIN_II/SRC/ast_util.c
+1	1	ODIN_II/SRC/hashtable.c
+1	1	ODIN_II/SRC/netlist_create_from_ast.c
+8	8	ODIN_II/SRC/odin_util.c
+3	3	ODIN_II/SRC/simulate_blif.c
+1	1	ODIN_II/SRC/verilog_preprocessor.c
+
+--e0863f2f4--2014-07-31--Jason Luu
+2	0	ODIN_II/SRC/globals.h
+
+--02cf3e506--2014-07-31--Kenneth Kent
+1	1	ODIN_II/SRC/adders.c
+9	9	ODIN_II/SRC/ast_elaborate.c
+2	3	ODIN_II/SRC/ast_util.c
+2	2	ODIN_II/SRC/errors.c
+2	2	ODIN_II/SRC/errors.h
+2	6	ODIN_II/SRC/hard_blocks.c
+2	2	ODIN_II/SRC/hard_blocks.h
+2	2	ODIN_II/SRC/hashtable.c
+17	11	ODIN_II/SRC/implicit_memory.c
+4	6	ODIN_II/SRC/implicit_memory.h
+74	74	ODIN_II/SRC/memories.c
+5	3	ODIN_II/SRC/memories.h
+23	19	ODIN_II/SRC/netlist_create_from_ast.c
+5	5	ODIN_II/SRC/netlist_utils.c
+4	4	ODIN_II/SRC/netlist_utils.h
+2	2	ODIN_II/SRC/netlist_visualizer.c
+2	2	ODIN_II/SRC/netlist_visualizer.h
+47	47	ODIN_II/SRC/node_creation_library.c
+1	1	ODIN_II/SRC/node_creation_library.h
+6	0	ODIN_II/SRC/odin_ii.c
+3	3	ODIN_II/SRC/odin_ii_func.c
+24	20	ODIN_II/SRC/odin_util.c
+3	3	ODIN_II/SRC/odin_util.h
+5	5	ODIN_II/SRC/output_blif.c
+5	5	ODIN_II/SRC/parse_making_ast.c
+2	2	ODIN_II/SRC/partial_map.c
+1	1	ODIN_II/SRC/queue.c
+43	43	ODIN_II/SRC/read_blif.c
+21	20	ODIN_II/SRC/read_xml_config_file.c
+67	63	ODIN_II/SRC/simulate_blif.c
+1	1	ODIN_II/SRC/simulate_blif.h
+3	3	ODIN_II/SRC/string_cache.c
+2	2	ODIN_II/SRC/string_cache.h
+1	2	ODIN_II/SRC/subtractions.c
+1	1	ODIN_II/SRC/verilog_bison.y
+2	0	ODIN_II/SRC/verilog_flex.l
+
+--675913afb--2014-04-10--Xander Chin
+2	0	ODIN_II/SRC/adders.c
+4	4	ODIN_II/SRC/ast_util.c
+
+--dfb580ed0--2014-04-09--Xander Chin
+7	6	ODIN_II/SRC/verilog_flex.l
+
+--0e0df0d61--2013-12-30--Conor McCullough
+7	0	ODIN_II/SRC/adders.c
+11	0	ODIN_II/SRC/netlist_cleanup.c
+
+--9c6c0ce37--2013-12-05--Conor McCullough
+3	3	ODIN_II/SRC/adders.c
+1	0	ODIN_II/SRC/netlist_utils.c
+2	2	ODIN_II/SRC/partial_map.c
+2	0	ODIN_II/SRC/types.h
+
+--459839d13--2013-11-27--Conor McCullough
+92	79	ODIN_II/SRC/netlist_cleanup.c
+
+--149347aa1--2013-11-20--Conor McCullough
+10	16	ODIN_II/SRC/adders.c
+83	11	ODIN_II/SRC/netlist_cleanup.c
+1	1	ODIN_II/SRC/odin_ii_func.c
+9	17	ODIN_II/SRC/subtractions.c
+
+--522b060b2--2013-10-30--Conor McCullough
+8	0	ODIN_II/SRC/multipliers.c
+
+--013d49bd8--2013-09-23--Conor McCullough
+1	1	ODIN_II/SRC/odin_ii_func.c
+
+--8d4b372d8--2013-09-20--Conor McCullough
+1	1	ODIN_II/SRC/odin_ii_func.c
+
+--960f9fd48--2013-09-18--Conor McCullough
+1	1	ODIN_II/SRC/odin_ii_func.c
+
+--ef72dfd64--2013-09-03--Conor McCullough
+1	1	ODIN_II/SRC/simulate_blif.c
+
+--670313920--2013-08-21--Conor McCullough
+2	1	ODIN_II/SRC/odin_ii_func.c
+
+--d445cfa60--2013-08-21--Conor McCullough
+129	0	ODIN_II/SRC/netlist_cleanup.c
+6	0	ODIN_II/SRC/netlist_cleanup.h
+3	0	ODIN_II/SRC/odin_ii_func.c
+
+--c390da02d--2013-08-19--Salihir Wang
+1	1	ODIN_II/SRC/netlist_create_from_ast.c
+3	3	ODIN_II/SRC/netlist_utils.c
+1	2	ODIN_II/SRC/parse_making_ast.c
+85	4	ODIN_II/SRC/partial_map.c
+
+--33ef8b698--2013-08-14--Conor McCullough
+1755	0	ODIN_II/SRC/ast_elaborate.c
+72	0	ODIN_II/SRC/ast_elaborate.h
+
+--3ef8ceec9--2013-08-13--Conor McCullough
+302	1	ODIN_II/SRC/adders.c
+12	0	ODIN_II/SRC/adders.h
+1	0	ODIN_II/SRC/ast_util.c
+24	5	ODIN_II/SRC/netlist_create_from_ast.c
+11	9	ODIN_II/SRC/netlist_optimizations.c
+7	1	ODIN_II/SRC/odin_ii_func.c
+6	7	ODIN_II/SRC/parse_making_ast.c
+1	1	ODIN_II/SRC/partial_map.c
+1	0	ODIN_II/SRC/subtractions.c
+1	0	ODIN_II/SRC/types.h
+
+--5f2e6000b--2013-08-02--Conor McCullough
+6	1	ODIN_II/SRC/netlist_create_from_ast.c
+6	2	ODIN_II/SRC/odin_ii.c
+10	2	ODIN_II/SRC/output_blif.c
+
+--520ba55a7--2013-07-26--Kenneth Kent
+7	0	ODIN_II/SRC/hard_blocks.c
+
+--8e54a2dca--2013-07-18--Salihir Wang
+7	0	ODIN_II/SRC/adders.c
+1	0	ODIN_II/SRC/adders.h
+9	8	ODIN_II/SRC/netlist_optimizations.c
+14	0	ODIN_II/SRC/netlist_utils.c
+1	0	ODIN_II/SRC/netlist_utils.h
+80	4	ODIN_II/SRC/subtractions.c
+
+--304c75009--2013-06-07--Salihir Wang
+51	0	ODIN_II/SRC/ast_util.c
+2	0	ODIN_II/SRC/ast_util.h
+160	30	ODIN_II/SRC/netlist_create_from_ast.c
+150	8	ODIN_II/SRC/parse_making_ast.c
+2	1	ODIN_II/SRC/parse_making_ast.h
+7	1	ODIN_II/SRC/verilog_bison.y
+
+--a8e003b9f--2013-05-29--Conor McCullough
+0	2	ODIN_II/SRC/netlist_utils.c
+0	2	ODIN_II/SRC/types.h
+
+--30a4ca1d8--2013-05-29--Conor McCullough
+18	4	ODIN_II/SRC/netlist_create_from_ast.c
+2	0	ODIN_II/SRC/netlist_utils.c
+2	0	ODIN_II/SRC/types.h
+
+--768ceef11--2013-05-23--Conor McCullough
+92	3	ODIN_II/SRC/netlist_create_from_ast.c
+12	0	ODIN_II/SRC/netlist_utils.c
+9	3	ODIN_II/SRC/output_blif.c
+14	0	ODIN_II/SRC/read_blif.c
+19	4	ODIN_II/SRC/simulate_blif.c
+8	2	ODIN_II/SRC/types.h
+
+--e09f3cc75--2013-03-20--Salihir Wang
+9	3	ODIN_II/SRC/adders.c
+4	3	ODIN_II/SRC/partial_map.c
+7	2	ODIN_II/SRC/subtractions.c
+
+--db5d33a5d--2013-03-18--Salihir Wang
+16	13	ODIN_II/SRC/adders.c
+1	0	ODIN_II/SRC/adders.h
+19	12	ODIN_II/SRC/partial_map.c
+10	0	ODIN_II/SRC/read_xml_config_file.c
+23	21	ODIN_II/SRC/subtractions.c
+1	1	ODIN_II/SRC/subtractions.h
+3	1	ODIN_II/SRC/types.h
+
+--5aeb4b0e5--2013-03-12--Salihir Wang
+79	59	ODIN_II/SRC/adders.c
+10	4	ODIN_II/SRC/partial_map.c
+3	3	ODIN_II/SRC/read_xml_config_file.c
+186	311	ODIN_II/SRC/subtractions.c
+
+--d7a654b2f--2013-02-21--Kons Na
+2	0	ODIN_II/SRC/netlist_utils.c
+5	1	ODIN_II/SRC/odin_ii.c
+1	0	ODIN_II/SRC/odin_ii_func.c
+1	1	ODIN_II/SRC/read_blif.c
+108	4	ODIN_II/SRC/simulate_blif.c
+3	0	ODIN_II/SRC/simulate_blif.h
+3	0	ODIN_II/SRC/types.h
+
+--e68ceea14--2013-01-07--Salihir Wang
+218	291	ODIN_II/SRC/adders.c
+1	0	ODIN_II/SRC/adders.h
+9	9	ODIN_II/SRC/multipliers.c
+43	6	ODIN_II/SRC/partial_map.c
+1	1	ODIN_II/SRC/read_xml_config_file.c
+76	124	ODIN_II/SRC/simulate_blif.c
+1	0	ODIN_II/SRC/types.h
+
+--5eb8b37a7--2012-12-18--Kenneth Kent
+40	0	ODIN_II/SRC/parse_making_ast.c
+2	0	ODIN_II/SRC/parse_making_ast.h
+4	0	ODIN_II/SRC/types.h
+6	2	ODIN_II/SRC/verilog_bison.y
+3	3	ODIN_II/SRC/verilog_flex.l
+
+--fd59ddc76--2012-12-18--Salihir Wang
+9	28	ODIN_II/SRC/adders.c
+0	1	ODIN_II/SRC/adders.h
+11	0	ODIN_II/SRC/hard_blocks.c
+3	0	ODIN_II/SRC/multipliers.c
+107	15	ODIN_II/SRC/netlist_create_from_ast.c
+5	0	ODIN_II/SRC/partial_map.c
+3	13	ODIN_II/SRC/subtractions.c
+0	7	ODIN_II/SRC/subtractions.h
+
+--966b9c118--2012-12-01--Jason Luu
+5	0	ODIN_II/SRC/simulate_blif.c
+
+--39eac8197--2012-11-26--Salihir Wang
+7	8	ODIN_II/SRC/adders.c
+5	3	ODIN_II/SRC/ast_util.c
+1	1	ODIN_II/SRC/odin_ii_func.c
+2	3	ODIN_II/SRC/output_blif.c
+63	5	ODIN_II/SRC/parse_making_ast.c
+2	2	ODIN_II/SRC/partial_map.c
+20	3	ODIN_II/SRC/read_blif.c
+16	237	ODIN_II/SRC/subtractions.c
+1	7	ODIN_II/SRC/subtractions.h
+4	4	ODIN_II/SRC/verilog_preprocessor.c
+
+--70b310f9c--2012-11-15--Salihir Wang
+120	33	ODIN_II/SRC/adders.c
+2	2	ODIN_II/SRC/output_blif.c
+54	16	ODIN_II/SRC/simulate_blif.c
+106	79	ODIN_II/SRC/subtractions.c
+
+--301ba0fae--2012-11-09--Salihir Wang
+8	1	ODIN_II/SRC/adders.c
+30	19	ODIN_II/SRC/subtractions.c
+
+--1ad511baa--2012-11-08--Salihir Wang
+3	2	ODIN_II/SRC/output_blif.c
+
+--4f7245cd9--2012-11-08--Salihir Wang
+43	133	ODIN_II/SRC/adders.c
+2	1	ODIN_II/SRC/adders.h
+1	15	ODIN_II/SRC/netlist_create_from_ast.c
+12	0	ODIN_II/SRC/netlist_utils.c
+1	0	ODIN_II/SRC/netlist_utils.h
+7	6	ODIN_II/SRC/output_blif.c
+10	9	ODIN_II/SRC/partial_map.c
+2	0	ODIN_II/SRC/read_blif.c
+98	2	ODIN_II/SRC/simulate_blif.c
+3	0	ODIN_II/SRC/simulate_blif.h
+165	122	ODIN_II/SRC/subtractions.c
+9	1	ODIN_II/SRC/subtractions.h
+7	1	ODIN_II/SRC/types.h
+
+--acb40fd33--2012-11-05--Salihir Wang
+7	6	ODIN_II/SRC/verilog_preprocessor.c
+
+--7944b724a--2012-11-01--Kenneth Kent
+10	3	ODIN_II/SRC/multipliers.c
+8	8	ODIN_II/SRC/verilog_preprocessor.c
+
+--aabe9b245--2012-10-31--Kenneth Kent
+4	0	ODIN_II/SRC/ast_util.c
+
+--bd490ef07--2012-10-11--Kenneth Kent
+1	0	ODIN_II/SRC/verilog_flex.l
+
+--b285b8b5f--2012-10-11--Kenneth Kent
+7	2	ODIN_II/SRC/verilog_preprocessor.c
+
+--2342cbede--2012-08-31--Kons Na
+233	0	ODIN_II/SRC/odin_ii_func.c
+31	0	ODIN_II/SRC/odin_ii_func.h
+
+--49c17c4ff--2012-08-31--Kons Na
+24	24	ODIN_II/SRC/memories.c
+4	4	ODIN_II/SRC/memories.h
+6	6	ODIN_II/SRC/netlist_utils.c
+2	2	ODIN_II/SRC/netlist_utils.h
+3	173	ODIN_II/SRC/odin_ii.c
+4	1	ODIN_II/SRC/read_blif.c
+88	1	ODIN_II/SRC/simulate_blif.c
+2	1	ODIN_II/SRC/simulate_blif.h
+
+--d40586bfe--2012-08-31--Salihir Wang
+4	2	ODIN_II/SRC/simulate_blif.c
+
+--0e0d1b39c--2012-08-31--Salihir Wang
+23	23	ODIN_II/SRC/adders.c
+
+--311c217ea--2012-08-28--Salihir Wang
+28	30	ODIN_II/SRC/adders.c
+
+--959591514--2012-08-16--Salihir Wang
+1	0	ODIN_II/SRC/subtractions.h
+
+--cd0795ab0--2012-08-16--Salihir Wang
+11	12	ODIN_II/SRC/subtractions.c
+
+--cb92dd4e5--2012-08-14--Salihir Wang
+7	6	ODIN_II/SRC/adders.c
+
+--06b86e9ca--2012-08-13--Salihir Wang
+8	11	ODIN_II/SRC/adders.c
+4	0	ODIN_II/SRC/netlist_create_from_ast.c
+5	0	ODIN_II/SRC/netlist_optimizations.c
+3	0	ODIN_II/SRC/odin_ii.c
+11	1	ODIN_II/SRC/output_blif.c
+20	6	ODIN_II/SRC/partial_map.c
+66	31	ODIN_II/SRC/simulate_blif.c
+1	1	ODIN_II/SRC/simulate_blif.h
+938	0	ODIN_II/SRC/subtractions.c
+46	0	ODIN_II/SRC/subtractions.h
+
+--411396430--2012-08-10--Salihir Wang
+277	150	ODIN_II/SRC/adders.c
+
+--e060320a5--2012-06-15--Kenneth Kent
+898	0	ODIN_II/SRC/adders.c
+65	0	ODIN_II/SRC/adders.h
+16	0	ODIN_II/SRC/netlist_create_from_ast.c
+5	0	ODIN_II/SRC/netlist_optimizations.c
+3	0	ODIN_II/SRC/odin_ii.c
+19	3	ODIN_II/SRC/output_blif.c
+13	2	ODIN_II/SRC/partial_map.c
+2	0	ODIN_II/SRC/read_blif.c
+44	0	ODIN_II/SRC/read_xml_config_file.c
+114	1	ODIN_II/SRC/simulate_blif.c
+3	0	ODIN_II/SRC/simulate_blif.h
+11	1	ODIN_II/SRC/types.h
+
+--15ea5bdb2--2012-06-07--Jeffrey Goeders
+3	7	ODIN_II/SRC/odin_util.c
