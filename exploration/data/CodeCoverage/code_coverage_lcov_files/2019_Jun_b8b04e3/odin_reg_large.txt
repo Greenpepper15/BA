@@ -1,0 +1,62 @@
+Cleaning temporary run in directory
+Running test large
+Using [1] processors for this benchmarking suite
+Benchmark is: large
+running benchmark @/workspace/vtr-verilog-to-routing/ODIN_II/regression_test//run033
+This test will not be multithreaded
+ BENCHMARK IS: large
+ ========= Synthesizing Circuits
+       --- large/arm_core/k6_N10_mem32K_40nm
+--- PASSED large/arm_core/k6_N10_mem32K_40nm
+       --- large/bgm/k6_N10_mem32K_40nm
+--- PASSED large/bgm/k6_N10_mem32K_40nm
+       --- large/boundtop/k6_N10_mem32K_40nm
+--- PASSED large/boundtop/k6_N10_mem32K_40nm
+       --- large/des_area/k6_N10_mem32K_40nm
+--- PASSED large/des_area/k6_N10_mem32K_40nm
+       --- large/des_perf/k6_N10_mem32K_40nm
+--- PASSED large/des_perf/k6_N10_mem32K_40nm
+       --- large/iir/k6_N10_mem32K_40nm
+--- PASSED large/iir/k6_N10_mem32K_40nm
+       --- large/LargeRam/k6_N10_mem32K_40nm
+--- PASSED large/LargeRam/k6_N10_mem32K_40nm
+       --- large/LU32PEEng/k6_N10_mem32K_40nm
+--- PASSED large/LU32PEEng/k6_N10_mem32K_40nm
+       --- large/LU64PEEng/k6_N10_mem32K_40nm
+--- PASSED large/LU64PEEng/k6_N10_mem32K_40nm
+       --- large/mac1/k6_N10_mem32K_40nm
+--- PASSED large/mac1/k6_N10_mem32K_40nm
+       --- large/mac2/k6_N10_mem32K_40nm
+--- PASSED large/mac2/k6_N10_mem32K_40nm
+       --- large/mkDelayWorker32B/k6_N10_mem32K_40nm
+--- PASSED large/mkDelayWorker32B/k6_N10_mem32K_40nm
+       --- large/mkSMAdapter4B/k6_N10_mem32K_40nm
+--- PASSED large/mkSMAdapter4B/k6_N10_mem32K_40nm
+       --- large/paj_boundtop_hierarchy_no_mem/k6_N10_mem32K_40nm
+--- PASSED large/paj_boundtop_hierarchy_no_mem/k6_N10_mem32K_40nm
+       --- large/paj_framebuftop_hierarchy_no_mem/k6_N10_mem32K_40nm
+--- PASSED large/paj_framebuftop_hierarchy_no_mem/k6_N10_mem32K_40nm
+       --- large/paj_raygentop_hierarchy_no_mem/k6_N10_mem32K_40nm
+--- PASSED large/paj_raygentop_hierarchy_no_mem/k6_N10_mem32K_40nm
+       --- large/paj_top_hierarchy_no_mem/k6_N10_mem32K_40nm
+--- PASSED large/paj_top_hierarchy_no_mem/k6_N10_mem32K_40nm
+       --- large/raygentop/k6_N10_mem32K_40nm
+--- PASSED large/raygentop/k6_N10_mem32K_40nm
+       --- large/spree/k6_N10_mem32K_40nm
+--- PASSED large/spree/k6_N10_mem32K_40nm
+       --- large/sv_chip0_hierarchy_no_mem/k6_N10_mem32K_40nm
+--- PASSED large/sv_chip0_hierarchy_no_mem/k6_N10_mem32K_40nm
+       --- large/sv_chip1_hierarchy_no_mem/k6_N10_mem32K_40nm
+--- PASSED large/sv_chip1_hierarchy_no_mem/k6_N10_mem32K_40nm
+       --- large/sv_chip2_hierarchy_no_mem/k6_N10_mem32K_40nm
+--- PASSED large/sv_chip2_hierarchy_no_mem/k6_N10_mem32K_40nm
+       --- large/sv_chip3_hierarchy_no_mem/k6_N10_mem32K_40nm
+--- PASSED large/sv_chip3_hierarchy_no_mem/k6_N10_mem32K_40nm
+ran test in: 0:2:41.820
+no run failure!
+
+Test 'odin_reg_large' had 0 run failures
+
+Test complete
+
+All tests passed

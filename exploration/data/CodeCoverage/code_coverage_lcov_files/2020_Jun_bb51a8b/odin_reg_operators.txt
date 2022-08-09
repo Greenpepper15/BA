@@ -1,0 +1,1235 @@
+Cleaning temporary run in directory
+Reading extra config directive from ODIN_II/regression_test/.library/output_on_error.conf
+Using [1] processors for this benchmarking suite
+Task: ODIN_II/regression_test/benchmark/task/operators
+Benchmark result location: /workspace/vtr-verilog-to-routing/ODIN_II/regression_test/run006
+=========
+Task is: operators
+ ========= Synthesis Test
+                                       operators/asr_16_7/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_16_7/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/asr_16_7/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_16_7/k6_N10_40nm
+                                       operators/asr_16_7/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_16_7/k6_N10_mem32K_40nm
+                                       operators/asr_16_7/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_16_7/no_arch
+                                       operators/asr_8_1/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_1/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/asr_8_1/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_1/k6_N10_40nm
+                                       operators/asr_8_1/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_1/k6_N10_mem32K_40nm
+                                       operators/asr_8_1/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_1/no_arch
+                                       operators/asr_8_2/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_2/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/asr_8_2/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_2/k6_N10_40nm
+                                       operators/asr_8_2/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_2/k6_N10_mem32K_40nm
+                                       operators/asr_8_2/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_2/no_arch
+                                       operators/asr_8_3/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_3/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/asr_8_3/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_3/k6_N10_40nm
+                                       operators/asr_8_3/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_3/k6_N10_mem32K_40nm
+                                       operators/asr_8_3/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_3/no_arch
+                                       operators/asr_8_4/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_4/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/asr_8_4/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_4/k6_N10_40nm
+                                       operators/asr_8_4/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_4/k6_N10_mem32K_40nm
+                                       operators/asr_8_4/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_4/no_arch
+                                       operators/asr_8_5/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_5/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/asr_8_5/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_5/k6_N10_40nm
+                                       operators/asr_8_5/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_5/k6_N10_mem32K_40nm
+                                       operators/asr_8_5/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_5/no_arch
+                                       operators/asr_8_6/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_6/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/asr_8_6/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_6/k6_N10_40nm
+                                       operators/asr_8_6/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_6/k6_N10_mem32K_40nm
+                                       operators/asr_8_6/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_6/no_arch
+                                       operators/asr_8_7/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_7/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/asr_8_7/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_7/k6_N10_40nm
+                                       operators/asr_8_7/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_7/k6_N10_mem32K_40nm
+                                       operators/asr_8_7/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_7/no_arch
+                                       operators/binary_and/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_and/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_and/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_and/k6_N10_40nm
+                                       operators/binary_and/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_and/k6_N10_mem32K_40nm
+                                       operators/binary_and/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_and/no_arch
+                                       operators/binary_equal/k6_frac_N10_frac_chain_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . operators/binary_equal/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_equal/k6_N10_40nm
+  SIGABRT(134) . . . . . . . . . . . . operators/binary_equal/k6_N10_40nm
+                                       operators/binary_equal/k6_N10_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . operators/binary_equal/k6_N10_mem32K_40nm
+                                       operators/binary_equal/no_arch
+  SIGABRT(134) . . . . . . . . . . . . operators/binary_equal/no_arch
+                                       operators/binary_logical_and/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_and/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_logical_and/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_and/k6_N10_40nm
+                                       operators/binary_logical_and/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_and/k6_N10_mem32K_40nm
+                                       operators/binary_logical_and/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_and/no_arch
+                                       operators/binary_logical_equal/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_equal/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_logical_equal/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_equal/k6_N10_40nm
+                                       operators/binary_logical_equal/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_equal/k6_N10_mem32K_40nm
+                                       operators/binary_logical_equal/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_equal/no_arch
+                                       operators/binary_logical_greater_equal_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_equal_than/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_logical_greater_equal_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_equal_than/k6_N10_40nm
+                                       operators/binary_logical_greater_equal_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_equal_than/k6_N10_mem32K_40nm
+                                       operators/binary_logical_greater_equal_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_equal_than/no_arch
+                                       operators/binary_logical_greater_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_than/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_logical_greater_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_than/k6_N10_40nm
+                                       operators/binary_logical_greater_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_than/k6_N10_mem32K_40nm
+                                       operators/binary_logical_greater_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_than/no_arch
+                                       operators/binary_logical_less_equal_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_equal_than/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_logical_less_equal_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_equal_than/k6_N10_40nm
+                                       operators/binary_logical_less_equal_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_equal_than/k6_N10_mem32K_40nm
+                                       operators/binary_logical_less_equal_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_equal_than/no_arch
+                                       operators/binary_logical_less_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_than/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_logical_less_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_than/k6_N10_40nm
+                                       operators/binary_logical_less_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_than/k6_N10_mem32K_40nm
+                                       operators/binary_logical_less_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_than/no_arch
+                                       operators/binary_logical_not_equal/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_not_equal/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_logical_not_equal/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_not_equal/k6_N10_40nm
+                                       operators/binary_logical_not_equal/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_not_equal/k6_N10_mem32K_40nm
+                                       operators/binary_logical_not_equal/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_not_equal/no_arch
+                                       operators/binary_logical_or/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_or/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_logical_or/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_or/k6_N10_40nm
+                                       operators/binary_logical_or/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_or/k6_N10_mem32K_40nm
+                                       operators/binary_logical_or/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_or/no_arch
+                                       operators/binary_nand/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nand/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_nand/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nand/k6_N10_40nm
+                                       operators/binary_nand/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nand/k6_N10_mem32K_40nm
+                                       operators/binary_nand/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nand/no_arch
+                                       operators/binary_nor/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nor/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_nor/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nor/k6_N10_40nm
+                                       operators/binary_nor/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nor/k6_N10_mem32K_40nm
+                                       operators/binary_nor/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nor/no_arch
+                                       operators/binary_not_equal/k6_frac_N10_frac_chain_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . operators/binary_not_equal/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_not_equal/k6_N10_40nm
+  SIGABRT(134) . . . . . . . . . . . . operators/binary_not_equal/k6_N10_40nm
+                                       operators/binary_not_equal/k6_N10_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . operators/binary_not_equal/k6_N10_mem32K_40nm
+                                       operators/binary_not_equal/no_arch
+  SIGABRT(134) . . . . . . . . . . . . operators/binary_not_equal/no_arch
+                                       operators/binary_or/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_or/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_or/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_or/k6_N10_40nm
+                                       operators/binary_or/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_or/k6_N10_mem32K_40nm
+                                       operators/binary_or/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_or/no_arch
+                                       operators/binary_shift_left/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_left/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_shift_left/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_left/k6_N10_40nm
+                                       operators/binary_shift_left/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_left/k6_N10_mem32K_40nm
+                                       operators/binary_shift_left/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_left/no_arch
+                                       operators/binary_shift_right/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_right/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_shift_right/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_right/k6_N10_40nm
+                                       operators/binary_shift_right/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_right/k6_N10_mem32K_40nm
+                                       operators/binary_shift_right/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_right/no_arch
+                                       operators/binary_signed_shift_left/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_left/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_signed_shift_left/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_left/k6_N10_40nm
+                                       operators/binary_signed_shift_left/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_left/k6_N10_mem32K_40nm
+                                       operators/binary_signed_shift_left/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_left/no_arch
+                                       operators/binary_signed_shift_right/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_right/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_signed_shift_right/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_right/k6_N10_40nm
+                                       operators/binary_signed_shift_right/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_right/k6_N10_mem32K_40nm
+                                       operators/binary_signed_shift_right/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_right/no_arch
+                                       operators/binary_xnor/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xnor/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_xnor/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xnor/k6_N10_40nm
+                                       operators/binary_xnor/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xnor/k6_N10_mem32K_40nm
+                                       operators/binary_xnor/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xnor/no_arch
+                                       operators/binary_xor/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xor/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_xor/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xor/k6_N10_40nm
+                                       operators/binary_xor/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xor/k6_N10_mem32K_40nm
+                                       operators/binary_xor/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xor/no_arch
+                                       operators/clog2/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/clog2/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/clog2/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/clog2/k6_N10_40nm
+                                       operators/clog2/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/clog2/k6_N10_mem32K_40nm
+                                       operators/clog2/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/clog2/no_arch
+                                       operators/concat/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/concat/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/concat/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/concat/k6_N10_40nm
+                                       operators/concat/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/concat/k6_N10_mem32K_40nm
+                                       operators/concat/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/concat/no_arch
+                                       operators/eightbit_arithmetic_power/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/eightbit_arithmetic_power/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/eightbit_arithmetic_power/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/eightbit_arithmetic_power/k6_N10_40nm
+                                       operators/eightbit_arithmetic_power/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/eightbit_arithmetic_power/k6_N10_mem32K_40nm
+                                       operators/eightbit_arithmetic_power/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/eightbit_arithmetic_power/no_arch
+                                       operators/macromudule_test/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/macromudule_test/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/macromudule_test/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/macromudule_test/k6_N10_40nm
+                                       operators/macromudule_test/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/macromudule_test/k6_N10_mem32K_40nm
+                                       operators/macromudule_test/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/macromudule_test/no_arch
+                                       operators/minuscolon_6_bit/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/minuscolon_6_bit/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/minuscolon_6_bit/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/minuscolon_6_bit/k6_N10_40nm
+                                       operators/minuscolon_6_bit/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/minuscolon_6_bit/k6_N10_mem32K_40nm
+                                       operators/minuscolon_6_bit/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/minuscolon_6_bit/no_arch
+                                       operators/pluscolon_6_bit/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_6_bit/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/pluscolon_6_bit/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_6_bit/k6_N10_40nm
+                                       operators/pluscolon_6_bit/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_6_bit/k6_N10_mem32K_40nm
+                                       operators/pluscolon_6_bit/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_6_bit/no_arch
+                                       operators/pluscolon_8_bit/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_8_bit/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/pluscolon_8_bit/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_8_bit/k6_N10_40nm
+                                       operators/pluscolon_8_bit/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_8_bit/k6_N10_mem32K_40nm
+                                       operators/pluscolon_8_bit/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_8_bit/no_arch
+                                       operators/signed_to_unsigned/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/signed_to_unsigned/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/signed_to_unsigned/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/signed_to_unsigned/k6_N10_40nm
+                                       operators/signed_to_unsigned/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/signed_to_unsigned/k6_N10_mem32K_40nm
+                                       operators/signed_to_unsigned/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/signed_to_unsigned/no_arch
+                                       operators/specifyBlock/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/specifyBlock/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/specifyBlock/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/specifyBlock/k6_N10_40nm
+                                       operators/specifyBlock/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/specifyBlock/k6_N10_mem32K_40nm
+                                       operators/specifyBlock/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/specifyBlock/no_arch
+                                       operators/specparam/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/specparam/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/specparam/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/specparam/k6_N10_40nm
+                                       operators/specparam/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/specparam/k6_N10_mem32K_40nm
+                                       operators/specparam/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/specparam/no_arch
+                                       operators/string_test_concat/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/string_test_concat/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat/k6_N10_40nm
+                                       operators/string_test_concat/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat/k6_N10_mem32K_40nm
+                                       operators/string_test_concat/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat/no_arch
+                                       operators/string_test_concat_replicate/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat_replicate/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/string_test_concat_replicate/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat_replicate/k6_N10_40nm
+                                       operators/string_test_concat_replicate/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat_replicate/k6_N10_mem32K_40nm
+                                       operators/string_test_concat_replicate/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat_replicate/no_arch
+                                       operators/string_test/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/string_test/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test/k6_N10_40nm
+                                       operators/string_test/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test/k6_N10_mem32K_40nm
+                                       operators/string_test/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/string_test/no_arch
+                                       operators/twobits_arithmetic_div/k6_frac_N10_frac_chain_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . operators/twobits_arithmetic_div/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/twobits_arithmetic_div/k6_N10_40nm
+  SIGABRT(134) . . . . . . . . . . . . operators/twobits_arithmetic_div/k6_N10_40nm
+                                       operators/twobits_arithmetic_div/k6_N10_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . operators/twobits_arithmetic_div/k6_N10_mem32K_40nm
+                                       operators/twobits_arithmetic_div/no_arch
+  SIGABRT(134) . . . . . . . . . . . . operators/twobits_arithmetic_div/no_arch
+                                       operators/twobits_arithmetic_minus/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_minus/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/twobits_arithmetic_minus/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_minus/k6_N10_40nm
+                                       operators/twobits_arithmetic_minus/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_minus/k6_N10_mem32K_40nm
+                                       operators/twobits_arithmetic_minus/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_minus/no_arch
+                                       operators/twobits_arithmetic_mod/k6_frac_N10_frac_chain_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . operators/twobits_arithmetic_mod/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/twobits_arithmetic_mod/k6_N10_40nm
+  SIGABRT(134) . . . . . . . . . . . . operators/twobits_arithmetic_mod/k6_N10_40nm
+                                       operators/twobits_arithmetic_mod/k6_N10_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . operators/twobits_arithmetic_mod/k6_N10_mem32K_40nm
+                                       operators/twobits_arithmetic_mod/no_arch
+  SIGABRT(134) . . . . . . . . . . . . operators/twobits_arithmetic_mod/no_arch
+                                       operators/twobits_arithmetic_multiply/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_multiply/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/twobits_arithmetic_multiply/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_multiply/k6_N10_40nm
+                                       operators/twobits_arithmetic_multiply/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_multiply/k6_N10_mem32K_40nm
+                                       operators/twobits_arithmetic_multiply/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_multiply/no_arch
+                                       operators/twobits_arithmetic_plus/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_plus/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/twobits_arithmetic_plus/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_plus/k6_N10_40nm
+                                       operators/twobits_arithmetic_plus/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_plus/k6_N10_mem32K_40nm
+                                       operators/twobits_arithmetic_plus/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_plus/no_arch
+                                       operators/twobits_arithmetic_power/k6_frac_N10_frac_chain_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . operators/twobits_arithmetic_power/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/twobits_arithmetic_power/k6_N10_40nm
+  SIGABRT(134) . . . . . . . . . . . . operators/twobits_arithmetic_power/k6_N10_40nm
+                                       operators/twobits_arithmetic_power/k6_N10_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . operators/twobits_arithmetic_power/k6_N10_mem32K_40nm
+                                       operators/twobits_arithmetic_power/no_arch
+  SIGABRT(134) . . . . . . . . . . . . operators/twobits_arithmetic_power/no_arch
+                                       operators/twobits_logical_greater_equal_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_equal_than/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/twobits_logical_greater_equal_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_equal_than/k6_N10_40nm
+                                       operators/twobits_logical_greater_equal_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_equal_than/k6_N10_mem32K_40nm
+                                       operators/twobits_logical_greater_equal_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_equal_than/no_arch
+                                       operators/twobits_logical_greater_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_than/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/twobits_logical_greater_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_than/k6_N10_40nm
+                                       operators/twobits_logical_greater_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_than/k6_N10_mem32K_40nm
+                                       operators/twobits_logical_greater_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_than/no_arch
+                                       operators/twobits_logical_less_equal_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_equal_than/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/twobits_logical_less_equal_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_equal_than/k6_N10_40nm
+                                       operators/twobits_logical_less_equal_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_equal_than/k6_N10_mem32K_40nm
+                                       operators/twobits_logical_less_equal_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_equal_than/no_arch
+                                       operators/twobits_logical_less_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_than/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/twobits_logical_less_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_than/k6_N10_40nm
+                                       operators/twobits_logical_less_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_than/k6_N10_mem32K_40nm
+                                       operators/twobits_logical_less_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_than/no_arch
+                                       operators/unary_bitwise_bufnode/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_bufnode/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/unary_bitwise_bufnode/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_bufnode/k6_N10_40nm
+                                       operators/unary_bitwise_bufnode/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_bufnode/k6_N10_mem32K_40nm
+                                       operators/unary_bitwise_bufnode/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_bufnode/no_arch
+                                       operators/unary_bitwise_not/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_not/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/unary_bitwise_not/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_not/k6_N10_40nm
+                                       operators/unary_bitwise_not/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_not/k6_N10_mem32K_40nm
+                                       operators/unary_bitwise_not/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_not/no_arch
+ -------- Parsing Synthesis Result --------- 
+  Ok . . . . . . . . . . . . . . . . . operators/asr_16_7/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_16_7/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_16_7/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_16_7/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_1/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_1/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_1/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_1/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_2/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_2/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_2/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_2/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_3/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_3/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_3/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_3/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_4/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_4/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_4/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_4/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_5/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_5/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_5/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_5/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_6/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_6/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_6/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_6/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_7/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_7/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_7/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_7/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_and/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_and/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_and/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_and/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_equal/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_equal/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_equal/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_equal/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_and/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_and/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_and/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_and/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_equal/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_equal/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_equal/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_equal/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_equal_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_equal_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_equal_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_equal_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_equal_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_equal_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_equal_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_equal_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_not_equal/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_not_equal/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_not_equal/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_not_equal/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_or/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_or/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_or/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_or/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nand/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nand/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nand/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nand/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nor/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nor/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nor/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nor/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_not_equal/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_not_equal/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_not_equal/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_not_equal/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_or/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_or/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_or/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_or/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_left/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_left/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_left/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_left/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_right/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_right/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_right/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_right/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_left/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_left/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_left/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_left/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_right/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_right/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_right/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_right/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xnor/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xnor/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xnor/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xnor/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xor/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xor/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xor/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xor/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/clog2/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/clog2/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/clog2/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/clog2/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/concat/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/concat/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/concat/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/concat/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/eightbit_arithmetic_power/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/eightbit_arithmetic_power/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/eightbit_arithmetic_power/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/eightbit_arithmetic_power/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/macromudule_test/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/macromudule_test/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/macromudule_test/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/macromudule_test/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/minuscolon_6_bit/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/minuscolon_6_bit/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/minuscolon_6_bit/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/minuscolon_6_bit/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_6_bit/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_6_bit/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_6_bit/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_6_bit/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_8_bit/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_8_bit/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_8_bit/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_8_bit/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/signed_to_unsigned/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/signed_to_unsigned/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/signed_to_unsigned/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/signed_to_unsigned/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/specifyBlock/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/specifyBlock/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/specifyBlock/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/specifyBlock/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/specparam/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/specparam/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/specparam/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/specparam/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat_replicate/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat_replicate/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat_replicate/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat_replicate/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/string_test/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_div/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_div/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_div/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_div/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_minus/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_minus/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_minus/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_minus/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_mod/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_mod/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_mod/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_mod/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_multiply/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_multiply/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_multiply/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_multiply/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_plus/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_plus/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_plus/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_plus/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_power/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_power/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_power/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_power/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_equal_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_equal_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_equal_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_equal_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_equal_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_equal_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_equal_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_equal_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_bufnode/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_bufnode/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_bufnode/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_bufnode/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_not/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_not/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_not/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_not/no_arch
+
+
+ ========= Generate_IO_Simulation Test
+                                       operators/macromudule_test/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/macromudule_test/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/macromudule_test/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/macromudule_test/k6_N10_40nm
+                                       operators/macromudule_test/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/macromudule_test/k6_N10_mem32K_40nm
+                                       operators/macromudule_test/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/macromudule_test/no_arch
+                                       operators/specparam/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/specparam/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/specparam/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/specparam/k6_N10_40nm
+                                       operators/specparam/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/specparam/k6_N10_mem32K_40nm
+                                       operators/specparam/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/specparam/no_arch
+ ========= Generate_Output_Simulation Test
+                                       operators/binary_signed_shift_right/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_right/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_signed_shift_right/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_right/k6_N10_40nm
+                                       operators/binary_signed_shift_right/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_right/k6_N10_mem32K_40nm
+                                       operators/binary_signed_shift_right/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_right/no_arch
+ ========= Predefined_IO_Simulation Test
+                                       operators/asr_16_7/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_16_7/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/asr_16_7/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_16_7/k6_N10_40nm
+                                       operators/asr_16_7/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_16_7/k6_N10_mem32K_40nm
+                                       operators/asr_16_7/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_16_7/no_arch
+                                       operators/asr_8_1/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_1/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/asr_8_1/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_1/k6_N10_40nm
+                                       operators/asr_8_1/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_1/k6_N10_mem32K_40nm
+                                       operators/asr_8_1/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_1/no_arch
+                                       operators/asr_8_2/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_2/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/asr_8_2/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_2/k6_N10_40nm
+                                       operators/asr_8_2/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_2/k6_N10_mem32K_40nm
+                                       operators/asr_8_2/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_2/no_arch
+                                       operators/asr_8_3/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_3/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/asr_8_3/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_3/k6_N10_40nm
+                                       operators/asr_8_3/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_3/k6_N10_mem32K_40nm
+                                       operators/asr_8_3/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_3/no_arch
+                                       operators/asr_8_4/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_4/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/asr_8_4/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_4/k6_N10_40nm
+                                       operators/asr_8_4/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_4/k6_N10_mem32K_40nm
+                                       operators/asr_8_4/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_4/no_arch
+                                       operators/asr_8_5/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_5/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/asr_8_5/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_5/k6_N10_40nm
+                                       operators/asr_8_5/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_5/k6_N10_mem32K_40nm
+                                       operators/asr_8_5/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_5/no_arch
+                                       operators/asr_8_6/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_6/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/asr_8_6/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_6/k6_N10_40nm
+                                       operators/asr_8_6/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_6/k6_N10_mem32K_40nm
+                                       operators/asr_8_6/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_6/no_arch
+                                       operators/asr_8_7/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_7/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/asr_8_7/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_7/k6_N10_40nm
+                                       operators/asr_8_7/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_7/k6_N10_mem32K_40nm
+                                       operators/asr_8_7/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_7/no_arch
+                                       operators/binary_and/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_and/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_and/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_and/k6_N10_40nm
+                                       operators/binary_and/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_and/k6_N10_mem32K_40nm
+                                       operators/binary_and/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_and/no_arch
+                                       operators/binary_logical_and/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_and/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_logical_and/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_and/k6_N10_40nm
+                                       operators/binary_logical_and/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_and/k6_N10_mem32K_40nm
+                                       operators/binary_logical_and/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_and/no_arch
+                                       operators/binary_logical_equal/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_equal/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_logical_equal/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_equal/k6_N10_40nm
+                                       operators/binary_logical_equal/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_equal/k6_N10_mem32K_40nm
+                                       operators/binary_logical_equal/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_equal/no_arch
+                                       operators/binary_logical_greater_equal_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_equal_than/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_logical_greater_equal_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_equal_than/k6_N10_40nm
+                                       operators/binary_logical_greater_equal_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_equal_than/k6_N10_mem32K_40nm
+                                       operators/binary_logical_greater_equal_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_equal_than/no_arch
+                                       operators/binary_logical_greater_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_than/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_logical_greater_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_than/k6_N10_40nm
+                                       operators/binary_logical_greater_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_than/k6_N10_mem32K_40nm
+                                       operators/binary_logical_greater_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_than/no_arch
+                                       operators/binary_logical_less_equal_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_equal_than/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_logical_less_equal_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_equal_than/k6_N10_40nm
+                                       operators/binary_logical_less_equal_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_equal_than/k6_N10_mem32K_40nm
+                                       operators/binary_logical_less_equal_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_equal_than/no_arch
+                                       operators/binary_logical_less_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_than/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_logical_less_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_than/k6_N10_40nm
+                                       operators/binary_logical_less_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_than/k6_N10_mem32K_40nm
+                                       operators/binary_logical_less_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_than/no_arch
+                                       operators/binary_logical_not_equal/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_not_equal/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_logical_not_equal/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_not_equal/k6_N10_40nm
+                                       operators/binary_logical_not_equal/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_not_equal/k6_N10_mem32K_40nm
+                                       operators/binary_logical_not_equal/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_not_equal/no_arch
+                                       operators/binary_logical_or/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_or/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_logical_or/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_or/k6_N10_40nm
+                                       operators/binary_logical_or/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_or/k6_N10_mem32K_40nm
+                                       operators/binary_logical_or/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_or/no_arch
+                                       operators/binary_nand/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nand/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_nand/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nand/k6_N10_40nm
+                                       operators/binary_nand/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nand/k6_N10_mem32K_40nm
+                                       operators/binary_nand/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nand/no_arch
+                                       operators/binary_nor/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nor/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_nor/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nor/k6_N10_40nm
+                                       operators/binary_nor/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nor/k6_N10_mem32K_40nm
+                                       operators/binary_nor/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nor/no_arch
+                                       operators/binary_or/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_or/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_or/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_or/k6_N10_40nm
+                                       operators/binary_or/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_or/k6_N10_mem32K_40nm
+                                       operators/binary_or/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_or/no_arch
+                                       operators/binary_shift_left/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_left/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_shift_left/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_left/k6_N10_40nm
+                                       operators/binary_shift_left/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_left/k6_N10_mem32K_40nm
+                                       operators/binary_shift_left/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_left/no_arch
+                                       operators/binary_shift_right/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_right/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_shift_right/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_right/k6_N10_40nm
+                                       operators/binary_shift_right/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_right/k6_N10_mem32K_40nm
+                                       operators/binary_shift_right/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_right/no_arch
+                                       operators/binary_signed_shift_left/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_left/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_signed_shift_left/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_left/k6_N10_40nm
+                                       operators/binary_signed_shift_left/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_left/k6_N10_mem32K_40nm
+                                       operators/binary_signed_shift_left/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_left/no_arch
+                                       operators/binary_xnor/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xnor/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_xnor/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xnor/k6_N10_40nm
+                                       operators/binary_xnor/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xnor/k6_N10_mem32K_40nm
+                                       operators/binary_xnor/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xnor/no_arch
+                                       operators/binary_xor/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xor/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/binary_xor/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xor/k6_N10_40nm
+                                       operators/binary_xor/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xor/k6_N10_mem32K_40nm
+                                       operators/binary_xor/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xor/no_arch
+                                       operators/clog2/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/clog2/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/clog2/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/clog2/k6_N10_40nm
+                                       operators/clog2/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/clog2/k6_N10_mem32K_40nm
+                                       operators/clog2/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/clog2/no_arch
+                                       operators/concat/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/concat/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/concat/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/concat/k6_N10_40nm
+                                       operators/concat/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/concat/k6_N10_mem32K_40nm
+                                       operators/concat/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/concat/no_arch
+                                       operators/eightbit_arithmetic_power/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/eightbit_arithmetic_power/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/eightbit_arithmetic_power/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/eightbit_arithmetic_power/k6_N10_40nm
+                                       operators/eightbit_arithmetic_power/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/eightbit_arithmetic_power/k6_N10_mem32K_40nm
+                                       operators/eightbit_arithmetic_power/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/eightbit_arithmetic_power/no_arch
+                                       operators/minuscolon_6_bit/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/minuscolon_6_bit/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/minuscolon_6_bit/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/minuscolon_6_bit/k6_N10_40nm
+                                       operators/minuscolon_6_bit/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/minuscolon_6_bit/k6_N10_mem32K_40nm
+                                       operators/minuscolon_6_bit/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/minuscolon_6_bit/no_arch
+                                       operators/pluscolon_6_bit/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_6_bit/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/pluscolon_6_bit/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_6_bit/k6_N10_40nm
+                                       operators/pluscolon_6_bit/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_6_bit/k6_N10_mem32K_40nm
+                                       operators/pluscolon_6_bit/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_6_bit/no_arch
+                                       operators/pluscolon_8_bit/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_8_bit/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/pluscolon_8_bit/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_8_bit/k6_N10_40nm
+                                       operators/pluscolon_8_bit/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_8_bit/k6_N10_mem32K_40nm
+                                       operators/pluscolon_8_bit/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_8_bit/no_arch
+                                       operators/signed_to_unsigned/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/signed_to_unsigned/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/signed_to_unsigned/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/signed_to_unsigned/k6_N10_40nm
+                                       operators/signed_to_unsigned/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/signed_to_unsigned/k6_N10_mem32K_40nm
+                                       operators/signed_to_unsigned/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/signed_to_unsigned/no_arch
+                                       operators/specifyBlock/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/specifyBlock/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/specifyBlock/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/specifyBlock/k6_N10_40nm
+                                       operators/specifyBlock/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/specifyBlock/k6_N10_mem32K_40nm
+                                       operators/specifyBlock/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/specifyBlock/no_arch
+                                       operators/string_test_concat/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/string_test_concat/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat/k6_N10_40nm
+                                       operators/string_test_concat/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat/k6_N10_mem32K_40nm
+                                       operators/string_test_concat/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat/no_arch
+                                       operators/string_test_concat_replicate/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat_replicate/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/string_test_concat_replicate/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat_replicate/k6_N10_40nm
+                                       operators/string_test_concat_replicate/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat_replicate/k6_N10_mem32K_40nm
+                                       operators/string_test_concat_replicate/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat_replicate/no_arch
+                                       operators/string_test/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/string_test/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test/k6_N10_40nm
+                                       operators/string_test/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test/k6_N10_mem32K_40nm
+                                       operators/string_test/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/string_test/no_arch
+                                       operators/twobits_arithmetic_minus/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_minus/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/twobits_arithmetic_minus/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_minus/k6_N10_40nm
+                                       operators/twobits_arithmetic_minus/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_minus/k6_N10_mem32K_40nm
+                                       operators/twobits_arithmetic_minus/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_minus/no_arch
+                                       operators/twobits_arithmetic_multiply/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_multiply/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/twobits_arithmetic_multiply/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_multiply/k6_N10_40nm
+                                       operators/twobits_arithmetic_multiply/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_multiply/k6_N10_mem32K_40nm
+                                       operators/twobits_arithmetic_multiply/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_multiply/no_arch
+                                       operators/twobits_arithmetic_plus/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_plus/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/twobits_arithmetic_plus/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_plus/k6_N10_40nm
+                                       operators/twobits_arithmetic_plus/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_plus/k6_N10_mem32K_40nm
+                                       operators/twobits_arithmetic_plus/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_plus/no_arch
+                                       operators/twobits_logical_greater_equal_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_equal_than/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/twobits_logical_greater_equal_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_equal_than/k6_N10_40nm
+                                       operators/twobits_logical_greater_equal_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_equal_than/k6_N10_mem32K_40nm
+                                       operators/twobits_logical_greater_equal_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_equal_than/no_arch
+                                       operators/twobits_logical_greater_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_than/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/twobits_logical_greater_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_than/k6_N10_40nm
+                                       operators/twobits_logical_greater_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_than/k6_N10_mem32K_40nm
+                                       operators/twobits_logical_greater_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_than/no_arch
+                                       operators/twobits_logical_less_equal_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_equal_than/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/twobits_logical_less_equal_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_equal_than/k6_N10_40nm
+                                       operators/twobits_logical_less_equal_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_equal_than/k6_N10_mem32K_40nm
+                                       operators/twobits_logical_less_equal_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_equal_than/no_arch
+                                       operators/twobits_logical_less_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_than/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/twobits_logical_less_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_than/k6_N10_40nm
+                                       operators/twobits_logical_less_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_than/k6_N10_mem32K_40nm
+                                       operators/twobits_logical_less_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_than/no_arch
+                                       operators/unary_bitwise_bufnode/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_bufnode/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/unary_bitwise_bufnode/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_bufnode/k6_N10_40nm
+                                       operators/unary_bitwise_bufnode/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_bufnode/k6_N10_mem32K_40nm
+                                       operators/unary_bitwise_bufnode/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_bufnode/no_arch
+                                       operators/unary_bitwise_not/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_not/k6_frac_N10_frac_chain_mem32K_40nm
+                                       operators/unary_bitwise_not/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_not/k6_N10_40nm
+                                       operators/unary_bitwise_not/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_not/k6_N10_mem32K_40nm
+                                       operators/unary_bitwise_not/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_not/no_arch
+ -------- Parsing Simulation Result --------- 
+  Ok . . . . . . . . . . . . . . . . . operators/asr_16_7/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_16_7/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_16_7/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_16_7/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_1/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_1/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_1/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_1/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_2/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_2/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_2/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_2/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_3/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_3/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_3/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_3/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_4/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_4/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_4/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_4/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_5/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_5/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_5/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_5/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_6/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_6/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_6/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_6/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_7/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_7/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_7/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/asr_8_7/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_and/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_and/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_and/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_and/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_and/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_and/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_and/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_and/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_equal/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_equal/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_equal/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_equal/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_equal_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_equal_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_equal_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_equal_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_greater_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_equal_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_equal_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_equal_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_equal_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_less_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_not_equal/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_not_equal/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_not_equal/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_not_equal/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_or/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_or/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_or/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_logical_or/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nand/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nand/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nand/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nand/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nor/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nor/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nor/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_nor/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_or/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_or/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_or/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_or/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_left/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_left/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_left/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_left/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_right/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_right/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_right/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_shift_right/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_left/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_left/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_left/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_left/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_right/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_right/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_right/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_signed_shift_right/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xnor/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xnor/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xnor/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xnor/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xor/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xor/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xor/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/binary_xor/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/clog2/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/clog2/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/clog2/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/clog2/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/concat/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/concat/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/concat/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/concat/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/eightbit_arithmetic_power/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/eightbit_arithmetic_power/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/eightbit_arithmetic_power/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/eightbit_arithmetic_power/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/macromudule_test/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/macromudule_test/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/macromudule_test/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/macromudule_test/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/minuscolon_6_bit/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/minuscolon_6_bit/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/minuscolon_6_bit/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/minuscolon_6_bit/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_6_bit/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_6_bit/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_6_bit/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_6_bit/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_8_bit/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_8_bit/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_8_bit/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/pluscolon_8_bit/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/signed_to_unsigned/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/signed_to_unsigned/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/signed_to_unsigned/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/signed_to_unsigned/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/specifyBlock/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/specifyBlock/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/specifyBlock/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/specifyBlock/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/specparam/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/specparam/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/specparam/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/specparam/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat_replicate/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat_replicate/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat_replicate/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test_concat_replicate/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/string_test/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/string_test/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_minus/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_minus/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_minus/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_minus/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_multiply/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_multiply/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_multiply/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_multiply/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_plus/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_plus/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_plus/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_arithmetic_plus/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_equal_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_equal_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_equal_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_equal_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_greater_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_equal_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_equal_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_equal_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_equal_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_than/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_than/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_than/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/twobits_logical_less_than/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_bufnode/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_bufnode/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_bufnode/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_bufnode/no_arch
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_not/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_not/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_not/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . operators/unary_bitwise_not/no_arch
+ran test in: 0:0:49.615
+no run failure!
+
+Test 'odin_reg_operators' had 0 run failures
+
+Test complete
+
+All tests passed

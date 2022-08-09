@@ -1,0 +1,139 @@
+Cleaning temporary run in directory
+Reading extra config directive from ODIN_II/regression_test/.library/output_on_error.conf
+Using [1] processors for this benchmarking suite
+Task: ODIN_II/regression_test/benchmark/task/large
+Benchmark result location: /workspace/vtr-verilog-to-routing/ODIN_II/regression_test/run005
+=========
+Task is: large
+This test will not be simulated
+This test will not be multithreaded
+ ========= Synthesis Test
+                                       large/and_latch/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/and_latch/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/arm_core/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/arm_core/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/bgm/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/bgm/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/blob_merge/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/blob_merge/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/boundtop/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/boundtop/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/ch_intrinsics/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/ch_intrinsics/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/des_area/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/des_area/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/des_perf/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/des_perf/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/diffeq1/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/diffeq1/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/diffeq2/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/diffeq2/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/iir/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/iir/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/LargeRam/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/LargeRam/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/LU32PEEng/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/LU32PEEng/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/LU64PEEng/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/LU64PEEng/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/LU8PEEng/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/LU8PEEng/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/mac1/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/mac1/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/mac2/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/mac2/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/mcml/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/mcml/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/mkDelayWorker32B/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/mkDelayWorker32B/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/mkPktMerge/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/mkPktMerge/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/mkSMAdapter4B/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/mkSMAdapter4B/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/multiclock_output_and_latch/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/multiclock_output_and_latch/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/multiclock_reader_writer/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/multiclock_reader_writer/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/multiclock_separate_and_latch/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/multiclock_separate_and_latch/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/or1200/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/or1200/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/paj_boundtop_hierarchy_no_mem/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/paj_boundtop_hierarchy_no_mem/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/paj_framebuftop_hierarchy_no_mem/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/paj_framebuftop_hierarchy_no_mem/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/paj_raygentop_hierarchy_no_mem/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/paj_raygentop_hierarchy_no_mem/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/paj_top_hierarchy_no_mem/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/paj_top_hierarchy_no_mem/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/raygentop/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/raygentop/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/sha/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/sha/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/spree/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/spree/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/stereovision0/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/stereovision0/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/stereovision1/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/stereovision1/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/stereovision2/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/stereovision2/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/stereovision3/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/stereovision3/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/sv_chip0_hierarchy_no_mem/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/sv_chip0_hierarchy_no_mem/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/sv_chip1_hierarchy_no_mem/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/sv_chip1_hierarchy_no_mem/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/sv_chip2_hierarchy_no_mem/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/sv_chip2_hierarchy_no_mem/k6_frac_N10_frac_chain_mem32K_40nm
+                                       large/sv_chip3_hierarchy_no_mem/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/sv_chip3_hierarchy_no_mem/k6_frac_N10_frac_chain_mem32K_40nm
+ -------- Parsing Synthesis Result --------- 
+  Ok . . . . . . . . . . . . . . . . . large/and_latch/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/arm_core/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/bgm/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/blob_merge/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/boundtop/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/ch_intrinsics/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/des_area/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/des_perf/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/diffeq1/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/diffeq2/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/iir/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/LargeRam/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/LU32PEEng/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/LU64PEEng/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/LU8PEEng/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/mac1/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/mac2/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/mcml/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/mkDelayWorker32B/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/mkPktMerge/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/mkSMAdapter4B/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/multiclock_output_and_latch/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/multiclock_reader_writer/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/multiclock_separate_and_latch/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/or1200/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/paj_boundtop_hierarchy_no_mem/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/paj_framebuftop_hierarchy_no_mem/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/paj_raygentop_hierarchy_no_mem/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/paj_top_hierarchy_no_mem/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/raygentop/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/sha/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/spree/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/stereovision0/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/stereovision1/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/stereovision2/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/stereovision3/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/sv_chip0_hierarchy_no_mem/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/sv_chip1_hierarchy_no_mem/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/sv_chip2_hierarchy_no_mem/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . large/sv_chip3_hierarchy_no_mem/k6_frac_N10_frac_chain_mem32K_40nm
+ran test in: 0:2:15.723
+no run failure!
+
+Test 'odin_reg_large' had 0 run failures
+
+Test complete
+
+All tests passed

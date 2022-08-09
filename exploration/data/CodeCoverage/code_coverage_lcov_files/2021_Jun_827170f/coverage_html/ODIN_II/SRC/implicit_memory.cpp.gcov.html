@@ -1,0 +1,483 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - coverage.info - ODIN_II/SRC/implicit_memory.cpp</title>
+  <link rel="stylesheet" type="text/css" href="../../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LCOV - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="35%" class="headerValue"><a href="../../index.html">top level</a> - <a href="index.html">ODIN_II/SRC</a> - implicit_memory.cpp<span style="font-size: 80%;"> (source / <a href="implicit_memory.cpp.func-sort-c.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="15%"></td>
+            <td width="10%" class="headerCovTableHead">Hit</td>
+            <td width="10%" class="headerCovTableHead">Total</td>
+            <td width="15%" class="headerCovTableHead">Coverage</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">coverage.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntry">172</td>
+            <td class="headerCovTableEntry">179</td>
+            <td class="headerCovTableEntryHi">96.1 %</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Date:</td>
+            <td class="headerValue">2022-06-27 12:48:32</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">15</td>
+            <td class="headerCovTableEntry">15</td>
+            <td class="headerCovTableEntryHi">100.0 %</td>
+          </tr>
+          <tr><td><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td>
+<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="source">
+<a name="1"><span class="lineNum">       1 </span>            : /*</a>
+<a name="2"><span class="lineNum">       2 </span>            :  * Permission is hereby granted, free of charge, to any person</a>
+<a name="3"><span class="lineNum">       3 </span>            :  * obtaining a copy of this software and associated documentation</a>
+<a name="4"><span class="lineNum">       4 </span>            :  * files (the &quot;Software&quot;), to deal in the Software without</a>
+<a name="5"><span class="lineNum">       5 </span>            :  * restriction, including without limitation the rights to use,</a>
+<a name="6"><span class="lineNum">       6 </span>            :  * copy, modify, merge, publish, distribute, sublicense, and/or sell</a>
+<a name="7"><span class="lineNum">       7 </span>            :  * copies of the Software, and to permit persons to whom the</a>
+<a name="8"><span class="lineNum">       8 </span>            :  * Software is furnished to do so, subject to the following</a>
+<a name="9"><span class="lineNum">       9 </span>            :  * conditions:</a>
+<a name="10"><span class="lineNum">      10 </span>            :  *</a>
+<a name="11"><span class="lineNum">      11 </span>            :  * The above copyright notice and this permission notice shall be</a>
+<a name="12"><span class="lineNum">      12 </span>            :  * included in all copies or substantial portions of the Software.</a>
+<a name="13"><span class="lineNum">      13 </span>            :  *</a>
+<a name="14"><span class="lineNum">      14 </span>            :  * THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND,</a>
+<a name="15"><span class="lineNum">      15 </span>            :  * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES</a>
+<a name="16"><span class="lineNum">      16 </span>            :  * OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND</a>
+<a name="17"><span class="lineNum">      17 </span>            :  * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT</a>
+<a name="18"><span class="lineNum">      18 </span>            :  * HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,</a>
+<a name="19"><span class="lineNum">      19 </span>            :  * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING</a>
+<a name="20"><span class="lineNum">      20 </span>            :  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR</a>
+<a name="21"><span class="lineNum">      21 </span>            :  * OTHER DEALINGS IN THE SOFTWARE.</a>
+<a name="22"><span class="lineNum">      22 </span>            :  */</a>
+<a name="23"><span class="lineNum">      23 </span>            : #include &quot;odin_types.h&quot;</a>
+<a name="24"><span class="lineNum">      24 </span>            : #include &quot;odin_globals.h&quot;</a>
+<a name="25"><span class="lineNum">      25 </span>            : #include &quot;ast_util.h&quot;</a>
+<a name="26"><span class="lineNum">      26 </span>            : #include &quot;memories.h&quot;</a>
+<a name="27"><span class="lineNum">      27 </span>            : #include &quot;hard_blocks.h&quot;</a>
+<a name="28"><span class="lineNum">      28 </span>            : #include &quot;implicit_memory.h&quot;</a>
+<a name="29"><span class="lineNum">      29 </span>            : #include &quot;node_creation_library.h&quot;</a>
+<a name="30"><span class="lineNum">      30 </span>            : #include &quot;netlist_utils.h&quot;</a>
+<a name="31"><span class="lineNum">      31 </span>            : #include &quot;odin_util.h&quot;</a>
+<a name="32"><span class="lineNum">      32 </span>            : #include &quot;vtr_util.h&quot;</a>
+<a name="33"><span class="lineNum">      33 </span>            : #include &quot;vtr_memory.h&quot;</a>
+<a name="34"><span class="lineNum">      34 </span>            : </a>
+<a name="35"><span class="lineNum">      35 </span>            : #include &lt;unordered_map&gt;</a>
+<a name="36"><span class="lineNum">      36 </span>            : </a>
+<a name="37"><span class="lineNum">      37 </span>            : // Hashes the implicit memory name to the implicit_memory structure.</a>
+<a name="38"><span class="lineNum">      38 </span>            : std::unordered_map&lt;std::string, implicit_memory*&gt; implicit_memories;</a>
+<a name="39"><span class="lineNum">      39 </span>            : // Hashes the implicit memory input name to the implicit_memory structure.</a>
+<a name="40"><span class="lineNum">      40 </span>            : std::unordered_map&lt;std::string, implicit_memory*&gt; implicit_memory_inputs;</a>
+<a name="41"><span class="lineNum">      41 </span>            : </a>
+<a name="42"><span class="lineNum">      42 </span>            : void finalize_implicit_memory(implicit_memory* memory);</a>
+<a name="43"><span class="lineNum">      43 </span>            : void add_dummy_output_port_to_implicit_memory(implicit_memory* memory, int size, const char* port_name);</a>
+<a name="44"><span class="lineNum">      44 </span>            : void add_dummy_input_port_to_implicit_memory(implicit_memory* memory, int size, const char* port_name);</a>
+<a name="45"><span class="lineNum">      45 </span>            : void collapse_implicit_memory_to_single_port_ram(implicit_memory* memory);</a>
+<a name="46"><span class="lineNum">      46 </span>            : implicit_memory* lookup_implicit_memory(char* instance_name_prefix, char* identifier);</a>
+<a name="47"><span class="lineNum">      47 </span>            : </a>
+<a name="48"><span class="lineNum">      48 </span>            : /*</a>
+<a name="49"><span class="lineNum">      49 </span>            :  * Initialises hashtables to lookup memories based on inputs and names.</a>
+<a name="50"><span class="lineNum">      50 </span>            :  */</a>
+<a name="51"><span class="lineNum">      51 </span><span class="lineCov">       3103 : void init_implicit_memory_index() {</span></a>
+<a name="52"><span class="lineNum">      52 </span><span class="lineCov">       3103 :     implicit_memories = std::unordered_map&lt;std::string, implicit_memory*&gt;();</span></a>
+<a name="53"><span class="lineNum">      53 </span><span class="lineCov">       3103 :     implicit_memory_inputs = std::unordered_map&lt;std::string, implicit_memory*&gt;();</span></a>
+<a name="54"><span class="lineNum">      54 </span><span class="lineCov">       3103 : }</span></a>
+<a name="55"><span class="lineNum">      55 </span>            : </a>
+<a name="56"><span class="lineNum">      56 </span>            : /*</a>
+<a name="57"><span class="lineNum">      57 </span>            :  * Looks up an implicit memory by identifier name in the implicit memory lookup table.</a>
+<a name="58"><span class="lineNum">      58 </span>            :  */</a>
+<a name="59"><span class="lineNum">      59 </span><span class="lineCov">     507542 : implicit_memory* lookup_implicit_memory(char* instance_name_prefix, char* identifier) {</span></a>
+<a name="60"><span class="lineNum">      60 </span><span class="lineCov">     507542 :     char* memory_string = make_full_ref_name(instance_name_prefix, NULL, NULL, identifier, -1);</span></a>
+<a name="61"><span class="lineNum">      61 </span>            : </a>
+<a name="62"><span class="lineNum">      62 </span><span class="lineCov">    1015080 :     std::unordered_map&lt;std::string, implicit_memory*&gt;::const_iterator mem_out = implicit_memories.find(std::string(memory_string));</span></a>
+<a name="63"><span class="lineNum">      63 </span>            : </a>
+<a name="64"><span class="lineNum">      64 </span><span class="lineCov">     507542 :     vtr::free(memory_string);</span></a>
+<a name="65"><span class="lineNum">      65 </span>            : </a>
+<a name="66"><span class="lineNum">      66 </span><span class="lineCov">     507542 :     if (mem_out == implicit_memories.end())</span></a>
+<a name="67"><span class="lineNum">      67 </span>            :         return NULL;</a>
+<a name="68"><span class="lineNum">      68 </span>            :     else</a>
+<a name="69"><span class="lineNum">      69 </span><span class="lineCov">        440 :         return mem_out-&gt;second;</span></a>
+<a name="70"><span class="lineNum">      70 </span>            : }</a>
+<a name="71"><span class="lineNum">      71 </span>            : </a>
+<a name="72"><span class="lineNum">      72 </span>            : /*</a>
+<a name="73"><span class="lineNum">      73 </span>            :  * Looks up an implicit memory by ast reference in the implicit memory lookup table.</a>
+<a name="74"><span class="lineNum">      74 </span>            :  */</a>
+<a name="75"><span class="lineNum">      75 </span><span class="lineCov">     804938 : implicit_memory* lookup_implicit_memory_reference_ast(char* instance_name_prefix, ast_node_t* node) {</span></a>
+<a name="76"><span class="lineNum">      76 </span><span class="lineCov">     804938 :     if (node &amp;&amp; node-&gt;num_children == 1 &amp;&amp; node-&gt;type == ARRAY_REF)</span></a>
+<a name="77"><span class="lineNum">      77 </span><span class="lineCov">      23366 :         return lookup_implicit_memory(instance_name_prefix, node-&gt;identifier_node-&gt;types.identifier);</span></a>
+<a name="78"><span class="lineNum">      78 </span><span class="lineCov">     781572 :     else if (node &amp;&amp; node-&gt;num_children == 2 &amp;&amp; node-&gt;type == ARRAY_REF)</span></a>
+<a name="79"><span class="lineNum">      79 </span><span class="lineNoCov">          0 :         return lookup_implicit_memory(instance_name_prefix, node-&gt;identifier_node-&gt;types.identifier);</span></a>
+<a name="80"><span class="lineNum">      80 </span><span class="lineCov">     781572 :     else if (node &amp;&amp; node-&gt;type == IDENTIFIERS)</span></a>
+<a name="81"><span class="lineNum">      81 </span><span class="lineCov">     484176 :         return lookup_implicit_memory(instance_name_prefix, node-&gt;types.identifier);</span></a>
+<a name="82"><span class="lineNum">      82 </span>            :     else</a>
+<a name="83"><span class="lineNum">      83 </span>            :         return NULL;</a>
+<a name="84"><span class="lineNum">      84 </span>            : }</a>
+<a name="85"><span class="lineNum">      85 </span>            : </a>
+<a name="86"><span class="lineNum">      86 </span>            : /*</a>
+<a name="87"><span class="lineNum">      87 </span>            :  * Determines if the given implicit memory reference mode is supported.</a>
+<a name="88"><span class="lineNum">      88 </span>            :  */</a>
+<a name="89"><span class="lineNum">      89 </span><span class="lineCov">        220 : char is_valid_implicit_memory_reference_ast(char* instance_name_prefix, ast_node_t* node) {</span></a>
+<a name="90"><span class="lineNum">      90 </span><span class="lineCov">        220 :     if (node &amp;&amp; node-&gt;num_children == 1 &amp;&amp; node-&gt;type == ARRAY_REF</span></a>
+<a name="91"><span class="lineNum">      91 </span><span class="lineCov">        440 :         &amp;&amp; lookup_implicit_memory_reference_ast(instance_name_prefix, node))</span></a>
+<a name="92"><span class="lineNum">      92 </span>            :         return true;</a>
+<a name="93"><span class="lineNum">      93 </span><span class="lineNoCov">          0 :     else if (node &amp;&amp; node-&gt;num_children == 2 &amp;&amp; node-&gt;type == ARRAY_REF</span></a>
+<a name="94"><span class="lineNum">      94 </span><span class="lineNoCov">          0 :              &amp;&amp; lookup_implicit_memory_reference_ast(instance_name_prefix, node))</span></a>
+<a name="95"><span class="lineNum">      95 </span>            :         return true;</a>
+<a name="96"><span class="lineNum">      96 </span>            :     else</a>
+<a name="97"><span class="lineNum">      97 </span><span class="lineNoCov">          0 :         return false;</span></a>
+<a name="98"><span class="lineNum">      98 </span>            : }</a>
+<a name="99"><span class="lineNum">      99 </span>            : </a>
+<a name="100"><span class="lineNum">     100 </span><span class="lineCov">        440 : bool is_signal_list_connected_to_memory(implicit_memory* memory, signal_list_t* signals, const char* port_name) {</span></a>
+<a name="101"><span class="lineNum">     101 </span><span class="lineCov">        440 :     oassert(port_name);</span></a>
+<a name="102"><span class="lineNum">     102 </span>            : </a>
+<a name="103"><span class="lineNum">     103 </span>            :     // is any port of the memory connected</a>
+<a name="104"><span class="lineNum">     104 </span><span class="lineCov">        440 :     if (memory-&gt;node-&gt;input_port_sizes) {</span></a>
+<a name="105"><span class="lineNum">     105 </span>            :         int i, j;</a>
+<a name="106"><span class="lineNum">     106 </span>            :         long pin_index = 0;</a>
+<a name="107"><span class="lineNum">     107 </span><span class="lineCov">        634 :         for (i = 0; i &lt; memory-&gt;node-&gt;num_input_port_sizes; i++) {</span></a>
+<a name="108"><span class="lineNum">     108 </span><span class="lineCov">        500 :             int input_port_size = memory-&gt;node-&gt;input_port_sizes[i];</span></a>
+<a name="109"><span class="lineNum">     109 </span><span class="lineCov">        500 :             bool* signals_connectivity = (bool*)vtr::calloc(input_port_size, sizeof(bool));</span></a>
+<a name="110"><span class="lineNum">     110 </span><span class="lineCov">        500 :             memset(signals_connectivity, false, input_port_size * sizeof(bool));</span></a>
+<a name="111"><span class="lineNum">     111 </span>            : </a>
+<a name="112"><span class="lineNum">     112 </span><span class="lineCov">       1050 :             for (j = 0; (input_port_size == signals-&gt;count) &amp;&amp; j &lt; signals-&gt;count; j++) {</span></a>
+<a name="113"><span class="lineNum">     113 </span><span class="lineCov">        681 :                 npin_t* memory_input_pin = memory-&gt;node-&gt;input_pins[pin_index + j];</span></a>
+<a name="114"><span class="lineNum">     114 </span>            : </a>
+<a name="115"><span class="lineNum">     115 </span><span class="lineCov">        681 :                 if (!strcmp(memory_input_pin-&gt;mapping, port_name)) {</span></a>
+<a name="116"><span class="lineNum">     116 </span><span class="lineCov">        550 :                     if (memory_input_pin-&gt;net-&gt;name &amp;&amp; signals-&gt;pins[j]-&gt;net-&gt;name) {</span></a>
+<a name="117"><span class="lineNum">     117 </span><span class="lineCov">        550 :                         if (!strcmp(memory_input_pin-&gt;net-&gt;name, signals-&gt;pins[j]-&gt;net-&gt;name)) {</span></a>
+<a name="118"><span class="lineNum">     118 </span><span class="lineCov">        454 :                             signals_connectivity[j] = true;</span></a>
+<a name="119"><span class="lineNum">     119 </span>            :                         }</a>
+<a name="120"><span class="lineNum">     120 </span>            :                     }</a>
+<a name="121"><span class="lineNum">     121 </span>            :                 } else {</a>
+<a name="122"><span class="lineNum">     122 </span>            :                     break;</a>
+<a name="123"><span class="lineNum">     123 </span>            :                 }</a>
+<a name="124"><span class="lineNum">     124 </span>            :             }</a>
+<a name="125"><span class="lineNum">     125 </span>            :             bool connected = true;</a>
+<a name="126"><span class="lineNum">     126 </span><span class="lineCov">       6212 :             for (j = 0; j &lt; input_port_size; j++) {</span></a>
+<a name="127"><span class="lineNum">     127 </span><span class="lineCov">       5712 :                 connected &amp;= signals_connectivity[j];</span></a>
+<a name="128"><span class="lineNum">     128 </span>            :             }</a>
+<a name="129"><span class="lineNum">     129 </span>            : </a>
+<a name="130"><span class="lineNum">     130 </span><span class="lineCov">        500 :             pin_index += input_port_size;</span></a>
+<a name="131"><span class="lineNum">     131 </span><span class="lineCov">        500 :             vtr::free(signals_connectivity);</span></a>
+<a name="132"><span class="lineNum">     132 </span>            : </a>
+<a name="133"><span class="lineNum">     133 </span><span class="lineCov">        500 :             if (connected)</span></a>
+<a name="134"><span class="lineNum">     134 </span>            :                 return true;</a>
+<a name="135"><span class="lineNum">     135 </span>            :         }</a>
+<a name="136"><span class="lineNum">     136 </span>            :     }</a>
+<a name="137"><span class="lineNum">     137 </span>            : </a>
+<a name="138"><span class="lineNum">     138 </span>            :     return false;</a>
+<a name="139"><span class="lineNum">     139 </span>            : }</a>
+<a name="140"><span class="lineNum">     140 </span>            : </a>
+<a name="141"><span class="lineNum">     141 </span>            : /*</a>
+<a name="142"><span class="lineNum">     142 </span>            :  * Creates an implicit memory block with the given depth and data width, and the given name and prefix.</a>
+<a name="143"><span class="lineNum">     143 </span>            :  */</a>
+<a name="144"><span class="lineNum">     144 </span><span class="lineCov">        113 : implicit_memory* create_implicit_memory_block(int data_width, long memory_depth, char* name, char* instance_name_prefix, loc_t loc) {</span></a>
+<a name="145"><span class="lineNum">     145 </span><span class="lineCov">        113 :     char implicit_string[] = &quot;implicit_ram&quot;;</span></a>
+<a name="146"><span class="lineNum">     146 </span>            : </a>
+<a name="147"><span class="lineNum">     147 </span><span class="lineCov">        113 :     oassert(memory_depth &gt; 0</span></a>
+<a name="148"><span class="lineNum">     148 </span>            :             &amp;&amp; &quot;implicit memory depth must be greater than 0&quot;);</a>
+<a name="149"><span class="lineNum">     149 </span>            : </a>
+<a name="150"><span class="lineNum">     150 </span>            :     //find closest power of 2 from memory depth.</a>
+<a name="151"><span class="lineNum">     151 </span>            :     long addr_width = 0;</a>
+<a name="152"><span class="lineNum">     152 </span>            :     long real_memory_depth = 1;</a>
+<a name="153"><span class="lineNum">     153 </span><span class="lineCov">        675 :     while (real_memory_depth &lt; memory_depth) {</span></a>
+<a name="154"><span class="lineNum">     154 </span><span class="lineCov">        562 :         addr_width += 1;</span></a>
+<a name="155"><span class="lineNum">     155 </span><span class="lineCov">        562 :         real_memory_depth = shift_left_value_with_overflow_check(real_memory_depth, 0x1, loc);</span></a>
+<a name="156"><span class="lineNum">     156 </span>            :     }</a>
+<a name="157"><span class="lineNum">     157 </span>            : </a>
+<a name="158"><span class="lineNum">     158 </span>            :     //verify if it is a power of two (only one bit set)</a>
+<a name="159"><span class="lineNum">     159 </span><span class="lineCov">        113 :     if ((memory_depth != real_memory_depth)) {</span></a>
+<a name="160"><span class="lineNum">     160 </span><span class="lineCov">          3 :         warning_message(NETLIST, loc, &quot;Rounding memory &lt;%s&gt; of size &lt;%ld&gt; to closest power of two: %ld.&quot;, name, memory_depth, real_memory_depth);</span></a>
+<a name="161"><span class="lineNum">     161 </span>            :         memory_depth = real_memory_depth;</a>
+<a name="162"><span class="lineNum">     162 </span>            :     }</a>
+<a name="163"><span class="lineNum">     163 </span>            : </a>
+<a name="164"><span class="lineNum">     164 </span><span class="lineCov">        113 :     nnode_t* node = allocate_nnode(loc);</span></a>
+<a name="165"><span class="lineNum">     165 </span><span class="lineCov">        113 :     node-&gt;type = MEMORY;</span></a>
+<a name="166"><span class="lineNum">     166 </span><span class="lineCov">        113 :     node-&gt;name = hard_node_name(node, instance_name_prefix, implicit_string, name);</span></a>
+<a name="167"><span class="lineNum">     167 </span>            : </a>
+<a name="168"><span class="lineNum">     168 </span>            :     // Create a fake ast node.</a>
+<a name="169"><span class="lineNum">     169 </span><span class="lineCov">        113 :     node-&gt;related_ast_node = create_node_w_type(RAM, node-&gt;loc);</span></a>
+<a name="170"><span class="lineNum">     170 </span><span class="lineCov">        113 :     node-&gt;related_ast_node-&gt;children = (ast_node_t**)vtr::calloc(1, sizeof(ast_node_t*));</span></a>
+<a name="171"><span class="lineNum">     171 </span><span class="lineCov">        113 :     node-&gt;related_ast_node-&gt;identifier_node = create_tree_node_id(vtr::strdup(SINGLE_PORT_RAM_string), loc);</span></a>
+<a name="172"><span class="lineNum">     172 </span>            : </a>
+<a name="173"><span class="lineNum">     173 </span><span class="lineCov">        113 :     char* full_name = make_full_ref_name(instance_name_prefix, NULL, NULL, name, -1);</span></a>
+<a name="174"><span class="lineNum">     174 </span>            : </a>
+<a name="175"><span class="lineNum">     175 </span><span class="lineCov">        113 :     implicit_memory* memory = (implicit_memory*)vtr::malloc(sizeof(implicit_memory));</span></a>
+<a name="176"><span class="lineNum">     176 </span><span class="lineCov">        113 :     memory-&gt;node = node;</span></a>
+<a name="177"><span class="lineNum">     177 </span><span class="lineCov">        113 :     memory-&gt;addr_width = addr_width;</span></a>
+<a name="178"><span class="lineNum">     178 </span><span class="lineCov">        113 :     memory-&gt;memory_depth = memory_depth;</span></a>
+<a name="179"><span class="lineNum">     179 </span><span class="lineCov">        113 :     memory-&gt;data_width = data_width;</span></a>
+<a name="180"><span class="lineNum">     180 </span><span class="lineCov">        113 :     memory-&gt;clock_added = false;</span></a>
+<a name="181"><span class="lineNum">     181 </span><span class="lineCov">        113 :     memory-&gt;output_added = false;</span></a>
+<a name="182"><span class="lineNum">     182 </span><span class="lineCov">        113 :     memory-&gt;name = full_name;</span></a>
+<a name="183"><span class="lineNum">     183 </span>            : </a>
+<a name="184"><span class="lineNum">     184 </span><span class="lineCov">        339 :     implicit_memories.insert({std::string(full_name), memory});</span></a>
+<a name="185"><span class="lineNum">     185 </span>            : </a>
+<a name="186"><span class="lineNum">     186 </span><span class="lineCov">        113 :     return memory;</span></a>
+<a name="187"><span class="lineNum">     187 </span>            : }</a>
+<a name="188"><span class="lineNum">     188 </span>            : </a>
+<a name="189"><span class="lineNum">     189 </span>            : /*</a>
+<a name="190"><span class="lineNum">     190 </span>            :  * Adds an input port to the given implicit memory.</a>
+<a name="191"><span class="lineNum">     191 </span>            :  */</a>
+<a name="192"><span class="lineNum">     192 </span><span class="lineCov">        533 : void add_input_port_to_implicit_memory(implicit_memory* memory, signal_list_t* signals, const char* port_name) {</span></a>
+<a name="193"><span class="lineNum">     193 </span><span class="lineCov">        533 :     nnode_t* node = memory-&gt;node;</span></a>
+<a name="194"><span class="lineNum">     194 </span>            : </a>
+<a name="195"><span class="lineNum">     195 </span><span class="lineCov">        491 :     add_input_port_to_memory(node, signals, port_name);</span></a>
+<a name="196"><span class="lineNum">     196 </span><span class="lineCov">        491 : }</span></a>
+<a name="197"><span class="lineNum">     197 </span>            : </a>
+<a name="198"><span class="lineNum">     198 </span>            : /*</a>
+<a name="199"><span class="lineNum">     199 </span>            :  * Add an output port to the given implicit memory.</a>
+<a name="200"><span class="lineNum">     200 </span>            :  */</a>
+<a name="201"><span class="lineNum">     201 </span><span class="lineCov">        140 : void add_output_port_to_implicit_memory(implicit_memory* memory, signal_list_t* signals, const char* port_name) {</span></a>
+<a name="202"><span class="lineNum">     202 </span><span class="lineCov">        140 :     nnode_t* node = memory-&gt;node;</span></a>
+<a name="203"><span class="lineNum">     203 </span>            : </a>
+<a name="204"><span class="lineNum">     204 </span><span class="lineCov">        101 :     add_output_port_to_memory(node, signals, port_name);</span></a>
+<a name="205"><span class="lineNum">     205 </span><span class="lineCov">        101 : }</span></a>
+<a name="206"><span class="lineNum">     206 </span>            : </a>
+<a name="207"><span class="lineNum">     207 </span>            : /*</a>
+<a name="208"><span class="lineNum">     208 </span>            :  * Looks up an implicit memory based on the given name.</a>
+<a name="209"><span class="lineNum">     209 </span>            :  */</a>
+<a name="210"><span class="lineNum">     210 </span><span class="lineCov">    5114460 : implicit_memory* lookup_implicit_memory_input(char* name) {</span></a>
+<a name="211"><span class="lineNum">     211 </span><span class="lineCov">   10228900 :     std::unordered_map&lt;std::string, implicit_memory*&gt;::const_iterator mem_out = implicit_memory_inputs.find(std::string(name));</span></a>
+<a name="212"><span class="lineNum">     212 </span>            : </a>
+<a name="213"><span class="lineNum">     213 </span><span class="lineCov">    5114460 :     if (mem_out == implicit_memory_inputs.end())</span></a>
+<a name="214"><span class="lineNum">     214 </span>            :         return NULL;</a>
+<a name="215"><span class="lineNum">     215 </span>            :     else</a>
+<a name="216"><span class="lineNum">     216 </span><span class="lineCov">      14092 :         return mem_out-&gt;second;</span></a>
+<a name="217"><span class="lineNum">     217 </span>            : }</a>
+<a name="218"><span class="lineNum">     218 </span>            : </a>
+<a name="219"><span class="lineNum">     219 </span>            : /*</a>
+<a name="220"><span class="lineNum">     220 </span>            :  * Registers the given input name so that the given memory can be looked up based on</a>
+<a name="221"><span class="lineNum">     221 </span>            :  * it.</a>
+<a name="222"><span class="lineNum">     222 </span>            :  */</a>
+<a name="223"><span class="lineNum">     223 </span><span class="lineCov">       5361 : void register_implicit_memory_input(char* name, implicit_memory* memory) {</span></a>
+<a name="224"><span class="lineNum">     224 </span><span class="lineCov">       5361 :     if (!lookup_implicit_memory_input(name))</span></a>
+<a name="225"><span class="lineNum">     225 </span><span class="lineCov">      14721 :         implicit_memory_inputs.insert({std::string(name), memory});</span></a>
+<a name="226"><span class="lineNum">     226 </span>            :     // else</a>
+<a name="227"><span class="lineNum">     227 </span>            :     // error_message(NETLIST, memory-&gt;node-&gt;loc, &quot;Attempted to re-register implicit memory output %s.&quot;, name);</a>
+<a name="228"><span class="lineNum">     228 </span><span class="lineCov">       5361 : }</span></a>
+<a name="229"><span class="lineNum">     229 </span>            : </a>
+<a name="230"><span class="lineNum">     230 </span>            : /*</a>
+<a name="231"><span class="lineNum">     231 </span>            :  * Frees memory used for indexing implicit memories. Finalises each</a>
+<a name="232"><span class="lineNum">     232 </span>            :  * memory, making sure it has the right ports, and collapsing</a>
+<a name="233"><span class="lineNum">     233 </span>            :  * the memory if possible.</a>
+<a name="234"><span class="lineNum">     234 </span>            :  */</a>
+<a name="235"><span class="lineNum">     235 </span><span class="lineCov">       3103 : void free_implicit_memory_index_and_finalize_memories() {</span></a>
+<a name="236"><span class="lineNum">     236 </span><span class="lineCov">       3103 :     implicit_memory_inputs.clear();</span></a>
+<a name="237"><span class="lineNum">     237 </span>            : </a>
+<a name="238"><span class="lineNum">     238 </span><span class="lineCov">       3103 :     if (!implicit_memories.empty()) {</span></a>
+<a name="239"><span class="lineNum">     239 </span><span class="lineCov">        160 :         for (auto mem_it : implicit_memories) {</span></a>
+<a name="240"><span class="lineNum">     240 </span><span class="lineCov">        113 :             finalize_implicit_memory(mem_it.second);</span></a>
+<a name="241"><span class="lineNum">     241 </span><span class="lineCov">        113 :             vtr::free(mem_it.second-&gt;name);</span></a>
+<a name="242"><span class="lineNum">     242 </span><span class="lineCov">        113 :             vtr::free(mem_it.second);</span></a>
+<a name="243"><span class="lineNum">     243 </span>            :         }</a>
+<a name="244"><span class="lineNum">     244 </span>            :     }</a>
+<a name="245"><span class="lineNum">     245 </span><span class="lineCov">       3103 :     implicit_memories.clear();</span></a>
+<a name="246"><span class="lineNum">     246 </span><span class="lineCov">       3103 : }</span></a>
+<a name="247"><span class="lineNum">     247 </span>            : </a>
+<a name="248"><span class="lineNum">     248 </span>            : /*</a>
+<a name="249"><span class="lineNum">     249 </span>            :  * Adds a zeroed input port with to the given implicit memory</a>
+<a name="250"><span class="lineNum">     250 </span>            :  * with the given size and port name (mapping)</a>
+<a name="251"><span class="lineNum">     251 </span>            :  */</a>
+<a name="252"><span class="lineNum">     252 </span><span class="lineCov">         42 : void add_dummy_input_port_to_implicit_memory(implicit_memory* memory, int size, const char* port_name) {</span></a>
+<a name="253"><span class="lineNum">     253 </span><span class="lineCov">         42 :     signal_list_t* signals = init_signal_list();</span></a>
+<a name="254"><span class="lineNum">     254 </span><span class="lineCov">         42 :     int i;</span></a>
+<a name="255"><span class="lineNum">     255 </span><span class="lineCov">        171 :     for (i = 0; i &lt; size; i++)</span></a>
+<a name="256"><span class="lineNum">     256 </span><span class="lineCov">        129 :         add_pin_to_signal_list(signals, get_zero_pin(verilog_netlist));</span></a>
+<a name="257"><span class="lineNum">     257 </span>            : </a>
+<a name="258"><span class="lineNum">     258 </span><span class="lineCov">         42 :     add_input_port_to_implicit_memory(memory, signals, port_name);</span></a>
+<a name="259"><span class="lineNum">     259 </span>            : </a>
+<a name="260"><span class="lineNum">     260 </span><span class="lineCov">         42 :     free_signal_list(signals);</span></a>
+<a name="261"><span class="lineNum">     261 </span><span class="lineCov">         42 : }</span></a>
+<a name="262"><span class="lineNum">     262 </span>            : </a>
+<a name="263"><span class="lineNum">     263 </span>            : /*</a>
+<a name="264"><span class="lineNum">     264 </span>            :  * Adds an unconnected output port with to the given implicit memory</a>
+<a name="265"><span class="lineNum">     265 </span>            :  * with the given size and port name (mapping)</a>
+<a name="266"><span class="lineNum">     266 </span>            :  */</a>
+<a name="267"><span class="lineNum">     267 </span><span class="lineCov">         39 : void add_dummy_output_port_to_implicit_memory(implicit_memory* memory, int size, const char* port_name) {</span></a>
+<a name="268"><span class="lineNum">     268 </span><span class="lineCov">         39 :     signal_list_t* signals = init_signal_list();</span></a>
+<a name="269"><span class="lineNum">     269 </span><span class="lineCov">         39 :     static int dummy_output_pin_number = 0;</span></a>
+<a name="270"><span class="lineNum">     270 </span><span class="lineCov">         39 :     int i;</span></a>
+<a name="271"><span class="lineNum">     271 </span><span class="lineCov">        555 :     for (i = 0; i &lt; size; i++) {</span></a>
+<a name="272"><span class="lineNum">     272 </span><span class="lineCov">        516 :         npin_t* dummy_pin = allocate_npin();</span></a>
+<a name="273"><span class="lineNum">     273 </span>            :         // Pad outputs with a unique and descriptive name to avoid collisions.</a>
+<a name="274"><span class="lineNum">     274 </span><span class="lineCov">        516 :         dummy_pin-&gt;name = append_string(&quot;&quot;, &quot;dummy_implicit_memory_output~%d&quot;, dummy_output_pin_number++);</span></a>
+<a name="275"><span class="lineNum">     275 </span><span class="lineCov">        516 :         add_pin_to_signal_list(signals, dummy_pin);</span></a>
+<a name="276"><span class="lineNum">     276 </span>            :     }</a>
+<a name="277"><span class="lineNum">     277 </span>            : </a>
+<a name="278"><span class="lineNum">     278 </span><span class="lineCov">         39 :     add_output_port_to_implicit_memory(memory, signals, port_name);</span></a>
+<a name="279"><span class="lineNum">     279 </span>            : </a>
+<a name="280"><span class="lineNum">     280 </span><span class="lineCov">         39 :     free_signal_list(signals);</span></a>
+<a name="281"><span class="lineNum">     281 </span><span class="lineCov">         39 : }</span></a>
+<a name="282"><span class="lineNum">     282 </span>            : </a>
+<a name="283"><span class="lineNum">     283 </span>            : /*</a>
+<a name="284"><span class="lineNum">     284 </span>            :  * Makes sure the given implicit memory has all necessary ports,</a>
+<a name="285"><span class="lineNum">     285 </span>            :  * and adds any ports which may be missing. Collapses the memory to</a>
+<a name="286"><span class="lineNum">     286 </span>            :  * a single port ram if one port is unused.</a>
+<a name="287"><span class="lineNum">     287 </span>            :  */</a>
+<a name="288"><span class="lineNum">     288 </span><span class="lineCov">        113 : void finalize_implicit_memory(implicit_memory* memory) {</span></a>
+<a name="289"><span class="lineNum">     289 </span><span class="lineCov">        113 :     nnode_t* node = memory-&gt;node;</span></a>
+<a name="290"><span class="lineNum">     290 </span>            : </a>
+<a name="291"><span class="lineNum">     291 </span><span class="lineCov">        113 :     bool has_addr1 = false;</span></a>
+<a name="292"><span class="lineNum">     292 </span><span class="lineCov">        113 :     bool has_addr2 = false;</span></a>
+<a name="293"><span class="lineNum">     293 </span><span class="lineCov">        113 :     bool has_data1 = false;</span></a>
+<a name="294"><span class="lineNum">     294 </span><span class="lineCov">        113 :     bool has_data2 = false;</span></a>
+<a name="295"><span class="lineNum">     295 </span><span class="lineCov">        113 :     bool has_we1 = false;</span></a>
+<a name="296"><span class="lineNum">     296 </span><span class="lineCov">        113 :     bool has_we2 = false;</span></a>
+<a name="297"><span class="lineNum">     297 </span><span class="lineCov">        113 :     bool has_clk = false;</span></a>
+<a name="298"><span class="lineNum">     298 </span><span class="lineCov">        113 :     bool has_out1 = false;</span></a>
+<a name="299"><span class="lineNum">     299 </span><span class="lineCov">        113 :     bool has_out2 = false;</span></a>
+<a name="300"><span class="lineNum">     300 </span>            : </a>
+<a name="301"><span class="lineNum">     301 </span>            :     // Determine which input ports are present.</a>
+<a name="302"><span class="lineNum">     302 </span><span class="lineCov">        113 :     int i;</span></a>
+<a name="303"><span class="lineNum">     303 </span><span class="lineCov">       5133 :     for (i = 0; i &lt; node-&gt;num_input_pins; i++) {</span></a>
+<a name="304"><span class="lineNum">     304 </span><span class="lineCov">       5020 :         npin_t* pin = node-&gt;input_pins[i];</span></a>
+<a name="305"><span class="lineNum">     305 </span><span class="lineCov">       5020 :         if (!strcmp(pin-&gt;mapping, &quot;addr1&quot;))</span></a>
+<a name="306"><span class="lineNum">     306 </span>            :             has_addr1 = true;</a>
+<a name="307"><span class="lineNum">     307 </span><span class="lineCov">       4458 :         else if (!strcmp(pin-&gt;mapping, &quot;addr2&quot;))</span></a>
+<a name="308"><span class="lineNum">     308 </span>            :             has_addr2 = true;</a>
+<a name="309"><span class="lineNum">     309 </span><span class="lineCov">       4380 :         else if (!strcmp(pin-&gt;mapping, &quot;data1&quot;))</span></a>
+<a name="310"><span class="lineNum">     310 </span>            :             has_data1 = true;</a>
+<a name="311"><span class="lineNum">     311 </span><span class="lineCov">        502 :         else if (!strcmp(pin-&gt;mapping, &quot;data2&quot;))</span></a>
+<a name="312"><span class="lineNum">     312 </span>            :             has_data2 = true;</a>
+<a name="313"><span class="lineNum">     313 </span><span class="lineCov">        232 :         else if (!strcmp(pin-&gt;mapping, &quot;we1&quot;))</span></a>
+<a name="314"><span class="lineNum">     314 </span>            :             has_we1 = true;</a>
+<a name="315"><span class="lineNum">     315 </span><span class="lineCov">        131 :         else if (!strcmp(pin-&gt;mapping, &quot;we2&quot;))</span></a>
+<a name="316"><span class="lineNum">     316 </span>            :             has_we2 = true;</a>
+<a name="317"><span class="lineNum">     317 </span><span class="lineCov">        113 :         else if (!strcmp(pin-&gt;mapping, &quot;clk&quot;))</span></a>
+<a name="318"><span class="lineNum">     318 </span><span class="lineCov">        113 :             has_clk = true;</span></a>
+<a name="319"><span class="lineNum">     319 </span>            :     }</a>
+<a name="320"><span class="lineNum">     320 </span>            : </a>
+<a name="321"><span class="lineNum">     321 </span>            :     // Determine which output ports are present.</a>
+<a name="322"><span class="lineNum">     322 </span><span class="lineCov">       3853 :     for (i = 0; i &lt; node-&gt;num_output_pins; i++) {</span></a>
+<a name="323"><span class="lineNum">     323 </span><span class="lineCov">       3740 :         npin_t* pin = node-&gt;output_pins[i];</span></a>
+<a name="324"><span class="lineNum">     324 </span><span class="lineCov">       3740 :         if (!strcmp(pin-&gt;mapping, &quot;out1&quot;))</span></a>
+<a name="325"><span class="lineNum">     325 </span>            :             has_out1 = true;</a>
+<a name="326"><span class="lineNum">     326 </span><span class="lineCov">        222 :         else if (!strcmp(pin-&gt;mapping, &quot;out2&quot;))</span></a>
+<a name="327"><span class="lineNum">     327 </span><span class="lineCov">        222 :             has_out2 = true;</span></a>
+<a name="328"><span class="lineNum">     328 </span>            :     }</a>
+<a name="329"><span class="lineNum">     329 </span>            : </a>
+<a name="330"><span class="lineNum">     330 </span><span class="lineCov">        113 :     if (!has_clk) {</span></a>
+<a name="331"><span class="lineNum">     331 </span><span class="lineNoCov">          0 :         add_dummy_input_port_to_implicit_memory(memory, 1, &quot;clk&quot;);</span></a>
+<a name="332"><span class="lineNum">     332 </span><span class="lineNoCov">          0 :         warning_message(NETLIST, memory-&gt;node-&gt;loc, &quot;Implicit memory %s is not clocked. Padding clock pin.&quot;, memory-&gt;name);</span></a>
+<a name="333"><span class="lineNum">     333 </span>            :     }</a>
+<a name="334"><span class="lineNum">     334 </span>            : </a>
+<a name="335"><span class="lineNum">     335 </span><span class="lineCov">        113 :     char has_port1 = has_addr1 || has_data1 || has_we1 || has_out1;</span></a>
+<a name="336"><span class="lineNum">     336 </span><span class="lineCov">        113 :     char has_port2 = has_addr2 || has_data2 || has_we2 || has_out2;</span></a>
+<a name="337"><span class="lineNum">     337 </span>            : </a>
+<a name="338"><span class="lineNum">     338 </span><span class="lineCov">        113 :     if (has_port1) {</span></a>
+<a name="339"><span class="lineNum">     339 </span><span class="lineCov">        113 :         if (!has_addr1) add_dummy_input_port_to_implicit_memory(memory, memory-&gt;addr_width, &quot;addr1&quot;);</span></a>
+<a name="340"><span class="lineNum">     340 </span><span class="lineCov">        113 :         if (!has_data1) add_dummy_input_port_to_implicit_memory(memory, memory-&gt;data_width, &quot;data1&quot;);</span></a>
+<a name="341"><span class="lineNum">     341 </span><span class="lineCov">        113 :         if (!has_we1) add_dummy_input_port_to_implicit_memory(memory, 1, &quot;we1&quot;);</span></a>
+<a name="342"><span class="lineNum">     342 </span><span class="lineCov">        113 :         if (!has_out1) add_dummy_output_port_to_implicit_memory(memory, memory-&gt;data_width, &quot;out1&quot;);</span></a>
+<a name="343"><span class="lineNum">     343 </span>            :     }</a>
+<a name="344"><span class="lineNum">     344 </span>            : </a>
+<a name="345"><span class="lineNum">     345 </span><span class="lineCov">        113 :     if (has_port2) {</span></a>
+<a name="346"><span class="lineNum">     346 </span><span class="lineCov">         27 :         if (!has_addr2) add_dummy_input_port_to_implicit_memory(memory, memory-&gt;addr_width, &quot;addr2&quot;);</span></a>
+<a name="347"><span class="lineNum">     347 </span><span class="lineCov">         27 :         if (!has_data2) add_dummy_input_port_to_implicit_memory(memory, memory-&gt;data_width, &quot;data2&quot;);</span></a>
+<a name="348"><span class="lineNum">     348 </span><span class="lineCov">         27 :         if (!has_we2) add_dummy_input_port_to_implicit_memory(memory, 1, &quot;we2&quot;);</span></a>
+<a name="349"><span class="lineNum">     349 </span><span class="lineCov">         27 :         if (!has_out2) add_dummy_output_port_to_implicit_memory(memory, memory-&gt;data_width, &quot;out2&quot;);</span></a>
+<a name="350"><span class="lineNum">     350 </span>            :     }</a>
+<a name="351"><span class="lineNum">     351 </span>            : </a>
+<a name="352"><span class="lineNum">     352 </span><span class="lineCov">        113 :     if (!has_port1 || !has_port2)</span></a>
+<a name="353"><span class="lineNum">     353 </span><span class="lineCov">         86 :         collapse_implicit_memory_to_single_port_ram(memory);</span></a>
+<a name="354"><span class="lineNum">     354 </span>            : </a>
+<a name="355"><span class="lineNum">     355 </span><span class="lineCov">        113 :     if (!has_port1 &amp;&amp; !has_port2) {</span></a>
+<a name="356"><span class="lineNum">     356 </span><span class="lineNoCov">          0 :         warning_message(NETLIST, memory-&gt;node-&gt;loc, &quot;Implicit memory %s has no ports...&quot;, memory-&gt;name);</span></a>
+<a name="357"><span class="lineNum">     357 </span>            :     } else {</a>
+<a name="358"><span class="lineNum">     358 </span>            :         /*</a>
+<a name="359"><span class="lineNum">     359 </span>            :          *  If this hard block is supported, register it globally and mark</a>
+<a name="360"><span class="lineNum">     360 </span>            :          *  it as used. (For splitting and BLIF output.)</a>
+<a name="361"><span class="lineNum">     361 </span>            :          *</a>
+<a name="362"><span class="lineNum">     362 </span>            :          *  If it isn't supported, it will be automagically blown out</a>
+<a name="363"><span class="lineNum">     363 </span>            :          *  into soft logic during the partial map.</a>
+<a name="364"><span class="lineNum">     364 </span>            :          */</a>
+<a name="365"><span class="lineNum">     365 </span><span class="lineCov">        113 :         ast_node_t* ast_node = node-&gt;related_ast_node;</span></a>
+<a name="366"><span class="lineNum">     366 </span><span class="lineCov">        113 :         char* hard_block_identifier = ast_node-&gt;identifier_node-&gt;types.identifier;</span></a>
+<a name="367"><span class="lineNum">     367 </span><span class="lineCov">        113 :         t_model* hb_model = find_hard_block(hard_block_identifier);</span></a>
+<a name="368"><span class="lineNum">     368 </span><span class="lineCov">        113 :         if (hb_model) {</span></a>
+<a name="369"><span class="lineNum">     369 </span><span class="lineCov">         77 :             hb_model-&gt;used = 1;</span></a>
+<a name="370"><span class="lineNum">     370 </span><span class="lineCov">         77 :             if (!strcmp(hard_block_identifier, SINGLE_PORT_RAM_string))</span></a>
+<a name="371"><span class="lineNum">     371 </span><span class="lineCov">         59 :                 sp_memory_list = insert_in_vptr_list(sp_memory_list, node);</span></a>
+<a name="372"><span class="lineNum">     372 </span>            :             else</a>
+<a name="373"><span class="lineNum">     373 </span><span class="lineCov">         18 :                 dp_memory_list = insert_in_vptr_list(dp_memory_list, node);</span></a>
+<a name="374"><span class="lineNum">     374 </span>            :         }</a>
+<a name="375"><span class="lineNum">     375 </span>            :     }</a>
+<a name="376"><span class="lineNum">     376 </span><span class="lineCov">        113 : }</span></a>
+<a name="377"><span class="lineNum">     377 </span>            : </a>
+<a name="378"><span class="lineNum">     378 </span>            : /*</a>
+<a name="379"><span class="lineNum">     379 </span>            :  * Turns the given implicit memory into a single port ram from the</a>
+<a name="380"><span class="lineNum">     380 </span>            :  * default dual port ram. This is a useful optimisation when one port is unused.</a>
+<a name="381"><span class="lineNum">     381 </span>            :  *</a>
+<a name="382"><span class="lineNum">     382 </span>            :  * All implicit memories are constructed initially as</a>
+<a name="383"><span class="lineNum">     383 </span>            :  * dual port rams.</a>
+<a name="384"><span class="lineNum">     384 </span>            :  */</a>
+<a name="385"><span class="lineNum">     385 </span><span class="lineCov">         86 : void collapse_implicit_memory_to_single_port_ram(implicit_memory* memory) {</span></a>
+<a name="386"><span class="lineNum">     386 </span><span class="lineCov">         86 :     nnode_t* node = memory-&gt;node;</span></a>
+<a name="387"><span class="lineNum">     387 </span>            : </a>
+<a name="388"><span class="lineNum">     388 </span>            :     // Change the inputs to single port ram mappings by removing</a>
+<a name="389"><span class="lineNum">     389 </span>            :     // the port numbers (1 or 2) from the mappings. (last char)</a>
+<a name="390"><span class="lineNum">     390 </span><span class="lineCov">         86 :     int i;</span></a>
+<a name="391"><span class="lineNum">     391 </span><span class="lineCov">       4398 :     for (i = 0; i &lt; node-&gt;num_input_pins; i++) {</span></a>
+<a name="392"><span class="lineNum">     392 </span><span class="lineCov">       4312 :         npin_t* pin = node-&gt;input_pins[i];</span></a>
+<a name="393"><span class="lineNum">     393 </span><span class="lineCov">       4312 :         if (strcmp(pin-&gt;mapping, &quot;clk&quot;))</span></a>
+<a name="394"><span class="lineNum">     394 </span><span class="lineCov">       4226 :             pin-&gt;mapping[strlen(pin-&gt;mapping) - 1] = 0;</span></a>
+<a name="395"><span class="lineNum">     395 </span>            :     }</a>
+<a name="396"><span class="lineNum">     396 </span>            : </a>
+<a name="397"><span class="lineNum">     397 </span>            :     // Change the outputs to single port ram mappings by removing</a>
+<a name="398"><span class="lineNum">     398 </span>            :     // the port numbers. (last char)</a>
+<a name="399"><span class="lineNum">     399 </span><span class="lineCov">       3742 :     for (i = 0; i &lt; node-&gt;num_output_pins; i++) {</span></a>
+<a name="400"><span class="lineNum">     400 </span><span class="lineCov">       3656 :         npin_t* pin = node-&gt;output_pins[i];</span></a>
+<a name="401"><span class="lineNum">     401 </span><span class="lineCov">       3656 :         pin-&gt;mapping[strlen(pin-&gt;mapping) - 1] = 0;</span></a>
+<a name="402"><span class="lineNum">     402 </span>            :     }</a>
+<a name="403"><span class="lineNum">     403 </span>            : </a>
+<a name="404"><span class="lineNum">     404 </span><span class="lineCov">         86 :     ast_node_t* ast_node = node-&gt;related_ast_node;</span></a>
+<a name="405"><span class="lineNum">     405 </span><span class="lineCov">         86 :     vtr::free(ast_node-&gt;identifier_node-&gt;types.identifier);</span></a>
+<a name="406"><span class="lineNum">     406 </span><span class="lineCov">         86 :     ast_node-&gt;identifier_node-&gt;types.identifier = vtr::strdup(SINGLE_PORT_RAM_string);</span></a>
+<a name="407"><span class="lineNum">     407 </span><span class="lineCov">         86 : }</span></a>
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+    <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LCOV version 1.14</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>

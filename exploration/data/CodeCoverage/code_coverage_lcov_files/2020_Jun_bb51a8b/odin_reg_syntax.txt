@@ -1,0 +1,928 @@
+Cleaning temporary run in directory
+Reading extra config directive from ODIN_II/regression_test/.library/output_on_error.conf
+Using [1] processors for this benchmarking suite
+Task: ODIN_II/regression_test/benchmark/task/syntax
+Benchmark result location: /workspace/vtr-verilog-to-routing/ODIN_II/regression_test/run008
+=========
+Task is: syntax
+ ========= Synthesis Test
+                                       syntax/8_bit_for_pass_through/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_for_pass_through/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/8_bit_for_pass_through_module/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_for_pass_through_module/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/8_bit_for_pass_through_module/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_for_pass_through_module/no_arch
+                                       syntax/8_bit_for_pass_through/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_for_pass_through/no_arch
+                                       syntax/8_bit_for_pass_through_off_by_1/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_for_pass_through_off_by_1/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/8_bit_for_pass_through_off_by_1/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_for_pass_through_off_by_1/no_arch
+                                       syntax/8_bit_pass_through_module/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_pass_through_module/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/8_bit_pass_through_module/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_pass_through_module/no_arch
+                                       syntax/and_primitive/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/and_primitive/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/and_primitive/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/and_primitive/no_arch
+                                       syntax/bm_dag5_mod/k6_frac_N10_frac_chain_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . syntax/bm_dag5_mod/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/bm_dag5_mod/no_arch
+  SIGABRT(134) . . . . . . . . . . . . syntax/bm_dag5_mod/no_arch
+                                       syntax/bm_dag6_mod_log/k6_frac_N10_frac_chain_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . syntax/bm_dag6_mod_log/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/bm_dag6_mod_log/no_arch
+  SIGABRT(134) . . . . . . . . . . . . syntax/bm_dag6_mod_log/no_arch
+                                       syntax/bm_dag7_mod_log/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_dag7_mod_log/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/bm_dag7_mod_log/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_dag7_mod_log/no_arch
+                                       syntax/bm_DL_4_bit_updown_counter/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_4_bit_updown_counter/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/bm_DL_4_bit_updown_counter/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_4_bit_updown_counter/no_arch
+                                       syntax/bm_DL_nbit_adder_with_carryout_and_overflow/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_nbit_adder_with_carryout_and_overflow/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/bm_DL_nbit_adder_with_carryout_and_overflow/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_nbit_adder_with_carryout_and_overflow/no_arch
+                                       syntax/bm_DL_nbit_adder_with_carryout_and_overflow_simplified/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_nbit_adder_with_carryout_and_overflow_simplified/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/bm_DL_nbit_adder_with_carryout_and_overflow_simplified/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_nbit_adder_with_carryout_and_overflow_simplified/no_arch
+                                       syntax/bm_DL_simple_fsm/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_simple_fsm/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/bm_DL_simple_fsm/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_simple_fsm/no_arch
+                                       syntax/bm_function_1/k6_frac_N10_frac_chain_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . syntax/bm_function_1/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/bm_function_1/no_arch
+  SIGABRT(134) . . . . . . . . . . . . syntax/bm_function_1/no_arch
+                                       syntax/bm_function_2/k6_frac_N10_frac_chain_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . syntax/bm_function_2/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/bm_function_2/no_arch
+  SIGABRT(134) . . . . . . . . . . . . syntax/bm_function_2/no_arch
+                                       syntax/bm_jk_rtl/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_jk_rtl/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/bm_jk_rtl/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_jk_rtl/no_arch
+                                       syntax/bm_log_all/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_log_all/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/bm_log_all/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_log_all/no_arch
+                                       syntax/bm_simple_memory/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_simple_memory/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/bm_simple_memory/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_simple_memory/no_arch
+                                       syntax/both_ram/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/both_ram/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/both_ram/no_arch
+  SIGABRT(134) . . . . . . . . . . . . syntax/both_ram/no_arch
+                                       syntax/cf_fft_1024_16/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/cf_fft_1024_16/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/cf_fft_1024_16/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/cf_fft_1024_16/no_arch
+                                       syntax/complex_post_for_loop/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/complex_post_for_loop/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/complex_post_for_loop/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/complex_post_for_loop/no_arch
+                                       syntax/constant_module_inst/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/constant_module_inst/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/constant_module_inst/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/constant_module_inst/no_arch
+                                       syntax/deassign/k6_frac_N10_frac_chain_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . syntax/deassign/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/deassign/no_arch
+  SIGABRT(134) . . . . . . . . . . . . syntax/deassign/no_arch
+                                       syntax/delay_syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/delay_syntax/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/delay_syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/delay_syntax/no_arch
+                                       syntax/diffeq_f_systemC/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/diffeq_f_systemC/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/diffeq_f_systemC/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/diffeq_f_systemC/no_arch
+                                       syntax/diffeq_paj_convert/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/diffeq_paj_convert/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/diffeq_paj_convert/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/diffeq_paj_convert/no_arch
+                                       syntax/fir_scu_rtl_restructured_for_cmm_exp/k6_frac_N10_frac_chain_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . syntax/fir_scu_rtl_restructured_for_cmm_exp/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/fir_scu_rtl_restructured_for_cmm_exp/no_arch
+  SIGABRT(134) . . . . . . . . . . . . syntax/fir_scu_rtl_restructured_for_cmm_exp/no_arch
+                                       syntax/flip_flop_enable/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/flip_flop_enable/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/flip_flop_enable/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/flip_flop_enable/no_arch
+                                       syntax/flip_flop_enable_w_begin_label/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/flip_flop_enable_w_begin_label/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/flip_flop_enable_w_begin_label/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/flip_flop_enable_w_begin_label/no_arch
+                                       syntax/for_loop_adv_post/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/for_loop_adv_post/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/for_loop_adv_post/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/for_loop_adv_post/no_arch
+                                       syntax/for_loop_adv_pre/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/for_loop_adv_pre/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/for_loop_adv_pre/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/for_loop_adv_pre/no_arch
+                                       syntax/freq_division/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/freq_division/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/freq_division/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/freq_division/no_arch
+                                       syntax/function_automatic/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/function_automatic/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/function_automatic/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/function_automatic/no_arch
+                                       syntax/function_hdr/k6_frac_N10_frac_chain_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . syntax/function_hdr/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/function_hdr/no_arch
+  SIGABRT(134) . . . . . . . . . . . . syntax/function_hdr/no_arch
+                                       syntax/function_syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/function_syntax/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/function_syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/function_syntax/no_arch
+                                       syntax/h7_of_8_bit_for_pass_through/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/h7_of_8_bit_for_pass_through/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/h7_of_8_bit_for_pass_through/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/h7_of_8_bit_for_pass_through/no_arch
+                                       syntax/ifdef-else-syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/ifdef-else-syntax/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/ifdef-else-syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/ifdef-else-syntax/no_arch
+                                       syntax/ifndef-else-syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/ifndef-else-syntax/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/ifndef-else-syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/ifndef-else-syntax/no_arch
+                                       syntax/include-syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/include-syntax/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/include-syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/include-syntax/no_arch
+                                       syntax/inferred_DPram/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/inferred_DPram/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/inferred_DPram/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/inferred_DPram/no_arch
+                                       syntax/inferred_ram_w_clog2/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/inferred_ram_w_clog2/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/inferred_ram_w_clog2/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/inferred_ram_w_clog2/no_arch
+                                       syntax/inferred_SPram/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/inferred_SPram/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/inferred_SPram/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/inferred_SPram/no_arch
+                                       syntax/instantiated_by_name_function_invalid_1/k6_frac_N10_frac_chain_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . syntax/instantiated_by_name_function_invalid_1/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/instantiated_by_name_function_invalid_1/no_arch
+  SIGABRT(134) . . . . . . . . . . . . syntax/instantiated_by_name_function_invalid_1/no_arch
+                                       syntax/instantiated_by_name_function_invalid/k6_frac_N10_frac_chain_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . syntax/instantiated_by_name_function_invalid/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/instantiated_by_name_function_invalid/no_arch
+  SIGABRT(134) . . . . . . . . . . . . syntax/instantiated_by_name_function_invalid/no_arch
+                                       syntax/instantiated_by_name_function_valid/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiated_by_name_function_valid/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/instantiated_by_name_function_valid/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiated_by_name_function_valid/no_arch
+                                       syntax/instantiated_by_name_task_invalid_1/k6_frac_N10_frac_chain_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . syntax/instantiated_by_name_task_invalid_1/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/instantiated_by_name_task_invalid_1/no_arch
+  SIGABRT(134) . . . . . . . . . . . . syntax/instantiated_by_name_task_invalid_1/no_arch
+                                       syntax/instantiated_by_name_task_invalid/k6_frac_N10_frac_chain_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . syntax/instantiated_by_name_task_invalid/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/instantiated_by_name_task_invalid/no_arch
+  SIGABRT(134) . . . . . . . . . . . . syntax/instantiated_by_name_task_invalid/no_arch
+                                       syntax/instantiated_by_name_task_valid/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiated_by_name_task_valid/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/instantiated_by_name_task_valid/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiated_by_name_task_valid/no_arch
+                                       syntax/instantiating_by_name_invalid_1/k6_frac_N10_frac_chain_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . syntax/instantiating_by_name_invalid_1/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/instantiating_by_name_invalid_1/no_arch
+  SIGABRT(134) . . . . . . . . . . . . syntax/instantiating_by_name_invalid_1/no_arch
+                                       syntax/instantiating_by_name_invalid/k6_frac_N10_frac_chain_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . syntax/instantiating_by_name_invalid/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/instantiating_by_name_invalid_mix_ports/k6_frac_N10_frac_chain_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . syntax/instantiating_by_name_invalid_mix_ports/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/instantiating_by_name_invalid_mix_ports/no_arch
+  SIGABRT(134) . . . . . . . . . . . . syntax/instantiating_by_name_invalid_mix_ports/no_arch
+                                       syntax/instantiating_by_name_invalid/no_arch
+  SIGABRT(134) . . . . . . . . . . . . syntax/instantiating_by_name_invalid/no_arch
+                                       syntax/instantiating_by_name_valid/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiating_by_name_valid/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/instantiating_by_name_valid/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiating_by_name_valid/no_arch
+                                       syntax/l2_and_h2_of_8_bit_for_pass_through/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/l2_and_h2_of_8_bit_for_pass_through/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/l2_and_h2_of_8_bit_for_pass_through/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/l2_and_h2_of_8_bit_for_pass_through/no_arch
+                                       syntax/macro_in_module_declaration/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/macro_in_module_declaration/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/macro_in_module_declaration/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/macro_in_module_declaration/no_arch
+                                       syntax/matrix_multiplication/k6_frac_N10_frac_chain_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . syntax/matrix_multiplication/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/matrix_multiplication/no_arch
+  SIGABRT(134) . . . . . . . . . . . . syntax/matrix_multiplication/no_arch
+                                       syntax/memlooptesting/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/memlooptesting/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/memlooptesting/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/memlooptesting/no_arch
+                                       syntax/memory_combinational/k6_frac_N10_frac_chain_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . syntax/memory_combinational/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/memory_combinational/no_arch
+  SIGABRT(134) . . . . . . . . . . . . syntax/memory_combinational/no_arch
+                                       syntax/multi_clock_reader_writer/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_clock_reader_writer/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/multi_clock_reader_writer/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_clock_reader_writer/no_arch
+                                       syntax/multi_edge_reader_writer/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_edge_reader_writer/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/multi_edge_reader_writer/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_edge_reader_writer/no_arch
+                                       syntax/multi_module_io_data_types/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_module_io_data_types/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/multi_module_io_data_types/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_module_io_data_types/no_arch
+                                       syntax/multi_module/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_module/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/multi_module/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_module/no_arch
+                                       syntax/nested-ifdef-syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/nested-ifdef-syntax/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/nested-ifdef-syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/nested-ifdef-syntax/no_arch
+                                       syntax/no_input/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/no_input/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/no_input/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/no_input/no_arch
+                                       syntax/no_output/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/no_output/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/no_output/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/no_output/no_arch
+                                       syntax/no_port/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/no_port/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/no_port/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/no_port/no_arch
+                                       syntax/not_enough_wires/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/not_enough_wires/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/not_enough_wires/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/not_enough_wires/no_arch
+                                       syntax/part_select/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/part_select/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/part_select/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/part_select/no_arch
+                                       syntax/preprocessor_complex_define/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/preprocessor_complex_define/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/preprocessor_complex_define/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/preprocessor_complex_define/no_arch
+                                       syntax/preprocessor_define/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/preprocessor_define/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/preprocessor_define/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/preprocessor_define/no_arch
+                                       syntax/preprocessor_define_with_comment/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/preprocessor_define_with_comment/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/preprocessor_define_with_comment/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/preprocessor_define_with_comment/no_arch
+                                       syntax/rs_decoder_1/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/rs_decoder_1/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/rs_decoder_1/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/rs_decoder_1/no_arch
+                                       syntax/rs_decoder_2/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/rs_decoder_2/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/rs_decoder_2/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/rs_decoder_2/no_arch
+                                       syntax/sign_extend_nomem/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/sign_extend_nomem/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/sign_extend_nomem/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/sign_extend_nomem/no_arch
+                                       syntax/simple_function/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/simple_function/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/simple_function/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/simple_function/no_arch
+                                       syntax/simple_module/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/simple_module/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/simple_module/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/simple_module/no_arch
+                                       syntax/simple_task/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/simple_task/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/simple_task/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/simple_task/no_arch
+                                       syntax/spram_big/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/spram_big/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/spram_big/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/spram_big/no_arch
+                                       syntax/task_automatic/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/task_automatic/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/task_automatic/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/task_automatic/no_arch
+                                       syntax/task_multiple_instances/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/task_multiple_instances/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/task_multiple_instances/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/task_multiple_instances/no_arch
+                                       syntax/timescale_syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/timescale_syntax/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/timescale_syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/timescale_syntax/no_arch
+                                       syntax/top_and/k6_frac_N10_frac_chain_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . syntax/top_and/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/top_and/no_arch
+  SIGABRT(134) . . . . . . . . . . . . syntax/top_and/no_arch
+                                       syntax/unconnected_input/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/unconnected_input/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/unconnected_input/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/unconnected_input/no_arch
+                                       syntax/undeclared_signal/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/undeclared_signal/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/undeclared_signal/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/undeclared_signal/no_arch
+                                       syntax/vector_and/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/vector_and/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/vector_and/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/vector_and/no_arch
+                                       syntax/vector_buf/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/vector_buf/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/vector_buf/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/vector_buf/no_arch
+ -------- Parsing Synthesis Result --------- 
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_for_pass_through/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_for_pass_through_module/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_for_pass_through_module/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_for_pass_through/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_for_pass_through_off_by_1/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_for_pass_through_off_by_1/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_pass_through_module/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_pass_through_module/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/and_primitive/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/and_primitive/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_dag5_mod/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_dag5_mod/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_dag6_mod_log/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_dag6_mod_log/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_dag7_mod_log/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_dag7_mod_log/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_4_bit_updown_counter/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_4_bit_updown_counter/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_nbit_adder_with_carryout_and_overflow/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_nbit_adder_with_carryout_and_overflow/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_nbit_adder_with_carryout_and_overflow_simplified/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_nbit_adder_with_carryout_and_overflow_simplified/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_simple_fsm/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_simple_fsm/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_function_1/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_function_1/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_function_2/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_function_2/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_jk_rtl/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_jk_rtl/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_log_all/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_log_all/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_simple_memory/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_simple_memory/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/both_ram/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/both_ram/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/cf_fft_1024_16/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/cf_fft_1024_16/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/complex_post_for_loop/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/complex_post_for_loop/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/constant_module_inst/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/constant_module_inst/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/deassign/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/deassign/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/delay_syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/delay_syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/diffeq_f_systemC/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/diffeq_f_systemC/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/diffeq_paj_convert/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/diffeq_paj_convert/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/fir_scu_rtl_restructured_for_cmm_exp/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/fir_scu_rtl_restructured_for_cmm_exp/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/flip_flop_enable/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/flip_flop_enable/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/flip_flop_enable_w_begin_label/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/flip_flop_enable_w_begin_label/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/for_loop_adv_post/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/for_loop_adv_post/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/for_loop_adv_pre/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/for_loop_adv_pre/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/freq_division/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/freq_division/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/function_automatic/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/function_automatic/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/function_hdr/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/function_hdr/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/function_syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/function_syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/h7_of_8_bit_for_pass_through/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/h7_of_8_bit_for_pass_through/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/ifdef-else-syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/ifdef-else-syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/ifndef-else-syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/ifndef-else-syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/include-syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/include-syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/inferred_DPram/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/inferred_DPram/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/inferred_ram_w_clog2/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/inferred_ram_w_clog2/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/inferred_SPram/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/inferred_SPram/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiated_by_name_function_invalid_1/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiated_by_name_function_invalid_1/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiated_by_name_function_invalid/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiated_by_name_function_invalid/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiated_by_name_function_valid/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiated_by_name_function_valid/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiated_by_name_task_invalid_1/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiated_by_name_task_invalid_1/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiated_by_name_task_invalid/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiated_by_name_task_invalid/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiated_by_name_task_valid/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiated_by_name_task_valid/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiating_by_name_invalid_1/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiating_by_name_invalid_1/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiating_by_name_invalid/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiating_by_name_invalid_mix_ports/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiating_by_name_invalid_mix_ports/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiating_by_name_invalid/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiating_by_name_valid/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiating_by_name_valid/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/l2_and_h2_of_8_bit_for_pass_through/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/l2_and_h2_of_8_bit_for_pass_through/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/macro_in_module_declaration/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/macro_in_module_declaration/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/matrix_multiplication/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/matrix_multiplication/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/memlooptesting/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/memlooptesting/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/memory_combinational/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/memory_combinational/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_clock_reader_writer/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_clock_reader_writer/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_edge_reader_writer/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_edge_reader_writer/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_module_io_data_types/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_module_io_data_types/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_module/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_module/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/nested-ifdef-syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/nested-ifdef-syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/no_input/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/no_input/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/no_output/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/no_output/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/no_port/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/no_port/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/not_enough_wires/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/not_enough_wires/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/part_select/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/part_select/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/preprocessor_complex_define/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/preprocessor_complex_define/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/preprocessor_define/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/preprocessor_define/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/preprocessor_define_with_comment/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/preprocessor_define_with_comment/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/rs_decoder_1/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/rs_decoder_1/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/rs_decoder_2/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/rs_decoder_2/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/sign_extend_nomem/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/sign_extend_nomem/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/simple_function/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/simple_function/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/simple_module/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/simple_module/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/simple_task/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/simple_task/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/spram_big/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/spram_big/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/task_automatic/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/task_automatic/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/task_multiple_instances/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/task_multiple_instances/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/timescale_syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/timescale_syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/top_and/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/top_and/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/unconnected_input/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/unconnected_input/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/undeclared_signal/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/undeclared_signal/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/vector_and/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/vector_and/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/vector_buf/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/vector_buf/no_arch
+
+
+ ========= Generate_IO_Simulation Test
+                                       syntax/and_primitive/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/and_primitive/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/and_primitive/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/and_primitive/no_arch
+                                       syntax/bm_dag7_mod_log/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_dag7_mod_log/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/bm_dag7_mod_log/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_dag7_mod_log/no_arch
+                                       syntax/bm_DL_4_bit_updown_counter/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_4_bit_updown_counter/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/bm_DL_4_bit_updown_counter/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_4_bit_updown_counter/no_arch
+                                       syntax/bm_DL_nbit_adder_with_carryout_and_overflow/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_nbit_adder_with_carryout_and_overflow/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/bm_DL_nbit_adder_with_carryout_and_overflow/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_nbit_adder_with_carryout_and_overflow/no_arch
+                                       syntax/bm_DL_nbit_adder_with_carryout_and_overflow_simplified/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_nbit_adder_with_carryout_and_overflow_simplified/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/bm_DL_nbit_adder_with_carryout_and_overflow_simplified/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_nbit_adder_with_carryout_and_overflow_simplified/no_arch
+                                       syntax/bm_DL_simple_fsm/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_simple_fsm/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/bm_DL_simple_fsm/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_simple_fsm/no_arch
+                                       syntax/bm_jk_rtl/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_jk_rtl/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/bm_jk_rtl/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_jk_rtl/no_arch
+                                       syntax/bm_log_all/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_log_all/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/bm_log_all/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_log_all/no_arch
+                                       syntax/bm_simple_memory/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_simple_memory/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/bm_simple_memory/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_simple_memory/no_arch
+                                       syntax/cf_fft_1024_16/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/cf_fft_1024_16/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/cf_fft_1024_16/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/cf_fft_1024_16/no_arch
+                                       syntax/constant_module_inst/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/constant_module_inst/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/constant_module_inst/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/constant_module_inst/no_arch
+                                       syntax/delay_syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/delay_syntax/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/delay_syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/delay_syntax/no_arch
+                                       syntax/diffeq_f_systemC/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/diffeq_f_systemC/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/diffeq_f_systemC/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/diffeq_f_systemC/no_arch
+                                       syntax/diffeq_paj_convert/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/diffeq_paj_convert/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/diffeq_paj_convert/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/diffeq_paj_convert/no_arch
+                                       syntax/flip_flop_enable/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/flip_flop_enable/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/flip_flop_enable/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/flip_flop_enable/no_arch
+                                       syntax/flip_flop_enable_w_begin_label/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/flip_flop_enable_w_begin_label/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/flip_flop_enable_w_begin_label/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/flip_flop_enable_w_begin_label/no_arch
+                                       syntax/for_loop_adv_post/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/for_loop_adv_post/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/for_loop_adv_post/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/for_loop_adv_post/no_arch
+                                       syntax/for_loop_adv_pre/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/for_loop_adv_pre/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/for_loop_adv_pre/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/for_loop_adv_pre/no_arch
+                                       syntax/freq_division/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/freq_division/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/freq_division/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/freq_division/no_arch
+                                       syntax/function_automatic/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/function_automatic/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/function_automatic/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/function_automatic/no_arch
+                                       syntax/function_syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/function_syntax/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/function_syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/function_syntax/no_arch
+                                       syntax/ifdef-else-syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/ifdef-else-syntax/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/ifdef-else-syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/ifdef-else-syntax/no_arch
+                                       syntax/ifndef-else-syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/ifndef-else-syntax/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/ifndef-else-syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/ifndef-else-syntax/no_arch
+                                       syntax/include-syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/include-syntax/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/include-syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/include-syntax/no_arch
+                                       syntax/inferred_DPram/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/inferred_DPram/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/inferred_DPram/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/inferred_DPram/no_arch
+                                       syntax/inferred_ram_w_clog2/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/inferred_ram_w_clog2/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/inferred_ram_w_clog2/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/inferred_ram_w_clog2/no_arch
+                                       syntax/inferred_SPram/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/inferred_SPram/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/inferred_SPram/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/inferred_SPram/no_arch
+                                       syntax/instantiated_by_name_function_valid/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiated_by_name_function_valid/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/instantiated_by_name_function_valid/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiated_by_name_function_valid/no_arch
+                                       syntax/instantiated_by_name_task_valid/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiated_by_name_task_valid/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/instantiated_by_name_task_valid/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiated_by_name_task_valid/no_arch
+                                       syntax/instantiating_by_name_valid/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiating_by_name_valid/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/instantiating_by_name_valid/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiating_by_name_valid/no_arch
+                                       syntax/macro_in_module_declaration/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/macro_in_module_declaration/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/macro_in_module_declaration/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/macro_in_module_declaration/no_arch
+                                       syntax/memlooptesting/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/memlooptesting/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/memlooptesting/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/memlooptesting/no_arch
+                                       syntax/multi_clock_reader_writer/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_clock_reader_writer/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/multi_clock_reader_writer/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_clock_reader_writer/no_arch
+                                       syntax/multi_edge_reader_writer/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_edge_reader_writer/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/multi_edge_reader_writer/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_edge_reader_writer/no_arch
+                                       syntax/multi_module_io_data_types/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_module_io_data_types/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/multi_module_io_data_types/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_module_io_data_types/no_arch
+                                       syntax/multi_module/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_module/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/multi_module/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_module/no_arch
+                                       syntax/nested-ifdef-syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/nested-ifdef-syntax/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/nested-ifdef-syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/nested-ifdef-syntax/no_arch
+                                       syntax/no_input/k6_frac_N10_frac_chain_mem32K_40nm
+  SIGABRT(134) . . . . . . . . . . . . syntax/no_input/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/no_input/no_arch
+  SIGABRT(134) . . . . . . . . . . . . syntax/no_input/no_arch
+                                       syntax/no_output/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/no_output/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/no_output/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/no_output/no_arch
+                                       syntax/no_port/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/no_port/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/no_port/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/no_port/no_arch
+                                       syntax/not_enough_wires/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/not_enough_wires/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/not_enough_wires/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/not_enough_wires/no_arch
+                                       syntax/part_select/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/part_select/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/part_select/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/part_select/no_arch
+                                       syntax/rs_decoder_1/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/rs_decoder_1/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/rs_decoder_1/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/rs_decoder_1/no_arch
+                                       syntax/rs_decoder_2/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/rs_decoder_2/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/rs_decoder_2/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/rs_decoder_2/no_arch
+                                       syntax/sign_extend_nomem/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/sign_extend_nomem/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/sign_extend_nomem/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/sign_extend_nomem/no_arch
+                                       syntax/simple_function/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/simple_function/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/simple_function/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/simple_function/no_arch
+                                       syntax/simple_module/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/simple_module/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/simple_module/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/simple_module/no_arch
+                                       syntax/simple_task/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/simple_task/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/simple_task/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/simple_task/no_arch
+                                       syntax/spram_big/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/spram_big/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/spram_big/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/spram_big/no_arch
+                                       syntax/task_automatic/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/task_automatic/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/task_automatic/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/task_automatic/no_arch
+                                       syntax/task_multiple_instances/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/task_multiple_instances/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/task_multiple_instances/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/task_multiple_instances/no_arch
+                                       syntax/timescale_syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/timescale_syntax/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/timescale_syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/timescale_syntax/no_arch
+                                       syntax/unconnected_input/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/unconnected_input/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/unconnected_input/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/unconnected_input/no_arch
+                                       syntax/undeclared_signal/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/undeclared_signal/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/undeclared_signal/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/undeclared_signal/no_arch
+ ========= Generate_Output_Simulation Test
+                                       syntax/vector_and/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/vector_and/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/vector_and/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/vector_and/no_arch
+ ========= Predefined_IO_Simulation Test
+                                       syntax/8_bit_for_pass_through/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_for_pass_through/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/8_bit_for_pass_through_module/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_for_pass_through_module/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/8_bit_for_pass_through_module/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_for_pass_through_module/no_arch
+                                       syntax/8_bit_for_pass_through/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_for_pass_through/no_arch
+                                       syntax/8_bit_for_pass_through_off_by_1/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_for_pass_through_off_by_1/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/8_bit_for_pass_through_off_by_1/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_for_pass_through_off_by_1/no_arch
+                                       syntax/8_bit_pass_through_module/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_pass_through_module/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/8_bit_pass_through_module/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_pass_through_module/no_arch
+                                       syntax/both_ram/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/both_ram/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/complex_post_for_loop/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/complex_post_for_loop/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/complex_post_for_loop/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/complex_post_for_loop/no_arch
+                                       syntax/h7_of_8_bit_for_pass_through/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/h7_of_8_bit_for_pass_through/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/h7_of_8_bit_for_pass_through/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/h7_of_8_bit_for_pass_through/no_arch
+                                       syntax/l2_and_h2_of_8_bit_for_pass_through/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/l2_and_h2_of_8_bit_for_pass_through/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/l2_and_h2_of_8_bit_for_pass_through/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/l2_and_h2_of_8_bit_for_pass_through/no_arch
+                                       syntax/preprocessor_complex_define/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/preprocessor_complex_define/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/preprocessor_complex_define/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/preprocessor_complex_define/no_arch
+                                       syntax/preprocessor_define/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/preprocessor_define/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/preprocessor_define/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/preprocessor_define/no_arch
+                                       syntax/preprocessor_define_with_comment/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/preprocessor_define_with_comment/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/preprocessor_define_with_comment/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/preprocessor_define_with_comment/no_arch
+                                       syntax/vector_buf/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/vector_buf/k6_frac_N10_frac_chain_mem32K_40nm
+                                       syntax/vector_buf/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/vector_buf/no_arch
+ -------- Parsing Simulation Result --------- 
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_for_pass_through/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_for_pass_through_module/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_for_pass_through_module/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_for_pass_through/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_for_pass_through_off_by_1/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_for_pass_through_off_by_1/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_pass_through_module/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/8_bit_pass_through_module/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/and_primitive/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/and_primitive/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_dag7_mod_log/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_dag7_mod_log/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_4_bit_updown_counter/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_4_bit_updown_counter/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_nbit_adder_with_carryout_and_overflow/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_nbit_adder_with_carryout_and_overflow/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_nbit_adder_with_carryout_and_overflow_simplified/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_nbit_adder_with_carryout_and_overflow_simplified/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_simple_fsm/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_DL_simple_fsm/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_jk_rtl/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_jk_rtl/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_log_all/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_log_all/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_simple_memory/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/bm_simple_memory/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/both_ram/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/cf_fft_1024_16/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/cf_fft_1024_16/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/complex_post_for_loop/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/complex_post_for_loop/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/constant_module_inst/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/constant_module_inst/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/delay_syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/delay_syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/diffeq_f_systemC/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/diffeq_f_systemC/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/diffeq_paj_convert/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/diffeq_paj_convert/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/flip_flop_enable/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/flip_flop_enable/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/flip_flop_enable_w_begin_label/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/flip_flop_enable_w_begin_label/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/for_loop_adv_post/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/for_loop_adv_post/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/for_loop_adv_pre/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/for_loop_adv_pre/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/freq_division/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/freq_division/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/function_automatic/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/function_automatic/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/function_syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/function_syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/h7_of_8_bit_for_pass_through/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/h7_of_8_bit_for_pass_through/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/ifdef-else-syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/ifdef-else-syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/ifndef-else-syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/ifndef-else-syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/include-syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/include-syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/inferred_DPram/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/inferred_DPram/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/inferred_ram_w_clog2/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/inferred_ram_w_clog2/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/inferred_SPram/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/inferred_SPram/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiated_by_name_function_valid/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiated_by_name_function_valid/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiated_by_name_task_valid/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiated_by_name_task_valid/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiating_by_name_valid/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/instantiating_by_name_valid/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/l2_and_h2_of_8_bit_for_pass_through/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/l2_and_h2_of_8_bit_for_pass_through/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/macro_in_module_declaration/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/macro_in_module_declaration/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/memlooptesting/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/memlooptesting/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_clock_reader_writer/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_clock_reader_writer/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_edge_reader_writer/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_edge_reader_writer/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_module_io_data_types/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_module_io_data_types/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_module/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/multi_module/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/nested-ifdef-syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/nested-ifdef-syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/no_input/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/no_input/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/no_output/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/no_output/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/no_port/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/no_port/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/not_enough_wires/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/not_enough_wires/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/part_select/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/part_select/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/preprocessor_complex_define/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/preprocessor_complex_define/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/preprocessor_define/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/preprocessor_define/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/preprocessor_define_with_comment/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/preprocessor_define_with_comment/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/rs_decoder_1/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/rs_decoder_1/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/rs_decoder_2/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/rs_decoder_2/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/sign_extend_nomem/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/sign_extend_nomem/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/simple_function/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/simple_function/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/simple_module/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/simple_module/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/simple_task/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/simple_task/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/spram_big/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/spram_big/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/task_automatic/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/task_automatic/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/task_multiple_instances/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/task_multiple_instances/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/timescale_syntax/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/timescale_syntax/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/unconnected_input/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/unconnected_input/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/undeclared_signal/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/undeclared_signal/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/vector_and/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/vector_and/no_arch
+  Ok . . . . . . . . . . . . . . . . . syntax/vector_buf/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . syntax/vector_buf/no_arch
+
+
+ran test in: 0:0:36.491
+no run failure!
+
+Test 'odin_reg_syntax' had 0 run failures
+
+Test complete
+
+All tests passed

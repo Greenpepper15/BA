@@ -1,0 +1,1235 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - coverage.info - SRC/partial_map.cpp</title>
+  <link rel="stylesheet" type="text/css" href="../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LCOV - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="35%" class="headerValue"><a href="../index.html">top level</a> - <a href="index.html">SRC</a> - partial_map.cpp<span style="font-size: 80%;"> (source / <a href="partial_map.cpp.func-sort-c.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="15%"></td>
+            <td width="10%" class="headerCovTableHead">Hit</td>
+            <td width="10%" class="headerCovTableHead">Total</td>
+            <td width="15%" class="headerCovTableHead">Coverage</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">coverage.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntry">404</td>
+            <td class="headerCovTableEntry">469</td>
+            <td class="headerCovTableEntryMed">86.1 %</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Date:</td>
+            <td class="headerValue">2022-06-27 18:59:31</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">19</td>
+            <td class="headerCovTableEntry">19</td>
+            <td class="headerCovTableEntryHi">100.0 %</td>
+          </tr>
+          <tr><td><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td>
+<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="source">
+<a name="1"><span class="lineNum">       1 </span>            : /*</a>
+<a name="2"><span class="lineNum">       2 </span>            : Permission is hereby granted, free of charge, to any person</a>
+<a name="3"><span class="lineNum">       3 </span>            : obtaining a copy of this software and associated documentation</a>
+<a name="4"><span class="lineNum">       4 </span>            : files (the &quot;Software&quot;), to deal in the Software without</a>
+<a name="5"><span class="lineNum">       5 </span>            : restriction, including without limitation the rights to use,</a>
+<a name="6"><span class="lineNum">       6 </span>            : copy, modify, merge, publish, distribute, sublicense, and/or sell</a>
+<a name="7"><span class="lineNum">       7 </span>            : copies of the Software, and to permit persons to whom the</a>
+<a name="8"><span class="lineNum">       8 </span>            : Software is furnished to do so, subject to the following</a>
+<a name="9"><span class="lineNum">       9 </span>            : conditions:</a>
+<a name="10"><span class="lineNum">      10 </span>            : </a>
+<a name="11"><span class="lineNum">      11 </span>            : The above copyright notice and this permission notice shall be</a>
+<a name="12"><span class="lineNum">      12 </span>            : included in all copies or substantial portions of the Software.</a>
+<a name="13"><span class="lineNum">      13 </span>            : </a>
+<a name="14"><span class="lineNum">      14 </span>            : THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND,</a>
+<a name="15"><span class="lineNum">      15 </span>            : EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES</a>
+<a name="16"><span class="lineNum">      16 </span>            : OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND</a>
+<a name="17"><span class="lineNum">      17 </span>            : NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT</a>
+<a name="18"><span class="lineNum">      18 </span>            : HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,</a>
+<a name="19"><span class="lineNum">      19 </span>            : WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING</a>
+<a name="20"><span class="lineNum">      20 </span>            : FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR</a>
+<a name="21"><span class="lineNum">      21 </span>            : OTHER DEALINGS IN THE SOFTWARE.</a>
+<a name="22"><span class="lineNum">      22 </span>            : */</a>
+<a name="23"><span class="lineNum">      23 </span>            : #include &lt;string.h&gt;</a>
+<a name="24"><span class="lineNum">      24 </span>            : #include &lt;stdio.h&gt;</a>
+<a name="25"><span class="lineNum">      25 </span>            : #include &lt;stdlib.h&gt;</a>
+<a name="26"><span class="lineNum">      26 </span>            : #include &lt;stdarg.h&gt;</a>
+<a name="27"><span class="lineNum">      27 </span>            : #include &lt;algorithm&gt;</a>
+<a name="28"><span class="lineNum">      28 </span>            : #include &quot;odin_types.h&quot;</a>
+<a name="29"><span class="lineNum">      29 </span>            : #include &quot;odin_globals.h&quot;</a>
+<a name="30"><span class="lineNum">      30 </span>            : </a>
+<a name="31"><span class="lineNum">      31 </span>            : #include &quot;netlist_utils.h&quot;</a>
+<a name="32"><span class="lineNum">      32 </span>            : #include &quot;node_creation_library.h&quot;</a>
+<a name="33"><span class="lineNum">      33 </span>            : #include &quot;odin_util.h&quot;</a>
+<a name="34"><span class="lineNum">      34 </span>            : </a>
+<a name="35"><span class="lineNum">      35 </span>            : #include &quot;partial_map.h&quot;</a>
+<a name="36"><span class="lineNum">      36 </span>            : #include &quot;multipliers.h&quot;</a>
+<a name="37"><span class="lineNum">      37 </span>            : #include &quot;hard_blocks.h&quot;</a>
+<a name="38"><span class="lineNum">      38 </span>            : #include &quot;math.h&quot;</a>
+<a name="39"><span class="lineNum">      39 </span>            : #include &quot;memories.h&quot;</a>
+<a name="40"><span class="lineNum">      40 </span>            : #include &quot;adders.h&quot;</a>
+<a name="41"><span class="lineNum">      41 </span>            : #include &quot;subtractions.h&quot;</a>
+<a name="42"><span class="lineNum">      42 </span>            : #include &quot;vtr_memory.h&quot;</a>
+<a name="43"><span class="lineNum">      43 </span>            : #include &quot;vtr_util.h&quot;</a>
+<a name="44"><span class="lineNum">      44 </span>            : </a>
+<a name="45"><span class="lineNum">      45 </span>            : void depth_first_traversal_to_partial_map(short marker_value, netlist_t *netlist);</a>
+<a name="46"><span class="lineNum">      46 </span>            : void depth_first_traverse_parital_map(nnode_t *node, int traverse_mark_number, netlist_t *netlist);</a>
+<a name="47"><span class="lineNum">      47 </span>            : </a>
+<a name="48"><span class="lineNum">      48 </span>            : void partial_map_node(nnode_t *node, short traverse_number, netlist_t *netlist);</a>
+<a name="49"><span class="lineNum">      49 </span>            : </a>
+<a name="50"><span class="lineNum">      50 </span>            : void instantiate_not_logic(nnode_t *node, short mark, netlist_t *netlist);</a>
+<a name="51"><span class="lineNum">      51 </span>            : void instantiate_buffer(nnode_t *node, short mark, netlist_t *netlist);</a>
+<a name="52"><span class="lineNum">      52 </span>            : void instantiate_bitwise_logic(nnode_t *node, operation_list op, short mark, netlist_t *netlist);</a>
+<a name="53"><span class="lineNum">      53 </span>            : void instantiate_bitwise_reduction(nnode_t *node, operation_list op, short mark, netlist_t *netlist);</a>
+<a name="54"><span class="lineNum">      54 </span>            : void instantiate_logical_logic(nnode_t *node, operation_list op, short mark, netlist_t *netlist);</a>
+<a name="55"><span class="lineNum">      55 </span>            : void instantiate_EQUAL(nnode_t *node, operation_list type, short mark, netlist_t *netlist);</a>
+<a name="56"><span class="lineNum">      56 </span>            : void instantiate_GE(nnode_t *node, operation_list type, short mark, netlist_t *netlist);</a>
+<a name="57"><span class="lineNum">      57 </span>            : void instantiate_GT(nnode_t *node, operation_list type, short mark, netlist_t *netlist);</a>
+<a name="58"><span class="lineNum">      58 </span>            : void instantiate_shift_left_or_right(nnode_t *node, operation_list type, short mark, netlist_t *netlist);</a>
+<a name="59"><span class="lineNum">      59 </span>            : void instantiate_arithmetic_shift_right(nnode_t *node, short mark, netlist_t *netlist);</a>
+<a name="60"><span class="lineNum">      60 </span>            : void instantiate_unary_sub(nnode_t *node, short mark, netlist_t *netlist);</a>
+<a name="61"><span class="lineNum">      61 </span>            : void instantiate_sub_w_carry(nnode_t *node, short mark, netlist_t *netlist);</a>
+<a name="62"><span class="lineNum">      62 </span>            : </a>
+<a name="63"><span class="lineNum">      63 </span>            : void instantiate_soft_logic_ram(nnode_t *node, short mark, netlist_t *netlist);</a>
+<a name="64"><span class="lineNum">      64 </span>            : </a>
+<a name="65"><span class="lineNum">      65 </span>            : adder_def_t *get_adder_type();</a>
+<a name="66"><span class="lineNum">      66 </span>            : </a>
+<a name="67"><span class="lineNum">      67 </span>            : /*-------------------------------------------------------------------------</a>
+<a name="68"><span class="lineNum">      68 </span>            :  * (function: partial_map_top)</a>
+<a name="69"><span class="lineNum">      69 </span>            :  *-----------------------------------------------------------------------*/</a>
+<a name="70"><span class="lineNum">      70 </span><span class="lineCov">        595 : void partial_map_top(netlist_t *netlist)</span></a>
+<a name="71"><span class="lineNum">      71 </span>            : {</a>
+<a name="72"><span class="lineNum">      72 </span>            :         /* depending on the output target choose how to do partial mapping */</a>
+<a name="73"><span class="lineNum">      73 </span><span class="lineCov">        595 :         if (strcmp(configuration.output_type.c_str(), &quot;blif&quot;) == 0)</span></a>
+<a name="74"><span class="lineNum">      74 </span>            :         {</a>
+<a name="75"><span class="lineNum">      75 </span>            :                 /* do the partial map without any larger structures identified */</a>
+<a name="76"><span class="lineNum">      76 </span><span class="lineCov">        595 :                 depth_first_traversal_to_partial_map(PARTIAL_MAP_TRAVERSE_VALUE, netlist);</span></a>
+<a name="77"><span class="lineNum">      77 </span>            :         }</a>
+<a name="78"><span class="lineNum">      78 </span><span class="lineCov">        595 : }</span></a>
+<a name="79"><span class="lineNum">      79 </span>            : </a>
+<a name="80"><span class="lineNum">      80 </span>            : /*---------------------------------------------------------------------------------------------</a>
+<a name="81"><span class="lineNum">      81 </span>            :  * (function: depth_first_traversal_to_parital_map()</a>
+<a name="82"><span class="lineNum">      82 </span>            :  *-------------------------------------------------------------------------------------------*/</a>
+<a name="83"><span class="lineNum">      83 </span><span class="lineCov">        595 : void depth_first_traversal_to_partial_map(short marker_value, netlist_t *netlist)</span></a>
+<a name="84"><span class="lineNum">      84 </span>            : {</a>
+<a name="85"><span class="lineNum">      85 </span>            :         int i;</a>
+<a name="86"><span class="lineNum">      86 </span>            : </a>
+<a name="87"><span class="lineNum">      87 </span>            :         /* start with the primary input list */</a>
+<a name="88"><span class="lineNum">      88 </span><span class="lineCov">      25740 :         for (i = 0; i &lt; netlist-&gt;num_top_input_nodes; i++)</span></a>
+<a name="89"><span class="lineNum">      89 </span>            :         {</a>
+<a name="90"><span class="lineNum">      90 </span><span class="lineCov">      25145 :                 if (netlist-&gt;top_input_nodes[i] != NULL)</span></a>
+<a name="91"><span class="lineNum">      91 </span>            :                 {</a>
+<a name="92"><span class="lineNum">      92 </span><span class="lineCov">      25145 :                         depth_first_traverse_parital_map(netlist-&gt;top_input_nodes[i], marker_value, netlist);</span></a>
+<a name="93"><span class="lineNum">      93 </span>            :                 }</a>
+<a name="94"><span class="lineNum">      94 </span>            :         }</a>
+<a name="95"><span class="lineNum">      95 </span>            :         /* now traverse the ground and vcc pins  */</a>
+<a name="96"><span class="lineNum">      96 </span><span class="lineCov">        595 :         depth_first_traverse_parital_map(netlist-&gt;gnd_node, marker_value, netlist);</span></a>
+<a name="97"><span class="lineNum">      97 </span><span class="lineCov">        595 :         depth_first_traverse_parital_map(netlist-&gt;vcc_node, marker_value, netlist);</span></a>
+<a name="98"><span class="lineNum">      98 </span><span class="lineCov">        595 :         depth_first_traverse_parital_map(netlist-&gt;pad_node, marker_value, netlist);</span></a>
+<a name="99"><span class="lineNum">      99 </span><span class="lineCov">        595 : }</span></a>
+<a name="100"><span class="lineNum">     100 </span>            : </a>
+<a name="101"><span class="lineNum">     101 </span>            : /*---------------------------------------------------------------------------------------------</a>
+<a name="102"><span class="lineNum">     102 </span>            :  * (function: depth_first_traverse)</a>
+<a name="103"><span class="lineNum">     103 </span>            :  *-------------------------------------------------------------------------------------------*/</a>
+<a name="104"><span class="lineNum">     104 </span><span class="lineCov">   50401200 : void depth_first_traverse_parital_map(nnode_t *node, int traverse_mark_number, netlist_t *netlist)</span></a>
+<a name="105"><span class="lineNum">     105 </span>            : {</a>
+<a name="106"><span class="lineNum">     106 </span>            :         int i, j;</a>
+<a name="107"><span class="lineNum">     107 </span>            :         nnode_t *next_node;</a>
+<a name="108"><span class="lineNum">     108 </span>            :         nnet_t *next_net;</a>
+<a name="109"><span class="lineNum">     109 </span>            : </a>
+<a name="110"><span class="lineNum">     110 </span><span class="lineCov">   50401200 :         if (node-&gt;traverse_visited != traverse_mark_number)</span></a>
+<a name="111"><span class="lineNum">     111 </span>            :         {</a>
+<a name="112"><span class="lineNum">     112 </span>            :                 /*this is a new node so depth visit it */</a>
+<a name="113"><span class="lineNum">     113 </span>            : </a>
+<a name="114"><span class="lineNum">     114 </span>            :                 /* mark that we have visitied this node now */</a>
+<a name="115"><span class="lineNum">     115 </span><span class="lineCov">    6890530 :                 node-&gt;traverse_visited = traverse_mark_number;</span></a>
+<a name="116"><span class="lineNum">     116 </span>            : </a>
+<a name="117"><span class="lineNum">     117 </span><span class="lineCov">   17785800 :                 for (i = 0; i &lt; node-&gt;num_output_pins; i++)</span></a>
+<a name="118"><span class="lineNum">     118 </span>            :                 {</a>
+<a name="119"><span class="lineNum">     119 </span><span class="lineCov">   10895300 :                         if (node-&gt;output_pins[i]-&gt;net == NULL)</span></a>
+<a name="120"><span class="lineNum">     120 </span><span class="lineCov">       2760 :                                 continue;</span></a>
+<a name="121"><span class="lineNum">     121 </span>            : </a>
+<a name="122"><span class="lineNum">     122 </span><span class="lineCov">   10892500 :                         next_net = node-&gt;output_pins[i]-&gt;net;</span></a>
+<a name="123"><span class="lineNum">     123 </span><span class="lineCov">   74165400 :                         for (j = 0; j &lt; next_net-&gt;num_fanout_pins; j++)</span></a>
+<a name="124"><span class="lineNum">     124 </span>            :                         {</a>
+<a name="125"><span class="lineNum">     125 </span><span class="lineCov">   63272900 :                                 if (next_net-&gt;fanout_pins[j] == NULL)</span></a>
+<a name="126"><span class="lineNum">     126 </span><span class="lineCov">    2402550 :                                         continue;</span></a>
+<a name="127"><span class="lineNum">     127 </span>            : </a>
+<a name="128"><span class="lineNum">     128 </span><span class="lineCov">   60870400 :                                 next_node = next_net-&gt;fanout_pins[j]-&gt;node;</span></a>
+<a name="129"><span class="lineNum">     129 </span><span class="lineCov">   60870400 :                                 if (next_node == NULL)</span></a>
+<a name="130"><span class="lineNum">     130 </span><span class="lineCov">   10496100 :                                         continue;</span></a>
+<a name="131"><span class="lineNum">     131 </span>            : </a>
+<a name="132"><span class="lineNum">     132 </span>            :                                 /* recursive call point */</a>
+<a name="133"><span class="lineNum">     133 </span><span class="lineCov">   50374200 :                                 depth_first_traverse_parital_map(next_node, traverse_mark_number, netlist);</span></a>
+<a name="134"><span class="lineNum">     134 </span>            :                         }</a>
+<a name="135"><span class="lineNum">     135 </span>            :                 }</a>
+<a name="136"><span class="lineNum">     136 </span>            : </a>
+<a name="137"><span class="lineNum">     137 </span>            :                 /* POST traverse  map the node since you might delete */</a>
+<a name="138"><span class="lineNum">     138 </span><span class="lineCov">    6890530 :                 partial_map_node(node, traverse_mark_number, netlist);</span></a>
+<a name="139"><span class="lineNum">     139 </span>            :         }</a>
+<a name="140"><span class="lineNum">     140 </span><span class="lineCov">   50401200 : }</span></a>
+<a name="141"><span class="lineNum">     141 </span>            : </a>
+<a name="142"><span class="lineNum">     142 </span>            : /*----------------------------------------------------------------------</a>
+<a name="143"><span class="lineNum">     143 </span>            :  * (function: partial_map_node)</a>
+<a name="144"><span class="lineNum">     144 </span>            :  *--------------------------------------------------------------------*/</a>
+<a name="145"><span class="lineNum">     145 </span><span class="lineCov">    6890530 : void partial_map_node(nnode_t *node, short traverse_number, netlist_t *netlist)</span></a>
+<a name="146"><span class="lineNum">     146 </span>            : {</a>
+<a name="147"><span class="lineNum">     147 </span><span class="lineCov">    6890530 :         switch (node-&gt;type)</span></a>
+<a name="148"><span class="lineNum">     148 </span>            :         {</a>
+<a name="149"><span class="lineNum">     149 </span><span class="lineCov">       7029 :                 case BITWISE_NOT:</span></a>
+<a name="150"><span class="lineNum">     150 </span><span class="lineCov">       7029 :                         instantiate_not_logic(node, traverse_number, netlist);</span></a>
+<a name="151"><span class="lineNum">     151 </span><span class="lineCov">       7029 :                         break;</span></a>
+<a name="152"><span class="lineNum">     152 </span><span class="lineCov">     891414 :                 case BUF_NODE:</span></a>
+<a name="153"><span class="lineNum">     153 </span><span class="lineCov">     891414 :                         instantiate_buffer(node, traverse_number, netlist);</span></a>
+<a name="154"><span class="lineNum">     154 </span><span class="lineCov">     891414 :                         break;</span></a>
+<a name="155"><span class="lineNum">     155 </span>            : </a>
+<a name="156"><span class="lineNum">     156 </span><span class="lineCov">      80086 :                 case BITWISE_AND:</span></a>
+<a name="157"><span class="lineNum">     157 </span>            :                 case BITWISE_OR:</a>
+<a name="158"><span class="lineNum">     158 </span>            :                 case BITWISE_NAND:</a>
+<a name="159"><span class="lineNum">     159 </span>            :                 case BITWISE_NOR:</a>
+<a name="160"><span class="lineNum">     160 </span>            :                 case BITWISE_XNOR:</a>
+<a name="161"><span class="lineNum">     161 </span>            :                 case BITWISE_XOR:</a>
+<a name="162"><span class="lineNum">     162 </span><span class="lineCov">      80086 :                         if (node-&gt;num_input_port_sizes &gt;= 2)</span></a>
+<a name="163"><span class="lineNum">     163 </span>            :                         {</a>
+<a name="164"><span class="lineNum">     164 </span><span class="lineCov">      75056 :                                 instantiate_bitwise_logic(node, node-&gt;type, traverse_number, netlist);</span></a>
+<a name="165"><span class="lineNum">     165 </span>            :                         }</a>
+<a name="166"><span class="lineNum">     166 </span><span class="lineCov">       5030 :                         else if (node-&gt;num_input_port_sizes == 1)</span></a>
+<a name="167"><span class="lineNum">     167 </span>            :                         {</a>
+<a name="168"><span class="lineNum">     168 </span><span class="lineCov">       5030 :                                 instantiate_bitwise_reduction(node, node-&gt;type, traverse_number, netlist);</span></a>
+<a name="169"><span class="lineNum">     169 </span>            :                         }</a>
+<a name="170"><span class="lineNum">     170 </span>            :                         else</a>
+<a name="171"><span class="lineNum">     171 </span><span class="lineNoCov">          0 :                                 oassert(FALSE);</span></a>
+<a name="172"><span class="lineNum">     172 </span><span class="lineCov">      80086 :                         break;</span></a>
+<a name="173"><span class="lineNum">     173 </span>            : </a>
+<a name="174"><span class="lineNum">     174 </span><span class="lineCov">    1056070 :                 case LOGICAL_OR:</span></a>
+<a name="175"><span class="lineNum">     175 </span>            :                 case LOGICAL_AND:</a>
+<a name="176"><span class="lineNum">     176 </span>            :                 case LOGICAL_NOR:</a>
+<a name="177"><span class="lineNum">     177 </span>            :                 case LOGICAL_NAND:</a>
+<a name="178"><span class="lineNum">     178 </span>            :                 case LOGICAL_XOR:</a>
+<a name="179"><span class="lineNum">     179 </span>            :                 case LOGICAL_XNOR:</a>
+<a name="180"><span class="lineNum">     180 </span><span class="lineCov">    1056070 :                         if (node-&gt;num_input_port_sizes == 2)</span></a>
+<a name="181"><span class="lineNum">     181 </span>            :                         {</a>
+<a name="182"><span class="lineNum">     182 </span><span class="lineCov">    1054280 :                                 instantiate_logical_logic(node, node-&gt;type, traverse_number, netlist);</span></a>
+<a name="183"><span class="lineNum">     183 </span>            :                         }</a>
+<a name="184"><span class="lineNum">     184 </span><span class="lineCov">    1056070 :                         break;</span></a>
+<a name="185"><span class="lineNum">     185 </span>            : </a>
+<a name="186"><span class="lineNum">     186 </span><span class="lineCov">    1632510 :                 case LOGICAL_NOT:</span></a>
+<a name="187"><span class="lineNum">     187 </span>            :                         /* don't need to do anything since this is a reduction */</a>
+<a name="188"><span class="lineNum">     188 </span><span class="lineCov">    1632510 :                         break;</span></a>
+<a name="189"><span class="lineNum">     189 </span>            : </a>
+<a name="190"><span class="lineNum">     190 </span><span class="lineCov">      10045 :                 case ADD:</span></a>
+<a name="191"><span class="lineNum">     191 </span><span class="lineCov">      10045 :                         if (hard_adders &amp;&amp; node-&gt;bit_width &gt;= min_threshold_adder){</span></a>
+<a name="192"><span class="lineNum">     192 </span>            :                                 // Check if the size of this adder is greater than the hard vs soft logic threshold</a>
+<a name="193"><span class="lineNum">     193 </span><span class="lineNoCov">          0 :                                         instantiate_hard_adder(node, traverse_number, netlist);</span></a>
+<a name="194"><span class="lineNum">     194 </span>            :                         }else{</a>
+<a name="195"><span class="lineNum">     195 </span><span class="lineCov">      10045 :                                 instantiate_add_w_carry(node, traverse_number, netlist);</span></a>
+<a name="196"><span class="lineNum">     196 </span>            :                         }</a>
+<a name="197"><span class="lineNum">     197 </span><span class="lineCov">      10045 :                         break;</span></a>
+<a name="198"><span class="lineNum">     198 </span><span class="lineCov">      10879 :                 case MINUS:</span></a>
+<a name="199"><span class="lineNum">     199 </span><span class="lineCov">      10879 :                         if (hard_adders)</span></a>
+<a name="200"><span class="lineNum">     200 </span>            :                         {</a>
+<a name="201"><span class="lineNum">     201 </span><span class="lineNoCov">          0 :                                 if(node-&gt;num_input_port_sizes == 3)</span></a>
+<a name="202"><span class="lineNum">     202 </span>            :                                 {</a>
+<a name="203"><span class="lineNum">     203 </span><span class="lineNoCov">          0 :                                         int max_num = (node-&gt;input_port_sizes[0] &gt;= node-&gt;input_port_sizes[1])? node-&gt;input_port_sizes[0] : node-&gt;input_port_sizes[1];</span></a>
+<a name="204"><span class="lineNum">     204 </span><span class="lineNoCov">          0 :                                         if (max_num &gt;= min_add)</span></a>
+<a name="205"><span class="lineNum">     205 </span><span class="lineNoCov">          0 :                                                 instantiate_hard_adder_subtraction(node, traverse_number, netlist);</span></a>
+<a name="206"><span class="lineNum">     206 </span>            :                                         else</a>
+<a name="207"><span class="lineNum">     207 </span><span class="lineNoCov">          0 :                                                 instantiate_add_w_carry(node, traverse_number, netlist);</span></a>
+<a name="208"><span class="lineNum">     208 </span>            :                                 }</a>
+<a name="209"><span class="lineNum">     209 </span><span class="lineNoCov">          0 :                                 else if (node-&gt;num_input_port_sizes == 2)</span></a>
+<a name="210"><span class="lineNum">     210 </span>            :                                 {</a>
+<a name="211"><span class="lineNum">     211 </span><span class="lineNoCov">          0 :                                         instantiate_sub_w_carry(node, traverse_number, netlist);</span></a>
+<a name="212"><span class="lineNum">     212 </span>            :                                 }</a>
+<a name="213"><span class="lineNum">     213 </span><span class="lineNoCov">          0 :                                 else if (node-&gt;num_input_port_sizes == 1)</span></a>
+<a name="214"><span class="lineNum">     214 </span>            :                                 {</a>
+<a name="215"><span class="lineNum">     215 </span><span class="lineNoCov">          0 :                                         instantiate_unary_sub(node, traverse_number, netlist);</span></a>
+<a name="216"><span class="lineNum">     216 </span>            :                                 }</a>
+<a name="217"><span class="lineNum">     217 </span>            :                                 else</a>
+<a name="218"><span class="lineNum">     218 </span><span class="lineNoCov">          0 :                                         oassert(FALSE);</span></a>
+<a name="219"><span class="lineNum">     219 </span>            :                         }</a>
+<a name="220"><span class="lineNum">     220 </span>            :                         else{</a>
+<a name="221"><span class="lineNum">     221 </span><span class="lineCov">      10879 :                                 if (node-&gt;num_input_port_sizes == 2)</span></a>
+<a name="222"><span class="lineNum">     222 </span>            :                                 {</a>
+<a name="223"><span class="lineNum">     223 </span><span class="lineCov">      10435 :                                         instantiate_sub_w_carry(node, traverse_number, netlist);</span></a>
+<a name="224"><span class="lineNum">     224 </span>            :                                 }</a>
+<a name="225"><span class="lineNum">     225 </span><span class="lineCov">        444 :                                 else if (node-&gt;num_input_port_sizes == 1)</span></a>
+<a name="226"><span class="lineNum">     226 </span>            :                                 {</a>
+<a name="227"><span class="lineNum">     227 </span><span class="lineCov">        444 :                                         instantiate_unary_sub(node, traverse_number, netlist);</span></a>
+<a name="228"><span class="lineNum">     228 </span>            :                                 }</a>
+<a name="229"><span class="lineNum">     229 </span>            :                                 else</a>
+<a name="230"><span class="lineNum">     230 </span><span class="lineNoCov">          0 :                                         oassert(FALSE);</span></a>
+<a name="231"><span class="lineNum">     231 </span>            :                         }</a>
+<a name="232"><span class="lineNum">     232 </span>            : </a>
+<a name="233"><span class="lineNum">     233 </span><span class="lineCov">      10879 :                         break;</span></a>
+<a name="234"><span class="lineNum">     234 </span><span class="lineCov">      81274 :                 case LOGICAL_EQUAL:</span></a>
+<a name="235"><span class="lineNum">     235 </span>            :                 case NOT_EQUAL:</a>
+<a name="236"><span class="lineNum">     236 </span><span class="lineCov">      81274 :                         instantiate_EQUAL(node, node-&gt;type, traverse_number, netlist);</span></a>
+<a name="237"><span class="lineNum">     237 </span><span class="lineCov">      81274 :                         break;</span></a>
+<a name="238"><span class="lineNum">     238 </span><span class="lineCov">       1402 :                 case GTE:</span></a>
+<a name="239"><span class="lineNum">     239 </span>            :                 case LTE:</a>
+<a name="240"><span class="lineNum">     240 </span><span class="lineCov">       1402 :                         instantiate_GE(node, node-&gt;type, traverse_number, netlist);</span></a>
+<a name="241"><span class="lineNum">     241 </span><span class="lineCov">       1402 :                         break;</span></a>
+<a name="242"><span class="lineNum">     242 </span><span class="lineCov">       3246 :                 case GT:</span></a>
+<a name="243"><span class="lineNum">     243 </span>            :                 case LT:</a>
+<a name="244"><span class="lineNum">     244 </span><span class="lineCov">       3246 :                         instantiate_GT(node, node-&gt;type, traverse_number, netlist);</span></a>
+<a name="245"><span class="lineNum">     245 </span><span class="lineCov">       3246 :                         break;</span></a>
+<a name="246"><span class="lineNum">     246 </span><span class="lineCov">      34224 :                 case SL:</span></a>
+<a name="247"><span class="lineNum">     247 </span>            :                 case SR:</a>
+<a name="248"><span class="lineNum">     248 </span><span class="lineCov">      34224 :                         instantiate_shift_left_or_right(node, node-&gt;type, traverse_number, netlist);</span></a>
+<a name="249"><span class="lineNum">     249 </span><span class="lineCov">      34224 :                         break;</span></a>
+<a name="250"><span class="lineNum">     250 </span><span class="lineCov">         32 :         case ASR:</span></a>
+<a name="251"><span class="lineNum">     251 </span><span class="lineCov">         32 :             instantiate_arithmetic_shift_right(node, node-&gt;type, netlist);</span></a>
+<a name="252"><span class="lineNum">     252 </span><span class="lineCov">         32 :             break;</span></a>
+<a name="253"><span class="lineNum">     253 </span><span class="lineCov">      52543 :         case MULTI_PORT_MUX:</span></a>
+<a name="254"><span class="lineNum">     254 </span><span class="lineCov">      52543 :                         instantiate_multi_port_mux(node, traverse_number, netlist);</span></a>
+<a name="255"><span class="lineNum">     255 </span><span class="lineCov">      52543 :                         break;</span></a>
+<a name="256"><span class="lineNum">     256 </span><span class="lineCov">       3622 :                 case MULTIPLY:</span></a>
+<a name="257"><span class="lineNum">     257 </span>            :         {</a>
+<a name="258"><span class="lineNum">     258 </span><span class="lineCov">       3622 :             int mult_size = std::max&lt;int&gt;(node-&gt;input_port_sizes[0], node-&gt;input_port_sizes[1]);</span></a>
+<a name="259"><span class="lineNum">     259 </span><span class="lineCov">       3622 :                         if (hard_multipliers &amp;&amp; mult_size &gt;= min_mult) {</span></a>
+<a name="260"><span class="lineNum">     260 </span><span class="lineCov">       3526 :                 instantiate_hard_multiplier(node, traverse_number, netlist);</span></a>
+<a name="261"><span class="lineNum">     261 </span><span class="lineCov">         96 :             } else if (!hard_adders) {</span></a>
+<a name="262"><span class="lineNum">     262 </span><span class="lineCov">         96 :                                 instantiate_simple_soft_multiplier(node, traverse_number, netlist);</span></a>
+<a name="263"><span class="lineNum">     263 </span>            :                         }</a>
+<a name="264"><span class="lineNum">     264 </span><span class="lineCov">       3622 :                         break;</span></a>
+<a name="265"><span class="lineNum">     265 </span>            :         }</a>
+<a name="266"><span class="lineNum">     266 </span><span class="lineCov">    1092360 :                 case MEMORY:</span></a>
+<a name="267"><span class="lineNum">     267 </span>            :                 {</a>
+<a name="268"><span class="lineNum">     268 </span><span class="lineCov">    1092360 :                         ast_node_t *ast_node = node-&gt;related_ast_node;</span></a>
+<a name="269"><span class="lineNum">     269 </span><span class="lineCov">    1092360 :                         char *identifier = ast_node-&gt;children[0]-&gt;types.identifier;</span></a>
+<a name="270"><span class="lineNum">     270 </span><span class="lineCov">    1092360 :                         if (find_hard_block(identifier))</span></a>
+<a name="271"><span class="lineNum">     271 </span>            :                         {</a>
+<a name="272"><span class="lineNum">     272 </span><span class="lineCov">    1092350 :                                 long depth = is_sp_ram(node)? get_sp_ram_depth(node) : get_dp_ram_depth(node);</span></a>
+<a name="273"><span class="lineNum">     273 </span><span class="lineCov">    1092350 :                                 long width = is_sp_ram(node)? get_sp_ram_width(node) : get_dp_ram_width(node);</span></a>
+<a name="274"><span class="lineNum">     274 </span>            : </a>
+<a name="275"><span class="lineNum">     275 </span>            :                                 // If the memory satisfies the threshold for the use of a hard logic block, use one.</a>
+<a name="276"><span class="lineNum">     276 </span><span class="lineCov">    1092350 :                                 if (depth &gt; configuration.soft_logic_memory_depth_threshold || width &gt; configuration.soft_logic_memory_width_threshold)</span></a>
+<a name="277"><span class="lineNum">     277 </span>            :                                 {</a>
+<a name="278"><span class="lineNum">     278 </span><span class="lineCov">    1092350 :                                         instantiate_hard_block(node, traverse_number, netlist);</span></a>
+<a name="279"><span class="lineNum">     279 </span>            :                                 }</a>
+<a name="280"><span class="lineNum">     280 </span>            :                                 else</a>
+<a name="281"><span class="lineNum">     281 </span>            :                                 {</a>
+<a name="282"><span class="lineNum">     282 </span><span class="lineNoCov">          0 :                                         printf(&quot;\tInferring soft logic ram: %zux%zu\n&quot;, width, depth);</span></a>
+<a name="283"><span class="lineNum">     283 </span><span class="lineNoCov">          0 :                                         instantiate_soft_logic_ram(node, traverse_number, netlist);</span></a>
+<a name="284"><span class="lineNum">     284 </span>            :                                 }</a>
+<a name="285"><span class="lineNum">     285 </span>            :                         }</a>
+<a name="286"><span class="lineNum">     286 </span>            :                         else</a>
+<a name="287"><span class="lineNum">     287 </span>            :                         {</a>
+<a name="288"><span class="lineNum">     288 </span><span class="lineCov">         15 :                                 instantiate_soft_logic_ram(node, traverse_number, netlist);</span></a>
+<a name="289"><span class="lineNum">     289 </span>            :                         }</a>
+<a name="290"><span class="lineNum">     290 </span><span class="lineCov">    1092360 :                         break;</span></a>
+<a name="291"><span class="lineNum">     291 </span>            :                 }</a>
+<a name="292"><span class="lineNum">     292 </span><span class="lineNoCov">          0 :                 case HARD_IP:</span></a>
+<a name="293"><span class="lineNum">     293 </span><span class="lineNoCov">          0 :                         instantiate_hard_block(node, traverse_number, netlist);</span></a>
+<a name="294"><span class="lineNum">     294 </span>            : </a>
+<a name="295"><span class="lineNum">     295 </span><span class="lineNoCov">          0 :                         break;</span></a>
+<a name="296"><span class="lineNum">     296 </span><span class="lineCov">    1933790 :                 case ADDER_FUNC:</span></a>
+<a name="297"><span class="lineNum">     297 </span>            :                 case CARRY_FUNC:</a>
+<a name="298"><span class="lineNum">     298 </span>            :                 case MUX_2:</a>
+<a name="299"><span class="lineNum">     299 </span>            :                 case INPUT_NODE:</a>
+<a name="300"><span class="lineNum">     300 </span>            :                 case CLOCK_NODE:</a>
+<a name="301"><span class="lineNum">     301 </span>            :                 case OUTPUT_NODE:</a>
+<a name="302"><span class="lineNum">     302 </span>            :                 case GND_NODE:</a>
+<a name="303"><span class="lineNum">     303 </span>            :                 case VCC_NODE:</a>
+<a name="304"><span class="lineNum">     304 </span>            :                 case FF_NODE:</a>
+<a name="305"><span class="lineNum">     305 </span>            :                 case PAD_NODE:</a>
+<a name="306"><span class="lineNum">     306 </span>            :                         /* some nodes already in the form that is mapable */</a>
+<a name="307"><span class="lineNum">     307 </span><span class="lineCov">    1933790 :                         break;</span></a>
+<a name="308"><span class="lineNum">     308 </span><span class="lineNoCov">          0 :                 case CASE_EQUAL:</span></a>
+<a name="309"><span class="lineNum">     309 </span>            :                 case CASE_NOT_EQUAL:</a>
+<a name="310"><span class="lineNum">     310 </span>            :                 case DIVIDE:</a>
+<a name="311"><span class="lineNum">     311 </span>            :                 case MODULO:</a>
+<a name="312"><span class="lineNum">     312 </span>            :                 default:</a>
+<a name="313"><span class="lineNum">     313 </span><span class="lineNoCov">          0 :                         error_message(NETLIST_ERROR, 0, -1, &quot;%s&quot;, &quot;Partial map: node should have been converted to softer version.&quot;);</span></a>
+<a name="314"><span class="lineNum">     314 </span><span class="lineNoCov">          0 :                         break;</span></a>
+<a name="315"><span class="lineNum">     315 </span>            :         }</a>
+<a name="316"><span class="lineNum">     316 </span><span class="lineCov">    6890530 : }</span></a>
+<a name="317"><span class="lineNum">     317 </span>            : </a>
+<a name="318"><span class="lineNum">     318 </span><span class="lineCov">         15 : void instantiate_soft_logic_ram(nnode_t *node, short mark, netlist_t *netlist)</span></a>
+<a name="319"><span class="lineNum">     319 </span>            : {</a>
+<a name="320"><span class="lineNum">     320 </span><span class="lineCov">         15 :         if (is_sp_ram(node))</span></a>
+<a name="321"><span class="lineNum">     321 </span><span class="lineCov">          6 :                 instantiate_soft_single_port_ram(node, mark, netlist);</span></a>
+<a name="322"><span class="lineNum">     322 </span><span class="lineCov">          9 :         else if (is_dp_ram(node))</span></a>
+<a name="323"><span class="lineNum">     323 </span><span class="lineCov">          9 :                 instantiate_soft_dual_port_ram(node, mark, netlist);</span></a>
+<a name="324"><span class="lineNum">     324 </span>            :         else</a>
+<a name="325"><span class="lineNum">     325 </span><span class="lineNoCov">          0 :                 oassert(FALSE);</span></a>
+<a name="326"><span class="lineNum">     326 </span><span class="lineCov">         15 : }</span></a>
+<a name="327"><span class="lineNum">     327 </span>            : </a>
+<a name="328"><span class="lineNum">     328 </span>            : </a>
+<a name="329"><span class="lineNum">     329 </span>            : /*---------------------------------------------------------------------------------------------</a>
+<a name="330"><span class="lineNum">     330 </span>            :  * (function: instantiate_multi_port_mux )</a>
+<a name="331"><span class="lineNum">     331 </span>            :  *      Makes the multiport into a series of 2-Mux-decoded</a>
+<a name="332"><span class="lineNum">     332 </span>            :  *-------------------------------------------------------------------------------------------*/</a>
+<a name="333"><span class="lineNum">     333 </span><span class="lineCov">      53175 : void instantiate_multi_port_mux(nnode_t *node, short mark, netlist_t * /*netlist*/)</span></a>
+<a name="334"><span class="lineNum">     334 </span>            : {</a>
+<a name="335"><span class="lineNum">     335 </span>            :         int i, j;</a>
+<a name="336"><span class="lineNum">     336 </span>            :         int width_of_one_hot_logic;</a>
+<a name="337"><span class="lineNum">     337 </span>            :         int num_ports;</a>
+<a name="338"><span class="lineNum">     338 </span>            :         int port_offset;</a>
+<a name="339"><span class="lineNum">     339 </span>            :         nnode_t **muxes;</a>
+<a name="340"><span class="lineNum">     340 </span>            : </a>
+<a name="341"><span class="lineNum">     341 </span>            :         /* setup the calculations for padding and indexing */</a>
+<a name="342"><span class="lineNum">     342 </span><span class="lineCov">      53175 :         width_of_one_hot_logic = node-&gt;input_port_sizes[0];</span></a>
+<a name="343"><span class="lineNum">     343 </span><span class="lineCov">      53175 :         num_ports = node-&gt;num_input_port_sizes;</span></a>
+<a name="344"><span class="lineNum">     344 </span><span class="lineCov">      53175 :         port_offset = node-&gt;input_port_sizes[1];</span></a>
+<a name="345"><span class="lineNum">     345 </span>            : </a>
+<a name="346"><span class="lineNum">     346 </span><span class="lineCov">      53175 :         muxes = (nnode_t**)vtr::malloc(sizeof(nnode_t*)*(num_ports-1));</span></a>
+<a name="347"><span class="lineNum">     347 </span><span class="lineCov">    1704290 :         for(i = 0; i &lt; num_ports-1; i++)</span></a>
+<a name="348"><span class="lineNum">     348 </span>            :         {</a>
+<a name="349"><span class="lineNum">     349 </span><span class="lineCov">    1651110 :                 muxes[i] = make_2port_gate(MUX_2, width_of_one_hot_logic, width_of_one_hot_logic, 1, node, mark);</span></a>
+<a name="350"><span class="lineNum">     350 </span>            :         }</a>
+<a name="351"><span class="lineNum">     351 </span>            : </a>
+<a name="352"><span class="lineNum">     352 </span><span class="lineCov">    1704290 :         for(j = 0; j &lt; num_ports - 1; j++)</span></a>
+<a name="353"><span class="lineNum">     353 </span>            :         {</a>
+<a name="354"><span class="lineNum">     354 </span><span class="lineCov">    6957610 :                 for(i = 0; i &lt; width_of_one_hot_logic; i++)</span></a>
+<a name="355"><span class="lineNum">     355 </span>            :                 {</a>
+<a name="356"><span class="lineNum">     356 </span>            :                         /* map the inputs to the muxt */</a>
+<a name="357"><span class="lineNum">     357 </span><span class="lineCov">    5306500 :                         remap_pin_to_new_node(node-&gt;input_pins[i+(j+1)*port_offset], muxes[j], width_of_one_hot_logic+i);</span></a>
+<a name="358"><span class="lineNum">     358 </span>            : </a>
+<a name="359"><span class="lineNum">     359 </span>            :                         /* map the one hot logic control */</a>
+<a name="360"><span class="lineNum">     360 </span><span class="lineCov">    5306500 :                         if (j == 0)</span></a>
+<a name="361"><span class="lineNum">     361 </span><span class="lineCov">     183550 :                                 remap_pin_to_new_node(node-&gt;input_pins[i], muxes[j], i);</span></a>
+<a name="362"><span class="lineNum">     362 </span>            :                         else</a>
+<a name="363"><span class="lineNum">     363 </span><span class="lineCov">    5122950 :                                 add_input_pin_to_node(muxes[j], copy_input_npin(muxes[0]-&gt;input_pins[i]), i);</span></a>
+<a name="364"><span class="lineNum">     364 </span>            :                 }</a>
+<a name="365"><span class="lineNum">     365 </span>            : </a>
+<a name="366"><span class="lineNum">     366 </span>            :                 /* now hookup outputs */</a>
+<a name="367"><span class="lineNum">     367 </span><span class="lineCov">    1651110 :                 remap_pin_to_new_node(node-&gt;output_pins[j], muxes[j], 0);</span></a>
+<a name="368"><span class="lineNum">     368 </span>            :         }</a>
+<a name="369"><span class="lineNum">     369 </span><span class="lineCov">      53175 :         vtr::free(muxes);</span></a>
+<a name="370"><span class="lineNum">     370 </span><span class="lineCov">      53175 :         free_nnode(node);</span></a>
+<a name="371"><span class="lineNum">     371 </span><span class="lineCov">      53175 : }</span></a>
+<a name="372"><span class="lineNum">     372 </span>            : </a>
+<a name="373"><span class="lineNum">     373 </span>            : /*---------------------------------------------------------------------------------------------</a>
+<a name="374"><span class="lineNum">     374 </span>            :  * (function: instantiate_not_logic )</a>
+<a name="375"><span class="lineNum">     375 </span>            :  *-------------------------------------------------------------------------------------------*/</a>
+<a name="376"><span class="lineNum">     376 </span><span class="lineCov">       7029 : void instantiate_not_logic(nnode_t *node, short mark, netlist_t * /*netlist*/)</span></a>
+<a name="377"><span class="lineNum">     377 </span>            : {</a>
+<a name="378"><span class="lineNum">     378 </span><span class="lineCov">       7029 :         int width = node-&gt;num_input_pins;</span></a>
+<a name="379"><span class="lineNum">     379 </span>            :         nnode_t **new_not_cells;</a>
+<a name="380"><span class="lineNum">     380 </span>            :         int i;</a>
+<a name="381"><span class="lineNum">     381 </span>            : </a>
+<a name="382"><span class="lineNum">     382 </span><span class="lineCov">       7029 :         new_not_cells = (nnode_t**)vtr::malloc(sizeof(nnode_t*)*width);</span></a>
+<a name="383"><span class="lineNum">     383 </span>            : </a>
+<a name="384"><span class="lineNum">     384 </span><span class="lineCov">      18664 :         for (i = 0; i &lt; width; i++)</span></a>
+<a name="385"><span class="lineNum">     385 </span>            :         {</a>
+<a name="386"><span class="lineNum">     386 </span><span class="lineCov">      11635 :                 new_not_cells[i] = make_not_gate(node, mark);</span></a>
+<a name="387"><span class="lineNum">     387 </span>            :         }</a>
+<a name="388"><span class="lineNum">     388 </span>            : </a>
+<a name="389"><span class="lineNum">     389 </span>            :         /* connect inputs and outputs */</a>
+<a name="390"><span class="lineNum">     390 </span><span class="lineCov">      18664 :         for(i = 0; i &lt; width; i++)</span></a>
+<a name="391"><span class="lineNum">     391 </span>            :         {</a>
+<a name="392"><span class="lineNum">     392 </span>            :                 /* Joining the inputs to the new soft NOT GATES */</a>
+<a name="393"><span class="lineNum">     393 </span><span class="lineCov">      11635 :                 remap_pin_to_new_node(node-&gt;input_pins[i], new_not_cells[i], 0);</span></a>
+<a name="394"><span class="lineNum">     394 </span><span class="lineCov">      11635 :                 remap_pin_to_new_node(node-&gt;output_pins[i], new_not_cells[i], 0);</span></a>
+<a name="395"><span class="lineNum">     395 </span>            :         }</a>
+<a name="396"><span class="lineNum">     396 </span>            : </a>
+<a name="397"><span class="lineNum">     397 </span><span class="lineCov">       7029 :         vtr::free(new_not_cells);</span></a>
+<a name="398"><span class="lineNum">     398 </span><span class="lineCov">       7029 :         free_nnode(node);</span></a>
+<a name="399"><span class="lineNum">     399 </span><span class="lineCov">       7029 : }</span></a>
+<a name="400"><span class="lineNum">     400 </span>            : </a>
+<a name="401"><span class="lineNum">     401 </span>            : /*---------------------------------------------------------------------------------------------</a>
+<a name="402"><span class="lineNum">     402 </span>            :  * (function: instantiate_buffer )</a>
+<a name="403"><span class="lineNum">     403 </span>            :  *      Buffers just pass through signals</a>
+<a name="404"><span class="lineNum">     404 </span>            :  *-------------------------------------------------------------------------------------------*/</a>
+<a name="405"><span class="lineNum">     405 </span><span class="lineCov">     925670 : void instantiate_buffer(nnode_t *node, short /*mark*/, netlist_t * /*netlist*/)</span></a>
+<a name="406"><span class="lineNum">     406 </span>            : {</a>
+<a name="407"><span class="lineNum">     407 </span><span class="lineCov">     925670 :         int width = node-&gt;num_input_pins;</span></a>
+<a name="408"><span class="lineNum">     408 </span>            :         int i;</a>
+<a name="409"><span class="lineNum">     409 </span>            : </a>
+<a name="410"><span class="lineNum">     410 </span>            :         /* for now we just pass the signals directly through */</a>
+<a name="411"><span class="lineNum">     411 </span><span class="lineCov">    3733060 :         for (i = 0; i &lt; width; i++)</span></a>
+<a name="412"><span class="lineNum">     412 </span>            :         {</a>
+<a name="413"><span class="lineNum">     413 </span><span class="lineCov">    2807390 :                 int idx_2_buffer = node-&gt;input_pins[i]-&gt;pin_net_idx;</span></a>
+<a name="414"><span class="lineNum">     414 </span>            : </a>
+<a name="415"><span class="lineNum">     415 </span>            :                 /* join all fanouts of the output net with the input pins net */</a>
+<a name="416"><span class="lineNum">     416 </span><span class="lineCov">    2807390 :                 join_nets(node-&gt;input_pins[i]-&gt;net, node-&gt;output_pins[i]-&gt;net);</span></a>
+<a name="417"><span class="lineNum">     417 </span>            : </a>
+<a name="418"><span class="lineNum">     418 </span>            :                 /* erase the pointer to this buffer */</a>
+<a name="419"><span class="lineNum">     419 </span><span class="lineCov">    2807390 :                 node-&gt;input_pins[i]-&gt;net-&gt;fanout_pins[idx_2_buffer] = NULL;</span></a>
+<a name="420"><span class="lineNum">     420 </span>            :         }</a>
+<a name="421"><span class="lineNum">     421 </span><span class="lineCov">     925670 : }</span></a>
+<a name="422"><span class="lineNum">     422 </span>            : </a>
+<a name="423"><span class="lineNum">     423 </span>            : /*---------------------------------------------------------------------------------------------</a>
+<a name="424"><span class="lineNum">     424 </span>            :  * (function: instantiate_logical_logic )</a>
+<a name="425"><span class="lineNum">     425 </span>            :  *-------------------------------------------------------------------------------------------*/</a>
+<a name="426"><span class="lineNum">     426 </span><span class="lineCov">    1054280 : void instantiate_logical_logic(nnode_t *node, operation_list op, short mark, netlist_t *netlist)</span></a>
+<a name="427"><span class="lineNum">     427 </span>            : {</a>
+<a name="428"><span class="lineNum">     428 </span>            :         int i;</a>
+<a name="429"><span class="lineNum">     429 </span>            :         int port_B_offset;</a>
+<a name="430"><span class="lineNum">     430 </span>            :         int width_a;</a>
+<a name="431"><span class="lineNum">     431 </span>            :         int width_b;</a>
+<a name="432"><span class="lineNum">     432 </span>            :         nnode_t *new_logic_cell;</a>
+<a name="433"><span class="lineNum">     433 </span>            :         nnode_t *reduction1;</a>
+<a name="434"><span class="lineNum">     434 </span>            :         nnode_t *reduction2;</a>
+<a name="435"><span class="lineNum">     435 </span>            : </a>
+<a name="436"><span class="lineNum">     436 </span><span class="lineCov">    1054280 :         oassert(node-&gt;num_input_pins &gt; 0);</span></a>
+<a name="437"><span class="lineNum">     437 </span><span class="lineCov">    1054280 :         oassert(node-&gt;num_input_port_sizes == 2);</span></a>
+<a name="438"><span class="lineNum">     438 </span><span class="lineCov">    1054280 :         oassert(node-&gt;num_output_pins == 1);</span></a>
+<a name="439"><span class="lineNum">     439 </span>            :         /* setup the calculations for padding and indexing */</a>
+<a name="440"><span class="lineNum">     440 </span><span class="lineCov">    1054280 :         width_a = node-&gt;input_port_sizes[0];</span></a>
+<a name="441"><span class="lineNum">     441 </span><span class="lineCov">    1054280 :         width_b = node-&gt;input_port_sizes[1];</span></a>
+<a name="442"><span class="lineNum">     442 </span><span class="lineCov">    1054280 :         port_B_offset = width_a;</span></a>
+<a name="443"><span class="lineNum">     443 </span>            : </a>
+<a name="444"><span class="lineNum">     444 </span>            :         /* instantiate the cells */</a>
+<a name="445"><span class="lineNum">     445 </span><span class="lineCov">    1054280 :         new_logic_cell = make_1port_logic_gate(op, 2, node, mark);</span></a>
+<a name="446"><span class="lineNum">     446 </span><span class="lineCov">    1054280 :         reduction1 = make_1port_logic_gate(BITWISE_OR, width_a, node, mark);</span></a>
+<a name="447"><span class="lineNum">     447 </span><span class="lineCov">    1054280 :         reduction2 = make_1port_logic_gate(BITWISE_OR, width_b, node, mark);</span></a>
+<a name="448"><span class="lineNum">     448 </span>            : </a>
+<a name="449"><span class="lineNum">     449 </span>            :         /* connect inputs.  In the case that a signal is smaller than the other then zero pad */</a>
+<a name="450"><span class="lineNum">     450 </span><span class="lineCov">    2109520 :         for(i = 0; i &lt; width_a; i++)</span></a>
+<a name="451"><span class="lineNum">     451 </span>            :         {</a>
+<a name="452"><span class="lineNum">     452 </span>            :                 /* Joining the inputs to the input 1 of that gate */</a>
+<a name="453"><span class="lineNum">     453 </span><span class="lineCov">    1055250 :                 if (i &lt; width_a)</span></a>
+<a name="454"><span class="lineNum">     454 </span>            :                 {</a>
+<a name="455"><span class="lineNum">     455 </span><span class="lineCov">    1055250 :                         remap_pin_to_new_node(node-&gt;input_pins[i], reduction1, i);</span></a>
+<a name="456"><span class="lineNum">     456 </span>            :                 }</a>
+<a name="457"><span class="lineNum">     457 </span>            :                 else</a>
+<a name="458"><span class="lineNum">     458 </span>            :                 {</a>
+<a name="459"><span class="lineNum">     459 </span>            :                         /* ELSE - the B input does not exist, so this answer goes right through */</a>
+<a name="460"><span class="lineNum">     460 </span><span class="lineNoCov">          0 :                         add_input_pin_to_node(reduction1, get_zero_pin(netlist), i);</span></a>
+<a name="461"><span class="lineNum">     461 </span>            :                 }</a>
+<a name="462"><span class="lineNum">     462 </span>            :         }</a>
+<a name="463"><span class="lineNum">     463 </span><span class="lineCov">    2109520 :         for(i = 0; i &lt; width_b; i++)</span></a>
+<a name="464"><span class="lineNum">     464 </span>            :         {</a>
+<a name="465"><span class="lineNum">     465 </span>            :                 /* Joining the inputs to the input 1 of that gate */</a>
+<a name="466"><span class="lineNum">     466 </span><span class="lineCov">    1055250 :                 if (i &lt; width_b)</span></a>
+<a name="467"><span class="lineNum">     467 </span>            :                 {</a>
+<a name="468"><span class="lineNum">     468 </span><span class="lineCov">    1055250 :                         remap_pin_to_new_node(node-&gt;input_pins[i+port_B_offset], reduction2, i);</span></a>
+<a name="469"><span class="lineNum">     469 </span>            :                 }</a>
+<a name="470"><span class="lineNum">     470 </span>            :                 else</a>
+<a name="471"><span class="lineNum">     471 </span>            :                 {</a>
+<a name="472"><span class="lineNum">     472 </span>            :                         /* ELSE - the B input does not exist, so this answer goes right through */</a>
+<a name="473"><span class="lineNum">     473 </span><span class="lineNoCov">          0 :                         add_input_pin_to_node(reduction2, get_zero_pin(netlist), i);</span></a>
+<a name="474"><span class="lineNum">     474 </span>            :                 }</a>
+<a name="475"><span class="lineNum">     475 </span>            :         }</a>
+<a name="476"><span class="lineNum">     476 </span>            : </a>
+<a name="477"><span class="lineNum">     477 </span><span class="lineCov">    1054280 :         connect_nodes(reduction1, 0, new_logic_cell, 0);</span></a>
+<a name="478"><span class="lineNum">     478 </span><span class="lineCov">    1054280 :         connect_nodes(reduction2, 0, new_logic_cell, 1);</span></a>
+<a name="479"><span class="lineNum">     479 </span>            : </a>
+<a name="480"><span class="lineNum">     480 </span><span class="lineCov">    1054280 :         instantiate_bitwise_reduction(reduction1, BITWISE_OR, mark, netlist);</span></a>
+<a name="481"><span class="lineNum">     481 </span><span class="lineCov">    1054280 :         instantiate_bitwise_reduction(reduction2, BITWISE_OR, mark, netlist);</span></a>
+<a name="482"><span class="lineNum">     482 </span>            : </a>
+<a name="483"><span class="lineNum">     483 </span><span class="lineCov">    1054280 :         remap_pin_to_new_node(node-&gt;output_pins[0], new_logic_cell, 0);</span></a>
+<a name="484"><span class="lineNum">     484 </span><span class="lineCov">    1054280 :         free_nnode(node);</span></a>
+<a name="485"><span class="lineNum">     485 </span><span class="lineCov">    1054280 : }</span></a>
+<a name="486"><span class="lineNum">     486 </span>            : /*---------------------------------------------------------------------------------------------</a>
+<a name="487"><span class="lineNum">     487 </span>            :  * (function: instantiate_bitwise_reduction )</a>
+<a name="488"><span class="lineNum">     488 </span>            :  *      Makes 2 input gates to break into bitwise</a>
+<a name="489"><span class="lineNum">     489 </span>            :  *-------------------------------------------------------------------------------------------*/</a>
+<a name="490"><span class="lineNum">     490 </span><span class="lineCov">    2113590 : void instantiate_bitwise_reduction(nnode_t *node, operation_list op, short mark, netlist_t *netlist)</span></a>
+<a name="491"><span class="lineNum">     491 </span>            : {</a>
+<a name="492"><span class="lineNum">     492 </span>            :         int i;</a>
+<a name="493"><span class="lineNum">     493 </span>            :         int width_a;</a>
+<a name="494"><span class="lineNum">     494 </span>            :         nnode_t *new_logic_cell;</a>
+<a name="495"><span class="lineNum">     495 </span>            :         operation_list cell_op;</a>
+<a name="496"><span class="lineNum">     496 </span>            : </a>
+<a name="497"><span class="lineNum">     497 </span><span class="lineCov">    2113590 :         oassert(node-&gt;num_input_pins &gt; 0);</span></a>
+<a name="498"><span class="lineNum">     498 </span><span class="lineCov">    2113590 :         oassert(node-&gt;num_input_port_sizes == 1);</span></a>
+<a name="499"><span class="lineNum">     499 </span><span class="lineCov">    2113590 :         oassert(node-&gt;output_port_sizes[0] == 1);</span></a>
+<a name="500"><span class="lineNum">     500 </span>            :         /* setup the calculations for padding and indexing */</a>
+<a name="501"><span class="lineNum">     501 </span><span class="lineCov">    2113590 :         width_a = node-&gt;input_port_sizes[0];</span></a>
+<a name="502"><span class="lineNum">     502 </span>            : </a>
+<a name="503"><span class="lineNum">     503 </span><span class="lineCov">    2113590 :         switch (op)</span></a>
+<a name="504"><span class="lineNum">     504 </span>            :         {</a>
+<a name="505"><span class="lineNum">     505 </span><span class="lineCov">       1056 :                 case BITWISE_AND:</span></a>
+<a name="506"><span class="lineNum">     506 </span>            :                 case LOGICAL_AND:</a>
+<a name="507"><span class="lineNum">     507 </span><span class="lineCov">       1056 :                         cell_op = LOGICAL_AND;</span></a>
+<a name="508"><span class="lineNum">     508 </span><span class="lineCov">       1056 :                         break;</span></a>
+<a name="509"><span class="lineNum">     509 </span><span class="lineCov">    2111260 :                 case BITWISE_OR:</span></a>
+<a name="510"><span class="lineNum">     510 </span>            :                 case LOGICAL_OR:</a>
+<a name="511"><span class="lineNum">     511 </span><span class="lineCov">    2111260 :                         cell_op = LOGICAL_OR;</span></a>
+<a name="512"><span class="lineNum">     512 </span><span class="lineCov">    2111260 :                         break;</span></a>
+<a name="513"><span class="lineNum">     513 </span><span class="lineNoCov">          0 :                 case BITWISE_NAND:</span></a>
+<a name="514"><span class="lineNum">     514 </span>            :                 case LOGICAL_NAND:</a>
+<a name="515"><span class="lineNum">     515 </span><span class="lineNoCov">          0 :                         cell_op = LOGICAL_NAND;</span></a>
+<a name="516"><span class="lineNum">     516 </span><span class="lineNoCov">          0 :                         break;</span></a>
+<a name="517"><span class="lineNum">     517 </span><span class="lineCov">       1268 :                 case BITWISE_NOR:</span></a>
+<a name="518"><span class="lineNum">     518 </span>            :                 case LOGICAL_NOR:</a>
+<a name="519"><span class="lineNum">     519 </span><span class="lineCov">       1268 :                         cell_op = LOGICAL_NOR;</span></a>
+<a name="520"><span class="lineNum">     520 </span><span class="lineCov">       1268 :                         break;</span></a>
+<a name="521"><span class="lineNum">     521 </span><span class="lineNoCov">          0 :                 case BITWISE_XNOR:</span></a>
+<a name="522"><span class="lineNum">     522 </span>            :                 case LOGICAL_XNOR:</a>
+<a name="523"><span class="lineNum">     523 </span><span class="lineNoCov">          0 :                         cell_op = LOGICAL_XNOR;</span></a>
+<a name="524"><span class="lineNum">     524 </span><span class="lineNoCov">          0 :                         break;</span></a>
+<a name="525"><span class="lineNum">     525 </span><span class="lineNoCov">          0 :                 case BITWISE_XOR:</span></a>
+<a name="526"><span class="lineNum">     526 </span>            :                 case LOGICAL_XOR:</a>
+<a name="527"><span class="lineNum">     527 </span><span class="lineNoCov">          0 :                         cell_op = LOGICAL_XOR;</span></a>
+<a name="528"><span class="lineNum">     528 </span><span class="lineNoCov">          0 :                         break;</span></a>
+<a name="529"><span class="lineNum">     529 </span><span class="lineNoCov">          0 :                 default:</span></a>
+<a name="530"><span class="lineNum">     530 </span><span class="lineNoCov">          0 :                         cell_op = NO_OP;</span></a>
+<a name="531"><span class="lineNum">     531 </span><span class="lineNoCov">          0 :                         oassert(FALSE);</span></a>
+<a name="532"><span class="lineNum">     532 </span><span class="lineNoCov">          0 :                         break;</span></a>
+<a name="533"><span class="lineNum">     533 </span>            :         }</a>
+<a name="534"><span class="lineNum">     534 </span>            :         /* instantiate the cells */</a>
+<a name="535"><span class="lineNum">     535 </span><span class="lineCov">    2113590 :         new_logic_cell = make_1port_logic_gate(cell_op, width_a, node, mark);</span></a>
+<a name="536"><span class="lineNum">     536 </span>            : </a>
+<a name="537"><span class="lineNum">     537 </span>            :         /* connect inputs.  In the case that a signal is smaller than the other then zero pad */</a>
+<a name="538"><span class="lineNum">     538 </span><span class="lineCov">    4330530 :         for(i = 0; i &lt; width_a; i++)</span></a>
+<a name="539"><span class="lineNum">     539 </span>            :         {</a>
+<a name="540"><span class="lineNum">     540 </span>            :                 /* Joining the inputs to the input 1 of that gate */</a>
+<a name="541"><span class="lineNum">     541 </span><span class="lineCov">    2216940 :                 if (i &lt; width_a)</span></a>
+<a name="542"><span class="lineNum">     542 </span>            :                 {</a>
+<a name="543"><span class="lineNum">     543 </span><span class="lineCov">    2216940 :                         remap_pin_to_new_node(node-&gt;input_pins[i], new_logic_cell, i);</span></a>
+<a name="544"><span class="lineNum">     544 </span>            :                 }</a>
+<a name="545"><span class="lineNum">     545 </span>            :                 else</a>
+<a name="546"><span class="lineNum">     546 </span>            :                 {</a>
+<a name="547"><span class="lineNum">     547 </span>            :                         /* ELSE - the B input does not exist, so this answer goes right through */</a>
+<a name="548"><span class="lineNum">     548 </span><span class="lineNoCov">          0 :                         add_input_pin_to_node(new_logic_cell, get_zero_pin(netlist), i);</span></a>
+<a name="549"><span class="lineNum">     549 </span>            :                 }</a>
+<a name="550"><span class="lineNum">     550 </span>            :         }</a>
+<a name="551"><span class="lineNum">     551 </span>            : </a>
+<a name="552"><span class="lineNum">     552 </span><span class="lineCov">    2113590 :         remap_pin_to_new_node(node-&gt;output_pins[0], new_logic_cell, 0);</span></a>
+<a name="553"><span class="lineNum">     553 </span><span class="lineCov">    2113590 :         free_nnode(node);</span></a>
+<a name="554"><span class="lineNum">     554 </span><span class="lineCov">    2113590 : }</span></a>
+<a name="555"><span class="lineNum">     555 </span>            : </a>
+<a name="556"><span class="lineNum">     556 </span>            : /*---------------------------------------------------------------------------------------------</a>
+<a name="557"><span class="lineNum">     557 </span>            :  * (function: instantiate_bitwise_logic )</a>
+<a name="558"><span class="lineNum">     558 </span>            :  *      Makes 2 input gates to break into bitwise</a>
+<a name="559"><span class="lineNum">     559 </span>            :  *-------------------------------------------------------------------------------------------*/</a>
+<a name="560"><span class="lineNum">     560 </span><span class="lineCov">     162364 : void instantiate_bitwise_logic(nnode_t *node, operation_list op, short mark, netlist_t *netlist)</span></a>
+<a name="561"><span class="lineNum">     561 </span>            : {</a>
+<a name="562"><span class="lineNum">     562 </span>            :         int i, j;</a>
+<a name="563"><span class="lineNum">     563 </span>            : </a>
+<a name="564"><span class="lineNum">     564 </span>            :         operation_list cell_op;</a>
+<a name="565"><span class="lineNum">     565 </span><span class="lineCov">     162364 :         if (!node) return;</span></a>
+<a name="566"><span class="lineNum">     566 </span><span class="lineCov">     162364 :         oassert(node-&gt;num_input_pins &gt; 0);</span></a>
+<a name="567"><span class="lineNum">     567 </span><span class="lineCov">     162364 :         oassert(node-&gt;num_input_port_sizes &gt;= 2);</span></a>
+<a name="568"><span class="lineNum">     568 </span>            : </a>
+<a name="569"><span class="lineNum">     569 </span><span class="lineCov">     162364 :         switch (op)</span></a>
+<a name="570"><span class="lineNum">     570 </span>            :         {</a>
+<a name="571"><span class="lineNum">     571 </span><span class="lineCov">      37298 :                 case BITWISE_AND:</span></a>
+<a name="572"><span class="lineNum">     572 </span><span class="lineCov">      37298 :                         cell_op = LOGICAL_AND;</span></a>
+<a name="573"><span class="lineNum">     573 </span><span class="lineCov">      37298 :                         break;</span></a>
+<a name="574"><span class="lineNum">     574 </span><span class="lineCov">      23428 :                 case BITWISE_OR:</span></a>
+<a name="575"><span class="lineNum">     575 </span><span class="lineCov">      23428 :                         cell_op = LOGICAL_OR;</span></a>
+<a name="576"><span class="lineNum">     576 </span><span class="lineCov">      23428 :                         break;</span></a>
+<a name="577"><span class="lineNum">     577 </span><span class="lineCov">          6 :                 case BITWISE_NAND:</span></a>
+<a name="578"><span class="lineNum">     578 </span><span class="lineCov">          6 :                         cell_op = LOGICAL_NAND;</span></a>
+<a name="579"><span class="lineNum">     579 </span><span class="lineCov">          6 :                         break;</span></a>
+<a name="580"><span class="lineNum">     580 </span><span class="lineCov">          6 :                 case BITWISE_NOR:</span></a>
+<a name="581"><span class="lineNum">     581 </span><span class="lineCov">          6 :                         cell_op = LOGICAL_NOR;</span></a>
+<a name="582"><span class="lineNum">     582 </span><span class="lineCov">          6 :                         break;</span></a>
+<a name="583"><span class="lineNum">     583 </span><span class="lineCov">      81754 :                 case BITWISE_XNOR:</span></a>
+<a name="584"><span class="lineNum">     584 </span><span class="lineCov">      81754 :                         cell_op = LOGICAL_XNOR;</span></a>
+<a name="585"><span class="lineNum">     585 </span><span class="lineCov">      81754 :                         break;</span></a>
+<a name="586"><span class="lineNum">     586 </span><span class="lineCov">      19872 :                 case BITWISE_XOR:</span></a>
+<a name="587"><span class="lineNum">     587 </span><span class="lineCov">      19872 :                         cell_op = LOGICAL_XOR;</span></a>
+<a name="588"><span class="lineNum">     588 </span><span class="lineCov">      19872 :                         break;</span></a>
+<a name="589"><span class="lineNum">     589 </span><span class="lineNoCov">          0 :                 default:</span></a>
+<a name="590"><span class="lineNum">     590 </span><span class="lineNoCov">          0 :                         cell_op = NO_OP;</span></a>
+<a name="591"><span class="lineNum">     591 </span><span class="lineNoCov">          0 :                         oassert(FALSE);</span></a>
+<a name="592"><span class="lineNum">     592 </span><span class="lineNoCov">          0 :                         break;</span></a>
+<a name="593"><span class="lineNum">     593 </span>            :         }</a>
+<a name="594"><span class="lineNum">     594 </span>            : </a>
+<a name="595"><span class="lineNum">     595 </span>            :         /* connect inputs.  In the case that a signal is smaller than the other then zero pad */</a>
+<a name="596"><span class="lineNum">     596 </span><span class="lineCov">     877950 :         for(i = 0; i &lt; node-&gt;output_port_sizes[0]; i++)</span></a>
+<a name="597"><span class="lineNum">     597 </span>            :         {</a>
+<a name="598"><span class="lineNum">     598 </span><span class="lineCov">     715586 :                 nnode_t *new_logic_cells = make_nport_gate(cell_op, node-&gt;num_input_port_sizes, 1, 1, node, mark);</span></a>
+<a name="599"><span class="lineNum">     599 </span><span class="lineCov">     715586 :                 int current_port_offset = 0;</span></a>
+<a name="600"><span class="lineNum">     600 </span>            :                 /* Joining the inputs to the input 1 of that gate */</a>
+<a name="601"><span class="lineNum">     601 </span><span class="lineCov">    2146760 :                 for(j = 0; j &lt; node-&gt;num_input_port_sizes; j++)</span></a>
+<a name="602"><span class="lineNum">     602 </span>            :                 {</a>
+<a name="603"><span class="lineNum">     603 </span>            :                         /* IF - this current input will also have a corresponding other input ports then join it to the gate */</a>
+<a name="604"><span class="lineNum">     604 </span><span class="lineCov">    1431170 :                         if(i &lt; node-&gt;input_port_sizes[j])</span></a>
+<a name="605"><span class="lineNum">     605 </span><span class="lineCov">    1431170 :                                 remap_pin_to_new_node(node-&gt;input_pins[i+current_port_offset], new_logic_cells, j);</span></a>
+<a name="606"><span class="lineNum">     606 </span>            : </a>
+<a name="607"><span class="lineNum">     607 </span>            :                         /* ELSE - the input does not exist, so this answer goes right through */</a>
+<a name="608"><span class="lineNum">     608 </span>            :                         else</a>
+<a name="609"><span class="lineNum">     609 </span><span class="lineNoCov">          0 :                                 add_input_pin_to_node(new_logic_cells, get_zero_pin(netlist), j);</span></a>
+<a name="610"><span class="lineNum">     610 </span>            : </a>
+<a name="611"><span class="lineNum">     611 </span><span class="lineCov">    1431170 :                         current_port_offset += node-&gt;input_port_sizes[j];</span></a>
+<a name="612"><span class="lineNum">     612 </span>            :         }</a>
+<a name="613"><span class="lineNum">     613 </span>            : </a>
+<a name="614"><span class="lineNum">     614 </span><span class="lineCov">     715586 :                 remap_pin_to_new_node(node-&gt;output_pins[i], new_logic_cells, 0);</span></a>
+<a name="615"><span class="lineNum">     615 </span>            :         }</a>
+<a name="616"><span class="lineNum">     616 </span>            : </a>
+<a name="617"><span class="lineNum">     617 </span><span class="lineCov">     162364 :         free_nnode(node);</span></a>
+<a name="618"><span class="lineNum">     618 </span>            : }</a>
+<a name="619"><span class="lineNum">     619 </span>            : </a>
+<a name="620"><span class="lineNum">     620 </span>            : /*--------------------------------------------------------------------------</a>
+<a name="621"><span class="lineNum">     621 </span>            :  * (function: instantiate_add_w_carry )</a>
+<a name="622"><span class="lineNum">     622 </span>            :  *      This is for soft addition in output formats that don't handle</a>
+<a name="623"><span class="lineNum">     623 </span>            :  *      multi-output logic functions (BLIF).  We use one function for the</a>
+<a name="624"><span class="lineNum">     624 </span>            :  *      add, and one for the carry.</a>
+<a name="625"><span class="lineNum">     625 </span>            :  *------------------------------------------------------------------------*/</a>
+<a name="626"><span class="lineNum">     626 </span><span class="lineCov">      11019 : void instantiate_add_w_carry(nnode_t *node, short mark, netlist_t *netlist)</span></a>
+<a name="627"><span class="lineNum">     627 </span>            : {</a>
+<a name="628"><span class="lineNum">     628 </span>            :                 // define locations in array when fetching pins</a>
+<a name="629"><span class="lineNum">     629 </span><span class="lineCov">      11019 :         const int out = 0, input_a = 1, input_b = 2, pinout_count = 3;</span></a>
+<a name="630"><span class="lineNum">     630 </span>            : </a>
+<a name="631"><span class="lineNum">     631 </span><span class="lineCov">      11019 :         oassert(node-&gt;num_input_pins &gt; 0);</span></a>
+<a name="632"><span class="lineNum">     632 </span>            : </a>
+<a name="633"><span class="lineNum">     633 </span><span class="lineCov">      11019 :         int *width = (int*)vtr::malloc(pinout_count * sizeof(int));</span></a>
+<a name="634"><span class="lineNum">     634 </span>            : </a>
+<a name="635"><span class="lineNum">     635 </span><span class="lineCov">      11019 :         if(node-&gt;num_input_port_sizes == 2)</span></a>
+<a name="636"><span class="lineNum">     636 </span><span class="lineCov">      11019 :                 width[out] = node-&gt;output_port_sizes[0];</span></a>
+<a name="637"><span class="lineNum">     637 </span>            :         else</a>
+<a name="638"><span class="lineNum">     638 </span><span class="lineNoCov">          0 :                 width[out] = node-&gt;num_output_pins;</span></a>
+<a name="639"><span class="lineNum">     639 </span>            : </a>
+<a name="640"><span class="lineNum">     640 </span><span class="lineCov">      11019 :         width[input_a] = node-&gt;input_port_sizes[0];</span></a>
+<a name="641"><span class="lineNum">     641 </span><span class="lineCov">      11019 :         width[input_b] = node-&gt;input_port_sizes[1];</span></a>
+<a name="642"><span class="lineNum">     642 </span>            : </a>
+<a name="643"><span class="lineNum">     643 </span><span class="lineCov">      11019 :         instantiate_add_w_carry_block(width, node, mark, netlist, 0);</span></a>
+<a name="644"><span class="lineNum">     644 </span>            : </a>
+<a name="645"><span class="lineNum">     645 </span><span class="lineCov">      11019 :         vtr::free(width);</span></a>
+<a name="646"><span class="lineNum">     646 </span><span class="lineCov">      11019 : }</span></a>
+<a name="647"><span class="lineNum">     647 </span>            : </a>
+<a name="648"><span class="lineNum">     648 </span>            : /*---------------------------------------------------------------------------------------------</a>
+<a name="649"><span class="lineNum">     649 </span>            :  * (function: instantiate_sub_w_carry )</a>
+<a name="650"><span class="lineNum">     650 </span>            :  *      This subtraction is intended for sof subtraction with output formats that can't handle</a>
+<a name="651"><span class="lineNum">     651 </span>            :  *      multi output logic functions.  We split the add and the carry over two logic functions.</a>
+<a name="652"><span class="lineNum">     652 </span>            :  *-------------------------------------------------------------------------------------------*/</a>
+<a name="653"><span class="lineNum">     653 </span><span class="lineCov">      10879 : void instantiate_sub_w_carry(nnode_t *node, short mark, netlist_t *netlist)</span></a>
+<a name="654"><span class="lineNum">     654 </span>            : {</a>
+<a name="655"><span class="lineNum">     655 </span>            :                 // define locations in array when fetching pins</a>
+<a name="656"><span class="lineNum">     656 </span><span class="lineCov">      10879 :         const int out = 0, input_a = 1, input_b = 2, pinout_count = 3;</span></a>
+<a name="657"><span class="lineNum">     657 </span>            : </a>
+<a name="658"><span class="lineNum">     658 </span><span class="lineCov">      10879 :         oassert(node-&gt;num_input_pins &gt; 0);</span></a>
+<a name="659"><span class="lineNum">     659 </span>            : </a>
+<a name="660"><span class="lineNum">     660 </span><span class="lineCov">      10879 :         int *width = (int*)vtr::malloc(pinout_count * sizeof(int));</span></a>
+<a name="661"><span class="lineNum">     661 </span><span class="lineCov">      10879 :         width[out] = node-&gt;output_port_sizes[0];</span></a>
+<a name="662"><span class="lineNum">     662 </span>            : </a>
+<a name="663"><span class="lineNum">     663 </span><span class="lineCov">      10879 :         if(node-&gt;num_input_port_sizes == 1)</span></a>
+<a name="664"><span class="lineNum">     664 </span>            :         {</a>
+<a name="665"><span class="lineNum">     665 </span><span class="lineCov">        444 :                 width[input_a] = 0;</span></a>
+<a name="666"><span class="lineNum">     666 </span><span class="lineCov">        444 :                 width[input_b] = node-&gt;input_port_sizes[0];</span></a>
+<a name="667"><span class="lineNum">     667 </span>            :         }</a>
+<a name="668"><span class="lineNum">     668 </span><span class="lineCov">      10435 :         else if(node-&gt;num_input_port_sizes == 2)</span></a>
+<a name="669"><span class="lineNum">     669 </span>            :         {</a>
+<a name="670"><span class="lineNum">     670 </span><span class="lineCov">      10435 :                 width[input_a] = node-&gt;input_port_sizes[0];</span></a>
+<a name="671"><span class="lineNum">     671 </span><span class="lineCov">      10435 :                 width[input_b] = node-&gt;input_port_sizes[1];</span></a>
+<a name="672"><span class="lineNum">     672 </span>            :         }</a>
+<a name="673"><span class="lineNum">     673 </span>            : </a>
+<a name="674"><span class="lineNum">     674 </span><span class="lineCov">      10879 :         instantiate_add_w_carry_block(width, node, mark, netlist, 1);</span></a>
+<a name="675"><span class="lineNum">     675 </span>            : </a>
+<a name="676"><span class="lineNum">     676 </span><span class="lineCov">      10879 :         vtr::free(width);</span></a>
+<a name="677"><span class="lineNum">     677 </span><span class="lineCov">      10879 : }</span></a>
+<a name="678"><span class="lineNum">     678 </span>            : </a>
+<a name="679"><span class="lineNum">     679 </span>            : /*---------------------------------------------------------------------------------------------</a>
+<a name="680"><span class="lineNum">     680 </span>            :  * (function:  instantiate_unary_sub )</a>
+<a name="681"><span class="lineNum">     681 </span>            :  *      Does 2's complement which is the equivalent of a unary subtraction as a HW implementation.</a>
+<a name="682"><span class="lineNum">     682 </span>            :  *-------------------------------------------------------------------------------------------*/</a>
+<a name="683"><span class="lineNum">     683 </span><span class="lineCov">        444 : void instantiate_unary_sub(nnode_t *node, short mark, netlist_t *netlist)</span></a>
+<a name="684"><span class="lineNum">     684 </span>            : {</a>
+<a name="685"><span class="lineNum">     685 </span><span class="lineCov">        444 :         instantiate_sub_w_carry(node, mark, netlist);</span></a>
+<a name="686"><span class="lineNum">     686 </span><span class="lineCov">        444 : }</span></a>
+<a name="687"><span class="lineNum">     687 </span>            : </a>
+<a name="688"><span class="lineNum">     688 </span>            : </a>
+<a name="689"><span class="lineNum">     689 </span>            : /*---------------------------------------------------------------------------------------------</a>
+<a name="690"><span class="lineNum">     690 </span>            :  * (function: instantiate_EQUAL )</a>
+<a name="691"><span class="lineNum">     691 </span>            :  *      Builds the hardware for an equal comparison by building EQ for parallel lines and then</a>
+<a name="692"><span class="lineNum">     692 </span>            :  *      taking them all through an AND tree.</a>
+<a name="693"><span class="lineNum">     693 </span>            :  *-------------------------------------------------------------------------------------------*/</a>
+<a name="694"><span class="lineNum">     694 </span><span class="lineCov">      82676 : void instantiate_EQUAL(nnode_t *node, operation_list type, short mark, netlist_t *netlist)</span></a>
+<a name="695"><span class="lineNum">     695 </span>            : {</a>
+<a name="696"><span class="lineNum">     696 </span>            :         int width_a;</a>
+<a name="697"><span class="lineNum">     697 </span>            :         int width_b;</a>
+<a name="698"><span class="lineNum">     698 </span>            :         int width_max;</a>
+<a name="699"><span class="lineNum">     699 </span>            :         int i;</a>
+<a name="700"><span class="lineNum">     700 </span>            :         int port_B_offset;</a>
+<a name="701"><span class="lineNum">     701 </span>            :         nnode_t *compare;</a>
+<a name="702"><span class="lineNum">     702 </span>            :         nnode_t *combine;</a>
+<a name="703"><span class="lineNum">     703 </span>            : </a>
+<a name="704"><span class="lineNum">     704 </span><span class="lineCov">      82676 :         oassert(node-&gt;num_output_pins == 1);</span></a>
+<a name="705"><span class="lineNum">     705 </span><span class="lineCov">      82676 :         oassert(node-&gt;num_input_pins &gt; 0);</span></a>
+<a name="706"><span class="lineNum">     706 </span><span class="lineCov">      82676 :         oassert(node-&gt;num_input_port_sizes == 2);</span></a>
+<a name="707"><span class="lineNum">     707 </span><span class="lineCov">      82676 :         width_a = node-&gt;input_port_sizes[0];</span></a>
+<a name="708"><span class="lineNum">     708 </span><span class="lineCov">      82676 :         width_b = node-&gt;input_port_sizes[1];</span></a>
+<a name="709"><span class="lineNum">     709 </span><span class="lineCov">      82676 :         width_max = width_a &gt; width_b ? width_a : width_b;</span></a>
+<a name="710"><span class="lineNum">     710 </span><span class="lineCov">      82676 :         port_B_offset = width_a;</span></a>
+<a name="711"><span class="lineNum">     711 </span>            : </a>
+<a name="712"><span class="lineNum">     712 </span>            :         /* build an xnor bitwise XNOR */</a>
+<a name="713"><span class="lineNum">     713 </span><span class="lineCov">      82676 :         if (type == LOGICAL_EQUAL)</span></a>
+<a name="714"><span class="lineNum">     714 </span>            :         {</a>
+<a name="715"><span class="lineNum">     715 </span><span class="lineCov">      81740 :                 compare = make_2port_gate(LOGICAL_XNOR, width_a, width_b, width_max, node, mark);</span></a>
+<a name="716"><span class="lineNum">     716 </span><span class="lineCov">      81740 :                 combine = make_1port_logic_gate(LOGICAL_AND, width_max, node, mark);</span></a>
+<a name="717"><span class="lineNum">     717 </span>            :         }</a>
+<a name="718"><span class="lineNum">     718 </span>            :         else</a>
+<a name="719"><span class="lineNum">     719 </span>            :         {</a>
+<a name="720"><span class="lineNum">     720 </span><span class="lineCov">        936 :                 compare = make_2port_gate(LOGICAL_XOR, width_a, width_b, width_max, node, mark);</span></a>
+<a name="721"><span class="lineNum">     721 </span><span class="lineCov">        936 :                 combine = make_1port_logic_gate(LOGICAL_OR, width_max, node, mark);</span></a>
+<a name="722"><span class="lineNum">     722 </span>            :         }</a>
+<a name="723"><span class="lineNum">     723 </span>            :         /* build an and bitwise AND */</a>
+<a name="724"><span class="lineNum">     724 </span>            : </a>
+<a name="725"><span class="lineNum">     725 </span>            : </a>
+<a name="726"><span class="lineNum">     726 </span>            :         /* connect inputs.  In the case that a signal is smaller than the other then zero pad */</a>
+<a name="727"><span class="lineNum">     727 </span><span class="lineCov">     577754 :         for(i = 0; i &lt; width_max; i++)</span></a>
+<a name="728"><span class="lineNum">     728 </span>            :         {</a>
+<a name="729"><span class="lineNum">     729 </span>            :                 /* Joining the inputs to the input 1 of that gate */</a>
+<a name="730"><span class="lineNum">     730 </span><span class="lineCov">     495078 :                 if (i &lt; width_a)</span></a>
+<a name="731"><span class="lineNum">     731 </span>            :                 {</a>
+<a name="732"><span class="lineNum">     732 </span><span class="lineCov">     495078 :                         if (i &lt; width_b)</span></a>
+<a name="733"><span class="lineNum">     733 </span>            :                         {</a>
+<a name="734"><span class="lineNum">     734 </span>            :                                 /* IF - this current input will also have a corresponding b_port input then join it to the gate */</a>
+<a name="735"><span class="lineNum">     735 </span><span class="lineCov">     495078 :                                 remap_pin_to_new_node(node-&gt;input_pins[i], compare, i);</span></a>
+<a name="736"><span class="lineNum">     736 </span>            :                         }</a>
+<a name="737"><span class="lineNum">     737 </span>            :                         else</a>
+<a name="738"><span class="lineNum">     738 </span>            :                         {</a>
+<a name="739"><span class="lineNum">     739 </span>            :                                 /* ELSE - the B input does not exist, so this answer goes right through */</a>
+<a name="740"><span class="lineNum">     740 </span><span class="lineNoCov">          0 :                                 add_input_pin_to_node(compare, get_zero_pin(netlist), i);</span></a>
+<a name="741"><span class="lineNum">     741 </span>            :                         }</a>
+<a name="742"><span class="lineNum">     742 </span>            :                 }</a>
+<a name="743"><span class="lineNum">     743 </span>            : </a>
+<a name="744"><span class="lineNum">     744 </span><span class="lineCov">     495078 :                 if (i &lt; width_b)</span></a>
+<a name="745"><span class="lineNum">     745 </span>            :                 {</a>
+<a name="746"><span class="lineNum">     746 </span><span class="lineCov">     495078 :                         if (i &lt; width_a)</span></a>
+<a name="747"><span class="lineNum">     747 </span>            :                         {</a>
+<a name="748"><span class="lineNum">     748 </span>            :                                 /* IF - this current input will also have a corresponding a_port input then join it to the gate */</a>
+<a name="749"><span class="lineNum">     749 </span>            :                                 /* Joining the inputs to the input 2 of that gate */</a>
+<a name="750"><span class="lineNum">     750 </span><span class="lineCov">     495078 :                                 remap_pin_to_new_node(node-&gt;input_pins[i+port_B_offset], compare, i+port_B_offset);</span></a>
+<a name="751"><span class="lineNum">     751 </span>            :                         }</a>
+<a name="752"><span class="lineNum">     752 </span>            :                         else</a>
+<a name="753"><span class="lineNum">     753 </span>            :                         {</a>
+<a name="754"><span class="lineNum">     754 </span>            :                                 /* ELSE - the A input does not exist, so this answer goes right through */</a>
+<a name="755"><span class="lineNum">     755 </span><span class="lineNoCov">          0 :                                 add_input_pin_to_node(compare, get_zero_pin(netlist), i+port_B_offset);</span></a>
+<a name="756"><span class="lineNum">     756 </span>            :                         }</a>
+<a name="757"><span class="lineNum">     757 </span>            :                 }</a>
+<a name="758"><span class="lineNum">     758 </span>            : </a>
+<a name="759"><span class="lineNum">     759 </span>            :                 /* hook it up to the logcial AND */</a>
+<a name="760"><span class="lineNum">     760 </span><span class="lineCov">     495078 :                 connect_nodes(compare, i, combine, i);</span></a>
+<a name="761"><span class="lineNum">     761 </span>            :         }</a>
+<a name="762"><span class="lineNum">     762 </span>            : </a>
+<a name="763"><span class="lineNum">     763 </span>            :         /* join that gate to the output */</a>
+<a name="764"><span class="lineNum">     764 </span><span class="lineCov">      82676 :         remap_pin_to_new_node(node-&gt;output_pins[0], combine, 0);</span></a>
+<a name="765"><span class="lineNum">     765 </span>            : </a>
+<a name="766"><span class="lineNum">     766 </span><span class="lineCov">      82676 :         if (type == LOGICAL_EQUAL)</span></a>
+<a name="767"><span class="lineNum">     767 </span><span class="lineCov">      81740 :                 instantiate_bitwise_logic(compare, BITWISE_XNOR, mark, netlist);</span></a>
+<a name="768"><span class="lineNum">     768 </span>            :         else</a>
+<a name="769"><span class="lineNum">     769 </span><span class="lineCov">        936 :                 instantiate_bitwise_logic(compare, BITWISE_XOR, mark, netlist);</span></a>
+<a name="770"><span class="lineNum">     770 </span>            :         /* Don't need to instantiate a Logic and gate since it is a function itself */</a>
+<a name="771"><span class="lineNum">     771 </span>            : </a>
+<a name="772"><span class="lineNum">     772 </span><span class="lineCov">      82676 :         oassert(combine-&gt;num_output_pins == 1);</span></a>
+<a name="773"><span class="lineNum">     773 </span>            : </a>
+<a name="774"><span class="lineNum">     774 </span><span class="lineCov">      82676 :         free_nnode(node);</span></a>
+<a name="775"><span class="lineNum">     775 </span><span class="lineCov">      82676 : }</span></a>
+<a name="776"><span class="lineNum">     776 </span>            : </a>
+<a name="777"><span class="lineNum">     777 </span>            : /*---------------------------------------------------------------------------------------------</a>
+<a name="778"><span class="lineNum">     778 </span>            :  * (function: instantiate_GT )</a>
+<a name="779"><span class="lineNum">     779 </span>            :  *      Defines the HW needed for greter than equal with EQ, GT, AND and OR gates to create</a>
+<a name="780"><span class="lineNum">     780 </span>            :  *      the appropriate logic function.</a>
+<a name="781"><span class="lineNum">     781 </span>            :  *-------------------------------------------------------------------------------------------*/</a>
+<a name="782"><span class="lineNum">     782 </span><span class="lineCov">       4648 : void instantiate_GT(nnode_t *node, operation_list type, short mark, netlist_t *netlist)</span></a>
+<a name="783"><span class="lineNum">     783 </span>            : {</a>
+<a name="784"><span class="lineNum">     784 </span>            :         int width_a;</a>
+<a name="785"><span class="lineNum">     785 </span>            :         int width_b;</a>
+<a name="786"><span class="lineNum">     786 </span>            :         int width_max;</a>
+<a name="787"><span class="lineNum">     787 </span>            :         int i;</a>
+<a name="788"><span class="lineNum">     788 </span>            :         int port_A_offset;</a>
+<a name="789"><span class="lineNum">     789 </span>            :         int port_B_offset;</a>
+<a name="790"><span class="lineNum">     790 </span>            :         int port_A_index;</a>
+<a name="791"><span class="lineNum">     791 </span>            :         int port_B_index;</a>
+<a name="792"><span class="lineNum">     792 </span><span class="lineCov">       4648 :         int index = 0;</span></a>
+<a name="793"><span class="lineNum">     793 </span><span class="lineCov">       4648 :         nnode_t *xor_gate=NULL;</span></a>
+<a name="794"><span class="lineNum">     794 </span>            :         nnode_t *logical_or_gate;</a>
+<a name="795"><span class="lineNum">     795 </span>            :         nnode_t **or_cells;</a>
+<a name="796"><span class="lineNum">     796 </span>            :         nnode_t **gt_cells;</a>
+<a name="797"><span class="lineNum">     797 </span>            : </a>
+<a name="798"><span class="lineNum">     798 </span><span class="lineCov">       4648 :         oassert(node-&gt;num_output_pins == 1);</span></a>
+<a name="799"><span class="lineNum">     799 </span><span class="lineCov">       4648 :         oassert(node-&gt;num_input_pins &gt; 0);</span></a>
+<a name="800"><span class="lineNum">     800 </span><span class="lineCov">       4648 :         oassert(node-&gt;num_input_port_sizes == 2);</span></a>
+<a name="801"><span class="lineNum">     801 </span><span class="lineCov">       4648 :         oassert(node-&gt;input_port_sizes[0] == node-&gt;input_port_sizes[1]);</span></a>
+<a name="802"><span class="lineNum">     802 </span><span class="lineCov">       4648 :         width_a = node-&gt;input_port_sizes[0];</span></a>
+<a name="803"><span class="lineNum">     803 </span><span class="lineCov">       4648 :         width_b = node-&gt;input_port_sizes[1];</span></a>
+<a name="804"><span class="lineNum">     804 </span><span class="lineCov">       4648 :         width_max = width_a &gt; width_b ? width_a : width_b;</span></a>
+<a name="805"><span class="lineNum">     805 </span>            : </a>
+<a name="806"><span class="lineNum">     806 </span>            :         /* swaps ports A and B */</a>
+<a name="807"><span class="lineNum">     807 </span><span class="lineCov">       4648 :         if (type == GT)</span></a>
+<a name="808"><span class="lineNum">     808 </span>            :         {</a>
+<a name="809"><span class="lineNum">     809 </span><span class="lineCov">       2128 :                 port_A_offset = 0;</span></a>
+<a name="810"><span class="lineNum">     810 </span><span class="lineCov">       2128 :                 port_B_offset = width_a;</span></a>
+<a name="811"><span class="lineNum">     811 </span><span class="lineCov">       2128 :                 port_A_index = 0;</span></a>
+<a name="812"><span class="lineNum">     812 </span><span class="lineCov">       2128 :                 port_B_index = width_a-1;</span></a>
+<a name="813"><span class="lineNum">     813 </span>            :         }</a>
+<a name="814"><span class="lineNum">     814 </span><span class="lineCov">       2520 :         else if (type == LT)</span></a>
+<a name="815"><span class="lineNum">     815 </span>            :         {</a>
+<a name="816"><span class="lineNum">     816 </span><span class="lineCov">       2520 :                 port_A_offset = width_b;</span></a>
+<a name="817"><span class="lineNum">     817 </span><span class="lineCov">       2520 :                 port_B_offset = 0;</span></a>
+<a name="818"><span class="lineNum">     818 </span><span class="lineCov">       2520 :                 port_A_index = width_b-1;</span></a>
+<a name="819"><span class="lineNum">     819 </span><span class="lineCov">       2520 :                 port_B_index = 0;</span></a>
+<a name="820"><span class="lineNum">     820 </span>            :         }</a>
+<a name="821"><span class="lineNum">     821 </span>            :         else</a>
+<a name="822"><span class="lineNum">     822 </span>            :         {</a>
+<a name="823"><span class="lineNum">     823 </span><span class="lineNoCov">          0 :                 port_A_offset = 0;</span></a>
+<a name="824"><span class="lineNum">     824 </span><span class="lineNoCov">          0 :                 port_B_offset = 0;</span></a>
+<a name="825"><span class="lineNum">     825 </span><span class="lineNoCov">          0 :                 port_A_index = 0;</span></a>
+<a name="826"><span class="lineNum">     826 </span><span class="lineNoCov">          0 :                 port_B_index = 0;</span></a>
+<a name="827"><span class="lineNum">     827 </span><span class="lineNoCov">          0 :                 error_message(NETLIST_ERROR, node-&gt;related_ast_node-&gt;line_number, node-&gt;related_ast_node-&gt;file_number, &quot;Invalid node type %s in instantiate_GT\n&quot;,</span></a>
+<a name="828"><span class="lineNum">     828 </span>            :                         node_name_based_on_op(node));</a>
+<a name="829"><span class="lineNum">     829 </span>            :         }</a>
+<a name="830"><span class="lineNum">     830 </span>            : </a>
+<a name="831"><span class="lineNum">     831 </span><span class="lineCov">       4648 :         if (width_max&gt;1)</span></a>
+<a name="832"><span class="lineNum">     832 </span>            :         {</a>
+<a name="833"><span class="lineNum">     833 </span>            :                 /* xor gate identifies if any bits don't match */</a>
+<a name="834"><span class="lineNum">     834 </span><span class="lineCov">       4632 :                 xor_gate = make_2port_gate(LOGICAL_XOR, width_a-1, width_b-1, width_max-1, node, mark);</span></a>
+<a name="835"><span class="lineNum">     835 </span>            :         }</a>
+<a name="836"><span class="lineNum">     836 </span>            : </a>
+<a name="837"><span class="lineNum">     837 </span>            :         /* collects all the GT signals and determines if gt */</a>
+<a name="838"><span class="lineNum">     838 </span><span class="lineCov">       4648 :         logical_or_gate = make_1port_logic_gate(LOGICAL_OR, width_max, node, mark);</span></a>
+<a name="839"><span class="lineNum">     839 </span>            :         /* collects a chain if any 1 happens than the GT cells output 0 */</a>
+<a name="840"><span class="lineNum">     840 </span><span class="lineCov">       4648 :         or_cells = (nnode_t**)vtr::malloc(sizeof(nnode_t*)*width_max-1);</span></a>
+<a name="841"><span class="lineNum">     841 </span>            :         /* each cell checks if A &gt; B and sends out a 1 if history has no 1s (3rd input) */</a>
+<a name="842"><span class="lineNum">     842 </span><span class="lineCov">       4648 :         gt_cells = (nnode_t**)vtr::malloc(sizeof(nnode_t*)*width_max);</span></a>
+<a name="843"><span class="lineNum">     843 </span>            : </a>
+<a name="844"><span class="lineNum">     844 </span><span class="lineCov">      79246 :         for (i = 0; i &lt; width_max; i++)</span></a>
+<a name="845"><span class="lineNum">     845 </span>            :         {</a>
+<a name="846"><span class="lineNum">     846 </span><span class="lineCov">      74598 :                 gt_cells[i] = make_3port_gate(GT, 1, 1, 1, 1, node, mark);</span></a>
+<a name="847"><span class="lineNum">     847 </span><span class="lineCov">      74598 :                 if (i &lt; width_max-1)</span></a>
+<a name="848"><span class="lineNum">     848 </span>            :                 {</a>
+<a name="849"><span class="lineNum">     849 </span><span class="lineCov">      69950 :                         or_cells[i] = make_2port_gate(LOGICAL_OR, 1, 1, 1, node, mark);</span></a>
+<a name="850"><span class="lineNum">     850 </span>            :                 }</a>
+<a name="851"><span class="lineNum">     851 </span>            :         }</a>
+<a name="852"><span class="lineNum">     852 </span>            : </a>
+<a name="853"><span class="lineNum">     853 </span>            :         /* connect inputs.  In the case that a signal is smaller than the other then zero pad */</a>
+<a name="854"><span class="lineNum">     854 </span><span class="lineCov">      79246 :         for(i = 0; i &lt; width_max; i++)</span></a>
+<a name="855"><span class="lineNum">     855 </span>            :         {</a>
+<a name="856"><span class="lineNum">     856 </span>            :                 /* Joining the inputs to the input 1 of that gate */</a>
+<a name="857"><span class="lineNum">     857 </span><span class="lineCov">      74598 :                 if (i &lt; width_a)</span></a>
+<a name="858"><span class="lineNum">     858 </span>            :                 {</a>
+<a name="859"><span class="lineNum">     859 </span>            :                         /* IF - this current input will also have a corresponding b_port input then join it to the gate */</a>
+<a name="860"><span class="lineNum">     860 </span><span class="lineCov">      74598 :                         remap_pin_to_new_node(node-&gt;input_pins[i+port_A_offset], gt_cells[i], 0);</span></a>
+<a name="861"><span class="lineNum">     861 </span><span class="lineCov">      74598 :                         if (i &gt; 0)</span></a>
+<a name="862"><span class="lineNum">     862 </span><span class="lineCov">      69950 :                                 add_input_pin_to_node(xor_gate, copy_input_npin(gt_cells[i]-&gt;input_pins[0]), index+port_A_index);</span></a>
+<a name="863"><span class="lineNum">     863 </span>            :                 }</a>
+<a name="864"><span class="lineNum">     864 </span>            :                 else</a>
+<a name="865"><span class="lineNum">     865 </span>            :                 {</a>
+<a name="866"><span class="lineNum">     866 </span>            :                         /* ELSE - the B input does not exist, so this answer goes right through */</a>
+<a name="867"><span class="lineNum">     867 </span><span class="lineNoCov">          0 :                         add_input_pin_to_node(gt_cells[i], get_zero_pin(netlist), 0);</span></a>
+<a name="868"><span class="lineNum">     868 </span><span class="lineNoCov">          0 :                         if (i &gt; 0)</span></a>
+<a name="869"><span class="lineNum">     869 </span><span class="lineNoCov">          0 :                                 add_input_pin_to_node(xor_gate, get_zero_pin(netlist), index+port_A_index);</span></a>
+<a name="870"><span class="lineNum">     870 </span>            :                 }</a>
+<a name="871"><span class="lineNum">     871 </span>            : </a>
+<a name="872"><span class="lineNum">     872 </span><span class="lineCov">      74598 :                 if (i &lt; width_b)</span></a>
+<a name="873"><span class="lineNum">     873 </span>            :                 {</a>
+<a name="874"><span class="lineNum">     874 </span>            :                         /* IF - this current input will also have a corresponding a_port input then join it to the gate */</a>
+<a name="875"><span class="lineNum">     875 </span>            :                         /* Joining the inputs to the input 2 of that gate */</a>
+<a name="876"><span class="lineNum">     876 </span><span class="lineCov">      74598 :                         remap_pin_to_new_node(node-&gt;input_pins[i+port_B_offset], gt_cells[i], 1);</span></a>
+<a name="877"><span class="lineNum">     877 </span><span class="lineCov">      74598 :                         if (i &gt; 0)</span></a>
+<a name="878"><span class="lineNum">     878 </span><span class="lineCov">      69950 :                                 add_input_pin_to_node(xor_gate, copy_input_npin(gt_cells[i]-&gt;input_pins[1]), index+port_B_index);</span></a>
+<a name="879"><span class="lineNum">     879 </span>            :                 }</a>
+<a name="880"><span class="lineNum">     880 </span>            :                 else</a>
+<a name="881"><span class="lineNum">     881 </span>            :                 {</a>
+<a name="882"><span class="lineNum">     882 </span>            :                         /* ELSE - the A input does not exist, so this answer goes right through */</a>
+<a name="883"><span class="lineNum">     883 </span><span class="lineNoCov">          0 :                         add_input_pin_to_node(gt_cells[i], get_zero_pin(netlist), 1);</span></a>
+<a name="884"><span class="lineNum">     884 </span><span class="lineNoCov">          0 :                         if (i &gt; 0)</span></a>
+<a name="885"><span class="lineNum">     885 </span><span class="lineNoCov">          0 :                                 add_input_pin_to_node(xor_gate, get_zero_pin(netlist), index+port_B_index);</span></a>
+<a name="886"><span class="lineNum">     886 </span>            :                 }</a>
+<a name="887"><span class="lineNum">     887 </span>            : </a>
+<a name="888"><span class="lineNum">     888 </span><span class="lineCov">      74598 :                 if (i &lt; width_max-1)</span></a>
+<a name="889"><span class="lineNum">     889 </span>            :                 {</a>
+<a name="890"><span class="lineNum">     890 </span>            :                         /* number of OR gates */</a>
+<a name="891"><span class="lineNum">     891 </span><span class="lineCov">      69950 :                         if (i &lt; width_max-2)</span></a>
+<a name="892"><span class="lineNum">     892 </span>            :                         {</a>
+<a name="893"><span class="lineNum">     893 </span>            :                                 /* connect the msb or to the next lower bit */</a>
+<a name="894"><span class="lineNum">     894 </span><span class="lineCov">      65318 :                                 connect_nodes(or_cells[i+1], 0, or_cells[i], 1);</span></a>
+<a name="895"><span class="lineNum">     895 </span>            :                         }</a>
+<a name="896"><span class="lineNum">     896 </span>            :                         else</a>
+<a name="897"><span class="lineNum">     897 </span>            :                         {</a>
+<a name="898"><span class="lineNum">     898 </span>            :                                 /* deal with the first greater than test which autom gets a zero */</a>
+<a name="899"><span class="lineNum">     899 </span><span class="lineCov">       4632 :                                 add_input_pin_to_node(or_cells[i], get_zero_pin(netlist), 1);</span></a>
+<a name="900"><span class="lineNum">     900 </span>            :                         }</a>
+<a name="901"><span class="lineNum">     901 </span><span class="lineCov">      69950 :                         if (width_max&gt;1)</span></a>
+<a name="902"><span class="lineNum">     902 </span>            :                         {</a>
+<a name="903"><span class="lineNum">     903 </span>            :                                 /* get all the equals with the or gates */</a>
+<a name="904"><span class="lineNum">     904 </span><span class="lineCov">      69950 :                                 connect_nodes(xor_gate, i, or_cells[i], 0);</span></a>
+<a name="905"><span class="lineNum">     905 </span>            :                         }</a>
+<a name="906"><span class="lineNum">     906 </span>            : </a>
+<a name="907"><span class="lineNum">     907 </span><span class="lineCov">      69950 :                         connect_nodes(or_cells[i], 0, gt_cells[i], 2);</span></a>
+<a name="908"><span class="lineNum">     908 </span>            : </a>
+<a name="909"><span class="lineNum">     909 </span>            :                 }</a>
+<a name="910"><span class="lineNum">     910 </span>            :                 else</a>
+<a name="911"><span class="lineNum">     911 </span>            :                 {</a>
+<a name="912"><span class="lineNum">     912 </span>            :                         /* deal with the first greater than test which autom gets a zero */</a>
+<a name="913"><span class="lineNum">     913 </span><span class="lineCov">       4648 :                         add_input_pin_to_node(gt_cells[i], get_zero_pin(netlist), 2);</span></a>
+<a name="914"><span class="lineNum">     914 </span>            :                 }</a>
+<a name="915"><span class="lineNum">     915 </span>            : </a>
+<a name="916"><span class="lineNum">     916 </span>            :                 /* hook it up to the logcial AND */</a>
+<a name="917"><span class="lineNum">     917 </span><span class="lineCov">      74598 :                 connect_nodes(gt_cells[i], 0, logical_or_gate, i);</span></a>
+<a name="918"><span class="lineNum">     918 </span>            : </a>
+<a name="919"><span class="lineNum">     919 </span><span class="lineCov">      74598 :                 if (i &gt; 0)</span></a>
+<a name="920"><span class="lineNum">     920 </span>            :                 {</a>
+<a name="921"><span class="lineNum">     921 </span><span class="lineCov">      69950 :                         index++;</span></a>
+<a name="922"><span class="lineNum">     922 </span>            :                 }</a>
+<a name="923"><span class="lineNum">     923 </span>            :         }</a>
+<a name="924"><span class="lineNum">     924 </span>            : </a>
+<a name="925"><span class="lineNum">     925 </span>            :         /* join that gate to the output */</a>
+<a name="926"><span class="lineNum">     926 </span><span class="lineCov">       4648 :         remap_pin_to_new_node(node-&gt;output_pins[0], logical_or_gate, 0);</span></a>
+<a name="927"><span class="lineNum">     927 </span><span class="lineCov">       4648 :         oassert(logical_or_gate-&gt;num_output_pins == 1);</span></a>
+<a name="928"><span class="lineNum">     928 </span><span class="lineCov">       4648 :         if (xor_gate!= NULL)</span></a>
+<a name="929"><span class="lineNum">     929 </span>            :         {</a>
+<a name="930"><span class="lineNum">     930 </span><span class="lineCov">       4632 :                 instantiate_bitwise_logic(xor_gate, BITWISE_XOR, mark, netlist);</span></a>
+<a name="931"><span class="lineNum">     931 </span>            :         }</a>
+<a name="932"><span class="lineNum">     932 </span>            :         </a>
+<a name="933"><span class="lineNum">     933 </span><span class="lineCov">       4648 :         vtr::free(gt_cells);</span></a>
+<a name="934"><span class="lineNum">     934 </span><span class="lineCov">       4648 :         vtr::free(or_cells);</span></a>
+<a name="935"><span class="lineNum">     935 </span><span class="lineCov">       4648 :         free_nnode(node);</span></a>
+<a name="936"><span class="lineNum">     936 </span><span class="lineCov">       4648 : }</span></a>
+<a name="937"><span class="lineNum">     937 </span>            : </a>
+<a name="938"><span class="lineNum">     938 </span>            : /*---------------------------------------------------------------------------------------------</a>
+<a name="939"><span class="lineNum">     939 </span>            :  * (function: instantiate_GE )</a>
+<a name="940"><span class="lineNum">     940 </span>            :  *      Defines the HW needed for greter than equal with EQ, GT, AND and OR gates to create</a>
+<a name="941"><span class="lineNum">     941 </span>            :  *      the appropriate logic function.</a>
+<a name="942"><span class="lineNum">     942 </span>            :  *-------------------------------------------------------------------------------------------*/</a>
+<a name="943"><span class="lineNum">     943 </span><span class="lineCov">       1402 : void instantiate_GE(nnode_t *node, operation_list type, short mark, netlist_t *netlist)</span></a>
+<a name="944"><span class="lineNum">     944 </span>            : {</a>
+<a name="945"><span class="lineNum">     945 </span>            :         int width_a;</a>
+<a name="946"><span class="lineNum">     946 </span>            :         int width_b;</a>
+<a name="947"><span class="lineNum">     947 </span>            :         int width_max;</a>
+<a name="948"><span class="lineNum">     948 </span>            :         int i;</a>
+<a name="949"><span class="lineNum">     949 </span>            :         int port_B_offset;</a>
+<a name="950"><span class="lineNum">     950 </span>            :         int port_A_offset;</a>
+<a name="951"><span class="lineNum">     951 </span>            :         nnode_t *equal;</a>
+<a name="952"><span class="lineNum">     952 </span>            :         nnode_t *compare;</a>
+<a name="953"><span class="lineNum">     953 </span>            :         nnode_t *logical_or_final_gate;</a>
+<a name="954"><span class="lineNum">     954 </span>            : </a>
+<a name="955"><span class="lineNum">     955 </span><span class="lineCov">       1402 :         oassert(node-&gt;num_output_pins == 1);</span></a>
+<a name="956"><span class="lineNum">     956 </span><span class="lineCov">       1402 :         oassert(node-&gt;num_input_pins &gt; 0);</span></a>
+<a name="957"><span class="lineNum">     957 </span><span class="lineCov">       1402 :         oassert(node-&gt;num_input_port_sizes == 2);</span></a>
+<a name="958"><span class="lineNum">     958 </span><span class="lineCov">       1402 :         oassert(node-&gt;input_port_sizes[0] == node-&gt;input_port_sizes[1]);</span></a>
+<a name="959"><span class="lineNum">     959 </span><span class="lineCov">       1402 :         width_a = node-&gt;input_port_sizes[0];</span></a>
+<a name="960"><span class="lineNum">     960 </span><span class="lineCov">       1402 :         width_b = node-&gt;input_port_sizes[1];</span></a>
+<a name="961"><span class="lineNum">     961 </span><span class="lineCov">       1402 :         oassert(width_a == width_b);</span></a>
+<a name="962"><span class="lineNum">     962 </span><span class="lineCov">       1402 :         width_max = width_a &gt; width_b ? width_a : width_b;</span></a>
+<a name="963"><span class="lineNum">     963 </span>            : </a>
+<a name="964"><span class="lineNum">     964 </span><span class="lineCov">       1402 :         port_A_offset = 0;</span></a>
+<a name="965"><span class="lineNum">     965 </span><span class="lineCov">       1402 :         port_B_offset = width_a;</span></a>
+<a name="966"><span class="lineNum">     966 </span>            : </a>
+<a name="967"><span class="lineNum">     967 </span>            :         /* build an xnor bitwise XNOR */</a>
+<a name="968"><span class="lineNum">     968 </span><span class="lineCov">       1402 :         equal = make_2port_gate(LOGICAL_EQUAL, width_a, width_b, 1, node, mark);</span></a>
+<a name="969"><span class="lineNum">     969 </span>            : </a>
+<a name="970"><span class="lineNum">     970 </span><span class="lineCov">       1402 :         if (type == GTE) compare = make_2port_gate(GT, width_a, width_b, 1, node, mark);</span></a>
+<a name="971"><span class="lineNum">     971 </span><span class="lineCov">        410 :         else             compare = make_2port_gate(LT, width_a, width_b, 1, node, mark);</span></a>
+<a name="972"><span class="lineNum">     972 </span>            : </a>
+<a name="973"><span class="lineNum">     973 </span><span class="lineCov">       1402 :         logical_or_final_gate = make_1port_logic_gate(LOGICAL_OR, 2, node, mark);</span></a>
+<a name="974"><span class="lineNum">     974 </span>            : </a>
+<a name="975"><span class="lineNum">     975 </span>            :         /* connect inputs.  In the case that a signal is smaller than the other then zero pad */</a>
+<a name="976"><span class="lineNum">     976 </span><span class="lineCov">      40080 :         for(i = 0; i &lt; width_max; i++)</span></a>
+<a name="977"><span class="lineNum">     977 </span>            :         {</a>
+<a name="978"><span class="lineNum">     978 </span>            :                 /* Joining the inputs to the input 1 of that gate */</a>
+<a name="979"><span class="lineNum">     979 </span><span class="lineCov">      38678 :                 if (i &lt; width_a)</span></a>
+<a name="980"><span class="lineNum">     980 </span>            :                 {</a>
+<a name="981"><span class="lineNum">     981 </span>            :                         /* IF - this current input will also have a corresponding b_port input then join it to the gate */</a>
+<a name="982"><span class="lineNum">     982 </span><span class="lineCov">      38678 :                         remap_pin_to_new_node(node-&gt;input_pins[i+port_A_offset], equal, i+port_A_offset);</span></a>
+<a name="983"><span class="lineNum">     983 </span><span class="lineCov">      38678 :                         add_input_pin_to_node(compare, copy_input_npin(equal-&gt;input_pins[i+port_A_offset]), i+port_A_offset);</span></a>
+<a name="984"><span class="lineNum">     984 </span>            :                 }</a>
+<a name="985"><span class="lineNum">     985 </span>            :                 else</a>
+<a name="986"><span class="lineNum">     986 </span>            :                 {</a>
+<a name="987"><span class="lineNum">     987 </span>            :                         /* ELSE - the B input does not exist, so this answer goes right through */</a>
+<a name="988"><span class="lineNum">     988 </span><span class="lineNoCov">          0 :                         add_input_pin_to_node(equal, get_zero_pin(netlist), i+port_A_offset);</span></a>
+<a name="989"><span class="lineNum">     989 </span><span class="lineNoCov">          0 :                         add_input_pin_to_node(compare, get_zero_pin(netlist), i+port_A_offset);</span></a>
+<a name="990"><span class="lineNum">     990 </span>            :                 }</a>
+<a name="991"><span class="lineNum">     991 </span>            : </a>
+<a name="992"><span class="lineNum">     992 </span><span class="lineCov">      38678 :                 if (i &lt; width_b)</span></a>
+<a name="993"><span class="lineNum">     993 </span>            :                 {</a>
+<a name="994"><span class="lineNum">     994 </span>            :                         /* IF - this current input will also have a corresponding a_port input then join it to the gate */</a>
+<a name="995"><span class="lineNum">     995 </span>            :                         /* Joining the inputs to the input 2 of that gate */</a>
+<a name="996"><span class="lineNum">     996 </span><span class="lineCov">      38678 :                         remap_pin_to_new_node(node-&gt;input_pins[i+port_B_offset], equal, i+port_B_offset);</span></a>
+<a name="997"><span class="lineNum">     997 </span><span class="lineCov">      38678 :                         add_input_pin_to_node(compare, copy_input_npin(equal-&gt;input_pins[i+port_B_offset]), i+port_B_offset);</span></a>
+<a name="998"><span class="lineNum">     998 </span>            :                 }</a>
+<a name="999"><span class="lineNum">     999 </span>            :                 else</a>
+<a name="1000"><span class="lineNum">    1000 </span>            :                 {</a>
+<a name="1001"><span class="lineNum">    1001 </span>            :                         /* ELSE - the A input does not exist, so this answer goes right through */</a>
+<a name="1002"><span class="lineNum">    1002 </span><span class="lineNoCov">          0 :                         add_input_pin_to_node(equal, get_zero_pin(netlist), i+port_B_offset);</span></a>
+<a name="1003"><span class="lineNum">    1003 </span><span class="lineNoCov">          0 :                         add_input_pin_to_node(compare, get_zero_pin(netlist), i+port_B_offset);</span></a>
+<a name="1004"><span class="lineNum">    1004 </span>            :                 }</a>
+<a name="1005"><span class="lineNum">    1005 </span>            :         }</a>
+<a name="1006"><span class="lineNum">    1006 </span><span class="lineCov">       1402 :         connect_nodes(equal, 0, logical_or_final_gate, 0);</span></a>
+<a name="1007"><span class="lineNum">    1007 </span><span class="lineCov">       1402 :         connect_nodes(compare, 0, logical_or_final_gate, 1);</span></a>
+<a name="1008"><span class="lineNum">    1008 </span>            : </a>
+<a name="1009"><span class="lineNum">    1009 </span>            :         /* join that gate to the output */</a>
+<a name="1010"><span class="lineNum">    1010 </span><span class="lineCov">       1402 :         remap_pin_to_new_node(node-&gt;output_pins[0], logical_or_final_gate, 0);</span></a>
+<a name="1011"><span class="lineNum">    1011 </span><span class="lineCov">       1402 :         oassert(logical_or_final_gate-&gt;num_output_pins == 1);</span></a>
+<a name="1012"><span class="lineNum">    1012 </span>            : </a>
+<a name="1013"><span class="lineNum">    1013 </span>            :         /* make the two intermediate gates */</a>
+<a name="1014"><span class="lineNum">    1014 </span><span class="lineCov">       1402 :         instantiate_EQUAL(equal, LOGICAL_EQUAL, mark, netlist);</span></a>
+<a name="1015"><span class="lineNum">    1015 </span>            : </a>
+<a name="1016"><span class="lineNum">    1016 </span><span class="lineCov">       1402 :         if (type == GTE) instantiate_GT(compare, GT, mark, netlist);</span></a>
+<a name="1017"><span class="lineNum">    1017 </span><span class="lineCov">        410 :         else             instantiate_GT(compare, LT, mark, netlist);</span></a>
+<a name="1018"><span class="lineNum">    1018 </span>            : </a>
+<a name="1019"><span class="lineNum">    1019 </span><span class="lineCov">       1402 :         free_nnode(node);</span></a>
+<a name="1020"><span class="lineNum">    1020 </span><span class="lineCov">       1402 : }</span></a>
+<a name="1021"><span class="lineNum">    1021 </span>            : </a>
+<a name="1022"><span class="lineNum">    1022 </span>            : /*---------------------------------------------------------------------------------------------</a>
+<a name="1023"><span class="lineNum">    1023 </span>            :  * (function: instantiate_shift_left_or_right )</a>
+<a name="1024"><span class="lineNum">    1024 </span>            :  *      Creates the hardware for a shift left or right operation by a constant size.</a>
+<a name="1025"><span class="lineNum">    1025 </span>            :  *-------------------------------------------------------------------------------------------*/</a>
+<a name="1026"><span class="lineNum">    1026 </span><span class="lineCov">      34224 : void instantiate_shift_left_or_right(nnode_t *node, operation_list type, short mark, netlist_t *netlist)</span></a>
+<a name="1027"><span class="lineNum">    1027 </span>            : {</a>
+<a name="1028"><span class="lineNum">    1028 </span>            :         /* these variables are used in an attempt so that I don't need if cases.  Probably a bad idea, but fun */</a>
+<a name="1029"><span class="lineNum">    1029 </span>            :         int width;</a>
+<a name="1030"><span class="lineNum">    1030 </span>            :         int i;</a>
+<a name="1031"><span class="lineNum">    1031 </span>            :         int shift_size;</a>
+<a name="1032"><span class="lineNum">    1032 </span>            :         nnode_t *buf_node;</a>
+<a name="1033"><span class="lineNum">    1033 </span>            : </a>
+<a name="1034"><span class="lineNum">    1034 </span><span class="lineCov">      34224 :         width = node-&gt;input_port_sizes[0];</span></a>
+<a name="1035"><span class="lineNum">    1035 </span>            : </a>
+<a name="1036"><span class="lineNum">    1036 </span><span class="lineCov">      34224 :         if (node-&gt;related_ast_node-&gt;children[1]-&gt;type == NUMBERS)</span></a>
+<a name="1037"><span class="lineNum">    1037 </span>            :         {</a>
+<a name="1038"><span class="lineNum">    1038 </span>            :                 /* record the size of the shift */</a>
+<a name="1039"><span class="lineNum">    1039 </span><span class="lineCov">      34224 :                 shift_size = node-&gt;related_ast_node-&gt;children[1]-&gt;types.number.value;</span></a>
+<a name="1040"><span class="lineNum">    1040 </span>            :         }</a>
+<a name="1041"><span class="lineNum">    1041 </span>            :         else</a>
+<a name="1042"><span class="lineNum">    1042 </span>            :         {</a>
+<a name="1043"><span class="lineNum">    1043 </span><span class="lineNoCov">          0 :                 shift_size = 0;</span></a>
+<a name="1044"><span class="lineNum">    1044 </span><span class="lineNoCov">          0 :                 error_message(NETLIST_ERROR, node-&gt;related_ast_node-&gt;line_number, node-&gt;related_ast_node-&gt;file_number, &quot;%s\n&quot;, &quot;Odin only supports constant shifts at present&quot;);</span></a>
+<a name="1045"><span class="lineNum">    1045 </span>            :         }</a>
+<a name="1046"><span class="lineNum">    1046 </span>            : </a>
+<a name="1047"><span class="lineNum">    1047 </span><span class="lineCov">      34224 :         buf_node = make_1port_gate(BUF_NODE, width, width, node, mark);</span></a>
+<a name="1048"><span class="lineNum">    1048 </span>            : </a>
+<a name="1049"><span class="lineNum">    1049 </span><span class="lineCov">      34224 :         if (type == SL)</span></a>
+<a name="1050"><span class="lineNum">    1050 </span>            :         {</a>
+<a name="1051"><span class="lineNum">    1051 </span>            :                 /* IF shift left */</a>
+<a name="1052"><span class="lineNum">    1052 </span>            : </a>
+<a name="1053"><span class="lineNum">    1053 </span>            :                 /* connect inputs to outputs */</a>
+<a name="1054"><span class="lineNum">    1054 </span><span class="lineCov">     688064 :                 for(i = 0; i &lt; width - shift_size; i++)</span></a>
+<a name="1055"><span class="lineNum">    1055 </span>            :                 {</a>
+<a name="1056"><span class="lineNum">    1056 </span>            :                         // connect higher output pin to lower input pin</a>
+<a name="1057"><span class="lineNum">    1057 </span><span class="lineCov">     673936 :                         remap_pin_to_new_node(node-&gt;input_pins[i], buf_node, i+shift_size);</span></a>
+<a name="1058"><span class="lineNum">    1058 </span>            :                 }</a>
+<a name="1059"><span class="lineNum">    1059 </span>            : </a>
+<a name="1060"><span class="lineNum">    1060 </span>            :                 /* connect ZERO to outputs that don't have inputs connected */</a>
+<a name="1061"><span class="lineNum">    1061 </span><span class="lineCov">     240898 :                 for(i = 0; i &lt; shift_size; i++)</span></a>
+<a name="1062"><span class="lineNum">    1062 </span>            :                 {</a>
+<a name="1063"><span class="lineNum">    1063 </span>            :                         // connect 0 to lower outputs</a>
+<a name="1064"><span class="lineNum">    1064 </span><span class="lineCov">     226770 :                         add_input_pin_to_node(buf_node, get_zero_pin(netlist), i);</span></a>
+<a name="1065"><span class="lineNum">    1065 </span>            :                 }</a>
+<a name="1066"><span class="lineNum">    1066 </span>            : </a>
+<a name="1067"><span class="lineNum">    1067 </span><span class="lineCov">     240898 :                 for(i = width-1; i &gt;= width-shift_size; i--)</span></a>
+<a name="1068"><span class="lineNum">    1068 </span>            :                 {</a>
+<a name="1069"><span class="lineNum">    1069 </span>            :                         /* demap the node from the net */</a>
+<a name="1070"><span class="lineNum">    1070 </span><span class="lineCov">     226770 :                         int idx_2_buffer = node-&gt;input_pins[i]-&gt;pin_net_idx;</span></a>
+<a name="1071"><span class="lineNum">    1071 </span><span class="lineCov">     226770 :                         node-&gt;input_pins[i]-&gt;net-&gt;fanout_pins[idx_2_buffer] = NULL;</span></a>
+<a name="1072"><span class="lineNum">    1072 </span>            :                 }</a>
+<a name="1073"><span class="lineNum">    1073 </span>            :         }</a>
+<a name="1074"><span class="lineNum">    1074 </span>            :         else</a>
+<a name="1075"><span class="lineNum">    1075 </span>            :         {</a>
+<a name="1076"><span class="lineNum">    1076 </span>            :                 /* ELSE shift right */</a>
+<a name="1077"><span class="lineNum">    1077 </span>            : </a>
+<a name="1078"><span class="lineNum">    1078 </span>            :                 /* connect inputs to outputs */</a>
+<a name="1079"><span class="lineNum">    1079 </span><span class="lineCov">     740840 :                 for(i = width - 1; i &gt;= shift_size; i--)</span></a>
+<a name="1080"><span class="lineNum">    1080 </span>            :                 {</a>
+<a name="1081"><span class="lineNum">    1081 </span>            :                         // connect higher input pin to lower output pin</a>
+<a name="1082"><span class="lineNum">    1082 </span><span class="lineCov">     720744 :                         remap_pin_to_new_node(node-&gt;input_pins[i], buf_node, i-shift_size);</span></a>
+<a name="1083"><span class="lineNum">    1083 </span>            :                 }</a>
+<a name="1084"><span class="lineNum">    1084 </span>            : </a>
+<a name="1085"><span class="lineNum">    1085 </span>            :                 /* connect ZERO to outputs that don't have inputs connected */</a>
+<a name="1086"><span class="lineNum">    1086 </span><span class="lineCov">     314336 :                 for(i = width - 1; i &gt;= width - shift_size; i--)</span></a>
+<a name="1087"><span class="lineNum">    1087 </span>            :                 {</a>
+<a name="1088"><span class="lineNum">    1088 </span>            :                         // connect 0 to lower outputs</a>
+<a name="1089"><span class="lineNum">    1089 </span><span class="lineCov">     294240 :                         add_input_pin_to_node(buf_node, get_zero_pin(netlist), i);</span></a>
+<a name="1090"><span class="lineNum">    1090 </span>            :                 }</a>
+<a name="1091"><span class="lineNum">    1091 </span><span class="lineCov">     314336 :                 for(i = 0; i &lt; shift_size; i++)</span></a>
+<a name="1092"><span class="lineNum">    1092 </span>            :                 {</a>
+<a name="1093"><span class="lineNum">    1093 </span>            :                         /* demap the node from the net */</a>
+<a name="1094"><span class="lineNum">    1094 </span><span class="lineCov">     294240 :                         int idx_2_buffer = node-&gt;input_pins[i]-&gt;pin_net_idx;</span></a>
+<a name="1095"><span class="lineNum">    1095 </span><span class="lineCov">     294240 :                         node-&gt;input_pins[i]-&gt;net-&gt;fanout_pins[idx_2_buffer] = NULL;</span></a>
+<a name="1096"><span class="lineNum">    1096 </span>            :                 }</a>
+<a name="1097"><span class="lineNum">    1097 </span>            :         }</a>
+<a name="1098"><span class="lineNum">    1098 </span>            : </a>
+<a name="1099"><span class="lineNum">    1099 </span><span class="lineCov">    1949910 :         for(i = 0; i &lt; width; i++)</span></a>
+<a name="1100"><span class="lineNum">    1100 </span>            :         {</a>
+<a name="1101"><span class="lineNum">    1101 </span><span class="lineCov">    1915690 :                 remap_pin_to_new_node(node-&gt;output_pins[i], buf_node, i);</span></a>
+<a name="1102"><span class="lineNum">    1102 </span>            :         }</a>
+<a name="1103"><span class="lineNum">    1103 </span>            :         /* instantiate the buffer */</a>
+<a name="1104"><span class="lineNum">    1104 </span><span class="lineCov">      34224 :         instantiate_buffer(buf_node, mark, netlist);</span></a>
+<a name="1105"><span class="lineNum">    1105 </span>            :   </a>
+<a name="1106"><span class="lineNum">    1106 </span>            :         /* clean up */</a>
+<a name="1107"><span class="lineNum">    1107 </span><span class="lineCov">    1949910 :         for (i = 0; i &lt; buf_node-&gt;num_input_pins; i++) {</span></a>
+<a name="1108"><span class="lineNum">    1108 </span><span class="lineCov">    1915690 :                 buf_node-&gt;output_pins[i]-&gt;net = free_nnet(buf_node-&gt;output_pins[i]-&gt;net);</span></a>
+<a name="1109"><span class="lineNum">    1109 </span><span class="lineCov">    1915690 :                 buf_node-&gt;input_pins[i] = free_npin(buf_node-&gt;input_pins[i]);</span></a>
+<a name="1110"><span class="lineNum">    1110 </span>            :         }</a>
+<a name="1111"><span class="lineNum">    1111 </span><span class="lineCov">      34224 :         free_nnode(buf_node);</span></a>
+<a name="1112"><span class="lineNum">    1112 </span><span class="lineCov">      34224 :         free_nnode(node);</span></a>
+<a name="1113"><span class="lineNum">    1113 </span><span class="lineCov">      34224 : }</span></a>
+<a name="1114"><span class="lineNum">    1114 </span>            : </a>
+<a name="1115"><span class="lineNum">    1115 </span>            : /*---------------------------------------------------------------------------------------------</a>
+<a name="1116"><span class="lineNum">    1116 </span>            :  * (function: instantiate_arithmatic_shift_right )</a>
+<a name="1117"><span class="lineNum">    1117 </span>            :  *      Creates the hardware for an arithmatic shift right operation by a constant size.</a>
+<a name="1118"><span class="lineNum">    1118 </span>            :  *-------------------------------------------------------------------------------------------*/</a>
+<a name="1119"><span class="lineNum">    1119 </span><span class="lineCov">         32 : void instantiate_arithmetic_shift_right(nnode_t *node, short mark, netlist_t *netlist)</span></a>
+<a name="1120"><span class="lineNum">    1120 </span>            : {</a>
+<a name="1121"><span class="lineNum">    1121 </span>            :         /* these variables are used in an attempt so that I don't need if cases.  Probably a bad idea, but fun */</a>
+<a name="1122"><span class="lineNum">    1122 </span>            :         int width;</a>
+<a name="1123"><span class="lineNum">    1123 </span>            :         int i;</a>
+<a name="1124"><span class="lineNum">    1124 </span>            :         int shift_size;</a>
+<a name="1125"><span class="lineNum">    1125 </span>            :         nnode_t *buf_node;</a>
+<a name="1126"><span class="lineNum">    1126 </span><span class="lineCov">         32 :         width = node-&gt;input_port_sizes[0];</span></a>
+<a name="1127"><span class="lineNum">    1127 </span><span class="lineCov">         32 :         if (node-&gt;related_ast_node-&gt;children[1]-&gt;type == NUMBERS)</span></a>
+<a name="1128"><span class="lineNum">    1128 </span>            :     {</a>
+<a name="1129"><span class="lineNum">    1129 </span>            :                 /* record the size of the shift */</a>
+<a name="1130"><span class="lineNum">    1130 </span><span class="lineCov">         32 :                 shift_size = node-&gt;related_ast_node-&gt;children[1]-&gt;types.number.value;</span></a>
+<a name="1131"><span class="lineNum">    1131 </span>            :         }</a>
+<a name="1132"><span class="lineNum">    1132 </span>            :         else</a>
+<a name="1133"><span class="lineNum">    1133 </span>            :         {</a>
+<a name="1134"><span class="lineNum">    1134 </span><span class="lineNoCov">          0 :                 shift_size = 0;</span></a>
+<a name="1135"><span class="lineNum">    1135 </span><span class="lineNoCov">          0 :                 error_message(NETLIST_ERROR, node-&gt;related_ast_node-&gt;line_number, node-&gt;related_ast_node-&gt;file_number, &quot;%s\n&quot;, &quot;Odin only supports constant shifts at present&quot;);</span></a>
+<a name="1136"><span class="lineNum">    1136 </span>            :         }</a>
+<a name="1137"><span class="lineNum">    1137 </span><span class="lineCov">         32 :         buf_node = make_1port_gate(BUF_NODE, width, width, node, mark);</span></a>
+<a name="1138"><span class="lineNum">    1138 </span>            :         /* connect inputs to outputs */</a>
+<a name="1139"><span class="lineNum">    1139 </span><span class="lineCov">        148 :         for(i = width - 2; i &gt;= shift_size; i--)</span></a>
+<a name="1140"><span class="lineNum">    1140 </span>            :         {</a>
+<a name="1141"><span class="lineNum">    1141 </span>            :                 // connect higher input pin to lower output pin</a>
+<a name="1142"><span class="lineNum">    1142 </span><span class="lineCov">        116 :                 remap_pin_to_new_node(node-&gt;input_pins[i], buf_node, i-shift_size);</span></a>
+<a name="1143"><span class="lineNum">    1143 </span>            :         }</a>
+<a name="1144"><span class="lineNum">    1144 </span>            :         /* connect first pin to outputs that don't have inputs connected */</a>
+<a name="1145"><span class="lineNum">    1145 </span><span class="lineCov">         32 :         i = width - 1;</span></a>
+<a name="1146"><span class="lineNum">    1146 </span><span class="lineCov">         32 :         remap_pin_to_new_node_range(node-&gt;input_pins[i], buf_node, i, i-shift_size);</span></a>
+<a name="1147"><span class="lineNum">    1147 </span><span class="lineCov">        172 :         for(i = 0; i &lt; shift_size; i++)</span></a>
+<a name="1148"><span class="lineNum">    1148 </span>            :         {</a>
+<a name="1149"><span class="lineNum">    1149 </span>            :                 /* demap the node from the net */</a>
+<a name="1150"><span class="lineNum">    1150 </span><span class="lineCov">        140 :                 int idx_2_buffer = node-&gt;input_pins[i]-&gt;pin_net_idx;</span></a>
+<a name="1151"><span class="lineNum">    1151 </span><span class="lineCov">        140 :                 node-&gt;input_pins[i]-&gt;net-&gt;fanout_pins[idx_2_buffer] = NULL;</span></a>
+<a name="1152"><span class="lineNum">    1152 </span>            :         }       </a>
+<a name="1153"><span class="lineNum">    1153 </span><span class="lineCov">        320 :         for(i = 0; i &lt; width; i++)</span></a>
+<a name="1154"><span class="lineNum">    1154 </span>            :         {</a>
+<a name="1155"><span class="lineNum">    1155 </span><span class="lineCov">        288 :                 remap_pin_to_new_node(node-&gt;output_pins[i], buf_node, i);</span></a>
+<a name="1156"><span class="lineNum">    1156 </span>            :         }</a>
+<a name="1157"><span class="lineNum">    1157 </span>            :         /* instantiate the buffer */</a>
+<a name="1158"><span class="lineNum">    1158 </span><span class="lineCov">         32 :         instantiate_buffer(buf_node, mark, netlist);</span></a>
+<a name="1159"><span class="lineNum">    1159 </span><span class="lineCov">         32 : }</span></a>
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+    <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LCOV version 1.14</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>

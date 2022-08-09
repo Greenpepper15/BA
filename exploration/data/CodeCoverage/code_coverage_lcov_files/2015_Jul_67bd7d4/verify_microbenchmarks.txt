@@ -1,0 +1,174 @@
+REGRESSION_TESTS/BENCHMARKS/MICROBENCHMARKS/bm_add_lpm.v
+./odin_II.exe -E -a ../libarchfpga/arch/sample_arch.xml -V REGRESSION_TESTS/BENCHMARKS/MICROBENCHMARKS/bm_add_lpm.v -t REGRESSION_TESTS/BENCHMARKS/MICROBENCHMARKS/bm_add_lpm_input -T REGRESSION_TESTS/BENCHMARKS/MICROBENCHMARKS/bm_add_lpm_output
+--------------------------------------------------------------------
+Welcome to ODIN II version 0.1 - the better High level synthesis tools++ targetting FPGAs (mainly VPR)
+Email: jamieson.peter@gmail.com and ken@unb.ca for support issues
+
+Reading FPGA Architecture file
+--------------------------------------------------------------------
+High-level synthesis Begin
+Parser starting - we'll create an abstract syntax tree.  Note this tree can be viewed using GraphViz (see documentation)
+Optimizing module by AST based optimizations
+Converting AST into a Netlist. Note this netlist can be viewed using GraphViz (see documentation)
+Performing Optimizations of the Netlist
+Performing Partial Map to target device
+Outputting the netlist to the specified output format
+Successful High-level synthesis by Odin in 0.5ms
+--------------------------------------------------------------------
+Netlist Simulation Begin
+Beginning simulation.
+Simulating 10000 existing vectors from "REGRESSION_TESTS/BENCHMARKS/MICROBENCHMARKS/bm_add_lpm_input".
+
+REGRESSION_TESTS/BENCHMARKS/MICROBENCHMARKS/bm_add_lpm.v:
+  Nodes:           12
+  Connections:     11
+  Degree:          0.92
+  Stages:          3
+
+  0%|>--------------------------------------------------| Remaining: 75.4ms      2%|=>-------------------------------------------------| Remaining: 45.0ms      4%|==>------------------------------------------------| Remaining: 42.9ms      6%|===>-----------------------------------------------| Remaining: 43.0ms      8%|====>----------------------------------------------| Remaining: 41.7ms     10%|=====>---------------------------------------------| Remaining: 40.5ms     12%|======>--------------------------------------------| Remaining: 39.5ms     14%|=======>-------------------------------------------| Remaining: 41.1ms     16%|========>------------------------------------------| Remaining: 40.3ms     18%|=========>-----------------------------------------| Remaining: 38.9ms     20%|==========>----------------------------------------| Remaining: 37.6ms     22%|===========>---------------------------------------| Remaining: 36.4ms     24%|============>--------------------------------------| Remaining: 35.4ms     26%|=============>-------------------------------------| Remaining: 34.4ms     28%|==============>------------------------------------| Remaining: 33.3ms     30%|===============>-----------------------------------| Remaining: 32.2ms     32%|================>----------------------------------| Remaining: 31.3ms     34%|=================>---------------------------------| Remaining: 30.3ms     36%|==================>--------------------------------| Remaining: 29.3ms     38%|===================>-------------------------------| Remaining: 28.3ms     40%|====================>------------------------------| Remaining: 27.3ms     42%|=====================>-----------------------------| Remaining: 26.4ms     44%|======================>----------------------------| Remaining: 25.4ms     46%|=======================>---------------------------| Remaining: 24.6ms     48%|========================>--------------------------| Remaining: 23.7ms     50%|=========================>-------------------------| Remaining: 22.9ms     52%|==========================>------------------------| Remaining: 22.0ms     54%|===========================>-----------------------| Remaining: 21.1ms     56%|============================>----------------------| Remaining: 20.2ms     58%|=============================>---------------------| Remaining: 19.2ms     60%|==============================>--------------------| Remaining: 18.3ms     62%|===============================>-------------------| Remaining: 17.4ms     64%|================================>------------------| Remaining: 16.4ms     66%|=================================>-----------------| Remaining: 15.5ms     68%|==================================>----------------| Remaining: 14.6ms     70%|===================================>---------------| Remaining: 13.7ms     72%|====================================>--------------| Remaining: 12.8ms     74%|=====================================>-------------| Remaining: 11.9ms     76%|======================================>------------| Remaining: 11.0ms     78%|=======================================>-----------| Remaining: 10.1ms     80%|========================================>----------| Remaining: 9.1ms     82%|=========================================>---------| Remaining: 8.2ms     84%|==========================================>--------| Remaining: 7.3ms     86%|===========================================>-------| Remaining: 6.4ms     88%|============================================>------| Remaining: 5.5ms     90%|=============================================>-----| Remaining: 4.6ms     92%|==============================================>----| Remaining: 3.6ms     94%|===============================================>---| Remaining: 2.7ms     96%|================================================>--| Remaining: 1.8ms     98%|=================================================>-| Remaining: 0.9ms    100%|==================================================>| Total time: 45.4ms    
+
+Vector file "REGRESSION_TESTS/BENCHMARKS/MICROBENCHMARKS/bm_add_lpm_output" matches output
+
+Simulation time:   15.6ms
+Elapsed time:      45.4ms
+Coverage:          8 (66.7%)
+--------------------------------------------------------------------
+
+Hard Multiplier Distribution
+============================
+
+
+Total # of multipliers = 0
+
+Hard adder Distribution
+============================
+
+
+Total # of chains = 1
+
+Hard adder chain Details
+============================
+
+
+The Number of Hard Block adders in the Longest Chain: 1
+
+
+The Total Number of Hard Block adders: 1
+
+
+Geometric mean adder/subtractor chain length: 1.00
+
+Hard MINUS Distribution
+============================
+
+
+Total # of chains = 0
+
+Hard sub chain Details
+============================
+
+
+The Number of Hard Block subs in the Longest Chain: 0
+
+
+The Total Number of Hard Block subs: 0
+./odin_II.exe -E -V REGRESSION_TESTS/BENCHMARKS/MICROBENCHMARKS/bm_add_lpm.v -t REGRESSION_TESTS/BENCHMARKS/MICROBENCHMARKS/bm_add_lpm_input -T REGRESSION_TESTS/BENCHMARKS/MICROBENCHMARKS/bm_add_lpm_output
+--------------------------------------------------------------------
+Welcome to ODIN II version 0.1 - the better High level synthesis tools++ targetting FPGAs (mainly VPR)
+Email: jamieson.peter@gmail.com and ken@unb.ca for support issues
+
+--------------------------------------------------------------------
+High-level synthesis Begin
+Parser starting - we'll create an abstract syntax tree.  Note this tree can be viewed using GraphViz (see documentation)
+Optimizing module by AST based optimizations
+Converting AST into a Netlist. Note this netlist can be viewed using GraphViz (see documentation)
+Performing Optimizations of the Netlist
+Performing Partial Map to target device
+Outputting the netlist to the specified output format
+Successful High-level synthesis by Odin in 0.4ms
+--------------------------------------------------------------------
+Netlist Simulation Begin
+Beginning simulation.
+Simulating 10000 existing vectors from "REGRESSION_TESTS/BENCHMARKS/MICROBENCHMARKS/bm_add_lpm_input".
+
+REGRESSION_TESTS/BENCHMARKS/MICROBENCHMARKS/bm_add_lpm.v:
+  Nodes:           14
+  Connections:     11
+  Degree:          0.79
+  Stages:          4
+
+  0%|>--------------------------------------------------| Remaining: 73.8ms      2%|=>-------------------------------------------------| Remaining: 48.8ms      4%|==>------------------------------------------------| Remaining: 47.3ms      6%|===>-----------------------------------------------| Remaining: 46.8ms      8%|====>----------------------------------------------| Remaining: 46.5ms     10%|=====>---------------------------------------------| Remaining: 45.6ms     12%|======>--------------------------------------------| Remaining: 44.0ms     14%|=======>-------------------------------------------| Remaining: 43.0ms     16%|========>------------------------------------------| Remaining: 42.3ms     18%|=========>-----------------------------------------| Remaining: 41.2ms     20%|==========>----------------------------------------| Remaining: 40.2ms     22%|===========>---------------------------------------| Remaining: 39.2ms     24%|============>--------------------------------------| Remaining: 38.1ms     26%|=============>-------------------------------------| Remaining: 37.3ms     28%|==============>------------------------------------| Remaining: 36.3ms     30%|===============>-----------------------------------| Remaining: 35.3ms     32%|================>----------------------------------| Remaining: 34.2ms     34%|=================>---------------------------------| Remaining: 33.2ms     36%|==================>--------------------------------| Remaining: 32.2ms     38%|===================>-------------------------------| Remaining: 31.2ms     40%|====================>------------------------------| Remaining: 30.1ms     42%|=====================>-----------------------------| Remaining: 28.9ms     44%|======================>----------------------------| Remaining: 27.8ms     46%|=======================>---------------------------| Remaining: 26.7ms     48%|========================>--------------------------| Remaining: 25.7ms     50%|=========================>-------------------------| Remaining: 24.6ms     52%|==========================>------------------------| Remaining: 23.5ms     54%|===========================>-----------------------| Remaining: 22.5ms     56%|============================>----------------------| Remaining: 21.5ms     58%|=============================>---------------------| Remaining: 20.4ms     60%|==============================>--------------------| Remaining: 19.4ms     62%|===============================>-------------------| Remaining: 18.4ms     64%|================================>------------------| Remaining: 17.4ms     66%|=================================>-----------------| Remaining: 16.4ms     68%|==================================>----------------| Remaining: 15.4ms     70%|===================================>---------------| Remaining: 14.4ms     72%|====================================>--------------| Remaining: 13.4ms     74%|=====================================>-------------| Remaining: 12.5ms     76%|======================================>------------| Remaining: 11.5ms     78%|=======================================>-----------| Remaining: 10.5ms     80%|========================================>----------| Remaining: 9.5ms     82%|=========================================>---------| Remaining: 8.6ms     84%|==========================================>--------| Remaining: 7.6ms     86%|===========================================>-------| Remaining: 6.7ms     88%|============================================>------| Remaining: 5.7ms     90%|=============================================>-----| Remaining: 4.7ms     92%|==============================================>----| Remaining: 3.8ms     94%|===============================================>---| Remaining: 2.8ms     96%|================================================>--| Remaining: 1.9ms     98%|=================================================>-| Remaining: 0.9ms    100%|==================================================>| Total time: 47.2ms    
+
+Vector file "REGRESSION_TESTS/BENCHMARKS/MICROBENCHMARKS/bm_add_lpm_output" matches output
+
+Simulation time:   13.2ms
+Elapsed time:      47.2ms
+Coverage:          11 (78.6%)
+--------------------------------------------------------------------
+./odin_II.exe -E -a ../libarchfpga/arch/sample_arch.xml -V REGRESSION_TESTS/BENCHMARKS/MICROBENCHMARKS/bm_add_lpm.v -o temp.blif
+--------------------------------------------------------------------
+Welcome to ODIN II version 0.1 - the better High level synthesis tools++ targetting FPGAs (mainly VPR)
+Email: jamieson.peter@gmail.com and ken@unb.ca for support issues
+
+Reading FPGA Architecture file
+--------------------------------------------------------------------
+High-level synthesis Begin
+Parser starting - we'll create an abstract syntax tree.  Note this tree can be viewed using GraphViz (see documentation)
+Optimizing module by AST based optimizations
+Converting AST into a Netlist. Note this netlist can be viewed using GraphViz (see documentation)
+Performing Optimizations of the Netlist
+Performing Partial Map to target device
+Outputting the netlist to the specified output format
+Successful High-level synthesis by Odin in 0.4ms
+--------------------------------------------------------------------
+
+Hard Multiplier Distribution
+============================
+
+
+Total # of multipliers = 0
+
+Hard adder Distribution
+============================
+
+
+Total # of chains = 1
+
+Hard adder chain Details
+============================
+
+
+The Number of Hard Block adders in the Longest Chain: 1
+
+
+The Total Number of Hard Block adders: 1
+
+
+Geometric mean adder/subtractor chain length: 1.00
+
+Hard MINUS Distribution
+============================
+
+
+Total # of chains = 0
+
+Hard sub chain Details
+============================
+
+
+The Number of Hard Block subs in the Longest Chain: 0
+
+
+The Total Number of Hard Block subs: 0
+./odin_II.exe -E -a ../libarchfpga/arch/sample_arch.xml -b temp.blif -t REGRESSION_TESTS/BENCHMARKS/MICROBENCHMARKS/bm_add_lpm_input -T REGRESSION_TESTS/BENCHMARKS/MICROBENCHMARKS/bm_add_lpm_output
+--------------------------------------------------------------------
+Welcome to ODIN II version 0.1 - the better High level synthesis tools++ targetting FPGAs (mainly VPR)
+Email: jamieson.peter@gmail.com and ken@unb.ca for support issues
+
+Reading FPGA Architecture file
+Reading top level module
+Reading blif netlist...
+  5%|==>------------------------------------------------| Remaining: 0.0ms     10%|====>----------------------------------------------| Remaining: 0.1ms     14%|=======>-------------------------------------------| Remaining: 0.1ms     19%|=========>-----------------------------------------| Remaining: 0.1ms     24%|===========>---------------------------------------| Remaining: 0.1ms     29%|==============>------------------------------------| Remaining: 0.1ms     33%|================>----------------------------------| Remaining: 0.1ms     38%|===================>-------------------------------| Remaining: 0.1ms     43%|=====================>-----------------------------| Remaining: 0.1ms     48%|=======================>---------------------------| Remaining: 0.1ms     52%|==========================>------------------------| Remaining: 0.9ms     57%|============================>----------------------| Remaining: 0.7ms     62%|==============================>--------------------| Remaining: 0.6ms     67%|=================================>-----------------| Remaining: 0.5ms     71%|===================================>---------------| Remaining: 0.4ms     76%|======================================>------------| Remaining: 0.3ms     81%|========================================>----------| Remaining: 0.2ms     86%|==========================================>--------| Remaining: 0.2ms    100%|==================================================>| Total time: 1.1ms    
+-------------------------------------
+Netlist Simulation Begin
+Beginning simulation.

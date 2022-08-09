@@ -1,0 +1,11 @@
+Trying to run benchmark on 1 processes
+ --- PASSED == regression_test/runs/arch/dpram
+ --- PASSED == regression_test/runs/arch/spram
+ran test in: 0:0.25 [m:s.ms]
+no run failure!
+
+Test 'odin_reg_arch' had 0 run failures
+
+Test complete
+
+All tests passed

@@ -1,0 +1,39 @@
+Trying to run benchmark on 1 processes
+ --- PASSED == regression_test/benchmark/full/ansiportlist.v
+ --- PASSED == regression_test/benchmark/full/binops.v
+ --- PASSED == regression_test/benchmark/full/blob_merge.v
+ --- PASSED == regression_test/benchmark/full/bm_DL_four_bit_adder_continuous_assign_using_vectors.v
+ --- PASSED == regression_test/benchmark/full/cf_cordic_v_18_18_18.v
+ --- PASSED == regression_test/benchmark/full/cf_cordic_v_8_8_8.v
+ --- PASSED == regression_test/benchmark/full/cf_fft_256_8.v
+ --- PASSED == regression_test/benchmark/full/cf_fir_24_16_16.v
+ --- PASSED == regression_test/benchmark/full/cf_fir_3_8_8.v
+ --- PASSED == regression_test/benchmark/full/ch_intrinsics.v
+ --- PASSED == regression_test/benchmark/full/CRC33_D264.v
+ --- PASSED == regression_test/benchmark/full/diffeq1.v
+ --- PASSED == regression_test/benchmark/full/diffeq2.v
+ --- PASSED == regression_test/benchmark/full/fir_scu_rtl_restructured_for_cmm_exp.v
+ --- PASSED == regression_test/benchmark/full/iir1.v
+ --- PASSED == regression_test/benchmark/full/iir_no_combinational.v
+ --- PASSED == regression_test/benchmark/full/LU32PEEng.v
+ --- PASSED == regression_test/benchmark/full/LU64PEEng.v
+ --- PASSED == regression_test/benchmark/full/LU8PEEng.v
+ --- PASSED == regression_test/benchmark/full/mcml.v
+ --- PASSED == regression_test/benchmark/full/memory_controller.v
+ --- PASSED == regression_test/benchmark/full/mkPktMerge.v
+ --- PASSED == regression_test/benchmark/full/oc54_cpu.v
+ --- PASSED == regression_test/benchmark/full/or1200.v
+ --- PASSED == regression_test/benchmark/full/paj_framebuftop_hierarchy_no_mem_no_combinational.v
+ --- PASSED == regression_test/benchmark/full/sha.v
+ --- PASSED == regression_test/benchmark/full/stereovision0.v
+ --- PASSED == regression_test/benchmark/full/stereovision1.v
+ --- PASSED == regression_test/benchmark/full/stereovision2.v
+ --- PASSED == regression_test/benchmark/full/stereovision3.v
+ran test in: 14:17.555 [m:s.ms]
+no run failure!
+
+Test 'odin_reg' had 0 run failures
+
+Test complete
+
+All tests passed

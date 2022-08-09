@@ -1,0 +1,24 @@
+Cleaning temporary run in directory
+Running test arch
+Using [1] processors for this benchmarking suite
+Benchmark is: arch
+running benchmark @/workspace/vtr-verilog-to-routing/ODIN_II/regression_test//run035
+ BENCHMARK IS: arch
+ ========= Synthesizing Circuits
+       --- arch/both_ram/sample_arch
+--- PASSED arch/both_ram/sample_arch
+       --- arch/both_ram/k6_N10_mem32K_40nm
+--- PASSED arch/both_ram/k6_N10_mem32K_40nm
+ ========= Simulating Circuits
+       --- arch/both_ram/sample_arch
+--- PASSED arch/both_ram/sample_arch
+       --- arch/both_ram/k6_N10_mem32K_40nm
+--- PASSED arch/both_ram/k6_N10_mem32K_40nm
+ran test in: 0:0:0.541
+no run failure!
+
+Test 'odin_reg_arch' had 0 run failures
+
+Test complete
+
+All tests passed

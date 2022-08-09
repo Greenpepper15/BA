@@ -1,0 +1,1058 @@
+FULL_REGRESSION_TESTS/binops.v
+--------------------------------------------------------------------
+Welcome to ODIN II version 0.1 - the better High level synthesis tools++ targetting FPGAs (mainly VPR)
+Email: jamieson.peter@gmail.com and ken@unb.ca for support issues
+
+Reading FPGA Architecture file
+--------------------------------------------------------------------
+High-level synthesis Begin
+Parser starting - we'll create an abstract syntax tree.  Note this tree can be viewed using GraphViz (see documentation)
+Optimizing module by AST based optimizations
+Converting AST into a Netlist. Note this netlist can be viewed using GraphViz (see documentation)
+Performing Optimizations of the Netlist
+Performing Partial Map to target device
+Outputting the netlist to the specified output format
+Successful High-level synthesis by Odin in 1.2ms
+--------------------------------------------------------------------
+Netlist Simulation Begin
+Beginning simulation.
+Simulating 30 existing vectors from "FULL_REGRESSION_TESTS/binops_input".
+
+FULL_REGRESSION_TESTS/binops.v:
+  Nodes:           170
+  Connections:     320
+  Degree:          1.88
+  Stages:          9
+
+ 53%|==========================>------------------------| Remaining: 1.3ms     80%|========================================>----------| Remaining: 0.5ms    100%|==================================================>| Total time: 2.2ms    
+
+Vector file "FULL_REGRESSION_TESTS/binops_output" matches output
+
+Simulation time:   1.7ms
+Elapsed time:      2.2ms
+Coverage:          143 (84.1%)
+--------------------------------------------------------------------
+
+Hard Multiplier Distribution
+============================
+4 X 4 => 1
+
+
+Total # of multipliers = 1
+
+Hard adder Distribution
+============================
+
+
+Total # of chains = 1
+
+Hard adder chain Details
+============================
+
+
+The Number of Hard Block adders in the Longest Chain: 2
+
+
+The Total Number of Hard Block adders: 2
+
+
+Geometric mean adder/subtractor chain length: 2.00
+
+Hard MINUS Distribution
+============================
+
+
+Total # of chains = 1
+
+Hard sub chain Details
+============================
+
+
+The Number of Hard Block subs in the Longest Chain: 2
+
+
+The Total Number of Hard Block subs: 2
+FULL_REGRESSION_TESTS/blob_merge.v
+--------------------------------------------------------------------
+Welcome to ODIN II version 0.1 - the better High level synthesis tools++ targetting FPGAs (mainly VPR)
+Email: jamieson.peter@gmail.com and ken@unb.ca for support issues
+
+Reading FPGA Architecture file
+--------------------------------------------------------------------
+High-level synthesis Begin
+Parser starting - we'll create an abstract syntax tree.  Note this tree can be viewed using GraphViz (see documentation)
+Optimizing module by AST based optimizations
+Converting AST into a Netlist. Note this netlist can be viewed using GraphViz (see documentation)
+Performing Optimizations of the Netlist
+Performing Partial Map to target device
+Outputting the netlist to the specified output format
+Successful High-level synthesis by Odin in 255.6ms
+--------------------------------------------------------------------
+Netlist Simulation Begin
+Beginning simulation.
+Simulating 1000 existing vectors from "FULL_REGRESSION_TESTS/blob_merge_input".
+
+FULL_REGRESSION_TESTS/blob_merge.v:
+  Nodes:           27659
+  Connections:     120291
+  Degree:          4.35
+  Stages:          437
+
+  2%|>--------------------------------------------------| Remaining: 32.4s      2%|=>-------------------------------------------------| Remaining: 27.3s      4%|==>------------------------------------------------| Remaining: 21.8s      6%|===>-----------------------------------------------| Remaining: 19.3s      8%|====>----------------------------------------------| Remaining: 18.2s     10%|=====>---------------------------------------------| Remaining: 17.2s     12%|======>--------------------------------------------| Remaining: 16.5s     14%|=======>-------------------------------------------| Remaining: 15.7s     16%|========>------------------------------------------| Remaining: 15.3s     18%|=========>-----------------------------------------| Remaining: 14.7s     20%|==========>----------------------------------------| Remaining: 14.3s     22%|===========>---------------------------------------| Remaining: 13.8s     24%|============>--------------------------------------| Remaining: 13.4s     26%|=============>-------------------------------------| Remaining: 12.8s     28%|==============>------------------------------------| Remaining: 12.5s     30%|===============>-----------------------------------| Remaining: 12.1s     32%|================>----------------------------------| Remaining: 11.8s     34%|=================>---------------------------------| Remaining: 11.3s     36%|==================>--------------------------------| Remaining: 11.0s     38%|===================>-------------------------------| Remaining: 10.6s     40%|====================>------------------------------| Remaining: 10.3s     42%|=====================>-----------------------------| Remaining: 9.8s     44%|======================>----------------------------| Remaining: 9.6s     46%|=======================>---------------------------| Remaining: 9.3s     48%|========================>--------------------------| Remaining: 9.1s     50%|=========================>-------------------------| Remaining: 8.8s     52%|==========================>------------------------| Remaining: 8.5s     54%|===========================>-----------------------| Remaining: 8.2s     56%|============================>----------------------| Remaining: 7.9s     58%|=============================>---------------------| Remaining: 7.4s     60%|==============================>--------------------| Remaining: 7.1s     62%|===============================>-------------------| Remaining: 6.7s     64%|================================>------------------| Remaining: 6.4s     66%|=================================>-----------------| Remaining: 6.0s     68%|==================================>----------------| Remaining: 5.7s     70%|===================================>---------------| Remaining: 5.2s     72%|====================================>--------------| Remaining: 4.9s     74%|=====================================>-------------| Remaining: 4.5s     76%|======================================>------------| Remaining: 4.2s     78%|=======================================>-----------| Remaining: 3.8s     80%|========================================>----------| Remaining: 3.5s     82%|=========================================>---------| Remaining: 3.1s     84%|==========================================>--------| Remaining: 2.9s     86%|===========================================>-------| Remaining: 2.4s     88%|============================================>------| Remaining: 2.2s     90%|=============================================>-----| Remaining: 1.7s     92%|==============================================>----| Remaining: 1.4s     94%|===============================================>---| Remaining: 1.0s     96%|================================================>--| Remaining: 712.9ms     98%|=================================================>-| Remaining: 283.8ms    100%|==================================================>| Total time: 17.7s    
+
+Vector file "FULL_REGRESSION_TESTS/blob_merge_output" matches output
+
+Simulation time:   17.7s
+Elapsed time:      17.7s
+Coverage:          12061 (43.6%)
+--------------------------------------------------------------------
+
+Hard Multiplier Distribution
+============================
+
+
+Total # of multipliers = 0
+
+Hard adder Distribution
+============================
+
+
+Total # of chains = 45
+
+Hard adder chain Details
+============================
+
+
+The Number of Hard Block adders in the Longest Chain: 4
+
+
+The Total Number of Hard Block adders: 151
+
+
+Geometric mean adder/subtractor chain length: 3.80
+
+Hard MINUS Distribution
+============================
+
+
+Total # of chains = 306
+
+Hard sub chain Details
+============================
+
+
+The Number of Hard Block subs in the Longest Chain: 13
+
+
+The Total Number of Hard Block subs: 1458
+FULL_REGRESSION_TESTS/cf_cordic_v_18_18_18.v
+--------------------------------------------------------------------
+Welcome to ODIN II version 0.1 - the better High level synthesis tools++ targetting FPGAs (mainly VPR)
+Email: jamieson.peter@gmail.com and ken@unb.ca for support issues
+
+Reading FPGA Architecture file
+--------------------------------------------------------------------
+High-level synthesis Begin
+Parser starting - we'll create an abstract syntax tree.  Note this tree can be viewed using GraphViz (see documentation)
+Optimizing module by AST based optimizations
+Converting AST into a Netlist. Note this netlist can be viewed using GraphViz (see documentation)
+Performing Optimizations of the Netlist
+Performing Partial Map to target device
+Outputting the netlist to the specified output format
+Successful High-level synthesis by Odin in 94.9ms
+--------------------------------------------------------------------
+Netlist Simulation Begin
+Beginning simulation.
+Simulating 1000 existing vectors from "FULL_REGRESSION_TESTS/cf_cordic_v_18_18_18_input".
+
+FULL_REGRESSION_TESTS/cf_cordic_v_18_18_18.v:
+  Nodes:           11177
+  Connections:     35589
+  Degree:          3.18
+  Stages:          32
+
+  2%|>--------------------------------------------------| Remaining: 6.7s      2%|=>-------------------------------------------------| Remaining: 5.4s      4%|==>------------------------------------------------| Remaining: 4.2s      6%|===>-----------------------------------------------| Remaining: 3.6s      8%|====>----------------------------------------------| Remaining: 3.4s     10%|=====>---------------------------------------------| Remaining: 3.1s     12%|======>--------------------------------------------| Remaining: 3.0s     14%|=======>-------------------------------------------| Remaining: 2.9s     16%|========>------------------------------------------| Remaining: 2.8s     18%|=========>-----------------------------------------| Remaining: 2.6s     20%|==========>----------------------------------------| Remaining: 2.6s     22%|===========>---------------------------------------| Remaining: 2.5s     24%|============>--------------------------------------| Remaining: 2.4s     26%|=============>-------------------------------------| Remaining: 2.3s     28%|==============>------------------------------------| Remaining: 2.2s     30%|===============>-----------------------------------| Remaining: 2.2s     32%|================>----------------------------------| Remaining: 2.1s     34%|=================>---------------------------------| Remaining: 2.0s     36%|==================>--------------------------------| Remaining: 2.0s     38%|===================>-------------------------------| Remaining: 1.9s     40%|====================>------------------------------| Remaining: 1.8s     42%|=====================>-----------------------------| Remaining: 1.8s     44%|======================>----------------------------| Remaining: 1.7s     46%|=======================>---------------------------| Remaining: 1.6s     48%|========================>--------------------------| Remaining: 1.6s     50%|=========================>-------------------------| Remaining: 1.5s     52%|==========================>------------------------| Remaining: 1.5s     54%|===========================>-----------------------| Remaining: 1.4s     56%|============================>----------------------| Remaining: 1.3s     58%|=============================>---------------------| Remaining: 1.3s     60%|==============================>--------------------| Remaining: 1.2s     62%|===============================>-------------------| Remaining: 1.1s     64%|================================>------------------| Remaining: 1.1s     66%|=================================>-----------------| Remaining: 1.0s     68%|==================================>----------------| Remaining: 970.9ms     70%|===================================>---------------| Remaining: 897.3ms     72%|====================================>--------------| Remaining: 849.4ms     74%|=====================================>-------------| Remaining: 775.6ms     76%|======================================>------------| Remaining: 726.0ms     78%|=======================================>-----------| Remaining: 652.7ms     80%|========================================>----------| Remaining: 604.2ms     82%|=========================================>---------| Remaining: 531.0ms     84%|==========================================>--------| Remaining: 482.3ms     86%|===========================================>-------| Remaining: 409.0ms     88%|============================================>------| Remaining: 360.5ms     90%|=============================================>-----| Remaining: 288.4ms     92%|==============================================>----| Remaining: 240.4ms     94%|===============================================>---| Remaining: 168.2ms     96%|================================================>--| Remaining: 120.0ms     98%|=================================================>-| Remaining: 48.0ms    100%|==================================================>| Total time: 3.0s    
+
+Vector file "FULL_REGRESSION_TESTS/cf_cordic_v_18_18_18_output" matches output
+
+Simulation time:   3.0s
+Elapsed time:      3.0s
+Coverage:          4904 (43.9%)
+--------------------------------------------------------------------
+
+Hard Multiplier Distribution
+============================
+
+
+Total # of multipliers = 0
+
+Hard adder Distribution
+============================
+
+
+Total # of chains = 54
+
+Hard adder chain Details
+============================
+
+
+The Number of Hard Block adders in the Longest Chain: 5
+
+
+The Total Number of Hard Block adders: 270
+
+
+Geometric mean adder/subtractor chain length: 5.00
+
+Hard MINUS Distribution
+============================
+
+
+Total # of chains = 57
+
+Hard sub chain Details
+============================
+
+
+The Number of Hard Block subs in the Longest Chain: 5
+
+
+The Total Number of Hard Block subs: 285
+FULL_REGRESSION_TESTS/cf_cordic_v_8_8_8.v
+--------------------------------------------------------------------
+Welcome to ODIN II version 0.1 - the better High level synthesis tools++ targetting FPGAs (mainly VPR)
+Email: jamieson.peter@gmail.com and ken@unb.ca for support issues
+
+Reading FPGA Architecture file
+--------------------------------------------------------------------
+High-level synthesis Begin
+Parser starting - we'll create an abstract syntax tree.  Note this tree can be viewed using GraphViz (see documentation)
+Optimizing module by AST based optimizations
+Converting AST into a Netlist. Note this netlist can be viewed using GraphViz (see documentation)
+Performing Optimizations of the Netlist
+Performing Partial Map to target device
+Outputting the netlist to the specified output format
+Successful High-level synthesis by Odin in 21.7ms
+--------------------------------------------------------------------
+Netlist Simulation Begin
+Beginning simulation.
+Simulating 1000 existing vectors from "FULL_REGRESSION_TESTS/cf_cordic_v_8_8_8_input".
+
+FULL_REGRESSION_TESTS/cf_cordic_v_8_8_8.v:
+  Nodes:           2665
+  Connections:     8131
+  Degree:          3.05
+  Stages:          22
+
+  2%|>--------------------------------------------------| Remaining: 1.3s      2%|=>-------------------------------------------------| Remaining: 1.1s      4%|==>------------------------------------------------| Remaining: 852.5ms      6%|===>-----------------------------------------------| Remaining: 725.7ms      8%|====>----------------------------------------------| Remaining: 699.9ms     10%|=====>---------------------------------------------| Remaining: 645.1ms     12%|======>--------------------------------------------| Remaining: 619.6ms     14%|=======>-------------------------------------------| Remaining: 587.5ms     16%|========>------------------------------------------| Remaining: 569.5ms     18%|=========>-----------------------------------------| Remaining: 550.0ms     20%|==========>----------------------------------------| Remaining: 533.9ms     22%|===========>---------------------------------------| Remaining: 521.6ms     24%|============>--------------------------------------| Remaining: 507.2ms     26%|=============>-------------------------------------| Remaining: 487.4ms     28%|==============>------------------------------------| Remaining: 474.3ms     30%|===============>-----------------------------------| Remaining: 455.2ms     32%|================>----------------------------------| Remaining: 442.6ms     34%|=================>---------------------------------| Remaining: 424.1ms     36%|==================>--------------------------------| Remaining: 412.3ms     38%|===================>-------------------------------| Remaining: 395.1ms     40%|====================>------------------------------| Remaining: 383.7ms     42%|=====================>-----------------------------| Remaining: 367.3ms     44%|======================>----------------------------| Remaining: 356.5ms     46%|=======================>---------------------------| Remaining: 340.0ms     48%|========================>--------------------------| Remaining: 329.0ms     50%|=========================>-------------------------| Remaining: 312.7ms     52%|==========================>------------------------| Remaining: 301.9ms     54%|===========================>-----------------------| Remaining: 286.1ms     56%|============================>----------------------| Remaining: 276.1ms     58%|=============================>---------------------| Remaining: 260.5ms     60%|==============================>--------------------| Remaining: 250.2ms     62%|===============================>-------------------| Remaining: 235.2ms     64%|================================>------------------| Remaining: 224.9ms     66%|=================================>-----------------| Remaining: 209.7ms     68%|==================================>----------------| Remaining: 199.7ms     70%|===================================>---------------| Remaining: 184.5ms     72%|====================================>--------------| Remaining: 174.5ms     74%|=====================================>-------------| Remaining: 159.5ms     76%|======================================>------------| Remaining: 149.5ms     78%|=======================================>-----------| Remaining: 134.5ms     80%|========================================>----------| Remaining: 124.4ms     82%|=========================================>---------| Remaining: 109.5ms     84%|==========================================>--------| Remaining: 99.5ms     86%|===========================================>-------| Remaining: 84.5ms     88%|============================================>------| Remaining: 74.5ms     90%|=============================================>-----| Remaining: 59.6ms     92%|==============================================>----| Remaining: 49.6ms     94%|===============================================>---| Remaining: 34.7ms     96%|================================================>--| Remaining: 24.8ms     98%|=================================================>-| Remaining: 9.9ms    100%|==================================================>| Total time: 621.4ms    
+
+Vector file "FULL_REGRESSION_TESTS/cf_cordic_v_8_8_8_output" matches output
+
+Simulation time:   612.8ms
+Elapsed time:      621.4ms
+Coverage:          1693 (63.5%)
+--------------------------------------------------------------------
+
+Hard Multiplier Distribution
+============================
+
+
+Total # of multipliers = 0
+
+Hard adder Distribution
+============================
+
+
+Total # of chains = 24
+
+Hard adder chain Details
+============================
+
+
+The Number of Hard Block adders in the Longest Chain: 3
+
+
+The Total Number of Hard Block adders: 72
+
+
+Geometric mean adder/subtractor chain length: 3.00
+
+Hard MINUS Distribution
+============================
+
+
+Total # of chains = 27
+
+Hard sub chain Details
+============================
+
+
+The Number of Hard Block subs in the Longest Chain: 3
+
+
+The Total Number of Hard Block subs: 81
+FULL_REGRESSION_TESTS/cf_fft_256_8.v
+--------------------------------------------------------------------
+Welcome to ODIN II version 0.1 - the better High level synthesis tools++ targetting FPGAs (mainly VPR)
+Email: jamieson.peter@gmail.com and ken@unb.ca for support issues
+
+Reading FPGA Architecture file
+--------------------------------------------------------------------
+High-level synthesis Begin
+Parser starting - we'll create an abstract syntax tree.  Note this tree can be viewed using GraphViz (see documentation)
+Optimizing module by AST based optimizations
+Converting AST into a Netlist. Note this netlist can be viewed using GraphViz (see documentation)
+Performing Optimizations of the Netlist
+Performing Partial Map to target device
+Outputting the netlist to the specified output format
+Successful High-level synthesis by Odin in 120.9ms
+--------------------------------------------------------------------
+Netlist Simulation Begin
+Beginning simulation.
+Simulating 1000 existing vectors from "FULL_REGRESSION_TESTS/cf_fft_256_8_input".
+
+FULL_REGRESSION_TESTS/cf_fft_256_8.v:
+  Nodes:           15443
+  Connections:     52837
+  Degree:          3.42
+  Stages:          21
+
+  2%|>--------------------------------------------------| Remaining: 11.0s      2%|=>-------------------------------------------------| Remaining: 8.6s      4%|==>------------------------------------------------| Remaining: 6.8s      6%|===>-----------------------------------------------| Remaining: 5.8s      8%|====>----------------------------------------------| Remaining: 5.3s     10%|=====>---------------------------------------------| Remaining: 5.0s     12%|======>--------------------------------------------| Remaining: 4.8s     14%|=======>-------------------------------------------| Remaining: 4.4s     16%|========>------------------------------------------| Remaining: 4.3s     18%|=========>-----------------------------------------| Remaining: 4.2s     20%|==========>----------------------------------------| Remaining: 4.0s     22%|===========>---------------------------------------| Remaining: 3.8s     24%|============>--------------------------------------| Remaining: 3.7s     26%|=============>-------------------------------------| Remaining: 3.5s     28%|==============>------------------------------------| Remaining: 3.4s     30%|===============>-----------------------------------| Remaining: 3.3s     32%|================>----------------------------------| Remaining: 3.2s     34%|=================>---------------------------------| Remaining: 3.0s     36%|==================>--------------------------------| Remaining: 3.0s     38%|===================>-------------------------------| Remaining: 2.8s     40%|====================>------------------------------| Remaining: 2.7s     42%|=====================>-----------------------------| Remaining: 2.6s     44%|======================>----------------------------| Remaining: 2.6s     46%|=======================>---------------------------| Remaining: 2.4s     48%|========================>--------------------------| Remaining: 2.4s     50%|=========================>-------------------------| Remaining: 2.3s     52%|==========================>------------------------| Remaining: 2.2s     54%|===========================>-----------------------| Remaining: 2.1s     56%|============================>----------------------| Remaining: 2.0s     58%|=============================>---------------------| Remaining: 1.9s     60%|==============================>--------------------| Remaining: 1.8s     62%|===============================>-------------------| Remaining: 1.7s     64%|================================>------------------| Remaining: 1.6s     66%|=================================>-----------------| Remaining: 1.5s     68%|==================================>----------------| Remaining: 1.4s     70%|===================================>---------------| Remaining: 1.3s     72%|====================================>--------------| Remaining: 1.3s     74%|=====================================>-------------| Remaining: 1.2s     76%|======================================>------------| Remaining: 1.1s     78%|=======================================>-----------| Remaining: 1.0s     80%|========================================>----------| Remaining: 965.3ms     82%|=========================================>---------| Remaining: 857.2ms     84%|==========================================>--------| Remaining: 789.8ms     86%|===========================================>-------| Remaining: 674.6ms     88%|============================================>------| Remaining: 600.2ms     90%|=============================================>-----| Remaining: 488.2ms     92%|==============================================>----| Remaining: 408.4ms     94%|===============================================>---| Remaining: 287.9ms     96%|================================================>--| Remaining: 206.5ms     98%|=================================================>-| Remaining: 83.6ms    100%|==================================================>| Total time: 5.3s    
+
+Vector file "FULL_REGRESSION_TESTS/cf_fft_256_8_output" matches output
+
+Simulation time:   5.2s
+Elapsed time:      5.3s
+Coverage:          7796 (50.5%)
+--------------------------------------------------------------------
+
+Hard Multiplier Distribution
+============================
+8 X 8 => 32
+
+
+Total # of multipliers = 32
+
+Hard adder Distribution
+============================
+
+
+Total # of chains = 42
+
+Hard adder chain Details
+============================
+
+
+The Number of Hard Block adders in the Longest Chain: 3
+
+
+The Total Number of Hard Block adders: 108
+
+
+Geometric mean adder/subtractor chain length: 2.69
+
+Hard MINUS Distribution
+============================
+
+
+Total # of chains = 24
+
+Hard sub chain Details
+============================
+
+
+The Number of Hard Block subs in the Longest Chain: 3
+
+
+The Total Number of Hard Block subs: 72
+FULL_REGRESSION_TESTS/cf_fir_24_16_16.v
+--------------------------------------------------------------------
+Welcome to ODIN II version 0.1 - the better High level synthesis tools++ targetting FPGAs (mainly VPR)
+Email: jamieson.peter@gmail.com and ken@unb.ca for support issues
+
+Reading FPGA Architecture file
+--------------------------------------------------------------------
+High-level synthesis Begin
+Parser starting - we'll create an abstract syntax tree.  Note this tree can be viewed using GraphViz (see documentation)
+Optimizing module by AST based optimizations
+Converting AST into a Netlist. Note this netlist can be viewed using GraphViz (see documentation)
+Performing Optimizations of the Netlist
+Performing Partial Map to target device
+Outputting the netlist to the specified output format
+Successful High-level synthesis by Odin in 247.1ms
+--------------------------------------------------------------------
+Netlist Simulation Begin
+Beginning simulation.
+Simulating 1000 existing vectors from "FULL_REGRESSION_TESTS/cf_fir_24_16_16_input".
+
+FULL_REGRESSION_TESTS/cf_fir_24_16_16.v:
+  Nodes:           7512
+  Connections:     25384
+  Degree:          3.38
+  Stages:          14
+
+  2%|>--------------------------------------------------| Remaining: 5.4s      2%|=>-------------------------------------------------| Remaining: 4.3s      4%|==>------------------------------------------------| Remaining: 3.5s      6%|===>-----------------------------------------------| Remaining: 3.1s      8%|====>----------------------------------------------| Remaining: 3.1s     10%|=====>---------------------------------------------| Remaining: 2.9s     12%|======>--------------------------------------------| Remaining: 2.8s     14%|=======>-------------------------------------------| Remaining: 2.7s     16%|========>------------------------------------------| Remaining: 2.6s     18%|=========>-----------------------------------------| Remaining: 2.4s     20%|==========>----------------------------------------| Remaining: 2.3s     22%|===========>---------------------------------------| Remaining: 2.2s     24%|============>--------------------------------------| Remaining: 2.2s     26%|=============>-------------------------------------| Remaining: 2.1s     28%|==============>------------------------------------| Remaining: 2.0s     30%|===============>-----------------------------------| Remaining: 1.9s     32%|================>----------------------------------| Remaining: 1.9s     34%|=================>---------------------------------| Remaining: 1.8s     36%|==================>--------------------------------| Remaining: 1.7s     38%|===================>-------------------------------| Remaining: 1.7s     40%|====================>------------------------------| Remaining: 1.6s     42%|=====================>-----------------------------| Remaining: 1.6s     44%|======================>----------------------------| Remaining: 1.5s     46%|=======================>---------------------------| Remaining: 1.4s     48%|========================>--------------------------| Remaining: 1.4s     50%|=========================>-------------------------| Remaining: 1.3s     52%|==========================>------------------------| Remaining: 1.3s     54%|===========================>-----------------------| Remaining: 1.2s     56%|============================>----------------------| Remaining: 1.2s     58%|=============================>---------------------| Remaining: 1.1s     60%|==============================>--------------------| Remaining: 1.0s     62%|===============================>-------------------| Remaining: 975.0ms     64%|================================>------------------| Remaining: 931.8ms     66%|=================================>-----------------| Remaining: 865.2ms     68%|==================================>----------------| Remaining: 826.7ms     70%|===================================>---------------| Remaining: 761.1ms     72%|====================================>--------------| Remaining: 719.3ms     74%|=====================================>-------------| Remaining: 656.8ms     76%|======================================>------------| Remaining: 615.1ms     78%|=======================================>-----------| Remaining: 551.5ms     80%|========================================>----------| Remaining: 509.5ms     82%|=========================================>---------| Remaining: 446.9ms     84%|==========================================>--------| Remaining: 406.2ms     86%|===========================================>-------| Remaining: 344.5ms     88%|============================================>------| Remaining: 303.3ms     90%|=============================================>-----| Remaining: 242.3ms     92%|==============================================>----| Remaining: 202.1ms     94%|===============================================>---| Remaining: 141.7ms     96%|================================================>--| Remaining: 101.1ms     98%|=================================================>-| Remaining: 40.4ms    100%|==================================================>| Total time: 2.5s    
+
+Vector file "FULL_REGRESSION_TESTS/cf_fir_24_16_16_output" matches output
+
+Simulation time:   2.5s
+Elapsed time:      2.5s
+Coverage:          6976 (92.9%)
+--------------------------------------------------------------------
+
+Hard Multiplier Distribution
+============================
+32 X 32 => 25
+
+
+Total # of multipliers = 25
+
+Hard adder Distribution
+============================
+
+
+Total # of chains = 24
+
+Hard adder chain Details
+============================
+
+
+The Number of Hard Block adders in the Longest Chain: 10
+
+
+The Total Number of Hard Block adders: 219
+
+
+Geometric mean adder/subtractor chain length: 9.12
+
+Hard MINUS Distribution
+============================
+
+
+Total # of chains = 0
+
+Hard sub chain Details
+============================
+
+
+The Number of Hard Block subs in the Longest Chain: 0
+
+
+The Total Number of Hard Block subs: 0
+FULL_REGRESSION_TESTS/cf_fir_3_8_8.v
+--------------------------------------------------------------------
+Welcome to ODIN II version 0.1 - the better High level synthesis tools++ targetting FPGAs (mainly VPR)
+Email: jamieson.peter@gmail.com and ken@unb.ca for support issues
+
+Reading FPGA Architecture file
+--------------------------------------------------------------------
+High-level synthesis Begin
+Parser starting - we'll create an abstract syntax tree.  Note this tree can be viewed using GraphViz (see documentation)
+Optimizing module by AST based optimizations
+Converting AST into a Netlist. Note this netlist can be viewed using GraphViz (see documentation)
+Performing Optimizations of the Netlist
+Performing Partial Map to target device
+Outputting the netlist to the specified output format
+Successful High-level synthesis by Odin in 6.8ms
+--------------------------------------------------------------------
+Netlist Simulation Begin
+Beginning simulation.
+Simulating 1000 existing vectors from "FULL_REGRESSION_TESTS/cf_fir_3_8_8_input".
+
+FULL_REGRESSION_TESTS/cf_fir_3_8_8.v:
+  Nodes:           592
+  Connections:     1849
+  Degree:          3.12
+  Stages:          9
+
+  2%|>--------------------------------------------------| Remaining: 282.1ms      2%|=>-------------------------------------------------| Remaining: 231.0ms      4%|==>------------------------------------------------| Remaining: 190.3ms      6%|===>-----------------------------------------------| Remaining: 165.4ms      8%|====>----------------------------------------------| Remaining: 155.4ms     10%|=====>---------------------------------------------| Remaining: 145.5ms     12%|======>--------------------------------------------| Remaining: 140.5ms     14%|=======>-------------------------------------------| Remaining: 133.9ms     16%|========>------------------------------------------| Remaining: 130.0ms     18%|=========>-----------------------------------------| Remaining: 124.7ms     20%|==========>----------------------------------------| Remaining: 121.5ms     22%|===========>---------------------------------------| Remaining: 116.8ms     24%|============>--------------------------------------| Remaining: 114.0ms     26%|=============>-------------------------------------| Remaining: 109.7ms     28%|==============>------------------------------------| Remaining: 107.4ms     30%|===============>-----------------------------------| Remaining: 103.4ms     32%|================>----------------------------------| Remaining: 100.8ms     34%|=================>---------------------------------| Remaining: 96.9ms     36%|==================>--------------------------------| Remaining: 94.3ms     38%|===================>-------------------------------| Remaining: 90.5ms     40%|====================>------------------------------| Remaining: 88.1ms     42%|=====================>-----------------------------| Remaining: 84.3ms     44%|======================>----------------------------| Remaining: 81.8ms     46%|=======================>---------------------------| Remaining: 78.2ms     48%|========================>--------------------------| Remaining: 75.8ms     50%|=========================>-------------------------| Remaining: 72.2ms     52%|==========================>------------------------| Remaining: 69.8ms     54%|===========================>-----------------------| Remaining: 66.3ms     56%|============================>----------------------| Remaining: 63.9ms     58%|=============================>---------------------| Remaining: 60.3ms     60%|==============================>--------------------| Remaining: 58.0ms     62%|===============================>-------------------| Remaining: 54.4ms     64%|================================>------------------| Remaining: 52.0ms     66%|=================================>-----------------| Remaining: 48.5ms     68%|==================================>----------------| Remaining: 46.2ms     70%|===================================>---------------| Remaining: 42.7ms     72%|====================================>--------------| Remaining: 40.3ms     74%|=====================================>-------------| Remaining: 36.9ms     76%|======================================>------------| Remaining: 34.5ms     78%|=======================================>-----------| Remaining: 31.1ms     80%|========================================>----------| Remaining: 28.8ms     82%|=========================================>---------| Remaining: 25.4ms     84%|==========================================>--------| Remaining: 23.0ms     86%|===========================================>-------| Remaining: 19.6ms     88%|============================================>------| Remaining: 17.3ms     90%|=============================================>-----| Remaining: 13.8ms     92%|==============================================>----| Remaining: 11.5ms     94%|===============================================>---| Remaining: 8.1ms     96%|================================================>--| Remaining: 5.8ms     98%|=================================================>-| Remaining: 2.3ms    100%|==================================================>| Total time: 146.3ms    
+
+Vector file "FULL_REGRESSION_TESTS/cf_fir_3_8_8_output" matches output
+
+Simulation time:   137.5ms
+Elapsed time:      146.3ms
+Coverage:          512 (86.5%)
+--------------------------------------------------------------------
+
+Hard Multiplier Distribution
+============================
+16 X 16 => 4
+
+
+Total # of multipliers = 4
+
+Hard adder Distribution
+============================
+
+
+Total # of chains = 3
+
+Hard adder chain Details
+============================
+
+
+The Number of Hard Block adders in the Longest Chain: 5
+
+
+The Total Number of Hard Block adders: 15
+
+
+Geometric mean adder/subtractor chain length: 5.00
+
+Hard MINUS Distribution
+============================
+
+
+Total # of chains = 0
+
+Hard sub chain Details
+============================
+
+
+The Number of Hard Block subs in the Longest Chain: 0
+
+
+The Total Number of Hard Block subs: 0
+FULL_REGRESSION_TESTS/ch_intrinsics.v
+--------------------------------------------------------------------
+Welcome to ODIN II version 0.1 - the better High level synthesis tools++ targetting FPGAs (mainly VPR)
+Email: jamieson.peter@gmail.com and ken@unb.ca for support issues
+
+Reading FPGA Architecture file
+--------------------------------------------------------------------
+High-level synthesis Begin
+Parser starting - we'll create an abstract syntax tree.  Note this tree can be viewed using GraphViz (see documentation)
+Optimizing module by AST based optimizations
+Converting AST into a Netlist. Note this netlist can be viewed using GraphViz (see documentation)
+Performing Optimizations of the Netlist
+
+Hard Logical Memory Distribution
+============================
+SPRAM: 8 width 5 depth
+
+Total Logical Memory Blocks = 1 
+Total Logical Memory bits = 256 
+Max Memory Width = 8 
+Max Memory Depth = 5 
+
+Performing Partial Map to target device
+Outputting the netlist to the specified output format
+Successful High-level synthesis by Odin in 9.2ms
+--------------------------------------------------------------------
+Netlist Simulation Begin
+Beginning simulation.
+Simulating 1000 existing vectors from "FULL_REGRESSION_TESTS/ch_intrinsics_input".
+
+MIF _str-7.mif (1x14) not found. 
+MIF _str-0.mif (1x14) not found. 
+MIF _str-1.mif (1x14) not found. 
+MIF _str-2.mif (1x14) not found. 
+MIF _str-3.mif (1x14) not found. 
+MIF _str-4.mif (1x14) not found. 
+MIF _str-5.mif (1x14) not found. 
+MIF _str-6.mif (1x14) not found. 
+FULL_REGRESSION_TESTS/ch_intrinsics.v:
+  Nodes:           1260
+  Connections:     9530
+  Degree:          7.56
+  Stages:          14
+
+  2%|>--------------------------------------------------| Remaining: 1.2s      2%|=>-------------------------------------------------| Remaining: 877.8ms      4%|==>------------------------------------------------| Remaining: 630.7ms      6%|===>-----------------------------------------------| Remaining: 487.0ms      8%|====>----------------------------------------------| Remaining: 437.1ms     10%|=====>---------------------------------------------| Remaining: 388.0ms     12%|======>--------------------------------------------| Remaining: 367.2ms     14%|=======>-------------------------------------------| Remaining: 340.4ms     16%|========>------------------------------------------| Remaining: 325.5ms     18%|=========>-----------------------------------------| Remaining: 306.2ms     20%|==========>----------------------------------------| Remaining: 295.0ms     22%|===========>---------------------------------------| Remaining: 280.0ms     24%|============>--------------------------------------| Remaining: 271.0ms     26%|=============>-------------------------------------| Remaining: 258.2ms     28%|==============>------------------------------------| Remaining: 250.2ms     30%|===============>-----------------------------------| Remaining: 239.0ms     32%|================>----------------------------------| Remaining: 231.8ms     34%|=================>---------------------------------| Remaining: 221.4ms     36%|==================>--------------------------------| Remaining: 214.7ms     38%|===================>-------------------------------| Remaining: 204.9ms     40%|====================>------------------------------| Remaining: 198.7ms     42%|=====================>-----------------------------| Remaining: 189.5ms     44%|======================>----------------------------| Remaining: 183.6ms     46%|=======================>---------------------------| Remaining: 174.8ms     48%|========================>--------------------------| Remaining: 169.0ms     50%|=========================>-------------------------| Remaining: 160.4ms     52%|==========================>------------------------| Remaining: 154.8ms     54%|===========================>-----------------------| Remaining: 146.5ms     56%|============================>----------------------| Remaining: 141.0ms     58%|=============================>---------------------| Remaining: 132.8ms     60%|==============================>--------------------| Remaining: 127.4ms     62%|===============================>-------------------| Remaining: 119.4ms     64%|================================>------------------| Remaining: 114.1ms     66%|=================================>-----------------| Remaining: 106.2ms     68%|==================================>----------------| Remaining: 101.0ms     70%|===================================>---------------| Remaining: 93.3ms     72%|====================================>--------------| Remaining: 88.2ms     74%|=====================================>-------------| Remaining: 80.4ms     76%|======================================>------------| Remaining: 75.3ms     78%|=======================================>-----------| Remaining: 67.6ms     80%|========================================>----------| Remaining: 62.5ms     82%|=========================================>---------| Remaining: 54.9ms     84%|==========================================>--------| Remaining: 49.9ms     86%|===========================================>-------| Remaining: 42.3ms     88%|============================================>------| Remaining: 37.3ms     90%|=============================================>-----| Remaining: 29.8ms     92%|==============================================>----| Remaining: 24.9ms     94%|===============================================>---| Remaining: 17.4ms     96%|================================================>--| Remaining: 12.4ms     98%|=================================================>-| Remaining: 5.0ms    100%|==================================================>| Total time: 310.6ms    
+
+Vector file "FULL_REGRESSION_TESTS/ch_intrinsics_output" matches output
+
+Simulation time:   287.5ms
+Elapsed time:      310.6ms
+Coverage:          353 (28.0%)
+--------------------------------------------------------------------
+
+Hard Multiplier Distribution
+============================
+
+
+Total # of multipliers = 0
+
+Hard adder Distribution
+============================
+
+
+Total # of chains = 0
+
+Hard adder chain Details
+============================
+
+
+The Number of Hard Block adders in the Longest Chain: 0
+
+
+The Total Number of Hard Block adders: 0
+
+
+Geometric mean adder/subtractor chain length: -nan
+
+Hard MINUS Distribution
+============================
+
+
+Total # of chains = 0
+
+Hard sub chain Details
+============================
+
+
+The Number of Hard Block subs in the Longest Chain: 0
+
+
+The Total Number of Hard Block subs: 0
+FULL_REGRESSION_TESTS/CRC33_D264.v
+--------------------------------------------------------------------
+Welcome to ODIN II version 0.1 - the better High level synthesis tools++ targetting FPGAs (mainly VPR)
+Email: jamieson.peter@gmail.com and ken@unb.ca for support issues
+
+Reading FPGA Architecture file
+--------------------------------------------------------------------
+High-level synthesis Begin
+Parser starting - we'll create an abstract syntax tree.  Note this tree can be viewed using GraphViz (see documentation)
+Optimizing module by AST based optimizations
+Converting AST into a Netlist. Note this netlist can be viewed using GraphViz (see documentation)
+Performing Optimizations of the Netlist
+Performing Partial Map to target device
+Outputting the netlist to the specified output format
+Successful High-level synthesis by Odin in 5.7ms
+--------------------------------------------------------------------
+Netlist Simulation Begin
+Beginning simulation.
+Simulating 1000 existing vectors from "FULL_REGRESSION_TESTS/CRC33_D264_input".
+
+FULL_REGRESSION_TESTS/CRC33_D264.v:
+  Nodes:           885
+  Connections:     1137
+  Degree:          1.28
+  Stages:          19
+
+  2%|>--------------------------------------------------| Remaining: 329.8ms      2%|=>-------------------------------------------------| Remaining: 280.5ms      4%|==>------------------------------------------------| Remaining: 239.1ms      6%|===>-----------------------------------------------| Remaining: 214.5ms      8%|====>----------------------------------------------| Remaining: 204.2ms     10%|=====>---------------------------------------------| Remaining: 192.0ms     12%|======>--------------------------------------------| Remaining: 185.4ms     14%|=======>-------------------------------------------| Remaining: 176.7ms     16%|========>------------------------------------------| Remaining: 172.0ms     18%|=========>-----------------------------------------| Remaining: 165.1ms     20%|==========>----------------------------------------| Remaining: 160.9ms     22%|===========>---------------------------------------| Remaining: 154.9ms     24%|============>--------------------------------------| Remaining: 151.1ms     26%|=============>-------------------------------------| Remaining: 145.6ms     28%|==============>------------------------------------| Remaining: 142.9ms     30%|===============>-----------------------------------| Remaining: 137.8ms     32%|================>----------------------------------| Remaining: 134.3ms     34%|=================>---------------------------------| Remaining: 129.1ms     36%|==================>--------------------------------| Remaining: 125.7ms     38%|===================>-------------------------------| Remaining: 120.8ms     40%|====================>------------------------------| Remaining: 117.4ms     42%|=====================>-----------------------------| Remaining: 112.4ms     44%|======================>----------------------------| Remaining: 109.2ms     46%|=======================>---------------------------| Remaining: 104.5ms     48%|========================>--------------------------| Remaining: 101.2ms     50%|=========================>-------------------------| Remaining: 96.7ms     52%|==========================>------------------------| Remaining: 93.5ms     54%|===========================>-----------------------| Remaining: 88.7ms     56%|============================>----------------------| Remaining: 85.5ms     58%|=============================>---------------------| Remaining: 81.1ms     60%|==============================>--------------------| Remaining: 78.2ms     62%|===============================>-------------------| Remaining: 73.6ms     64%|================================>------------------| Remaining: 70.6ms     66%|=================================>-----------------| Remaining: 66.0ms     68%|==================================>----------------| Remaining: 62.9ms     70%|===================================>---------------| Remaining: 58.2ms     72%|====================================>--------------| Remaining: 55.1ms     74%|=====================================>-------------| Remaining: 50.4ms     76%|======================================>------------| Remaining: 47.3ms     78%|=======================================>-----------| Remaining: 42.6ms     80%|========================================>----------| Remaining: 39.5ms     82%|=========================================>---------| Remaining: 34.8ms     84%|==========================================>--------| Remaining: 31.6ms     86%|===========================================>-------| Remaining: 26.9ms     88%|============================================>------| Remaining: 23.8ms     90%|=============================================>-----| Remaining: 19.0ms     92%|==============================================>----| Remaining: 15.9ms     94%|===============================================>---| Remaining: 11.1ms     96%|================================================>--| Remaining: 8.0ms     98%|=================================================>-| Remaining: 3.2ms    100%|==================================================>| Total time: 198.6ms    
+
+Vector file "FULL_REGRESSION_TESTS/CRC33_D264_output" matches output
+
+Simulation time:   155.3ms
+Elapsed time:      198.6ms
+Coverage:          882 (99.7%)
+--------------------------------------------------------------------
+
+Hard Multiplier Distribution
+============================
+
+
+Total # of multipliers = 0
+
+Hard adder Distribution
+============================
+
+
+Total # of chains = 0
+
+Hard adder chain Details
+============================
+
+
+The Number of Hard Block adders in the Longest Chain: 0
+
+
+The Total Number of Hard Block adders: 0
+
+
+Geometric mean adder/subtractor chain length: -nan
+
+Hard MINUS Distribution
+============================
+
+
+Total # of chains = 0
+
+Hard sub chain Details
+============================
+
+
+The Number of Hard Block subs in the Longest Chain: 0
+
+
+The Total Number of Hard Block subs: 0
+FULL_REGRESSION_TESTS/diffeq1.v
+--------------------------------------------------------------------
+Welcome to ODIN II version 0.1 - the better High level synthesis tools++ targetting FPGAs (mainly VPR)
+Email: jamieson.peter@gmail.com and ken@unb.ca for support issues
+
+Reading FPGA Architecture file
+--------------------------------------------------------------------
+High-level synthesis Begin
+Parser starting - we'll create an abstract syntax tree.  Note this tree can be viewed using GraphViz (see documentation)
+Optimizing module by AST based optimizations
+Converting AST into a Netlist. Note this netlist can be viewed using GraphViz (see documentation)
+Performing Optimizations of the Netlist
+Performing Partial Map to target device
+Outputting the netlist to the specified output format
+Successful High-level synthesis by Odin in 5.2ms
+--------------------------------------------------------------------
+Netlist Simulation Begin
+Beginning simulation.
+Simulating 1000 existing vectors from "FULL_REGRESSION_TESTS/diffeq1_input".
+
+FULL_REGRESSION_TESTS/diffeq1.v:
+  Nodes:           1246
+  Connections:     3717
+  Degree:          2.98
+  Stages:          40
+
+  2%|>--------------------------------------------------| Remaining: 645.5ms      2%|=>-------------------------------------------------| Remaining: 526.9ms      4%|==>------------------------------------------------| Remaining: 432.8ms      6%|===>-----------------------------------------------| Remaining: 375.7ms      8%|====>----------------------------------------------| Remaining: 354.9ms     10%|=====>---------------------------------------------| Remaining: 335.1ms     12%|======>--------------------------------------------| Remaining: 323.7ms     14%|=======>-------------------------------------------| Remaining: 312.7ms     16%|========>------------------------------------------| Remaining: 317.0ms     18%|=========>-----------------------------------------| Remaining: 313.1ms     20%|==========>----------------------------------------| Remaining: 302.4ms     22%|===========>---------------------------------------| Remaining: 292.0ms     24%|============>--------------------------------------| Remaining: 283.2ms     26%|=============>-------------------------------------| Remaining: 269.7ms     28%|==============>------------------------------------| Remaining: 261.5ms     30%|===============>-----------------------------------| Remaining: 249.2ms     32%|================>----------------------------------| Remaining: 241.4ms     34%|=================>---------------------------------| Remaining: 230.7ms     36%|==================>--------------------------------| Remaining: 224.5ms     38%|===================>-------------------------------| Remaining: 217.4ms     40%|====================>------------------------------| Remaining: 211.0ms     42%|=====================>-----------------------------| Remaining: 200.8ms     44%|======================>----------------------------| Remaining: 194.7ms     46%|=======================>---------------------------| Remaining: 185.2ms     48%|========================>--------------------------| Remaining: 178.8ms     50%|=========================>-------------------------| Remaining: 169.5ms     52%|==========================>------------------------| Remaining: 163.3ms     54%|===========================>-----------------------| Remaining: 154.3ms     56%|============================>----------------------| Remaining: 148.4ms     58%|=============================>---------------------| Remaining: 140.1ms     60%|==============================>--------------------| Remaining: 134.7ms     62%|===============================>-------------------| Remaining: 126.2ms     64%|================================>------------------| Remaining: 120.5ms     66%|=================================>-----------------| Remaining: 112.1ms     68%|==================================>----------------| Remaining: 106.5ms     70%|===================================>---------------| Remaining: 98.1ms     72%|====================================>--------------| Remaining: 92.6ms     74%|=====================================>-------------| Remaining: 84.4ms     76%|======================================>------------| Remaining: 78.9ms     78%|=======================================>-----------| Remaining: 70.7ms     80%|========================================>----------| Remaining: 65.3ms     82%|=========================================>---------| Remaining: 57.2ms     84%|==========================================>--------| Remaining: 51.9ms     86%|===========================================>-------| Remaining: 44.0ms     88%|============================================>------| Remaining: 38.7ms     90%|=============================================>-----| Remaining: 30.9ms     92%|==============================================>----| Remaining: 25.7ms     94%|===============================================>---| Remaining: 18.0ms     96%|================================================>--| Remaining: 12.8ms     98%|=================================================>-| Remaining: 5.1ms    100%|==================================================>| Total time: 319.0ms    
+
+Vector file "FULL_REGRESSION_TESTS/diffeq1_output" matches output
+
+Simulation time:   287.6ms
+Elapsed time:      319.0ms
+Coverage:          1199 (96.2%)
+--------------------------------------------------------------------
+
+Hard Multiplier Distribution
+============================
+32 X 2 => 2
+32 X 32 => 1
+34 X 32 => 2
+
+
+Total # of multipliers = 5
+
+Hard adder Distribution
+============================
+
+
+Total # of chains = 2
+
+Hard adder chain Details
+============================
+
+
+The Number of Hard Block adders in the Longest Chain: 9
+
+
+The Total Number of Hard Block adders: 18
+
+
+Geometric mean adder/subtractor chain length: 9.00
+
+Hard MINUS Distribution
+============================
+
+
+Total # of chains = 2
+
+Hard sub chain Details
+============================
+
+
+The Number of Hard Block subs in the Longest Chain: 9
+
+
+The Total Number of Hard Block subs: 18
+FULL_REGRESSION_TESTS/diffeq2.v
+--------------------------------------------------------------------
+Welcome to ODIN II version 0.1 - the better High level synthesis tools++ targetting FPGAs (mainly VPR)
+Email: jamieson.peter@gmail.com and ken@unb.ca for support issues
+
+Reading FPGA Architecture file
+--------------------------------------------------------------------
+High-level synthesis Begin
+Parser starting - we'll create an abstract syntax tree.  Note this tree can be viewed using GraphViz (see documentation)
+Optimizing module by AST based optimizations
+Converting AST into a Netlist. Note this netlist can be viewed using GraphViz (see documentation)
+Performing Optimizations of the Netlist
+Performing Partial Map to target device
+Outputting the netlist to the specified output format
+Successful High-level synthesis by Odin in 3.0ms
+--------------------------------------------------------------------
+Netlist Simulation Begin
+Beginning simulation.
+Simulating 1000 existing vectors from "FULL_REGRESSION_TESTS/diffeq2_input".
+
+FULL_REGRESSION_TESTS/diffeq2.v:
+  Nodes:           663
+  Connections:     1973
+  Degree:          2.98
+  Stages:          39
+
+  2%|>--------------------------------------------------| Remaining: 314.8ms      2%|=>-------------------------------------------------| Remaining: 262.1ms      4%|==>------------------------------------------------| Remaining: 220.2ms      6%|===>-----------------------------------------------| Remaining: 195.6ms      8%|====>----------------------------------------------| Remaining: 184.8ms     10%|=====>---------------------------------------------| Remaining: 172.9ms     12%|======>--------------------------------------------| Remaining: 167.5ms     14%|=======>-------------------------------------------| Remaining: 159.6ms     16%|========>------------------------------------------| Remaining: 155.4ms     18%|=========>-----------------------------------------| Remaining: 150.7ms     20%|==========>----------------------------------------| Remaining: 147.3ms     22%|===========>---------------------------------------| Remaining: 141.8ms     24%|============>--------------------------------------| Remaining: 138.3ms     26%|=============>-------------------------------------| Remaining: 133.1ms     28%|==============>------------------------------------| Remaining: 129.6ms     30%|===============>-----------------------------------| Remaining: 124.7ms     32%|================>----------------------------------| Remaining: 121.5ms     34%|=================>---------------------------------| Remaining: 116.9ms     36%|==================>--------------------------------| Remaining: 113.8ms     38%|===================>-------------------------------| Remaining: 109.2ms     40%|====================>------------------------------| Remaining: 106.2ms     42%|=====================>-----------------------------| Remaining: 101.6ms     44%|======================>----------------------------| Remaining: 98.6ms     46%|=======================>---------------------------| Remaining: 94.2ms     48%|========================>--------------------------| Remaining: 91.3ms     50%|=========================>-------------------------| Remaining: 86.9ms     52%|==========================>------------------------| Remaining: 84.0ms     54%|===========================>-----------------------| Remaining: 79.6ms     56%|============================>----------------------| Remaining: 76.7ms     58%|=============================>---------------------| Remaining: 72.5ms     60%|==============================>--------------------| Remaining: 69.7ms     62%|===============================>-------------------| Remaining: 65.5ms     64%|================================>------------------| Remaining: 62.6ms     66%|=================================>-----------------| Remaining: 58.4ms     68%|==================================>----------------| Remaining: 55.6ms     70%|===================================>---------------| Remaining: 51.3ms     72%|====================================>--------------| Remaining: 48.5ms     74%|=====================================>-------------| Remaining: 44.4ms     76%|======================================>------------| Remaining: 41.6ms     78%|=======================================>-----------| Remaining: 37.4ms     80%|========================================>----------| Remaining: 34.7ms     82%|=========================================>---------| Remaining: 30.5ms     84%|==========================================>--------| Remaining: 27.7ms     86%|===========================================>-------| Remaining: 23.6ms     88%|============================================>------| Remaining: 20.8ms     90%|=============================================>-----| Remaining: 16.6ms     92%|==============================================>----| Remaining: 13.8ms     94%|===============================================>---| Remaining: 9.7ms     96%|================================================>--| Remaining: 6.9ms     98%|=================================================>-| Remaining: 2.8ms    100%|==================================================>| Total time: 173.1ms    
+
+Vector file "FULL_REGRESSION_TESTS/diffeq2_output" matches output
+
+Simulation time:   156.4ms
+Elapsed time:      173.1ms
+Coverage:          260 (39.2%)
+--------------------------------------------------------------------
+
+Hard Multiplier Distribution
+============================
+2 X 32 => 1
+3 X 32 => 1
+32 X 32 => 1
+32 X 34 => 1
+32 X 35 => 1
+
+
+Total # of multipliers = 5
+
+Hard adder Distribution
+============================
+
+
+Total # of chains = 2
+
+Hard adder chain Details
+============================
+
+
+The Number of Hard Block adders in the Longest Chain: 9
+
+
+The Total Number of Hard Block adders: 18
+
+
+Geometric mean adder/subtractor chain length: 9.00
+
+Hard MINUS Distribution
+============================
+
+
+Total # of chains = 2
+
+Hard sub chain Details
+============================
+
+
+The Number of Hard Block subs in the Longest Chain: 9
+
+
+The Total Number of Hard Block subs: 18
+FULL_REGRESSION_TESTS/fir_scu_rtl_restructured_for_cmm_exp.v
+--------------------------------------------------------------------
+Welcome to ODIN II version 0.1 - the better High level synthesis tools++ targetting FPGAs (mainly VPR)
+Email: jamieson.peter@gmail.com and ken@unb.ca for support issues
+
+Reading FPGA Architecture file
+--------------------------------------------------------------------
+High-level synthesis Begin
+Parser starting - we'll create an abstract syntax tree.  Note this tree can be viewed using GraphViz (see documentation)
+Optimizing module by AST based optimizations
+Converting AST into a Netlist. Note this netlist can be viewed using GraphViz (see documentation)
+Performing Optimizations of the Netlist
+Performing Partial Map to target device
+Outputting the netlist to the specified output format
+Successful High-level synthesis by Odin in 11.2ms
+--------------------------------------------------------------------
+Netlist Simulation Begin
+Beginning simulation.
+Simulating 1680 existing vectors from "FULL_REGRESSION_TESTS/fir_scu_rtl_restructured_for_cmm_exp_input".
+
+FULL_REGRESSION_TESTS/fir_scu_rtl_restructured_for_cmm_exp.v:
+  Nodes:           2659
+  Connections:     10037
+  Degree:          3.77
+  Stages:          23
+
+  1%|>--------------------------------------------------| Remaining: 2.4s      2%|=>-------------------------------------------------| Remaining: 1.5s      4%|==>------------------------------------------------| Remaining: 1.2s      6%|===>-----------------------------------------------| Remaining: 1.1s      8%|====>----------------------------------------------| Remaining: 1.1s     10%|=====>---------------------------------------------| Remaining: 1.0s     12%|======>--------------------------------------------| Remaining: 990.8ms     14%|=======>-------------------------------------------| Remaining: 946.0ms     16%|========>------------------------------------------| Remaining: 903.4ms     18%|=========>-----------------------------------------| Remaining: 869.2ms     20%|==========>----------------------------------------| Remaining: 835.6ms     22%|===========>---------------------------------------| Remaining: 799.5ms     24%|============>--------------------------------------| Remaining: 779.4ms     26%|=============>-------------------------------------| Remaining: 759.1ms     28%|==============>------------------------------------| Remaining: 733.7ms     30%|===============>-----------------------------------| Remaining: 711.5ms     32%|================>----------------------------------| Remaining: 685.5ms     34%|=================>---------------------------------| Remaining: 663.6ms     36%|==================>--------------------------------| Remaining: 644.3ms     38%|===================>-------------------------------| Remaining: 624.6ms     40%|====================>------------------------------| Remaining: 606.8ms     42%|=====================>-----------------------------| Remaining: 581.7ms     44%|======================>----------------------------| Remaining: 560.7ms     46%|=======================>---------------------------| Remaining: 538.8ms     48%|========================>--------------------------| Remaining: 517.4ms     50%|=========================>-------------------------| Remaining: 496.4ms     52%|==========================>------------------------| Remaining: 471.4ms     54%|===========================>-----------------------| Remaining: 451.4ms     56%|============================>----------------------| Remaining: 431.8ms     58%|=============================>---------------------| Remaining: 412.4ms     60%|==============================>--------------------| Remaining: 394.4ms     62%|===============================>-------------------| Remaining: 374.3ms     64%|================================>------------------| Remaining: 357.9ms     66%|=================================>-----------------| Remaining: 337.8ms     68%|==================================>----------------| Remaining: 317.9ms     70%|===================================>---------------| Remaining: 298.2ms     72%|====================================>--------------| Remaining: 273.7ms     74%|=====================================>-------------| Remaining: 254.2ms     76%|======================================>------------| Remaining: 234.8ms     78%|=======================================>-----------| Remaining: 216.3ms     80%|========================================>----------| Remaining: 197.1ms     82%|=========================================>---------| Remaining: 173.1ms     84%|==========================================>--------| Remaining: 154.0ms     86%|===========================================>-------| Remaining: 135.1ms     88%|============================================>------| Remaining: 116.3ms     90%|=============================================>-----| Remaining: 98.1ms     92%|==============================================>----| Remaining: 75.4ms     94%|===============================================>---| Remaining: 56.9ms     96%|================================================>--| Remaining: 37.9ms     98%|=================================================>-| Remaining: 19.0ms    100%|==================================================>| Total time: 998.6ms    
+
+Vector file "FULL_REGRESSION_TESTS/fir_scu_rtl_restructured_for_cmm_exp_output" matches output
+
+Simulation time:   991.4ms
+Elapsed time:      998.6ms
+Coverage:          2489 (93.6%)
+--------------------------------------------------------------------
+
+Hard Multiplier Distribution
+============================
+8 X 9 => 17
+
+
+Total # of multipliers = 17
+
+Hard adder Distribution
+============================
+
+
+Total # of chains = 1
+
+Hard adder chain Details
+============================
+
+
+The Number of Hard Block adders in the Longest Chain: 5
+
+
+The Total Number of Hard Block adders: 5
+
+
+Geometric mean adder/subtractor chain length: 5.00
+
+Hard MINUS Distribution
+============================
+
+
+Total # of chains = 0
+
+Hard sub chain Details
+============================
+
+
+The Number of Hard Block subs in the Longest Chain: 0
+
+
+The Total Number of Hard Block subs: 0
+FULL_REGRESSION_TESTS/iir1.v
+--------------------------------------------------------------------
+Welcome to ODIN II version 0.1 - the better High level synthesis tools++ targetting FPGAs (mainly VPR)
+Email: jamieson.peter@gmail.com and ken@unb.ca for support issues
+
+Reading FPGA Architecture file
+--------------------------------------------------------------------
+High-level synthesis Begin
+Parser starting - we'll create an abstract syntax tree.  Note this tree can be viewed using GraphViz (see documentation)
+Optimizing module by AST based optimizations
+Converting AST into a Netlist. Note this netlist can be viewed using GraphViz (see documentation)
+Performing Optimizations of the Netlist
+Performing Partial Map to target device
+Outputting the netlist to the specified output format
+Successful High-level synthesis by Odin in 10.9ms
+--------------------------------------------------------------------
+Netlist Simulation Begin
+Beginning simulation.
+Simulating 1000 existing vectors from "FULL_REGRESSION_TESTS/iir1_input".
+
+FULL_REGRESSION_TESTS/iir1.v:
+  Nodes:           1134
+  Connections:     3685
+  Degree:          3.25
+  Stages:          16
+
+  2%|>--------------------------------------------------| Remaining: 630.7ms      2%|=>-------------------------------------------------| Remaining: 497.6ms      4%|==>------------------------------------------------| Remaining: 389.8ms      6%|===>-----------------------------------------------| Remaining: 327.7ms      8%|====>----------------------------------------------| Remaining: 306.7ms     10%|=====>---------------------------------------------| Remaining: 282.2ms     12%|======>--------------------------------------------| Remaining: 276.8ms     14%|=======>-------------------------------------------| Remaining: 266.2ms     16%|========>------------------------------------------| Remaining: 256.1ms     18%|=========>-----------------------------------------| Remaining: 243.7ms     20%|==========>----------------------------------------| Remaining: 235.9ms     22%|===========>---------------------------------------| Remaining: 225.9ms     24%|============>--------------------------------------| Remaining: 219.3ms     26%|=============>-------------------------------------| Remaining: 210.7ms     28%|==============>------------------------------------| Remaining: 206.5ms     30%|===============>-----------------------------------| Remaining: 198.4ms     32%|================>----------------------------------| Remaining: 192.8ms     34%|=================>---------------------------------| Remaining: 185.0ms     36%|==================>--------------------------------| Remaining: 179.7ms     38%|===================>-------------------------------| Remaining: 172.2ms     40%|====================>------------------------------| Remaining: 167.8ms     42%|=====================>-----------------------------| Remaining: 160.4ms     44%|======================>----------------------------| Remaining: 155.5ms     46%|=======================>---------------------------| Remaining: 148.2ms     48%|========================>--------------------------| Remaining: 143.4ms     50%|=========================>-------------------------| Remaining: 136.3ms     52%|==========================>------------------------| Remaining: 133.2ms     54%|===========================>-----------------------| Remaining: 128.7ms     56%|============================>----------------------| Remaining: 125.7ms     58%|=============================>---------------------| Remaining: 120.5ms     60%|==============================>--------------------| Remaining: 116.7ms     62%|===============================>-------------------| Remaining: 110.9ms     64%|================================>------------------| Remaining: 106.9ms     66%|=================================>-----------------| Remaining: 99.3ms     68%|==================================>----------------| Remaining: 94.2ms     70%|===================================>---------------| Remaining: 86.8ms     72%|====================================>--------------| Remaining: 81.8ms     74%|=====================================>-------------| Remaining: 74.5ms     76%|======================================>------------| Remaining: 69.6ms     78%|=======================================>-----------| Remaining: 62.4ms     80%|========================================>----------| Remaining: 57.6ms     82%|=========================================>---------| Remaining: 50.5ms     84%|==========================================>--------| Remaining: 45.8ms     86%|===========================================>-------| Remaining: 38.8ms     88%|============================================>------| Remaining: 34.1ms     90%|=============================================>-----| Remaining: 27.2ms     92%|==============================================>----| Remaining: 22.6ms     94%|===============================================>---| Remaining: 15.8ms     96%|================================================>--| Remaining: 11.3ms     98%|=================================================>-| Remaining: 4.5ms    100%|==================================================>| Total time: 280.9ms    
+
+Vector file "FULL_REGRESSION_TESTS/iir1_output" matches output
+
+Simulation time:   269.9ms
+Elapsed time:      280.9ms
+Coverage:          736 (64.9%)
+--------------------------------------------------------------------
+
+Hard Multiplier Distribution
+============================
+7 X 7 => 3
+7 X 11 => 2
+
+
+Total # of multipliers = 5
+
+Hard adder Distribution
+============================
+
+
+Total # of chains = 5
+
+Hard adder chain Details
+============================
+
+
+The Number of Hard Block adders in the Longest Chain: 4
+
+
+The Total Number of Hard Block adders: 19
+
+
+Geometric mean adder/subtractor chain length: 3.03
+
+Hard MINUS Distribution
+============================
+
+
+Total # of chains = 11
+
+Hard sub chain Details
+============================
+
+
+The Number of Hard Block subs in the Longest Chain: 4
+
+
+The Total Number of Hard Block subs: 32
+FULL_REGRESSION_TESTS/iir_no_combinational.v
+--------------------------------------------------------------------
+Welcome to ODIN II version 0.1 - the better High level synthesis tools++ targetting FPGAs (mainly VPR)
+Email: jamieson.peter@gmail.com and ken@unb.ca for support issues
+
+Reading FPGA Architecture file
+--------------------------------------------------------------------
+High-level synthesis Begin
+Parser starting - we'll create an abstract syntax tree.  Note this tree can be viewed using GraphViz (see documentation)
+Optimizing module by AST based optimizations
+Converting AST into a Netlist. Note this netlist can be viewed using GraphViz (see documentation)
+Performing Optimizations of the Netlist
+Performing Partial Map to target device
+Outputting the netlist to the specified output format
+Successful High-level synthesis by Odin in 8.5ms
+--------------------------------------------------------------------
+Netlist Simulation Begin
+Beginning simulation.
+Simulating 1000 existing vectors from "FULL_REGRESSION_TESTS/iir_no_combinational_input".
+
+FULL_REGRESSION_TESTS/iir_no_combinational.v:
+  Nodes:           1123
+  Connections:     7942
+  Degree:          7.07
+  Stages:          11
+
+  2%|>--------------------------------------------------| Remaining: 1.0s      2%|=>-------------------------------------------------| Remaining: 765.8ms      4%|==>------------------------------------------------| Remaining: 562.5ms      6%|===>-----------------------------------------------| Remaining: 443.7ms      8%|====>----------------------------------------------| Remaining: 405.6ms     10%|=====>---------------------------------------------| Remaining: 365.5ms     12%|======>--------------------------------------------| Remaining: 344.9ms     14%|=======>-------------------------------------------| Remaining: 320.2ms     16%|========>------------------------------------------| Remaining: 306.9ms     18%|=========>-----------------------------------------| Remaining: 290.7ms     20%|==========>----------------------------------------| Remaining: 280.2ms     22%|===========>---------------------------------------| Remaining: 266.3ms     24%|============>--------------------------------------| Remaining: 257.8ms     26%|=============>-------------------------------------| Remaining: 246.6ms     28%|==============>------------------------------------| Remaining: 239.1ms     30%|===============>-----------------------------------| Remaining: 228.4ms     32%|================>----------------------------------| Remaining: 221.7ms     34%|=================>---------------------------------| Remaining: 212.3ms     36%|==================>--------------------------------| Remaining: 206.5ms     38%|===================>-------------------------------| Remaining: 197.6ms     40%|====================>------------------------------| Remaining: 191.6ms     42%|=====================>-----------------------------| Remaining: 182.9ms     44%|======================>----------------------------| Remaining: 177.5ms     46%|=======================>---------------------------| Remaining: 169.1ms     48%|========================>--------------------------| Remaining: 163.5ms     50%|=========================>-------------------------| Remaining: 155.2ms     52%|==========================>------------------------| Remaining: 149.8ms     54%|===========================>-----------------------| Remaining: 141.7ms     56%|============================>----------------------| Remaining: 136.5ms     58%|=============================>---------------------| Remaining: 128.6ms     60%|==============================>--------------------| Remaining: 123.6ms     62%|===============================>-------------------| Remaining: 115.8ms     64%|================================>------------------| Remaining: 110.7ms     66%|=================================>-----------------| Remaining: 103.0ms     68%|==================================>----------------| Remaining: 98.0ms     70%|===================================>---------------| Remaining: 90.6ms     72%|====================================>--------------| Remaining: 85.7ms     74%|=====================================>-------------| Remaining: 78.2ms     76%|======================================>------------| Remaining: 73.4ms     78%|=======================================>-----------| Remaining: 65.9ms     80%|========================================>----------| Remaining: 61.0ms     82%|=========================================>---------| Remaining: 53.5ms     84%|==========================================>--------| Remaining: 48.6ms     86%|===========================================>-------| Remaining: 41.2ms     88%|============================================>------| Remaining: 36.3ms     90%|=============================================>-----| Remaining: 29.0ms     92%|==============================================>----| Remaining: 24.1ms     94%|===============================================>---| Remaining: 16.8ms     96%|================================================>--| Remaining: 12.0ms     98%|=================================================>-| Remaining: 4.8ms    100%|==================================================>| Total time: 299.3ms    
+
+Vector file "FULL_REGRESSION_TESTS/iir_no_combinational_output" matches output
+
+Simulation time:   292.5ms
+Elapsed time:      299.3ms
+Coverage:          816 (72.7%)
+--------------------------------------------------------------------
+
+Hard Multiplier Distribution
+============================
+8 X 16 => 3
+16 X 16 => 2
+
+
+Total # of multipliers = 5
+
+Hard adder Distribution
+============================
+
+
+Total # of chains = 4
+
+Hard adder chain Details
+============================
+
+
+The Number of Hard Block adders in the Longest Chain: 7
+
+
+The Total Number of Hard Block adders: 26
+
+
+Geometric mean adder/subtractor chain length: 4.38
+
+Hard MINUS Distribution
+============================
+
+
+Total # of chains = 2
+
+Hard sub chain Details
+============================
+
+
+The Number of Hard Block subs in the Longest Chain: 2
+
+
+The Total Number of Hard Block subs: 4
+FULL_REGRESSION_TESTS/LU8PEEng.v

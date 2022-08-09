@@ -1,0 +1,71 @@
+Trying to run benchmark on 1 processes
+ --- PASSED == regression_test/runs/micro/bm_add_lpm
+ --- PASSED == regression_test/runs/micro/bm_and_log
+ --- PASSED == regression_test/runs/micro/bm_arithmetic_unused_bits
+ --- PASSED == regression_test/runs/micro/bm_base_memory
+ --- PASSED == regression_test/runs/micro/bm_base_multiply
+ --- PASSED == regression_test/runs/micro/bm_dag1_log
+ --- PASSED == regression_test/runs/micro/bm_dag1_log_mod
+ --- PASSED == regression_test/runs/micro/bm_dag1_lpm
+ --- PASSED == regression_test/runs/micro/bm_dag1_mod
+ --- PASSED == regression_test/runs/micro/bm_dag2_log
+ --- PASSED == regression_test/runs/micro/bm_dag2_log_mod
+ --- PASSED == regression_test/runs/micro/bm_dag2_lpm
+ --- PASSED == regression_test/runs/micro/bm_dag2_mod
+ --- PASSED == regression_test/runs/micro/bm_dag3_log
+ --- PASSED == regression_test/runs/micro/bm_dag3_log_mod
+ --- PASSED == regression_test/runs/micro/bm_dag3_lpm
+ --- PASSED == regression_test/runs/micro/bm_dag3_lpm_log
+ --- PASSED == regression_test/runs/micro/bm_dag3_lpm_log_mod
+ --- PASSED == regression_test/runs/micro/bm_dag3_lpm_mod
+ --- PASSED == regression_test/runs/micro/bm_dag3_mod
+ --- PASSED == regression_test/runs/micro/bm_dag4_mod
+ --- PASSED == regression_test/runs/micro/bm_DL_16_1_mux
+ --- PASSED == regression_test/runs/micro/bm_DL_2_1_mux
+ --- PASSED == regression_test/runs/micro/bm_DL_2_4_encoder
+ --- PASSED == regression_test/runs/micro/bm_DL_2_cascaded_flip_flops
+ --- PASSED == regression_test/runs/micro/bm_DL_4_16_encoder
+ --- PASSED == regression_test/runs/micro/bm_DL_4_1_mux
+ --- PASSED == regression_test/runs/micro/bm_DL_4_bit_comparator
+ --- PASSED == regression_test/runs/micro/bm_DL_4_bit_shift_register
+ --- PASSED == regression_test/runs/micro/bm_DL_74381_ALU
+ --- PASSED == regression_test/runs/micro/bm_DL_BCD_7_segment_without_x
+ --- PASSED == regression_test/runs/micro/bm_DL_BCD_adder
+ --- PASSED == regression_test/runs/micro/bm_DL_behavioural_full_adder
+ --- PASSED == regression_test/runs/micro/bm_DL_Dff_w_synch_reset
+ --- PASSED == regression_test/runs/micro/bm_DL_D_flipflop
+ --- PASSED == regression_test/runs/micro/bm_DL_four_bit_adder_continuous_assign
+ --- PASSED == regression_test/runs/micro/bm_DL_logic_w_Dff
+ --- PASSED == regression_test/runs/micro/bm_DL_logic_w_Dff2
+ --- PASSED == regression_test/runs/micro/bm_DL_structural_logic
+ --- PASSED == regression_test/runs/micro/bm_DL_structural_logic2
+ --- PASSED == regression_test/runs/micro/bm_expr_all_mod
+ --- PASSED == regression_test/runs/micro/bm_functional_test
+ --- PASSED == regression_test/runs/micro/bm_if_collapse
+ --- PASSED == regression_test/runs/micro/bm_if_common
+ --- PASSED == regression_test/runs/micro/bm_if_reset
+ --- PASSED == regression_test/runs/micro/bm_lpm_all
+ --- PASSED == regression_test/runs/micro/bm_lpm_concat
+ --- PASSED == regression_test/runs/micro/bm_match1_str_arch
+ --- PASSED == regression_test/runs/micro/bm_match2_str_arch
+ --- PASSED == regression_test/runs/micro/bm_match3_str_arch
+ --- PASSED == regression_test/runs/micro/bm_match4_str_arch
+ --- PASSED == regression_test/runs/micro/bm_match5_str_arch
+ --- PASSED == regression_test/runs/micro/bm_match6_str_arch
+ --- PASSED == regression_test/runs/micro/bm_mod
+ --- PASSED == regression_test/runs/micro/bm_my_D_latch1
+ --- PASSED == regression_test/runs/micro/bm_my_D_latch2
+ --- PASSED == regression_test/runs/micro/bm_sfifo_rtl
+ --- PASSED == regression_test/runs/micro/bm_stmt_all_mod
+ --- PASSED == regression_test/runs/micro/bm_stmt_compare_padding
+ --- PASSED == regression_test/runs/micro/bm_tester
+ --- PASSED == regression_test/runs/micro/memory_controller
+ --- PASSED == regression_test/runs/micro/parameter
+ran test in: 1:34.684 [m:s.ms]
+no run failure!
+
+Test 'odin_reg_micro' had 0 run failures
+
+Test complete
+
+All tests passed

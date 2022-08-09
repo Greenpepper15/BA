@@ -1,0 +1,44 @@
+Trying to run benchmark on 1 processes
+ --- PASSED == regression_test/runs/syntax/arm_core
+ --- PASSED == regression_test/runs/syntax/bgm
+ --- PASSED == regression_test/runs/syntax/bm_DL_4_bit_updown_counter
+ --- PASSED == regression_test/runs/syntax/bm_DL_nbit_adder_with_carryout_and_overflow
+ --- PASSED == regression_test/runs/syntax/bm_DL_nbit_adder_with_carryout_and_overflow_simplified
+ --- PASSED == regression_test/runs/syntax/bm_DL_simple_fsm
+ --- PASSED == regression_test/runs/syntax/bm_jk_rtl
+ --- PASSED == regression_test/runs/syntax/bm_simple_memory
+ --- PASSED == regression_test/runs/syntax/boundtop
+ --- PASSED == regression_test/runs/syntax/constant_module_inst
+ --- PASSED == regression_test/runs/syntax/des_area
+ --- PASSED == regression_test/runs/syntax/des_perf
+ --- PASSED == regression_test/runs/syntax/diffeq_f_systemC
+ --- PASSED == regression_test/runs/syntax/diffeq_paj_convert
+ --- PASSED == regression_test/runs/syntax/flip_flop_enable
+ --- PASSED == regression_test/runs/syntax/function_syntax
+ --- PASSED == regression_test/runs/syntax/iir
+ --- PASSED == regression_test/runs/syntax/inferred_ram
+ --- PASSED == regression_test/runs/syntax/mac1
+ --- PASSED == regression_test/runs/syntax/mac2
+ --- PASSED == regression_test/runs/syntax/mkDelayWorker32B
+ --- PASSED == regression_test/runs/syntax/mkSMAdapter4B
+ --- PASSED == regression_test/runs/syntax/multi_module
+ --- PASSED == regression_test/runs/syntax/not_enough_wires
+ --- PASSED == regression_test/runs/syntax/paj_boundtop_hierarchy_no_mem
+ --- PASSED == regression_test/runs/syntax/paj_framebuftop_hierarchy_no_mem
+ --- PASSED == regression_test/runs/syntax/paj_raygentop_hierarchy_no_mem
+ --- PASSED == regression_test/runs/syntax/paj_top_hierarchy_no_mem
+ --- PASSED == regression_test/runs/syntax/raygentop
+ --- PASSED == regression_test/runs/syntax/sv_chip0_hierarchy_no_mem
+ --- PASSED == regression_test/runs/syntax/sv_chip1_hierarchy_no_mem
+ --- PASSED == regression_test/runs/syntax/sv_chip2_hierarchy_no_mem
+ --- PASSED == regression_test/runs/syntax/sv_chip3_hierarchy_no_mem
+ --- PASSED == regression_test/runs/syntax/timescale_syntax
+ --- PASSED == regression_test/runs/syntax/undeclared_signal
+ran test in: 0:59.944 [m:s.ms]
+no run failure!
+
+Test 'odin_reg_syntax' had 0 run failures
+
+Test complete
+
+All tests passed

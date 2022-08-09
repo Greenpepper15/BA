@@ -1,0 +1,121 @@
+Cleaning temporary run in directory
+Running test full
+Using [1] processors for this benchmarking suite
+Benchmark is: full
+running benchmark @/workspace/vtr-verilog-to-routing/ODIN_II/regression_test//run032
+This test will not be multithreaded
+ BENCHMARK IS: full
+ ========= Synthesizing Circuits
+       --- full/binops/k6_N10_mem32K_40nm
+--- PASSED full/binops/k6_N10_mem32K_40nm
+       --- full/blob_merge/k6_N10_mem32K_40nm
+--- PASSED full/blob_merge/k6_N10_mem32K_40nm
+       --- full/bm_DL_four_bit_adder_continuous_assign_using_vectors/k6_N10_mem32K_40nm
+--- PASSED full/bm_DL_four_bit_adder_continuous_assign_using_vectors/k6_N10_mem32K_40nm
+       --- full/cf_cordic_v_18_18_18/k6_N10_mem32K_40nm
+--- PASSED full/cf_cordic_v_18_18_18/k6_N10_mem32K_40nm
+       --- full/cf_cordic_v_8_8_8/k6_N10_mem32K_40nm
+--- PASSED full/cf_cordic_v_8_8_8/k6_N10_mem32K_40nm
+       --- full/cf_fft_256_8/k6_N10_mem32K_40nm
+--- PASSED full/cf_fft_256_8/k6_N10_mem32K_40nm
+       --- full/cf_fir_24_16_16/k6_N10_mem32K_40nm
+--- PASSED full/cf_fir_24_16_16/k6_N10_mem32K_40nm
+       --- full/cf_fir_3_8_8/k6_N10_mem32K_40nm
+--- PASSED full/cf_fir_3_8_8/k6_N10_mem32K_40nm
+       --- full/ch_intrinsics/k6_N10_mem32K_40nm
+--- PASSED full/ch_intrinsics/k6_N10_mem32K_40nm
+       --- full/CRC33_D264/k6_N10_mem32K_40nm
+--- PASSED full/CRC33_D264/k6_N10_mem32K_40nm
+       --- full/diffeq1/k6_N10_mem32K_40nm
+--- PASSED full/diffeq1/k6_N10_mem32K_40nm
+       --- full/diffeq2/k6_N10_mem32K_40nm
+--- PASSED full/diffeq2/k6_N10_mem32K_40nm
+       --- full/fir_scu_rtl_restructured_for_cmm_exp/k6_N10_mem32K_40nm
+--- PASSED full/fir_scu_rtl_restructured_for_cmm_exp/k6_N10_mem32K_40nm
+       --- full/iir1/k6_N10_mem32K_40nm
+--- PASSED full/iir1/k6_N10_mem32K_40nm
+       --- full/iir_no_combinational/k6_N10_mem32K_40nm
+--- PASSED full/iir_no_combinational/k6_N10_mem32K_40nm
+       --- full/LU8PEEng/k6_N10_mem32K_40nm
+--- PASSED full/LU8PEEng/k6_N10_mem32K_40nm
+       --- full/mcml/k6_N10_mem32K_40nm
+--- PASSED full/mcml/k6_N10_mem32K_40nm
+       --- full/mkPktMerge/k6_N10_mem32K_40nm
+--- PASSED full/mkPktMerge/k6_N10_mem32K_40nm
+       --- full/oc54_cpu/k6_N10_mem32K_40nm
+--- PASSED full/oc54_cpu/k6_N10_mem32K_40nm
+       --- full/or1200/k6_N10_mem32K_40nm
+--- PASSED full/or1200/k6_N10_mem32K_40nm
+       --- full/paj_framebuftop_hierarchy_no_mem_no_combinational/k6_N10_mem32K_40nm
+--- PASSED full/paj_framebuftop_hierarchy_no_mem_no_combinational/k6_N10_mem32K_40nm
+       --- full/sha/k6_N10_mem32K_40nm
+--- PASSED full/sha/k6_N10_mem32K_40nm
+       --- full/stereovision0/k6_N10_mem32K_40nm
+--- PASSED full/stereovision0/k6_N10_mem32K_40nm
+       --- full/stereovision1/k6_N10_mem32K_40nm
+--- PASSED full/stereovision1/k6_N10_mem32K_40nm
+       --- full/stereovision2/k6_N10_mem32K_40nm
+--- PASSED full/stereovision2/k6_N10_mem32K_40nm
+       --- full/stereovision3/k6_N10_mem32K_40nm
+--- PASSED full/stereovision3/k6_N10_mem32K_40nm
+ ========= Simulating Circuits
+       --- full/binops/k6_N10_mem32K_40nm
+--- PASSED full/binops/k6_N10_mem32K_40nm
+       --- full/blob_merge/k6_N10_mem32K_40nm
+--- PASSED full/blob_merge/k6_N10_mem32K_40nm
+       --- full/bm_DL_four_bit_adder_continuous_assign_using_vectors/k6_N10_mem32K_40nm
+--- PASSED full/bm_DL_four_bit_adder_continuous_assign_using_vectors/k6_N10_mem32K_40nm
+       --- full/cf_cordic_v_18_18_18/k6_N10_mem32K_40nm
+--- PASSED full/cf_cordic_v_18_18_18/k6_N10_mem32K_40nm
+       --- full/cf_cordic_v_8_8_8/k6_N10_mem32K_40nm
+--- PASSED full/cf_cordic_v_8_8_8/k6_N10_mem32K_40nm
+       --- full/cf_fft_256_8/k6_N10_mem32K_40nm
+--- PASSED full/cf_fft_256_8/k6_N10_mem32K_40nm
+       --- full/cf_fir_24_16_16/k6_N10_mem32K_40nm
+--- PASSED full/cf_fir_24_16_16/k6_N10_mem32K_40nm
+       --- full/cf_fir_3_8_8/k6_N10_mem32K_40nm
+--- PASSED full/cf_fir_3_8_8/k6_N10_mem32K_40nm
+       --- full/ch_intrinsics/k6_N10_mem32K_40nm
+--- PASSED full/ch_intrinsics/k6_N10_mem32K_40nm
+       --- full/CRC33_D264/k6_N10_mem32K_40nm
+--- PASSED full/CRC33_D264/k6_N10_mem32K_40nm
+       --- full/diffeq1/k6_N10_mem32K_40nm
+--- PASSED full/diffeq1/k6_N10_mem32K_40nm
+       --- full/diffeq2/k6_N10_mem32K_40nm
+--- PASSED full/diffeq2/k6_N10_mem32K_40nm
+       --- full/fir_scu_rtl_restructured_for_cmm_exp/k6_N10_mem32K_40nm
+--- PASSED full/fir_scu_rtl_restructured_for_cmm_exp/k6_N10_mem32K_40nm
+       --- full/iir1/k6_N10_mem32K_40nm
+--- PASSED full/iir1/k6_N10_mem32K_40nm
+       --- full/iir_no_combinational/k6_N10_mem32K_40nm
+--- PASSED full/iir_no_combinational/k6_N10_mem32K_40nm
+       --- full/LU8PEEng/k6_N10_mem32K_40nm
+--- PASSED full/LU8PEEng/k6_N10_mem32K_40nm
+       --- full/mcml/k6_N10_mem32K_40nm
+--- PASSED full/mcml/k6_N10_mem32K_40nm
+       --- full/mkPktMerge/k6_N10_mem32K_40nm
+--- PASSED full/mkPktMerge/k6_N10_mem32K_40nm
+       --- full/oc54_cpu/k6_N10_mem32K_40nm
+--- PASSED full/oc54_cpu/k6_N10_mem32K_40nm
+       --- full/or1200/k6_N10_mem32K_40nm
+--- PASSED full/or1200/k6_N10_mem32K_40nm
+       --- full/paj_framebuftop_hierarchy_no_mem_no_combinational/k6_N10_mem32K_40nm
+--- PASSED full/paj_framebuftop_hierarchy_no_mem_no_combinational/k6_N10_mem32K_40nm
+       --- full/sha/k6_N10_mem32K_40nm
+--- PASSED full/sha/k6_N10_mem32K_40nm
+       --- full/stereovision0/k6_N10_mem32K_40nm
+--- PASSED full/stereovision0/k6_N10_mem32K_40nm
+       --- full/stereovision1/k6_N10_mem32K_40nm
+--- PASSED full/stereovision1/k6_N10_mem32K_40nm
+       --- full/stereovision2/k6_N10_mem32K_40nm
+--- PASSED full/stereovision2/k6_N10_mem32K_40nm
+       --- full/stereovision3/k6_N10_mem32K_40nm
+--- PASSED full/stereovision3/k6_N10_mem32K_40nm
+ran test in: 0:9:2.920
+no run failure!
+
+Test 'odin_reg' had 0 run failures
+
+Test complete
+
+All tests passed

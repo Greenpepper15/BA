@@ -1,0 +1,62 @@
+Cleaning temporary run in directory
+Reading extra config directive from ODIN_II/regression_test/.library/output_on_error.conf
+Using [1] processors for this benchmarking suite
+Task: ODIN_II/regression_test/benchmark/task/arch_sweep
+Benchmark result location: /workspace/vtr-verilog-to-routing/ODIN_II/regression_test/run007
+=========
+Task is: arch_sweep
+This test will not be simulated
+ ========= Synthesis Test
+                                       arch_sweep/both_ram/k6_frac_N10_4add_2chains_depop50_mem20K_22nm
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_frac_N10_4add_2chains_depop50_mem20K_22nm
+                                       arch_sweep/both_ram/k6_frac_N10_4add_2chains_tie_off_depop50_mem20K_22nm
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_frac_N10_4add_2chains_tie_off_depop50_mem20K_22nm
+                                       arch_sweep/both_ram/k6_frac_N10_frac_chain_depop50_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_frac_N10_frac_chain_depop50_mem32K_40nm
+                                       arch_sweep/both_ram/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_frac_N10_frac_chain_mem32K_40nm
+                                       arch_sweep/both_ram/k6_frac_N10_frac_chain_mem32K_htree0_40nm
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_frac_N10_frac_chain_mem32K_htree0_40nm
+                                       arch_sweep/both_ram/k6_frac_N10_frac_chain_mem32K_htree0_routedCLK_40nm
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_frac_N10_frac_chain_mem32K_htree0_routedCLK_40nm
+                                       arch_sweep/both_ram/k6_frac_N10_frac_chain_mem32K_htree0short_40nm
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_frac_N10_frac_chain_mem32K_htree0short_40nm
+                                       arch_sweep/both_ram/k6_frac_N10_mem32K_40nm_custom_pins
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_frac_N10_mem32K_40nm_custom_pins
+                                       arch_sweep/both_ram/k6_frac_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_frac_N10_mem32K_40nm
+                                       arch_sweep/both_ram/k6_N10_40nm
+  SIGABRT(134) . . . . . . . . . . . . arch_sweep/both_ram/k6_N10_40nm
+                                       arch_sweep/both_ram/k6_N10_mem32K_40nm_fc_abs
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_N10_mem32K_40nm_fc_abs
+                                       arch_sweep/both_ram/k6_N10_mem32K_40nm_nonuniform
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_N10_mem32K_40nm_nonuniform
+                                       arch_sweep/both_ram/k6_N10_mem32K_40nm_pulse
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_N10_mem32K_40nm_pulse
+                                       arch_sweep/both_ram/k6_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_N10_mem32K_40nm
+ -------- Parsing Synthesis Result --------- 
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_frac_N10_4add_2chains_depop50_mem20K_22nm
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_frac_N10_4add_2chains_tie_off_depop50_mem20K_22nm
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_frac_N10_frac_chain_depop50_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_frac_N10_frac_chain_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_frac_N10_frac_chain_mem32K_htree0_40nm
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_frac_N10_frac_chain_mem32K_htree0_routedCLK_40nm
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_frac_N10_frac_chain_mem32K_htree0short_40nm
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_frac_N10_mem32K_40nm_custom_pins
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_frac_N10_mem32K_40nm
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_N10_40nm
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_N10_mem32K_40nm_fc_abs
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_N10_mem32K_40nm_nonuniform
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_N10_mem32K_40nm_pulse
+  Ok . . . . . . . . . . . . . . . . . arch_sweep/both_ram/k6_N10_mem32K_40nm
+
+
+ran test in: 0:0:1.405
+no run failure!
+
+Test 'odin_reg_arch' had 0 run failures
+
+Test complete
+
+All tests passed
