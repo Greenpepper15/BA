@@ -70,6 +70,11 @@ def compute_halstead_per_file(path: str, output_file_path: str):
 
 
 class Halstead:
+    """
+    Class computes Halstead metrics for a complete file.
+    To do that we aggregate the Halstead metrics for each method found
+    within a file.
+    """
 
     def __init__(self, code: str):
         """
@@ -222,7 +227,6 @@ class Halstead:
         name_token = Tok.string_to_tokentype("Token.Name")
         keywords = Tok.string_to_tokentype("Token.Keyword")
         destinct = {types: {}, operators: {}, "function_calls": {}, punctuation: {}, keywords: {}}
-        #TODO count und funktionen finden
         token_stack = []
         type_stack = []
         for token_type, token_string in token_function_block:
